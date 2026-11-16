@@ -1,0 +1,16 @@
+{
+  "slug": "luma-startx-info-session",
+  "recordedAt": "2026-11-15T19:46:01.974Z",
+  "now": "2026-11-15T20:00:00.000Z",
+  "status": "ok",
+  "attempts": [
+    {
+      "content": "{\"analysis\":\"We need to extract events. The page is about a single event: StartX Spring 27 - On Campus Applicant Info Session. The JSON-LD gives startDate and endDate. We need to produce JSON with events array. Title: \"\n\n}",
+      "model": "openrouter.ai openai/gpt-oss-20b"
+    },
+    {
+      "content": "{\"events\":[{\"title\":\"StartX Spring 27 - On Campus Applicant Info Session\",\"startsAt\":\"2026-09-28T19:00\",\"endsAt\":\"2026-09-28T20:00\",\"timezone\":null,\"venue\":\"GSB M104\",\"address\":\"GSB M104\",\"online\":false,\"url\":\"https://luma.com/750vdhaz\",\"description\":\"StartX programs accelerate Stanford entrepreneurs through a uniquely founder-led model that combines deep mentorship, peer-to-peer accountability, and a trusted community that moves fast and shares honestly. Applications for the StartX Spring 2027 cohort are now open through October 11th.\"}]}",
+      "model": "openrouter.ai openai/gpt-oss-20b"
+    }
+  ]
+}

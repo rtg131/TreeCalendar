@@ -1,0 +1,5 @@
+- Stack: Convex + TypeScript backend, Expo app, pnpm.
+- Every adapter implements Adapter from convex/lib/adapter.ts and returns RawEvent[]. Never change rawEvent.ts or schema.ts without saying so in the PR title.
+- Adapter tests run offline against fixtures/<source>/. Tests never hit live sites.
+- Scraping rules: respect robots.txt, 1 request/second per domain, no logins, no attendee data, no private events.
+- Run pnpm typecheck and pnpm test before opening a PR. Open PRs as drafts with the source name in the title.

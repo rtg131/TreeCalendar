@@ -1,0 +1,12 @@
+{
+  "slug": "stanford-intl-students-entrepreneurship",
+  "model": "openai/gpt-oss-20b",
+  "recordedAt": "2026-11-15T18:30:42.761Z",
+  "now": "2026-11-15T20:00:00.000Z",
+  "status": "ok",
+  "attempts": [
+    {
+      "content": "{\"events\":[{\"title\":\"International Students & Entrepreneurship: Best Practices for Evaluating your Venture\",\"startsAt\":\"2026-11-20T12:00\",\"endsAt\":null,\"timezone\":null,\"venue\":\"Graduate School of Business, G102 (Gunn Building, first floor)\",\"address\":\"655 Knight Way Stanford, CA 94305 USA\",\"online\":false,\"url\":\"https://events.stanford.edu/event/international-students-entrepreneurship-best-practices-for-evaluating-your-venture\",\"description\":\"This session, hosted in collaboration between GSB staff and the Bechtel Center, is designed to give international students at Stanford who are investigating startup ideas guidance and best practices for remaining in status with your student visa.  We will give an overview of support and advising opportunities, detail actions that may or not violate your student visa status, how to obtain necessary work authorization, and have a QnA.\"}]}"
+    }
+  ]
+}

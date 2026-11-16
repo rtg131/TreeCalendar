@@ -1,0 +1,379 @@
+{
+    "hackathons": [
+        {
+            "id": 31746,
+            "title": "University Blockchain Conference Hackathon 2026",
+            "displayed_location": {
+                "icon": "map-marker-alt",
+                "location": "University of Texas at Austin"
+            },
+            "open_state": "open",
+            "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/585/747/datas/medium_square.png",
+            "analytics_identifier": "University Blockchain Conference Hackathon 2026 (31746)",
+            "url": "https://ubc-hackathon-2026.devpost.com/",
+            "time_left_to_submission": "5 days left",
+            "submission_period_dates": "Nov 13 - 20, 2026",
+            "themes": [
+                {
+                    "id": 1,
+                    "name": "Blockchain"
+                },
+                {
+                    "id": 3,
+                    "name": "Fintech"
+                },
+                {
+                    "id": 6,
+                    "name": "Machine Learning/AI"
+                }
+            ],
+            "prize_amount": "$<span data-currency-value>22,000</span>",
+            "prizes_counts": {
+                "cash": 16,
+                "other": 3
+            },
+            "registrations_count": 313,
+            "featured": false,
+            "organization_name": "college.xyz",
+            "winners_announced": false,
+            "submission_gallery_url": "https://ubc-hackathon-2026.devpost.com/project-gallery",
+            "start_a_submission_url": "https://ubc-hackathon-2026.devpost.com/challenges/start_a_submission",
+            "invite_only": true,
+            "eligibility_requirement_invite_only_description": "Only UBC particpants can attend this hackathon",
+            "managed_by_devpost_badge": false
+        },
+        {
+            "id": 31922,
+            "title": "AI@USC",
+            "displayed_location": {
+                "icon": "map-marker-alt",
+                "location": "Ginsburg Hall, USC"
+            },
+            "open_state": "open",
+            "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/796/905/datas/medium_square.png",
+            "analytics_identifier": "AI@USC (31922)",
+            "url": "https://ai-usc.devpost.com/",
+            "time_left_to_submission": "about 1 hour left",
+            "submission_period_dates": "Nov 14 - 15, 2026",
+            "themes": [
+                {
+                    "id": 23,
+                    "name": "Beginner Friendly"
+                },
+                {
+                    "id": 6,
+                    "name": "Machine Learning/AI"
+                },
+                {
+                    "id": 13,
+                    "name": "Social Good"
+                }
+            ],
+            "prize_amount": "$<span data-currency-value>14,000</span>",
+            "prizes_counts": {
+                "cash": 3,
+                "other": 3
+            },
+            "registrations_count": 239,
+            "featured": false,
+            "organization_name": "HackSC",
+            "winners_announced": false,
+            "submission_gallery_url": "https://ai-usc.devpost.com/project-gallery",
+            "start_a_submission_url": "https://ai-usc.devpost.com/challenges/start_a_submission",
+            "invite_only": true,
+            "eligibility_requirement_invite_only_description": "Currently enrolled USC students, all majors",
+            "managed_by_devpost_badge": false
+        },
+        {
+            "id": 32109,
+            "title": "sunhacks 2026",
+            "displayed_location": {
+                "icon": "map-marker-alt",
+                "location": "ASU Tempe Campus - Student Pavilion"
+            },
+            "open_state": "open",
+            "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/894/526/datas/medium_square.png",
+            "analytics_identifier": "sunhacks 2026 (32109)",
+            "url": "https://sunhacks-2026.devpost.com/",
+            "time_left_to_submission": "27 minutes left",
+            "submission_period_dates": "Nov 14 - 15, 2026",
+            "themes": [
+                {
+                    "id": 18,
+                    "name": "Design"
+                },
+                {
+                    "id": 22,
+                    "name": "Open Ended"
+                },
+                {
+                    "id": 13,
+                    "name": "Social Good"
+                }
+            ],
+            "prize_amount": "$<span data-currency-value>4,784</span>",
+            "prizes_counts": {
+                "cash": 12,
+                "other": 9
+            },
+            "registrations_count": 209,
+            "featured": false,
+            "organization_name": "sunhacks",
+            "winners_announced": false,
+            "submission_gallery_url": "https://sunhacks-2026.devpost.com/project-gallery",
+            "start_a_submission_url": "https://sunhacks-2026.devpost.com/challenges/start_a_submission",
+            "invite_only": false,
+            "eligibility_requirement_invite_only_description": null,
+            "managed_by_devpost_badge": false
+        },
+        {
+            "id": 31879,
+            "title": "Immerse the Bay 2026",
+            "displayed_location": {
+                "icon": "map-marker-alt",
+                "location": "Stanford University"
+            },
+            "open_state": "open",
+            "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/705/553/datas/medium_square.png",
+            "analytics_identifier": "Immerse the Bay 2026 (31879)",
+            "url": "https://immerse-the-bay-2026.devpost.com/",
+            "time_left_to_submission": "about 5 hours left",
+            "submission_period_dates": "Nov 14 - 15, 2026",
+            "themes": [
+                {
+                    "id": 5,
+                    "name": "AR/VR"
+                },
+                {
+                    "id": 23,
+                    "name": "Beginner Friendly"
+                },
+                {
+                    "id": 6,
+                    "name": "Machine Learning/AI"
+                }
+            ],
+            "prize_amount": "$<span data-currency-value>1,000</span>",
+            "prizes_counts": {
+                "cash": 1,
+                "other": 0
+            },
+            "registrations_count": 170,
+            "featured": false,
+            "organization_name": "Stanford XR",
+            "winners_announced": false,
+            "submission_gallery_url": "https://immerse-the-bay-2026.devpost.com/project-gallery",
+            "start_a_submission_url": "https://immerse-the-bay-2026.devpost.com/challenges/start_a_submission",
+            "invite_only": false,
+            "eligibility_requirement_invite_only_description": null,
+            "managed_by_devpost_badge": false
+        },
+        {
+            "id": 30425,
+            "title": "Stupid Ideas Hackathon (Ottawa F26)",
+            "displayed_location": {
+                "icon": "map-marker-alt",
+                "location": "Bayview Yards"
+            },
+            "open_state": "open",
+            "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/591/166/datas/medium_square.png",
+            "analytics_identifier": "Stupid Ideas Hackathon (Ottawa F26) (30425)",
+            "url": "https://stupideas-ottawa-f26.devpost.com/",
+            "time_left_to_submission": "about 5 hours left",
+            "submission_period_dates": "Nov 15, 2026",
+            "themes": [
+                {
+                    "id": 23,
+                    "name": "Beginner Friendly"
+                },
+                {
+                    "id": 22,
+                    "name": "Open Ended"
+                },
+                {
+                    "id": 13,
+                    "name": "Social Good"
+                }
+            ],
+            "prize_amount": "$CAD <span data-currency-value>1,252</span>",
+            "prizes_counts": {
+                "cash": 9,
+                "other": 0
+            },
+            "registrations_count": 128,
+            "featured": false,
+            "organization_name": "stupid ideas hackathon",
+            "winners_announced": false,
+            "submission_gallery_url": "https://stupideas-ottawa-f26.devpost.com/project-gallery",
+            "start_a_submission_url": "https://stupideas-ottawa-f26.devpost.com/challenges/start_a_submission",
+            "invite_only": false,
+            "eligibility_requirement_invite_only_description": null,
+            "managed_by_devpost_badge": false
+        },
+        {
+            "id": 31484,
+            "title": "2026-2027 Fall ESE Senior Design",
+            "displayed_location": {
+                "icon": "map-marker-alt",
+                "location": "Amy Gutman Hall"
+            },
+            "open_state": "open",
+            "thumbnail_url": "https://assets.devpost.com/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
+            "analytics_identifier": "2026-2027 Fall ESE Senior Design (31484)",
+            "url": "https://ese4500f26.devpost.com/",
+            "time_left_to_submission": "23 days left",
+            "submission_period_dates": "Sep 22 - Dec 07, 2026",
+            "themes": [
+                {
+                    "id": 5,
+                    "name": "AR/VR"
+                },
+                {
+                    "id": 3,
+                    "name": "Fintech"
+                },
+                {
+                    "id": 24,
+                    "name": "Quantum"
+                }
+            ],
+            "prize_amount": "$<span data-currency-value>0</span>",
+            "prizes_counts": {
+                "cash": 0,
+                "other": 1
+            },
+            "registrations_count": 119,
+            "featured": false,
+            "organization_name": "university of pennsylvania",
+            "winners_announced": false,
+            "submission_gallery_url": "https://ese4500f26.devpost.com/project-gallery",
+            "start_a_submission_url": "https://ese4500f26.devpost.com/challenges/start_a_submission",
+            "invite_only": false,
+            "eligibility_requirement_invite_only_description": null,
+            "managed_by_devpost_badge": false
+        },
+        {
+            "id": 30697,
+            "title": "SanD Hacks",
+            "displayed_location": {
+                "icon": "map-marker-alt",
+                "location": "Qualcomm Conference Room"
+            },
+            "open_state": "open",
+            "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/996/493/datas/medium_square.png",
+            "analytics_identifier": "SanD Hacks (30697)",
+            "url": "https://sand-hacks-26.devpost.com/",
+            "time_left_to_submission": "about 3 hours left",
+            "submission_period_dates": "Nov 14 - 15, 2026",
+            "themes": [
+                {
+                    "id": 28,
+                    "name": "Databases"
+                },
+                {
+                    "id": 6,
+                    "name": "Machine Learning/AI"
+                },
+                {
+                    "id": 25,
+                    "name": "Web"
+                }
+            ],
+            "prize_amount": "$<span data-currency-value>2,250</span>",
+            "prizes_counts": {
+                "cash": 3,
+                "other": 9
+            },
+            "registrations_count": 116,
+            "featured": false,
+            "organization_name": "CSES @ UCSD",
+            "winners_announced": false,
+            "submission_gallery_url": "https://sand-hacks-26.devpost.com/project-gallery",
+            "start_a_submission_url": "https://sand-hacks-26.devpost.com/challenges/start_a_submission",
+            "invite_only": false,
+            "eligibility_requirement_invite_only_description": null,
+            "managed_by_devpost_badge": false
+        },
+        {
+            "id": 30657,
+            "title": "Teens Hack Houston Hackathon",
+            "displayed_location": {
+                "icon": "map-marker-alt",
+                "location": "Online"
+            },
+            "open_state": "open",
+            "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/082/370/datas/medium_square.jpg",
+            "analytics_identifier": "Teens Hack Houston Hackathon (30657)",
+            "url": "https://tripleh.devpost.com/",
+            "time_left_to_submission": "6 days left",
+            "submission_period_dates": "Nov 14 - 21, 2026",
+            "themes": [
+                {
+                    "id": 23,
+                    "name": "Beginner Friendly"
+                },
+                {
+                    "id": 17,
+                    "name": "Low/No Code"
+                },
+                {
+                    "id": 11,
+                    "name": "Productivity"
+                }
+            ],
+            "prize_amount": "$<span data-currency-value>300</span>",
+            "prizes_counts": {
+                "cash": 5,
+                "other": 1
+            },
+            "registrations_count": 102,
+            "featured": false,
+            "organization_name": "HackClub  \u2713\u20dd",
+            "winners_announced": false,
+            "submission_gallery_url": "https://tripleh.devpost.com/project-gallery",
+            "start_a_submission_url": "https://tripleh.devpost.com/challenges/start_a_submission",
+            "invite_only": false,
+            "eligibility_requirement_invite_only_description": null,
+            "managed_by_devpost_badge": false
+        },
+        {
+            "id": 32106,
+            "title": "ESE1110 Fall 2026",
+            "displayed_location": {
+                "icon": "map-marker-alt",
+                "location": "virtual"
+            },
+            "open_state": "open",
+            "thumbnail_url": "https://assets.devpost.com/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
+            "analytics_identifier": "ESE1110 Fall 2026 (32106)",
+            "url": "https://ese1110f26.devpost.com/",
+            "time_left_to_submission": "4 days left",
+            "submission_period_dates": "Nov 12 - 19, 2026",
+            "themes": [
+                {
+                    "id": 22,
+                    "name": "Open Ended"
+                }
+            ],
+            "prize_amount": "$<span data-currency-value>0</span>",
+            "prizes_counts": {
+                "cash": 0,
+                "other": 1
+            },
+            "registrations_count": 47,
+            "featured": false,
+            "organization_name": "UPenn ESE",
+            "winners_announced": false,
+            "submission_gallery_url": "https://ese1110f26.devpost.com/project-gallery",
+            "start_a_submission_url": "https://ese1110f26.devpost.com/challenges/start_a_submission",
+            "invite_only": false,
+            "eligibility_requirement_invite_only_description": null,
+            "managed_by_devpost_badge": false
+        }
+    ],
+    "meta": {
+        "total_count": 81,
+        "per_page": 9,
+        "fuzzy": false
+    }
+}

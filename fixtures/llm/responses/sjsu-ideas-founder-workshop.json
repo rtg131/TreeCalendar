@@ -1,0 +1,12 @@
+{
+  "slug": "sjsu-ideas-founder-workshop",
+  "model": "openai/gpt-oss-20b",
+  "recordedAt": "2026-11-15T18:34:37.247Z",
+  "now": "2026-11-15T20:00:00.000Z",
+  "status": "ok",
+  "attempts": [
+    {
+      "content": "{\"events\":[{\"title\":\"SJCG x IDEAS Founder Workshop\",\"startsAt\":\"2026-10-27T18:00\",\"endsAt\":\"2026-10-27T19:30\",\"timezone\":\"America/Los_Angeles\",\"venue\":\"BBC 004, 1 Washington Square, Student Union, Suite 1400\",\"address\":\"San Jose, CA 95192, United States\",\"online\":false,\"url\":\"https://events.sjsu.edu/event/sjcg-x-ideas-founder-workshop\",\"description\":\"San Jose Consulting Group and the IDEAS Entrepreneurship club are partnering to host an interactive workshop! This workshop will bring together student founders and student consultants to give them the opportunity to improve an active startup idea.\"}]}"
+    }
+  ]
+}

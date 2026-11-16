@@ -1,0 +1,59 @@
+# Revyl Test Definition
+
+_meta:
+    remote_id: 748bad05-48fe-4c57-bbc7-d8c61b74c2aa
+    remote_version: 5
+    local_version: 5
+    last_synced_at: "2026-11-15T23:33:29Z"
+    checksum: 2d15a593760804b748da9aa841d0ec6323e4e3b92accc784b4d6cd376ffc51de
+test:
+    metadata:
+        name: student-onboarding-feed
+        platform: ios
+        tags:
+            - e2e
+            - student
+    build:
+        name: Scout iOS
+    blocks:
+        - type: validation
+          step_description: A welcome screen says "Be in the room when it happens" and shows a "Get started" button.
+        - type: instructions
+          step_description: Tap the "Get started" button.
+        - type: code_execution
+          variable_name: email
+          script: e2e-email
+        - type: validation
+          step_description: The role screen says "Find the rooms where startups happen" and offers "Talent" and "Looking for Talent", plus an "I already have an account" style sign-in link.
+        - type: instructions
+          step_description: Tap Continue without choosing a role.
+        - type: validation
+          step_description: An error reads "Choose Talent or Looking for Talent to continue".
+        - type: instructions
+          step_description: Tap "Talent", then tap Continue.
+        - type: validation
+          step_description: A screen titled "About you" says "Tell us who you are" and shows Name, Email, Phone, Affiliation, LinkedIn, Password and Confirm password fields.
+        - type: instructions
+          step_description: Type "Scout E2E" in the Name field and "{{email}}" in the Email field.
+        - type: instructions
+          step_description: Type "ScoutE2E-pass-2026" in the Password field and "ScoutE2E-pass-2026" in the Confirm password field, then dismiss the keyboard.
+        - type: validation
+          step_description: Below the fields, a "What are you into" section shows interest chips with Hackathons, Pitch competitions and Networking already selected.
+        - type: instructions
+          step_description: Tap the "AI & ML" interest chip, then tap Continue.
+        - type: validation
+          step_description: A screen titled "Where should we look" shows a "Use my location" button, a list of Bay Area areas, and a "How far will you go" distance choice.
+        - type: instructions
+          step_description: Tap the "Palo Alto" area chip, then tap the "Show my events" button.
+        - type: validation
+          step_description: The feed shows a "For you" heading with a location pill that reads "Palo Alto", filter chips including "All", "Investors likely" and "This week", and at least three event cards.
+        - type: validation
+          step_description: A tab bar at the bottom shows Feed, Map, Saved and Profile tabs, with Feed selected, and no Investor tab.
+        - type: instructions
+          step_description: Tap the Profile tab.
+        - type: validation
+          step_description: The Profile screen shows "Talent" selected and a details card with the name "Scout E2E" and the email "{{email}}".
+        - type: instructions
+          step_description: Scroll down to the bottom of the Profile screen.
+        - type: validation
+          step_description: An account section shows a "Sign out" button.

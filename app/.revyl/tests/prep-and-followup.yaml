@@ -1,0 +1,35 @@
+test:
+    metadata:
+        name: prep-and-followup
+        platform: ios
+        tags:
+            - prep
+    build:
+        name: Scout iOS
+    blocks:
+        - type: instructions
+          step_description: If onboarding is shown, choose Student, continue with the selected interests, choose Palo Alto, and tap Show my events. Open an upcoming event from the feed and save it if it is not already saved.
+        - type: instructions
+          step_description: Scroll to the card titled Walk in with a little confidence. Tap Prep me if shown; seed event briefings may already be cached.
+        - type: validation
+          step_description: The briefing includes a one-line event summary, Who’s in the listing, two or three questions under A good question opens doors, and One small tip. Names are taken from the event listing; attendance is not confirmed. If no people are named it says not listed.
+        - type: instructions
+          step_description: Go back, open Saved, then reopen this event and scroll to the briefing.
+        - type: validation
+          step_description: The cached briefing is still visible without generating again.
+        - type: instructions
+          step_description: Return to Saved and open the Past section. Open a past saved event. This test requires a past saved fixture event in the test deployment.
+        - type: validation
+          step_description: A Keep the conversation going card includes Who did you meet and a host or organizer suggestion if one was listed.
+        - type: instructions
+          step_description: Enter Alex in Who did you meet and tap Follow up.
+        - type: validation
+          step_description: LinkedIn and Email drafts address Alex. A note says nothing is sent by Scout.
+        - type: instructions
+          step_description: Tap Copy LinkedIn.
+        - type: validation
+          step_description: The button says Copied LinkedIn and a confirmation says LinkedIn copied to clipboard.
+        - type: instructions
+          step_description: Tap Copy Email, then change the recipient to Sam and tap Follow up.
+        - type: validation
+          step_description: Both drafts now address Sam and do not address Alex. Leaving and returning to this event preserves the new drafts.

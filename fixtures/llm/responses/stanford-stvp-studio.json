@@ -1,0 +1,12 @@
+{
+  "slug": "stanford-stvp-studio",
+  "model": "openai/gpt-oss-20b",
+  "recordedAt": "2026-11-15T18:30:20.784Z",
+  "now": "2026-11-15T20:00:00.000Z",
+  "status": "ok",
+  "attempts": [
+    {
+      "content": "{\"events\":[{\"title\":\"STVP Studio: Deconstruct → Reconstruct Featuring MILL\",\"startsAt\":\"2027-02-04T13:00\",\"endsAt\":\"2027-02-04T16:00\",\"timezone\":null,\"venue\":\"Shriram Center for Bioengineering and Chemical Engineering - Room 262\",\"address\":\"443 Via Ortega, Stanford, CA 94305\",\"online\":false,\"url\":\"https://events.stanford.edu/event/stvp-studio-deconstruct-reconstruct\",\"description\":\"Curious what an existing product, its evolution, and real-world usage data can teach us about building what comes next? Join us for STVP Studio: Deconstruct → Reconstruct!\"}]}"
+    }
+  ]
+}

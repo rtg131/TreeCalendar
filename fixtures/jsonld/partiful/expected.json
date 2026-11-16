@@ -1,0 +1,25 @@
+[
+  {
+    "source": "jsonld",
+    "sourceId": "https://partiful.com/e/LcbSYpufRNRhB4xsh4er",
+    "title": "Date My Friend®: The Millennial Era",
+    "description": "Remember when you met people at parties? \n\nDate My Friend (DMF) is the singles party where you bring a friend, single or taken, to be your wingperson, hype squad, and built-in exit strategy. There are no pitch decks and no name tags. Singles get a green wristband, so nobody has to ask, \"So… are you here for the thing?\"\n\nThis time, DMF enters its Millennial Era: a night for singles in their 30s and 40s who remember the sound of dial-up and still know their AIM screen name by heart.\n\nWe're taking over ROGER at The Ameswell Hotel, an indoor-outdoor spot right off 101 with an Airstream bar, cornhole on the lawn, and plenty of space to mix and mingle. Grab a cocktail or a mocktail and see where the night goes.\n\nHow it works\n- Singles, bring a friend (single or taken). Their job is to make it fun and maybe make an introduction.\n- Look for green. A green wristband means single.\n- Meet new people and expect the classics: weekend plans, what you do for fun, and whether \"Mr. Brightside\" is still on your playlist.\n\nThe details\nWhere: ROGER at The Ameswell Hotel, 800 Moffett Blvd, Mountain View\nWhen: Thursday, November 19, 6–8pm\nWear: Smart casual. Dress like you might run into your high school crush.\n\nPut the apps down for one night, RSVP, and bring a friend. Message received? Roger that. See you on the 19th.",
+    "url": "https://partiful.com/e/LcbSYpufRNRhB4xsh4er",
+    "startsAt": "2026-11-19T18:00:00-08:00",
+    "endsAt": "2026-11-19T20:00:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "location": {
+      "online": false,
+      "name": "ROGER Bar & Restaurant",
+      "address": "800 Moffett Blvd, Mountain View, California, 94043, US",
+      "city": "Mountain View",
+      "region": "California",
+      "country": "US"
+    },
+    "organizer": "Date My Friend",
+    "hosts": [
+      "Date My Friend"
+    ],
+    "imageUrl": "https://partiful.imgix.net/external/user/uNdDQcaY2TR88OlcL4oVasB7zKo2/Y4WUWSkdaoY5INHCTlwKH?w=1000&h=1000&fit=clip"
+  }
+]

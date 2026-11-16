@@ -1,0 +1,26 @@
+blocks:
+    - type: validation
+      step_description: "A welcome screen says \"Be in the room when it happens\" and shows a \"Get started\" button."
+    - type: instructions
+      step_description: "Tap the \"Get started\" button."
+    - type: code_execution
+      script: e2e-email
+      variable_name: email
+    - type: validation
+      step_description: "The role screen says \"Find the rooms where startups happen\" and offers \"Talent\" and \"Looking for Talent\"."
+    - type: instructions
+      step_description: "Tap \"Talent\", then tap Continue."
+    - type: validation
+      step_description: "A screen titled \"About you\" says \"Tell us who you are\" and shows Name, Email, Phone, Affiliation, LinkedIn, Password and Confirm password fields."
+    - type: instructions
+      step_description: "Type \"Scout E2E\" in the Name field and \"{{email}}\" in the Email field."
+    - type: instructions
+      step_description: "Type \"ScoutE2E-pass-2026\" in the Password field and \"ScoutE2E-pass-2026\" in the Confirm password field, then dismiss the keyboard."
+    - type: instructions
+      step_description: "Scroll down to \"What are you into\" and tap Continue."
+    - type: validation
+      step_description: "A screen titled \"Where should we look\" shows a list of Bay Area areas and a \"How far will you go\" distance choice."
+    - type: instructions
+      step_description: "Tap the \"Palo Alto\" area chip, then tap the \"Show my events\" button."
+    - type: validation
+      step_description: "The feed shows a \"For you\" heading with a location pill that reads \"Palo Alto\", at least one event card, and a tab bar at the bottom with Feed, Map, Saved and Profile tabs."

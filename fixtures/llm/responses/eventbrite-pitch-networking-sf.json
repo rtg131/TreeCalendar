@@ -1,0 +1,12 @@
+{
+  "slug": "eventbrite-pitch-networking-sf",
+  "recordedAt": "2026-11-15T19:46:10.864Z",
+  "now": "2026-11-15T20:00:00.000Z",
+  "status": "ok",
+  "attempts": [
+    {
+      "content": "{\"events\":[{\"title\":\"Startup Pitch & Networking San Francisco\",\"startsAt\":\"2026-09-16T19:00\",\"endsAt\":\"2026-09-16T22:00\",\"timezone\":\"America/Los_Angeles\",\"venue\":\"AI Start Academy\",\"address\":\"1769 15th Street, San Francisco, CA 94103\",\"online\":false,\"url\":\"https://www.eventbrite.com/e/startup-pitch-networking-san-francisco-tickets-1994403485513\",\"description\":\"A focused Pitch and Networking night with live startup pitches, direct investor feedback, and time to meet relevant founders and peers.\"}]}",
+      "model": "api.groq.com openai/gpt-oss-20b"
+    }
+  ]
+}

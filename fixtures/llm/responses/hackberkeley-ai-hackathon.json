@@ -1,0 +1,12 @@
+{
+  "slug": "hackberkeley-ai-hackathon",
+  "model": "openai/gpt-oss-20b",
+  "recordedAt": "2026-11-15T18:33:42.236Z",
+  "now": "2026-11-15T20:00:00.000Z",
+  "status": "ok",
+  "attempts": [
+    {
+      "content": "{\"events\":[{\"title\":\"AI Hackathon 2026\",\"startsAt\":\"2026-06-20T10:00\",\"endsAt\":\"2026-06-21T18:00\",\"timezone\":null,\"venue\":\"Martin Luther King Jr. Building at UC Berkeley\",\"address\":\"2495 Bancroft Way, Berkeley, CA 94720\",\"online\":false,\"url\":\"https://ai.hackberkeley.org/\",\"description\":\"The UC Berkeley AI Hackathon is a 2-day hackathon, where hackers creatively collaborate on innovative technology for a chance to win prizes including cash and tech prizes, and attend workshops and panels to learn more about emerging tech! It is open to undergraduate and graduate students from all colleges and universities (US or International) as well as recent grads who graduated Fall 2024 or later.\"}]}"
+    }
+  ]
+}

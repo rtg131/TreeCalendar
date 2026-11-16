@@ -1,0 +1,12 @@
+{
+  "slug": "uclaunch-events",
+  "model": "openai/gpt-oss-20b",
+  "recordedAt": "2026-11-15T18:32:45.291Z",
+  "now": "2026-11-15T20:00:00.000Z",
+  "status": "ok",
+  "attempts": [
+    {
+      "content": "{\"events\":[{\"title\":\"LAUNCH-A-THON\",\"startsAt\":\"2026-10-03\",\"endsAt\":\"2026-10-04\",\"timezone\":null,\"venue\":\"Berkeley Haas\",\"address\":null,\"online\":false,\"url\":\"https://www.uclaunch.com/events\",\"description\":null},{\"title\":\"F26 LAUNCH DEMO DAY\",\"startsAt\":\"2026-12-01\",\"endsAt\":null,\"timezone\":null,\"venue\":\"Berkeley Haas\",\"address\":null,\"online\":false,\"url\":\"https://www.uclaunch.com/events\",\"description\":null}]}"
+    }
+  ]
+}

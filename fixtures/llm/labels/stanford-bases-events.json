@@ -1,0 +1,14 @@
+{
+  "url": "https://bases.stanford.edu/events",
+  "events": [
+    {
+      "title": "Salon with Skydio Founder Adam Bry",
+      "startsAt": "2026-11-17T18:00:00-08:00",
+      "endsAt": null,
+      "location": "Stanford campus",
+      "url": "https://bases.stanford.edu/events/skydio-adam-bry",
+      "description": null
+    }
+  ],
+  "notes": "Listing shows 'Nov 17 Tue' with no year; inferred 2026 (Nov 17, 2026 is a Tuesday)."
+}

@@ -1,0 +1,36 @@
+# Revyl Test Definition
+
+_meta:
+    remote_id: 013bba80-d434-40a9-8d8e-0f4fcee6480d
+    remote_version: 3
+    local_version: 3
+    last_synced_at: "2026-11-15T19:01:10Z"
+    checksum: 173ce460d1577d2fe858e9c82bdb8458ebbc7793eeb39ee67fdb7de93614a90a
+test:
+    metadata:
+        name: event-detail-save-unsave
+        platform: ios
+        tags:
+            - e2e
+            - student
+    build:
+        name: Scout iOS
+    blocks:
+        - type: module_import
+          module: onboard-student
+        - type: instructions
+          step_description: Tap the first event card in the list.
+        - type: validation
+          step_description: An event detail screen shows the event title, a date line, "Add to calendar" and "Share" buttons, an investor signal section with a score out of 100, a Save button, and an "Open event page" or "Open on" button.
+        - type: instructions
+          step_description: Tap the Save button at the bottom of the screen.
+        - type: validation
+          step_description: The button now reads "Saved".
+        - type: instructions
+          step_description: Tap the "Saved" button again.
+        - type: validation
+          step_description: The button reads "Save" again, so the event is no longer saved.
+        - type: instructions
+          step_description: Tap the back button at the top left.
+        - type: validation
+          step_description: The feed with the "For you" heading is visible again.

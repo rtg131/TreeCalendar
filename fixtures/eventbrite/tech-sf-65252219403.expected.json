@@ -1,0 +1,24 @@
+[
+  {
+    "source": "eventbrite",
+    "sourceId": "2003680088081",
+    "title": "SF Startup & Tech Mixer 2027",
+    "description": "THE BEST NETWORKING IN SF!!!",
+    "url": "https://www.eventbrite.com/e/sf-startup-tech-mixer-2027-tickets-2003680088081",
+    "startsAt": "2027-01-28T18:00:00-08:00",
+    "endsAt": "2027-01-28T21:00:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "location": {
+      "online": false,
+      "name": "Toy Soldier",
+      "address": "52 Belden Place, San Francisco, CA 94104",
+      "city": "San Francisco",
+      "region": "CA",
+      "country": "US",
+      "lat": 37.7914322,
+      "lng": -122.4036982
+    },
+    "organizer": "Tech SF",
+    "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F505042989%2F1317099778183%2F1%2Foriginal.20230501-214220?auto=format%2Ccompress&q=75&sharp=10&s=05038303d092b58e9cd723e6bca8473c"
+  }
+]

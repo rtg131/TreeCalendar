@@ -1,0 +1,12 @@
+{
+  "slug": "scu-bronco-demo-day-2026",
+  "model": "openai/gpt-oss-20b",
+  "recordedAt": "2026-11-15T18:34:53.947Z",
+  "now": "2026-11-15T20:00:00.000Z",
+  "status": "ok",
+  "attempts": [
+    {
+      "content": "{\"events\":[{\"title\":\"Demo Day 2026\",\"startsAt\":\"2026-10-09T16:00\",\"endsAt\":null,\"timezone\":null,\"venue\":\"Locatelli Hall\",\"address\":null,\"online\":false,\"url\":\"https://www.scu.edu/cioccacenter/bronco-ventures/demo-day-2026/\",\"description\":\"Join the Livestream https://santaclarauniversity.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=abdec64c-6d0f-42d6-bc97. Register In-Person https://cbc5l.share.hsforms.com/2N6ucq-55SbyvbV5L6I-Ycw.\"}]}"
+    }
+  ]
+}

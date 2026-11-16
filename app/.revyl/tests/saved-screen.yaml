@@ -1,0 +1,45 @@
+# Revyl Test Definition
+
+_meta:
+    remote_id: a9274c7c-7f49-46d6-bf54-f1c515a59246
+    remote_version: 5
+    local_version: 5
+    last_synced_at: "2026-11-15T19:32:39Z"
+    checksum: 2e064a6baddc3d1efa5a3b5265f6a9e2ed48fd652311d032f052651a2a76198f
+test:
+    metadata:
+        name: saved-screen
+        platform: ios
+        tags:
+            - e2e
+            - student
+    build:
+        name: Scout iOS
+    blocks:
+        - type: module_import
+          module: onboard-student
+        - type: instructions
+          step_description: Tap the Saved tab in the bottom tab bar.
+        - type: validation
+          step_description: A screen titled "Saved" shows Upcoming and Past tabs with Upcoming selected, no event cards, and a "No saved events yet" message with a "Browse events" button.
+        - type: instructions
+          step_description: Tap the "Browse events" button.
+        - type: validation
+          step_description: The feed with the "For you" heading is visible.
+        - type: instructions
+          step_description: Tap the first event card in the list.
+        - type: extraction
+          step_description: Extract the event title shown on the detail screen.
+          variable_name: saved_title
+        - type: instructions
+          step_description: Tap the Save button at the bottom of the screen.
+        - type: validation
+          step_description: The button now reads "Saved".
+        - type: instructions
+          step_description: Tap the back button at the top left, then tap the Saved tab in the bottom tab bar.
+        - type: validation
+          step_description: The Saved screen's Upcoming tab shows a count of 1 and lists exactly one event card, titled "{{saved_title}}", with a filled bookmark button.
+        - type: instructions
+          step_description: Tap the bookmark button on that event card to remove it from saved.
+        - type: validation
+          step_description: The Upcoming list is empty and shows "No saved events yet", and a "Removed from saved" message appeared.

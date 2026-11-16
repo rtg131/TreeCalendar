@@ -1,0 +1,12 @@
+{
+  "slug": "haas-step-showcase",
+  "model": "openai/gpt-oss-20b",
+  "recordedAt": "2026-11-15T18:32:44.492Z",
+  "now": "2026-11-15T20:00:00.000Z",
+  "status": "ok",
+  "attempts": [
+    {
+      "content": "{\"events\":[{\"title\":\"StEP Showcase Day: Berkeley’s Next Wave of Founders Takes the Stage!\",\"startsAt\":\"2026-12-02T17:30\",\"endsAt\":\"2026-12-02T21:00\",\"timezone\":\"America/Los_Angeles\",\"venue\":\"Spieker Forum, Chou Hall, UC Berkeley Haas School of Business\",\"address\":null,\"online\":false,\"url\":\"https://haas.berkeley.edu/event/step-showcase-day-berkeleys-next-wave-of-founders-takes-the-stage/\",\"description\":\"Big ideas. Bold founders.  The next generation of Berkeley startups. Join us for Berkeley StEP Showcase Day, where the Fall 2026 cohort takes the stage to pitch their ventures to a panel of venture capital judges and compete for $6,000 in prizes!\"}]}"
+    }
+  ]
+}

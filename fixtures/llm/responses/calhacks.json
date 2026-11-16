@@ -1,0 +1,12 @@
+{
+  "slug": "calhacks",
+  "model": "openai/gpt-oss-20b",
+  "recordedAt": "2026-11-15T18:33:05.204Z",
+  "now": "2026-11-15T20:00:00.000Z",
+  "status": "ok",
+  "attempts": [
+    {
+      "content": "{\"events\":[{\"title\":\"Women’s Hack Night\",\"startsAt\":\"2026-10-25T19:00\",\"endsAt\":null,\"timezone\":null,\"venue\":\"SCET (Grimes 304)\",\"address\":null,\"online\":false,\"url\":\"https://www.calhacks.io/\",\"description\":\"Prime yourself for the best Cal Hacks yet with a series of tech talks, sponsor workshops, and hack nights — show off what you’re building, bring your friends (& meet new ones), and come immerse yourself among the best & brightest in tech!\"},{\"title\":\"Co-Host Pre-Event Workshop\",\"startsAt\":\"2026-10-15\",\"endsAt\":null,\"timezone\":null,\"venue\":null,\"address\":null,\"online\":false,\"url\":\"https://www.calhacks.io/\",\"description\":null},{\"title\":\"Co-Host Pre-Event Workshop\",\"startsAt\":\"2026-10-16\",\"endsAt\":null,\"timezone\":null,\"venue\":null,\"address\":null,\"online\":false,\"url\":\"https://www.calhacks.io/\",\"description\":null},{\"title\":\"Co-Host Pre-Event Workshop\",\"startsAt\":\"2026-10-19\",\"endsAt\":null,\"timezone\":null,\"venue\":null,\"address\":null,\"online\":false,\"url\":\"https://www.calhacks.io/\",\"description\":null},{\"title\":\"Co-Host Pre-Event Workshop\",\"startsAt\":\"2026-10-20\",\"endsAt\":null,\"timezone\":null,\"venue\":null,\"address\":null,\"online\":false,\"url\":\"https://www.calhacks.io/\",\"description\":null},{\"title\":\"Cal Hacks 13.0\",\"startsAt\":\"2026-10-23\",\"endsAt\":null,\"timezone\":null,\"venue\":\"Palace of Fine Arts\",\"address\":\"3601 Lyon St, San Francisco, CA 94123\",\"online\":false,\"url\":\"https://www.calhacks.io/\",\"description\":\"Cal Hacks is a 3-day hackathon, where hackers creatively collaborate on innovative technology for a chance to win prizes including cash, and attend workshops and panels to learn more about emerging tech! We will be hosting more relaxed socials before the hackathon to meet like-minded builders.\"}]}"
+    }
+  ]
+}

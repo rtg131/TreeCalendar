@@ -1,0 +1,28 @@
+{
+  "a": {
+    "source": "ical",
+    "sourceId": "event_317184436@meetup.com",
+    "title": "Silicon Valley Entrepreneur Toastmasters Career Session",
+    "description": "Practice interviews and pitches with founders.",
+    "url": "https://www.meetup.com/sfentrepreneur/events/317184436/",
+    "startsAt": "2026-11-17T18:00:00-08:00",
+    "endsAt": "2026-11-17T20:00:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "location": {
+      "online": false
+    }
+  },
+  "b": {
+    "source": "ical",
+    "sourceId": "event_317184435@meetup.com",
+    "title": "Silicon Valley Entrepreneur Toastmasters Career Session",
+    "description": "Practice interviews and pitches with founders. Hosted by the Silicon Valley Entrepreneurs group; career coaching for startup job seekers.",
+    "url": "https://www.meetup.com/svsei-org/events/317184435/",
+    "startsAt": "2026-11-17T18:00:00-08:00",
+    "endsAt": "2026-11-17T20:00:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "location": {
+      "online": false
+    }
+  }
+}

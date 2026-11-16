@@ -1,0 +1,21 @@
+{
+  "url": "https://stvp.stanford.edu/events",
+  "events": [
+    {
+      "title": "Demi Guo @ Entrepreneurial Thought Leaders Speaker Series (ETL)",
+      "startsAt": "2026-11-18T16:30:00-08:00",
+      "endsAt": "2026-11-18T17:20:00-08:00",
+      "location": "Nvidia Auditorium",
+      "url": "https://events.stanford.edu/event/demi-guo-entrepreneurial-thought-leaders-speaker-series-etl",
+      "description": null
+    },
+    {
+      "title": "STVP Studio: Deconstruct → Reconstruct Featuring MILL",
+      "startsAt": "2027-02-04T13:00:00-08:00",
+      "endsAt": "2027-02-04T16:00:00-08:00",
+      "location": "Shriram Center for Bioengineering and Chemical Engineering - Room 262 - 443 Via Ortega, Stanford, CA 94305",
+      "url": "https://events.stanford.edu/event/stvp-studio-deconstruct-reconstruct",
+      "description": null
+    }
+  ]
+}

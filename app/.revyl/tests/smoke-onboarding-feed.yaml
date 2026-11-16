@@ -1,0 +1,31 @@
+# Revyl Test Definition
+
+_meta:
+    remote_id: 11a20e59-fd8b-42b7-ae37-98753d03f797
+    remote_version: 4
+    local_version: 4
+    last_synced_at: "2026-11-15T21:55:30Z"
+    checksum: 93a46b14e4dc24db0b284acbf8c822d9bec2dd6b10081b0ec146802df5f51608
+test:
+    metadata:
+        name: smoke-onboarding-feed
+        platform: ios
+        tags:
+            - smoke
+    build:
+        name: Scout iOS
+    blocks:
+        - type: module_import
+          module: onboard-student
+        - type: instructions
+          step_description: Tap the first event card in the list.
+        - type: validation
+          step_description: An event detail screen shows the event title, a date line, "Add to calendar" and "Share" buttons, an investor signal section with a score out of 100, and an "Open event page" or "Open on" button at the bottom.
+        - type: instructions
+          step_description: Tap the Save button at the bottom of the screen.
+        - type: validation
+          step_description: The Save button now reads "Saved".
+        - type: instructions
+          step_description: Tap the "Open event page" or "Open on" button at the bottom right of the screen.
+        - type: validation
+          step_description: A web page for the event opens in an in-app browser.

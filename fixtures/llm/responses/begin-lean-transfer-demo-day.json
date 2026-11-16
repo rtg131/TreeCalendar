@@ -1,0 +1,12 @@
+{
+  "slug": "begin-lean-transfer-demo-day",
+  "model": "openai/gpt-oss-20b",
+  "recordedAt": "2026-11-15T18:31:24.781Z",
+  "now": "2026-11-15T20:00:00.000Z",
+  "status": "ok",
+  "attempts": [
+    {
+      "content": "{\"events\":[{\"title\":\"Lean-Transfer Fall 2026 Demo Day\",\"startsAt\":\"2026-11-19T16:00\",\"endsAt\":\"2026-11-19T18:00\",\"timezone\":null,\"venue\":\"Chou Hall, Room N170, Berkeley Haas\",\"address\":null,\"online\":false,\"url\":\"https://begin.berkeley.edu/events/lean-transfer-demo-day-fall-2026\",\"description\":\"Where deep tech meets market impact. Lean-Transfer is a Berkeley Haas course in which teams of MBA, engineering and science graduate students use Lean Launchpad methods to test the commercial potential of inventions from UC Berkeley, UCSF, Berkeley Lab, Los Alamos National Laboratory and NASA.\"}]}"
+    }
+  ]
+}

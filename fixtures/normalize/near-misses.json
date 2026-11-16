@@ -1,0 +1,188 @@
+[
+  {
+    "name": "same title a week apart",
+    "a": {
+      "source": "luma",
+      "sourceId": "a-same title a week apart",
+      "title": "Founders Pitch Night",
+      "description": "Startup founders meet investors.",
+      "url": "https://luma.com/a-same title a week apart",
+      "startsAt": "2026-12-10T18:00:00-08:00",
+      "timezone": "America/Los_Angeles",
+      "location": {
+        "online": false,
+        "name": "The Commons",
+        "city": "San Francisco"
+      }
+    },
+    "b": {
+      "source": "jsonld",
+      "sourceId": "https://partiful.com/e/b-same title a week apart",
+      "title": "Founders Pitch Night",
+      "description": "Startup founders meet investors.",
+      "url": "https://partiful.com/e/b-same title a week apart",
+      "startsAt": "2026-12-17T18:00:00-08:00",
+      "timezone": "America/Los_Angeles",
+      "location": {
+        "online": false,
+        "name": "The Commons",
+        "city": "San Francisco"
+      }
+    }
+  },
+  {
+    "name": "same title and time in another city",
+    "a": {
+      "source": "luma",
+      "sourceId": "a-same title and time in another city",
+      "title": "AI Founders Mixer",
+      "description": "Startup founders meet investors.",
+      "url": "https://luma.com/a-same title and time in another city",
+      "startsAt": "2026-12-10T18:00:00-08:00",
+      "timezone": "America/Los_Angeles",
+      "location": {
+        "online": false,
+        "name": "The Commons",
+        "city": "San Francisco"
+      }
+    },
+    "b": {
+      "source": "jsonld",
+      "sourceId": "https://partiful.com/e/b-same title and time in another city",
+      "title": "AI Founders Mixer",
+      "description": "Startup founders meet investors.",
+      "url": "https://partiful.com/e/b-same title and time in another city",
+      "startsAt": "2026-12-10T18:00:00-08:00",
+      "timezone": "America/Los_Angeles",
+      "location": {
+        "online": false,
+        "name": "Hanahaus",
+        "city": "Palo Alto"
+      }
+    }
+  },
+  {
+    "name": "similar title, different audience",
+    "a": {
+      "source": "luma",
+      "sourceId": "a-similar title, different audience",
+      "title": "AI Founders Mixer",
+      "description": "Startup founders meet investors.",
+      "url": "https://luma.com/a-similar title, different audience",
+      "startsAt": "2026-12-10T18:00:00-08:00",
+      "timezone": "America/Los_Angeles",
+      "location": {
+        "online": false,
+        "name": "The Commons",
+        "city": "San Francisco"
+      }
+    },
+    "b": {
+      "source": "jsonld",
+      "sourceId": "https://partiful.com/e/b-similar title, different audience",
+      "title": "AI Investors Mixer",
+      "description": "Startup founders meet investors.",
+      "url": "https://partiful.com/e/b-similar title, different audience",
+      "startsAt": "2026-12-10T18:00:00-08:00",
+      "timezone": "America/Los_Angeles",
+      "location": {
+        "online": false,
+        "name": "The Commons",
+        "city": "San Francisco"
+      }
+    }
+  },
+  {
+    "name": "different batch number",
+    "a": {
+      "source": "luma",
+      "sourceId": "a-different batch number",
+      "title": "Demo Day Batch 12",
+      "description": "Startup founders meet investors.",
+      "url": "https://luma.com/a-different batch number",
+      "startsAt": "2026-12-10T18:00:00-08:00",
+      "timezone": "America/Los_Angeles",
+      "location": {
+        "online": false,
+        "name": "The Commons",
+        "city": "San Francisco"
+      }
+    },
+    "b": {
+      "source": "jsonld",
+      "sourceId": "https://partiful.com/e/b-different batch number",
+      "title": "Demo Day Batch 13",
+      "description": "Startup founders meet investors.",
+      "url": "https://partiful.com/e/b-different batch number",
+      "startsAt": "2026-12-10T18:00:00-08:00",
+      "timezone": "America/Los_Angeles",
+      "location": {
+        "online": false,
+        "name": "The Commons",
+        "city": "San Francisco"
+      }
+    }
+  },
+  {
+    "name": "same title more than 2h apart",
+    "a": {
+      "source": "luma",
+      "sourceId": "a-same title more than 2h apart",
+      "title": "Hack Night",
+      "description": "Startup founders meet investors.",
+      "url": "https://luma.com/a-same title more than 2h apart",
+      "startsAt": "2026-12-10T18:00:00-08:00",
+      "timezone": "America/Los_Angeles",
+      "location": {
+        "online": false,
+        "name": "The Commons",
+        "city": "San Francisco"
+      }
+    },
+    "b": {
+      "source": "jsonld",
+      "sourceId": "https://partiful.com/e/b-same title more than 2h apart",
+      "title": "Hack Night",
+      "description": "Startup founders meet investors.",
+      "url": "https://partiful.com/e/b-same title more than 2h apart",
+      "startsAt": "2026-12-10T21:30:00-08:00",
+      "timezone": "America/Los_Angeles",
+      "location": {
+        "online": false,
+        "name": "The Commons",
+        "city": "San Francisco"
+      }
+    }
+  },
+  {
+    "name": "same source, same title, sessions an hour apart",
+    "a": {
+      "source": "luma",
+      "sourceId": "s-1",
+      "title": "Founders Pitch Night",
+      "description": "Startup founders meet investors.",
+      "url": "https://luma.com/x",
+      "startsAt": "2026-12-10T18:00:00-08:00",
+      "timezone": "America/Los_Angeles",
+      "location": {
+        "online": false,
+        "name": "The Commons",
+        "city": "San Francisco"
+      }
+    },
+    "b": {
+      "source": "luma",
+      "sourceId": "s-2",
+      "title": "Founders Pitch Night",
+      "description": "Startup founders meet investors.",
+      "url": "https://luma.com/x",
+      "startsAt": "2026-12-10T19:00:00-08:00",
+      "timezone": "America/Los_Angeles",
+      "location": {
+        "online": false,
+        "name": "The Commons",
+        "city": "San Francisco"
+      }
+    }
+  }
+]

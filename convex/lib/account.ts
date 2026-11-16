@@ -1,0 +1,5 @@
+export const MIN_PASSWORD_LENGTH = 8;
+export const MAX_PASSWORD_LENGTH = 128;
+export const MAX_FAILED_SIGN_INS_PER_HOUR = 10;
+
+export type AccountErrorCode = "INVALID_CREDENTIALS" | "SIGN_UP_FAILED" | "INVALID_PASSWORD" | "UNSUPPORTED_FLOW";

@@ -1,0 +1,12 @@
+{
+  "slug": "ucsf-nucleate-info-session",
+  "model": "openai/gpt-oss-20b",
+  "recordedAt": "2026-11-15T18:37:57.092Z",
+  "now": "2026-11-15T20:00:00.000Z",
+  "status": "ok",
+  "attempts": [
+    {
+      "content": "{\"events\":[{\"title\":\"UCSF Nucleate Bay Area Activator Info Session\",\"startsAt\":\"2026-09-21T17:00\",\"endsAt\":\"2026-09-21T19:00\",\"timezone\":null,\"venue\":\"Genentech Hall\",\"address\":\"600 16th St, San Francisco, CA 94158\",\"online\":false,\"url\":\"https://calendar.ucsf.edu/event/ucsf-nucleate-bay-area-activator-info-session\",\"description\":\"🚀 Are you interested in biotech entrepreneurship? Do you have a big idea but don’t know where to start?\"}]}"
+    }
+  ]
+}

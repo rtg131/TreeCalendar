@@ -1,0 +1,49 @@
+# Revyl Test Definition
+
+_meta:
+    remote_id: b82483f0-91b5-4a12-925c-dc481b6112f2
+    remote_version: 2
+    local_version: 2
+    last_synced_at: "2026-11-15T21:55:39Z"
+    checksum: 2cdc976ecaac60d85a280863a6a15e0151c1cbb196fb2dbad91f1a3b416ff674
+test:
+    metadata:
+        name: paste-a-link
+        platform: ios
+        tags:
+            - paste-a-link
+    build:
+        name: Scout iOS
+    blocks:
+        - type: module_import
+          module: onboard-student
+        - type: validation
+          step_description: The feed shows a "For you" heading, a location pill, and a round plus button at the top right.
+        - type: instructions
+          step_description: Tap the round plus button at the top right of the feed.
+        - type: validation
+          step_description: A screen titled "Add an event" shows an "Event link" text field with a "Paste" button inside it and an "Add event" button below.
+        - type: instructions
+          step_description: Tap the "Add event" button without typing anything.
+        - type: validation
+          step_description: Red text under the field reads "Paste a link to an event page".
+        - type: instructions
+          step_description: Tap the "Event link" field and type "not a link", then tap the "Add event" button.
+        - type: validation
+          step_description: Red text under the field reads "That doesn't look like a link. Check it and try again".
+        - type: instructions
+          step_description: Clear the "Event link" field, type "https://nautical-sheep-358.convex.site/fixtures/scout-test-event", then tap the "Add event" button.
+        - type: validation
+          step_description: Within 30 seconds a result card appears below the button with the heading "Added to Scout" or "Scout already lists this event", an event card titled "[TEST] Scout fixture hack night", and an "Add another link" button.
+        - type: instructions
+          step_description: Tap the "[TEST] Scout fixture hack night" event card in the result.
+        - type: validation
+          step_description: An event detail screen shows the title "[TEST] Scout fixture hack night", a date line, and an investor signal section with a score out of 100.
+        - type: instructions
+          step_description: Tap the back arrow at the top left to return to the "Add an event" screen, then tap "My submissions" at the top right.
+        - type: validation
+          step_description: A screen titled "My submissions" lists a card for nautical-sheep-358.convex.site with the path "/fixtures/scout-test-event", a status that reads "Added" or "Already listed", and "[TEST] Scout fixture hack night" event card inside it.
+        - type: instructions
+          step_description: Tap the "[TEST] Scout fixture hack night" event card inside the nautical-sheep-358.convex.site submission.
+        - type: validation
+          step_description: The event detail screen for "[TEST] Scout fixture hack night" opens.

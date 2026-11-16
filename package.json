@@ -1,0 +1,36 @@
+{
+  "name": "cac",
+  "private": true,
+  "packageManager": "pnpm@10.18.0",
+  "scripts": {
+    "dev": "convex dev",
+    "app": "pnpm --filter app start",
+    "seed": "convex run seed:run",
+    "ingest": "convex run ingest:runDue '{\"force\":true}'",
+    "typecheck": "tsc --noEmit -p convex && tsc --noEmit -p tsconfig.test.json && tsc --noEmit -p scripts && pnpm --filter app typecheck",
+    "test": "vitest run",
+    "lint": "pnpm --filter app lint",
+    "seed:feeds": "node scripts/seedFeeds.mjs",
+    "verify:company": "node scripts/verifyCompany.mjs",
+    "approve:claim": "node scripts/approveClaim.mjs",
+    "llm:fetch-pages": "node --experimental-strip-types scripts/fetch-llm-pages.mts",
+    "llm:record": "tsx scripts/record-llm.mts",
+    "llm:accuracy": "tsx scripts/llm-accuracy.mts"
+  },
+  "dependencies": {
+    "@auth/core": "0.41.3",
+    "@convex-dev/auth": "^0.0.98",
+    "convex": "^1.50.0",
+    "ical.js": "^2.2.1",
+    "lucia": "3.2.2",
+    "node-html-parser": "^9.0.7"
+  },
+  "devDependencies": {
+    "@edge-runtime/vm": "^5.0.0",
+    "@types/node": "^24.0.0",
+    "convex-test": "^0.0.71",
+    "tsx": "^4.23.15",
+    "typescript": "~6.0.3",
+    "vitest": "^5.1.0"
+  }
+}

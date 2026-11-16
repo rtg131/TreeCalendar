@@ -1,0 +1,687 @@
+{
+  "events": [
+    {
+      "name": {
+        "text": "Startup Networking San Francisco: Founders, Investors & Talent Mixer"
+      },
+      "description": {
+        "text": "San Francisco Startup Networking Event: Meet Founders, Investors, and Talent - Build or Scale Your Startup"
+      },
+      "url": "https://www.eventbrite.com/e/startup-networking-san-francisco-founders-investors-talent-mixer-tickets-2004491987494",
+      "start": {
+        "timezone": "America/Los_Angeles",
+        "utc": "2026-12-03T03:00:00Z",
+        "local": "2026-12-02T19:00:00"
+      },
+      "end": {
+        "timezone": "America/Los_Angeles",
+        "utc": "2026-12-03T06:00:00Z",
+        "local": "2026-12-02T22:00:00"
+      },
+      "organization_id": "1917103427923",
+      "created": "2026-11-06T17:37:58Z",
+      "changed": "2026-11-06T17:37:58Z",
+      "published": "2026-04-16T16:51:53Z",
+      "capacity": null,
+      "capacity_is_custom": null,
+      "status": "live",
+      "currency": "USD",
+      "listed": true,
+      "shareable": true,
+      "online_event": false,
+      "tx_time_limit": 1200,
+      "hide_start_date": false,
+      "hide_end_date": false,
+      "locale": "en_US",
+      "is_locked": false,
+      "privacy_setting": "unlocked",
+      "is_series": true,
+      "is_series_parent": false,
+      "inventory_type": "limited",
+      "is_reserved_seating": false,
+      "show_pick_a_seat": false,
+      "show_seatmap_thumbnail": false,
+      "show_colors_in_seatmap_thumbnail": false,
+      "source": "coyote",
+      "is_free": false,
+      "version": null,
+      "summary": "San Francisco Startup Networking Event: Meet Founders, Investors, and Talent - Build or Scale Your Startup",
+      "facebook_event_id": null,
+      "logo_id": "1184454505",
+      "organizer_id": "78282849753",
+      "venue_id": "300060610",
+      "category_id": "101",
+      "subcategory_id": "1001",
+      "format_id": "10",
+      "id": "2004491987494",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/2004491987494/",
+      "is_externally_ticketed": false,
+      "series_id": "1987627020925",
+      "logo": {
+        "crop_mask": null,
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1184454505%2F2985960207467%2F1%2Foriginal.20260512-235035?auto=format%2Ccompress&q=75&sharp=10&s=894b0758376320a578584e5454bec4e8",
+          "width": 2160,
+          "height": 1080
+        },
+        "id": "1184454505",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1184454505%2F2985960207467%2F1%2Foriginal.20260512-235035?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.559&fp-y=0.405&s=7d5f321b4ba92f61414843ea8dcc08fc",
+        "aspect_ratio": "2",
+        "edge_color": null,
+        "edge_color_set": true
+      },
+      "organizer": {
+        "description": {
+          "text": null
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/organizers/78282849753/",
+        "_type": "organizer",
+        "id": "78282849753",
+        "name": "Ascent Valley",
+        "url": "https://www.eventbrite.com/o/ascent-valley-78282849753",
+        "vanity_url": "https://ascent-valley.eventbrite.com",
+        "num_past_events": 0,
+        "num_future_events": 0,
+        "website": "https://ascentvalley.com",
+        "organization_id": "1917103427923",
+        "disable_marketing_opt_in": false,
+        "logo_id": "1184166223"
+      },
+      "venue": {
+        "address": {
+          "address_1": "52 Belden Place",
+          "address_2": "",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94104",
+          "country": "US",
+          "latitude": "37.7914322",
+          "longitude": "-122.4036982",
+          "localized_address_display": "52 Belden Place, San Francisco, CA 94104",
+          "localized_area_display": "San Francisco, CA",
+          "localized_multi_line_address_display": [
+            "52 Belden Place",
+            "San Francisco, CA 94104"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/300060610/",
+        "id": "300060610",
+        "age_restriction": null,
+        "capacity": null,
+        "name": "Toy Soldier",
+        "latitude": "37.7914322",
+        "longitude": "-122.4036982"
+      }
+    },
+    {
+      "name": {
+        "text": "Startup Networking San Francisco: Founders, Investors & Talent Mixer"
+      },
+      "description": {
+        "text": "San Francisco Startup Networking Event: Meet Founders, Investors, and Talent - Build or Scale Your Startup"
+      },
+      "url": "https://www.eventbrite.com/e/startup-networking-san-francisco-founders-investors-talent-mixer-tickets-2004491993512",
+      "start": {
+        "timezone": "America/Los_Angeles",
+        "utc": "2026-12-17T03:00:00Z",
+        "local": "2026-12-16T19:00:00"
+      },
+      "end": {
+        "timezone": "America/Los_Angeles",
+        "utc": "2026-12-17T06:00:00Z",
+        "local": "2026-12-16T22:00:00"
+      },
+      "organization_id": "1917103427923",
+      "created": "2026-11-06T17:38:02Z",
+      "changed": "2026-11-06T17:38:02Z",
+      "published": "2026-04-16T16:51:53Z",
+      "capacity": null,
+      "capacity_is_custom": null,
+      "status": "live",
+      "currency": "USD",
+      "listed": true,
+      "shareable": true,
+      "online_event": false,
+      "tx_time_limit": 1200,
+      "hide_start_date": false,
+      "hide_end_date": false,
+      "locale": "en_US",
+      "is_locked": false,
+      "privacy_setting": "unlocked",
+      "is_series": true,
+      "is_series_parent": false,
+      "inventory_type": "limited",
+      "is_reserved_seating": false,
+      "show_pick_a_seat": false,
+      "show_seatmap_thumbnail": false,
+      "show_colors_in_seatmap_thumbnail": false,
+      "source": "coyote",
+      "is_free": false,
+      "version": null,
+      "summary": "San Francisco Startup Networking Event: Meet Founders, Investors, and Talent - Build or Scale Your Startup",
+      "facebook_event_id": null,
+      "logo_id": "1184454505",
+      "organizer_id": "78282849753",
+      "venue_id": "300060610",
+      "category_id": "101",
+      "subcategory_id": "1001",
+      "format_id": "10",
+      "id": "2004491993512",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/2004491993512/",
+      "is_externally_ticketed": false,
+      "series_id": "1987627020925",
+      "logo": {
+        "crop_mask": null,
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1184454505%2F2985960207467%2F1%2Foriginal.20260512-235035?auto=format%2Ccompress&q=75&sharp=10&s=894b0758376320a578584e5454bec4e8",
+          "width": 2160,
+          "height": 1080
+        },
+        "id": "1184454505",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1184454505%2F2985960207467%2F1%2Foriginal.20260512-235035?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.559&fp-y=0.405&s=7d5f321b4ba92f61414843ea8dcc08fc",
+        "aspect_ratio": "2",
+        "edge_color": null,
+        "edge_color_set": true
+      },
+      "organizer": {
+        "description": {
+          "text": null
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/organizers/78282849753/",
+        "_type": "organizer",
+        "id": "78282849753",
+        "name": "Ascent Valley",
+        "url": "https://www.eventbrite.com/o/ascent-valley-78282849753",
+        "vanity_url": "https://ascent-valley.eventbrite.com",
+        "num_past_events": 0,
+        "num_future_events": 0,
+        "website": "https://ascentvalley.com",
+        "organization_id": "1917103427923",
+        "disable_marketing_opt_in": false,
+        "logo_id": "1184166223"
+      },
+      "venue": {
+        "address": {
+          "address_1": "52 Belden Place",
+          "address_2": "",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94104",
+          "country": "US",
+          "latitude": "37.7914322",
+          "longitude": "-122.4036982",
+          "localized_address_display": "52 Belden Place, San Francisco, CA 94104",
+          "localized_area_display": "San Francisco, CA",
+          "localized_multi_line_address_display": [
+            "52 Belden Place",
+            "San Francisco, CA 94104"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/300060610/",
+        "id": "300060610",
+        "age_restriction": null,
+        "capacity": null,
+        "name": "Toy Soldier",
+        "latitude": "37.7914322",
+        "longitude": "-122.4036982"
+      }
+    },
+    {
+      "name": {
+        "text": "Startup Networking San Francisco: Founders, Investors & Talent Mixer"
+      },
+      "description": {
+        "text": "San Francisco Startup Networking Event: Meet Founders, Investors, and Talent - Build or Scale Your Startup"
+      },
+      "url": "https://www.eventbrite.com/e/startup-networking-san-francisco-founders-investors-talent-mixer-tickets-2004491996521",
+      "start": {
+        "timezone": "America/Los_Angeles",
+        "utc": "2026-12-24T03:00:00Z",
+        "local": "2026-12-23T19:00:00"
+      },
+      "end": {
+        "timezone": "America/Los_Angeles",
+        "utc": "2026-12-24T06:00:00Z",
+        "local": "2026-12-23T22:00:00"
+      },
+      "organization_id": "1917103427923",
+      "created": "2026-11-06T17:38:06Z",
+      "changed": "2026-11-06T17:38:06Z",
+      "published": "2026-04-16T16:51:53Z",
+      "capacity": null,
+      "capacity_is_custom": null,
+      "status": "live",
+      "currency": "USD",
+      "listed": true,
+      "shareable": true,
+      "online_event": false,
+      "tx_time_limit": 1200,
+      "hide_start_date": false,
+      "hide_end_date": false,
+      "locale": "en_US",
+      "is_locked": false,
+      "privacy_setting": "unlocked",
+      "is_series": true,
+      "is_series_parent": false,
+      "inventory_type": "limited",
+      "is_reserved_seating": false,
+      "show_pick_a_seat": false,
+      "show_seatmap_thumbnail": false,
+      "show_colors_in_seatmap_thumbnail": false,
+      "source": "coyote",
+      "is_free": false,
+      "version": null,
+      "summary": "San Francisco Startup Networking Event: Meet Founders, Investors, and Talent - Build or Scale Your Startup",
+      "facebook_event_id": null,
+      "logo_id": "1184454505",
+      "organizer_id": "78282849753",
+      "venue_id": "300060610",
+      "category_id": "101",
+      "subcategory_id": "1001",
+      "format_id": "10",
+      "id": "2004491996521",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/2004491996521/",
+      "is_externally_ticketed": false,
+      "series_id": "1987627020925",
+      "logo": {
+        "crop_mask": null,
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1184454505%2F2985960207467%2F1%2Foriginal.20260512-235035?auto=format%2Ccompress&q=75&sharp=10&s=894b0758376320a578584e5454bec4e8",
+          "width": 2160,
+          "height": 1080
+        },
+        "id": "1184454505",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1184454505%2F2985960207467%2F1%2Foriginal.20260512-235035?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.559&fp-y=0.405&s=7d5f321b4ba92f61414843ea8dcc08fc",
+        "aspect_ratio": "2",
+        "edge_color": null,
+        "edge_color_set": true
+      },
+      "organizer": {
+        "description": {
+          "text": null
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/organizers/78282849753/",
+        "_type": "organizer",
+        "id": "78282849753",
+        "name": "Ascent Valley",
+        "url": "https://www.eventbrite.com/o/ascent-valley-78282849753",
+        "vanity_url": "https://ascent-valley.eventbrite.com",
+        "num_past_events": 0,
+        "num_future_events": 0,
+        "website": "https://ascentvalley.com",
+        "organization_id": "1917103427923",
+        "disable_marketing_opt_in": false,
+        "logo_id": "1184166223"
+      },
+      "venue": {
+        "address": {
+          "address_1": "52 Belden Place",
+          "address_2": "",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94104",
+          "country": "US",
+          "latitude": "37.7914322",
+          "longitude": "-122.4036982",
+          "localized_address_display": "52 Belden Place, San Francisco, CA 94104",
+          "localized_area_display": "San Francisco, CA",
+          "localized_multi_line_address_display": [
+            "52 Belden Place",
+            "San Francisco, CA 94104"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/300060610/",
+        "id": "300060610",
+        "age_restriction": null,
+        "capacity": null,
+        "name": "Toy Soldier",
+        "latitude": "37.7914322",
+        "longitude": "-122.4036982"
+      }
+    },
+    {
+      "name": {
+        "text": "Startup Networking San Francisco: Founders, Investors & Talent Mixer"
+      },
+      "description": {
+        "text": "San Francisco Startup Networking Event: Meet Founders, Investors, and Talent - Build or Scale Your Startup"
+      },
+      "url": "https://www.eventbrite.com/e/startup-networking-san-francisco-founders-investors-talent-mixer-tickets-2004492001536",
+      "start": {
+        "timezone": "America/Los_Angeles",
+        "utc": "2027-01-07T03:00:00Z",
+        "local": "2027-01-06T19:00:00"
+      },
+      "end": {
+        "timezone": "America/Los_Angeles",
+        "utc": "2027-01-07T06:00:00Z",
+        "local": "2027-01-06T22:00:00"
+      },
+      "organization_id": "1917103427923",
+      "created": "2026-11-06T17:38:19Z",
+      "changed": "2026-11-06T17:38:19Z",
+      "published": "2026-04-16T16:51:53Z",
+      "capacity": null,
+      "capacity_is_custom": null,
+      "status": "live",
+      "currency": "USD",
+      "listed": true,
+      "shareable": true,
+      "online_event": false,
+      "tx_time_limit": 1200,
+      "hide_start_date": false,
+      "hide_end_date": false,
+      "locale": "en_US",
+      "is_locked": false,
+      "privacy_setting": "unlocked",
+      "is_series": true,
+      "is_series_parent": false,
+      "inventory_type": "limited",
+      "is_reserved_seating": false,
+      "show_pick_a_seat": false,
+      "show_seatmap_thumbnail": false,
+      "show_colors_in_seatmap_thumbnail": false,
+      "source": "coyote",
+      "is_free": false,
+      "version": null,
+      "summary": "San Francisco Startup Networking Event: Meet Founders, Investors, and Talent - Build or Scale Your Startup",
+      "facebook_event_id": null,
+      "logo_id": "1184454505",
+      "organizer_id": "78282849753",
+      "venue_id": "300060610",
+      "category_id": "101",
+      "subcategory_id": "1001",
+      "format_id": "10",
+      "id": "2004492001536",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/2004492001536/",
+      "is_externally_ticketed": false,
+      "series_id": "1987627020925",
+      "logo": {
+        "crop_mask": null,
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1184454505%2F2985960207467%2F1%2Foriginal.20260512-235035?auto=format%2Ccompress&q=75&sharp=10&s=894b0758376320a578584e5454bec4e8",
+          "width": 2160,
+          "height": 1080
+        },
+        "id": "1184454505",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1184454505%2F2985960207467%2F1%2Foriginal.20260512-235035?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.559&fp-y=0.405&s=7d5f321b4ba92f61414843ea8dcc08fc",
+        "aspect_ratio": "2",
+        "edge_color": null,
+        "edge_color_set": true
+      },
+      "organizer": {
+        "description": {
+          "text": null
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/organizers/78282849753/",
+        "_type": "organizer",
+        "id": "78282849753",
+        "name": "Ascent Valley",
+        "url": "https://www.eventbrite.com/o/ascent-valley-78282849753",
+        "vanity_url": "https://ascent-valley.eventbrite.com",
+        "num_past_events": 0,
+        "num_future_events": 0,
+        "website": "https://ascentvalley.com",
+        "organization_id": "1917103427923",
+        "disable_marketing_opt_in": false,
+        "logo_id": "1184166223"
+      },
+      "venue": {
+        "address": {
+          "address_1": "52 Belden Place",
+          "address_2": "",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94104",
+          "country": "US",
+          "latitude": "37.7914322",
+          "longitude": "-122.4036982",
+          "localized_address_display": "52 Belden Place, San Francisco, CA 94104",
+          "localized_area_display": "San Francisco, CA",
+          "localized_multi_line_address_display": [
+            "52 Belden Place",
+            "San Francisco, CA 94104"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/300060610/",
+        "id": "300060610",
+        "age_restriction": null,
+        "capacity": null,
+        "name": "Toy Soldier",
+        "latitude": "37.7914322",
+        "longitude": "-122.4036982"
+      }
+    },
+    {
+      "name": {
+        "text": "AI & Tech Networking Event in San Francisco by Ascent Valley"
+      },
+      "description": {
+        "text": "Meet AI builders, tech founders and operators in SF. Compare product ideas, discuss practical AI use and explore working together."
+      },
+      "url": "https://www.eventbrite.com/e/ai-tech-networking-event-in-san-francisco-by-ascent-valley-tickets-2004492153992",
+      "start": {
+        "timezone": "America/Los_Angeles",
+        "utc": "2026-12-03T03:00:00Z",
+        "local": "2026-12-02T19:00:00"
+      },
+      "end": {
+        "timezone": "America/Los_Angeles",
+        "utc": "2026-12-03T06:00:00Z",
+        "local": "2026-12-02T22:00:00"
+      },
+      "organization_id": "1917103427923",
+      "created": "2026-11-06T17:41:42Z",
+      "changed": "2026-11-06T17:47:12Z",
+      "published": "2026-11-06T17:47:12Z",
+      "capacity": null,
+      "capacity_is_custom": null,
+      "status": "live",
+      "currency": "USD",
+      "listed": true,
+      "shareable": true,
+      "online_event": false,
+      "tx_time_limit": 1200,
+      "hide_start_date": false,
+      "hide_end_date": false,
+      "locale": "en_US",
+      "is_locked": false,
+      "privacy_setting": "unlocked",
+      "is_series": false,
+      "is_series_parent": false,
+      "inventory_type": "limited",
+      "is_reserved_seating": false,
+      "show_pick_a_seat": false,
+      "show_seatmap_thumbnail": false,
+      "show_colors_in_seatmap_thumbnail": false,
+      "source": "coyote",
+      "is_free": false,
+      "version": null,
+      "summary": "Meet AI builders, tech founders and operators in SF. Compare product ideas, discuss practical AI use and explore working together.",
+      "facebook_event_id": null,
+      "logo_id": "1197221168",
+      "organizer_id": "78282849753",
+      "venue_id": "300144013",
+      "category_id": "101",
+      "subcategory_id": "1001",
+      "format_id": "10",
+      "id": "2004492153992",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/2004492153992/",
+      "is_externally_ticketed": false,
+      "logo": {
+        "crop_mask": null,
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197221168%2F2985960207467%2F1%2Foriginal.20261104-000523?auto=format%2Ccompress&q=75&sharp=10&s=eb45fe60273dbf68e6218cb4334bf718",
+          "width": 2160,
+          "height": 1080
+        },
+        "id": "1197221168",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197221168%2F2985960207467%2F1%2Foriginal.20261104-000523?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.038&fp-y=0.362&s=5d9605e43f2e6e2ca3a7825bcfc1f670",
+        "aspect_ratio": "2",
+        "edge_color": null,
+        "edge_color_set": true
+      },
+      "organizer": {
+        "description": {
+          "text": null
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/organizers/78282849753/",
+        "_type": "organizer",
+        "id": "78282849753",
+        "name": "Ascent Valley",
+        "url": "https://www.eventbrite.com/o/ascent-valley-78282849753",
+        "vanity_url": "https://ascent-valley.eventbrite.com",
+        "num_past_events": 0,
+        "num_future_events": 0,
+        "website": "https://ascentvalley.com",
+        "organization_id": "1917103427923",
+        "disable_marketing_opt_in": false,
+        "logo_id": "1184166223"
+      },
+      "venue": {
+        "address": {
+          "address_1": "52 Belden Place",
+          "address_2": "",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94104",
+          "country": "US",
+          "latitude": "37.7914322",
+          "longitude": "-122.4036982",
+          "localized_address_display": "52 Belden Place, San Francisco, CA 94104",
+          "localized_area_display": "San Francisco, CA",
+          "localized_multi_line_address_display": [
+            "52 Belden Place",
+            "San Francisco, CA 94104"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/300144013/",
+        "id": "300144013",
+        "age_restriction": null,
+        "capacity": null,
+        "name": "Toy Soldier",
+        "latitude": "37.7914322",
+        "longitude": "-122.4036982"
+      }
+    },
+    {
+      "name": {
+        "text": "Startup Pitch Events in San Francisco: 5 Founders on Stage"
+      },
+      "description": {
+        "text": "Hear five founders present their startups, ask questions and meet the teams. Join Ascent Valley in SF for live pitches and networking."
+      },
+      "url": "https://www.eventbrite.com/e/startup-pitch-events-in-san-francisco-5-founders-on-stage-tickets-2004492154995",
+      "start": {
+        "timezone": "America/Los_Angeles",
+        "utc": "2026-12-03T03:00:00Z",
+        "local": "2026-12-02T19:00:00"
+      },
+      "end": {
+        "timezone": "America/Los_Angeles",
+        "utc": "2026-12-03T06:00:00Z",
+        "local": "2026-12-02T22:00:00"
+      },
+      "organization_id": "1917103427923",
+      "created": "2026-11-06T17:41:45Z",
+      "changed": "2026-11-06T17:47:16Z",
+      "published": "2026-11-06T17:47:16Z",
+      "capacity": null,
+      "capacity_is_custom": null,
+      "status": "live",
+      "currency": "USD",
+      "listed": true,
+      "shareable": true,
+      "online_event": false,
+      "tx_time_limit": 1200,
+      "hide_start_date": false,
+      "hide_end_date": false,
+      "locale": "en_US",
+      "is_locked": false,
+      "privacy_setting": "unlocked",
+      "is_series": false,
+      "is_series_parent": false,
+      "inventory_type": "limited",
+      "is_reserved_seating": false,
+      "show_pick_a_seat": false,
+      "show_seatmap_thumbnail": false,
+      "show_colors_in_seatmap_thumbnail": false,
+      "source": "coyote",
+      "is_free": false,
+      "version": null,
+      "summary": "Hear five founders present their startups, ask questions and meet the teams. Join Ascent Valley in SF for live pitches and networking.",
+      "facebook_event_id": null,
+      "logo_id": "1197223318",
+      "organizer_id": "78282849753",
+      "venue_id": "300144014",
+      "category_id": "101",
+      "subcategory_id": "1001",
+      "format_id": "10",
+      "id": "2004492154995",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/2004492154995/",
+      "is_externally_ticketed": false,
+      "logo": {
+        "crop_mask": null,
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197223318%2F2985960207467%2F1%2Foriginal.20261104-004230?auto=format%2Ccompress&q=75&sharp=10&s=9e2e924374366762ee1fdd0348ea5f18",
+          "width": 2160,
+          "height": 1080
+        },
+        "id": "1197223318",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197223318%2F2985960207467%2F1%2Foriginal.20261104-004230?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.036&fp-y=0.461&s=ad9f44dbceb18e8f06412e7f4b481526",
+        "aspect_ratio": "2",
+        "edge_color": null,
+        "edge_color_set": true
+      },
+      "organizer": {
+        "description": {
+          "text": null
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/organizers/78282849753/",
+        "_type": "organizer",
+        "id": "78282849753",
+        "name": "Ascent Valley",
+        "url": "https://www.eventbrite.com/o/ascent-valley-78282849753",
+        "vanity_url": "https://ascent-valley.eventbrite.com",
+        "num_past_events": 0,
+        "num_future_events": 0,
+        "website": "https://ascentvalley.com",
+        "organization_id": "1917103427923",
+        "disable_marketing_opt_in": false,
+        "logo_id": "1184166223"
+      },
+      "venue": {
+        "address": {
+          "address_1": "52 Belden Place",
+          "address_2": "",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94104",
+          "country": "US",
+          "latitude": "37.7914322",
+          "longitude": "-122.4036982",
+          "localized_address_display": "52 Belden Place, San Francisco, CA 94104",
+          "localized_area_display": "San Francisco, CA",
+          "localized_multi_line_address_display": [
+            "52 Belden Place",
+            "San Francisco, CA 94104"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/300144014/",
+        "id": "300144014",
+        "age_restriction": null,
+        "capacity": null,
+        "name": "Toy Soldier",
+        "latitude": "37.7914322",
+        "longitude": "-122.4036982"
+      }
+    }
+  ],
+  "pagination": {
+    "object_count": 191,
+    "page_number": 2,
+    "page_size": 50,
+    "page_count": 4,
+    "has_more_items": false
+  }
+}

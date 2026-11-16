@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Local fixture feed",
+    "url": "http://127.0.0.1:8787/fixture/events.json",
+    "platform": "fixture",
+    "intervalMinutes": 60
+  },
+  {
+    "name": "Devpost in-person hackathons",
+    "url": "https://devpost.com/api/hackathons?status[]=upcoming&status[]=open&challenge_type[]=in-person",
+    "platform": "devpost",
+    "intervalMinutes": 360,
+    "enabled": false
+  },
+  {
+    "name": "Luma San Francisco",
+    "url": "https://luma.com/sf",
+    "platform": "luma",
+    "intervalMinutes": 180,
+    "enabled": false
+  },
+  {
+    "name": "Stanford Events (Localist)",
+    "url": "https://events.stanford.edu/calendar.ics",
+    "platform": "ical",
+    "tier": "feed",
+    "intervalMinutes": 720,
+    "enabled": false
+  }
+]

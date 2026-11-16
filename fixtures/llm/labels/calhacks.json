@@ -1,0 +1,38 @@
+{
+  "url": "https://www.calhacks.io/",
+  "events": [
+    {
+      "title": "Women’s Hack Night",
+      "startsAt": "2026-10-02T17:00:00-07:00",
+      "endsAt": "2026-10-02T19:00:00-07:00",
+      "location": "SCET (Grimes 304)",
+      "url": "https://www.calhacks.io/",
+      "description": null
+    },
+    {
+      "title": "DDoSki’s Team Formation Social",
+      "startsAt": "2026-10-09T17:00:00-07:00",
+      "endsAt": "2026-10-09T20:00:00-07:00",
+      "location": "Memorial Glade",
+      "url": "https://www.calhacks.io/",
+      "description": null
+    },
+    {
+      "title": "DDoSki’s Hack Night",
+      "startsAt": "2026-10-16T18:00:00-07:00",
+      "endsAt": "2026-10-16T22:00:00-07:00",
+      "location": "SCET (Grimes 304)",
+      "url": "https://www.calhacks.io/",
+      "description": null
+    },
+    {
+      "title": "Co-Host Pre-Event Workshops",
+      "startsAt": "2026-10-15",
+      "endsAt": "2026-10-20",
+      "location": null,
+      "url": "https://www.calhacks.io/",
+      "description": null
+    }
+  ],
+  "notes": "Hack Month items use M/D dates with no year ('10/2 5 - 7 PM'); inferred 2026 (Cal Hacks 13.0, © 2026). 'Intro to Hackathons Workshop' (Date TBD) is excluded. Co-Host Pre-Event Workshops run on 10/15, 16, 19, 20 (not continuous); labeled as a date-only span. The Cal Hacks 13.0 hackathon itself has no date in the HTML and is not labeled."
+}

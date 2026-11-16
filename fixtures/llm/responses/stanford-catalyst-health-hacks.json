@@ -1,0 +1,12 @@
+{
+  "slug": "stanford-catalyst-health-hacks",
+  "model": "openai/gpt-oss-20b",
+  "recordedAt": "2026-11-15T18:29:32.971Z",
+  "now": "2026-11-15T20:00:00.000Z",
+  "status": "ok",
+  "attempts": [
+    {
+      "content": "{\"events\":[{\"title\":\"Stanford Medicine Catalyst Health Hacks Pitch Night\",\"startsAt\":\"2026-11-20T17:30\",\"endsAt\":\"2026-11-20T21:00\",\"timezone\":\"America/Los_Angeles\",\"venue\":\"The Hub at Stanford Research Park\",\"address\":\"3215 Porter Drive, Palo Alto\",\"online\":false,\"url\":\"https://events.stanford.edu/event/stanford-medicine-catalyst-health-hacks-pitch-night\",\"description\":\"Have an early-stage health care idea? Stanford Medicine Catalyst invites the Stanford community to Pitch Night, an evening of short pitches, feedback, and connections with Stanford’s innovation community.\\nPitch solo or as a team. You’ll have 3 minutes to pitch, followed by 2 minutes of Q&A with a judging panel.\"}]}"
+    }
+  ]
+}

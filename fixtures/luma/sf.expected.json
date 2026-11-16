@@ -1,0 +1,512 @@
+[
+  {
+    "source": "luma",
+    "sourceId": "evt-lTxiCjVB9CE03KF",
+    "title": "Fairway Social at Baylands: Beginner + Intermediate Golf Clinic & Social 🍂",
+    "description": "Hosted by The Fairway Social Club.",
+    "url": "https://luma.com/o3misl6z",
+    "startsAt": "2026-11-15T12:30:00-08:00",
+    "endsAt": "2026-11-15T15:00:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "location": {
+      "online": false,
+      "name": "Baylands Golf Links",
+      "address": "Baylands Golf Links, 1875 Embarcadero Rd, Palo Alto, CA 94303, USA",
+      "city": "Palo Alto",
+      "region": "California",
+      "country": "United States",
+      "lat": 37.453680299999995,
+      "lng": -122.11600159999999
+    },
+    "organizer": "The Fairway Social Club",
+    "hosts": [
+      "The Fairway Social Club"
+    ],
+    "imageUrl": "https://images.lumacdn.com/uploads/c1/0df0b0aa-8a5e-483f-8856-a8b19b7fb6c9.png"
+  },
+  {
+    "source": "luma",
+    "sourceId": "evt-N4omfRBttCn6U0m",
+    "title": "The SF Tea-Rave",
+    "description": "Hosted by Mike Wang, Arielle Zuckerberg, Andrew Jordan.",
+    "url": "https://luma.com/sftearave",
+    "startsAt": "2026-11-15T13:00:00-08:00",
+    "endsAt": "2026-11-15T17:00:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "location": {
+      "online": false,
+      "name": "The Foundry SF",
+      "address": "The Foundry SF, 1425 Folsom St, San Francisco, CA 94103, USA",
+      "city": "San Francisco",
+      "region": "California",
+      "country": "United States",
+      "lat": 37.7723519,
+      "lng": -122.41301369999998
+    },
+    "organizer": "Mike Wang",
+    "hosts": [
+      "Mike Wang",
+      "Arielle Zuckerberg",
+      "Andrew Jordan"
+    ],
+    "imageUrl": "https://images.lumacdn.com/uploads/fk/b0f9a755-c19c-47b0-84bd-0a3bde1d06a8.png"
+  },
+  {
+    "source": "luma",
+    "sourceId": "evt-51ZHa3k2J4kgLko",
+    "title": "new interfaces 008 [sf edition]",
+    "description": "Hosted by Megan Gole, ash, Pauline Wee, Liz Dorman. Part of the tiat (the intersection of art & technology) calendar on Luma.",
+    "url": "https://luma.com/zrounpzl",
+    "startsAt": "2026-11-15T14:00:00-08:00",
+    "endsAt": "2026-11-15T17:00:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "location": {
+      "online": false,
+      "name": "tiat",
+      "address": "tiat, 151 Powell St, San Francisco, CA 94102, USA",
+      "city": "San Francisco",
+      "region": "California",
+      "country": "United States",
+      "lat": 37.7861601,
+      "lng": -122.4082452
+    },
+    "organizer": "tiat (the intersection of art & technology)",
+    "hosts": [
+      "Megan Gole",
+      "ash",
+      "Pauline Wee",
+      "Liz Dorman"
+    ],
+    "imageUrl": "https://images.lumacdn.com/uploads/x9/baf2048a-af47-4013-9a9b-7a01075a4ed2.png"
+  },
+  {
+    "source": "luma",
+    "sourceId": "evt-mPNrRPNePAVJZHB",
+    "title": "Slow Burn Social: A Vinyl Listening Ritual - Destiny Muhammad Trio: Volume 1 + Live Performance",
+    "description": "Hosted by B Dukes (they,them). Part of the Work to Feel, Work that Heals calendar on Luma.",
+    "url": "https://luma.com/l9fw9jp2",
+    "startsAt": "2026-11-15T18:00:00-08:00",
+    "endsAt": "2026-11-15T22:00:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "location": {
+      "online": false,
+      "city": "Berkeley",
+      "region": "California",
+      "country": "United States",
+      "lat": 37.860520737361725,
+      "lng": -122.25585026005679
+    },
+    "organizer": "Work to Feel, Work that Heals",
+    "hosts": [
+      "B Dukes (they,them)"
+    ],
+    "imageUrl": "https://images.lumacdn.com/uploads/iy/303f7559-e4ca-4af0-83e7-74f9faa8097a.png"
+  },
+  {
+    "source": "luma",
+    "sourceId": "evt-s0H3k6TATteievZ",
+    "title": "INFER/CON",
+    "description": "Hosted by Datadog, INFER/CON 2026. Part of the INFER/CON calendar on Luma.",
+    "url": "https://luma.com/duckh0l3",
+    "startsAt": "2026-11-16T08:00:00-08:00",
+    "endsAt": "2026-11-16T18:00:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "location": {
+      "online": false,
+      "city": "San Francisco",
+      "region": "California",
+      "country": "United States",
+      "lat": 37.78626904884239,
+      "lng": -122.40459055496112
+    },
+    "organizer": "INFER/CON",
+    "hosts": [
+      "Datadog",
+      "INFER/CON 2026"
+    ],
+    "imageUrl": "https://images.lumacdn.com/uploads/7q/d6343a38-150f-4832-aff6-4ee8a57516b7.gif"
+  },
+  {
+    "source": "luma",
+    "sourceId": "evt-VugVzABYMkqe8vr",
+    "title": "Agentic Web #02 — The Browser as an Agent Runtime",
+    "description": "Hosted by Adam Chan, Bright Data, HackerSquad. Part of the [SF] HackerSquad calendar on Luma.",
+    "url": "https://luma.com/agentic-web-browser-runtime-nov16-2026",
+    "startsAt": "2026-11-16T17:30:00-08:00",
+    "endsAt": "2026-11-16T20:30:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "location": {
+      "online": false,
+      "name": "625 2nd St",
+      "address": "625 2nd St, San Francisco, CA 94107, USA",
+      "city": "San Francisco",
+      "region": "California",
+      "country": "United States",
+      "lat": 37.7816889,
+      "lng": -122.3908867
+    },
+    "organizer": "[SF] HackerSquad",
+    "hosts": [
+      "Adam Chan",
+      "Bright Data",
+      "HackerSquad"
+    ],
+    "imageUrl": "https://images.lumacdn.com/uploads/0a/62a9da5d-9ffb-45fc-9281-e37838e2bed6.png"
+  },
+  {
+    "source": "luma",
+    "sourceId": "evt-aZwVC5bDVwUj0WH",
+    "title": "Pear VC | Founders at the Table 创客圆桌",
+    "description": "Hosted by Ashton Teng, xiang, hank sze. Part of the Pear Events Calendar calendar on Luma.",
+    "url": "https://luma.com/x56q8yaz",
+    "startsAt": "2026-11-16T18:00:00-08:00",
+    "endsAt": "2026-11-16T20:00:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "location": {
+      "online": false,
+      "city": "Menlo Park",
+      "region": "California",
+      "country": "United States",
+      "lat": 37.447022547446196,
+      "lng": -122.17563109406264
+    },
+    "organizer": "Pear Events Calendar",
+    "hosts": [
+      "Ashton Teng",
+      "xiang",
+      "hank sze"
+    ],
+    "imageUrl": "https://images.lumacdn.com/uploads/4d/f3715a5e-388b-4dd0-8cd4-a5a273948b9d.png"
+  },
+  {
+    "source": "luma",
+    "sourceId": "evt-tWYBUzzcW1FIf4d",
+    "title": "Who's Watching the Agents?",
+    "description": "Hosted by Jana Iris, exe, Ben Hylak, Karina Ruiz Garcia, Emily Vince. Part of the exe.dev calendar on Luma.",
+    "url": "https://luma.com/cbpgjghx",
+    "startsAt": "2026-11-16T18:00:00-08:00",
+    "endsAt": "2026-11-16T21:30:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "location": {
+      "online": false,
+      "name": "The Lost Church",
+      "address": "The Lost Church, 988 Columbus Ave, San Francisco, CA 94133, USA",
+      "city": "San Francisco",
+      "region": "California",
+      "country": "United States",
+      "lat": 37.8033528,
+      "lng": -122.41429289999999
+    },
+    "organizer": "exe.dev",
+    "hosts": [
+      "Jana Iris",
+      "exe",
+      "Ben Hylak",
+      "Karina Ruiz Garcia",
+      "Emily Vince"
+    ],
+    "imageUrl": "https://images.lumacdn.com/uploads/ni/3a26f7e4-8436-4e74-b05e-c9f4a55cf79f.png"
+  },
+  {
+    "source": "luma",
+    "sourceId": "evt-rm9qpAyxiqFMkVD",
+    "title": "Fireside Chat with Pixar’s Pete Docter: Director of Inside Out, Up, Monsters, Inc. & Soul",
+    "description": "Part of the The Berkeley Forum calendar on Luma.",
+    "url": "https://luma.com/ljftskbb",
+    "startsAt": "2026-11-16T18:30:00-08:00",
+    "endsAt": "2026-11-16T19:30:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "location": {
+      "online": false,
+      "name": "Hearst Field Annex",
+      "address": "Hearst Field Annex, Berkeley, CA 94720, USA",
+      "city": "Berkeley",
+      "region": "California",
+      "country": "United States",
+      "lat": 37.8694693,
+      "lng": -122.25815870000001
+    },
+    "organizer": "The Berkeley Forum",
+    "hosts": [],
+    "imageUrl": "https://images.lumacdn.com/uploads/20/6aed8926-2533-4488-bfa5-9d63bab56333.png"
+  },
+  {
+    "source": "luma",
+    "sourceId": "evt-OCbD311Ha9xlceb",
+    "title": "Backprop Summit",
+    "description": "Hosted by tokens&, Alessandro Amenta, Simon Tiu, Saroop Bharwani, Jacopo Piazza, AWS Builder Loft. Part of the tokens& calendar on Luma.",
+    "url": "https://luma.com/backprop",
+    "startsAt": "2026-11-17T09:00:00-08:00",
+    "endsAt": "2026-11-17T18:30:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "location": {
+      "online": false,
+      "city": "San Francisco",
+      "region": "California",
+      "country": "United States",
+      "lat": 37.78824620820655,
+      "lng": -122.39824489684986
+    },
+    "organizer": "tokens&",
+    "hosts": [
+      "tokens&",
+      "Alessandro Amenta",
+      "Simon Tiu",
+      "Saroop Bharwani",
+      "Jacopo Piazza",
+      "AWS Builder Loft"
+    ],
+    "imageUrl": "https://images.lumacdn.com/uploads/vu/65f64c47-dfe5-4d5f-890e-6565c2dfcc4d.gif"
+  },
+  {
+    "source": "luma",
+    "sourceId": "evt-nqhuP93sYB5gH4R",
+    "title": "Builder Night San Francisco | n8n x Vercel x Arize AI",
+    "description": "Hosted by n8n, Liam Hampton, Marc Baiza, Ana Cidre, Arize AI. Part of the n8n Community Events calendar on Luma.",
+    "url": "https://luma.com/0qn71c42",
+    "startsAt": "2026-11-17T17:00:00-08:00",
+    "endsAt": "2026-11-17T20:00:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "location": {
+      "online": false,
+      "city": "San Francisco",
+      "region": "California",
+      "country": "United States",
+      "lat": 37.79289220174035,
+      "lng": -122.3959284205836
+    },
+    "organizer": "n8n Community Events",
+    "hosts": [
+      "n8n",
+      "Liam Hampton",
+      "Marc Baiza",
+      "Ana Cidre",
+      "Arize AI"
+    ],
+    "imageUrl": "https://images.lumacdn.com/uploads/19/2b366f8d-f743-4dd8-83eb-39363509262d.png"
+  },
+  {
+    "source": "luma",
+    "sourceId": "evt-CEtwW76i1C1JfYG",
+    "title": "ElevenCreative After Hours: San Francisco",
+    "description": "Hosted by Eleven Creative. Part of the ElevenLabs calendar on Luma.",
+    "url": "https://luma.com/sfafterhours",
+    "startsAt": "2026-11-17T17:00:00-08:00",
+    "endsAt": "2026-11-17T20:00:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "location": {
+      "online": false,
+      "city": "San Francisco",
+      "region": "California",
+      "country": "United States",
+      "lat": 37.79303096875511,
+      "lng": -122.40342464952315
+    },
+    "organizer": "ElevenLabs",
+    "hosts": [
+      "Eleven Creative"
+    ],
+    "imageUrl": "https://images.lumacdn.com/uploads/ov/c03e6bd6-54a1-4938-8bf2-f2258953e240.png"
+  },
+  {
+    "source": "luma",
+    "sourceId": "evt-XUYk4R7tEOoI7YZ",
+    "title": "Fireside with Thariq Shihipar",
+    "description": "Hosted by Stavan Patel, Furqan Rydhan, Dante. Part of the Founders, Inc. Events calendar on Luma.",
+    "url": "https://luma.com/fdotinc-njo4",
+    "startsAt": "2026-11-17T17:00:00-08:00",
+    "endsAt": "2026-11-17T19:00:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "location": {
+      "online": false,
+      "city": "San Francisco",
+      "region": "California",
+      "country": "United States",
+      "lat": 37.80646652902249,
+      "lng": -122.4343632313564
+    },
+    "organizer": "Founders, Inc. Events",
+    "hosts": [
+      "Stavan Patel",
+      "Furqan Rydhan",
+      "Dante"
+    ],
+    "imageUrl": "https://images.lumacdn.com/uploads/pu/1d294498-82cb-418d-8180-9c2c2bc6b2da.png"
+  },
+  {
+    "source": "luma",
+    "sourceId": "evt-yEznxdHxDK7Se14",
+    "title": "From the Spoon to the City: Designing Contemporary Life",
+    "description": "Hosted by Heath Ceramics. Part of the Heath Ceramics calendar on Luma.",
+    "url": "https://luma.com/hyak24wm",
+    "startsAt": "2026-11-17T17:00:00-08:00",
+    "endsAt": "2026-11-17T19:00:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "location": {
+      "online": false,
+      "name": "Heath Clay Studio",
+      "address": "Heath Clay Studio, 555 Alabama St Ste A, San Francisco, CA 94110, USA",
+      "city": "San Francisco",
+      "region": "California",
+      "country": "United States",
+      "lat": 37.762179499999995,
+      "lng": -122.41188629999999
+    },
+    "organizer": "Heath Ceramics",
+    "hosts": [
+      "Heath Ceramics"
+    ],
+    "imageUrl": "https://images.lumacdn.com/uploads/ab/3f59b9de-c270-4262-b922-76c9a4142515.png"
+  },
+  {
+    "source": "luma",
+    "sourceId": "evt-AufpqghArG7Y6UP",
+    "title": "JSV Book Club: The Infinity Machine with Sebastian Mallaby",
+    "description": "Hosted by Jackson Square Ventures. Part of the Jackson Square Ventures calendar on Luma.",
+    "url": "https://luma.com/jsv-2nzb",
+    "startsAt": "2026-11-17T17:00:00-08:00",
+    "endsAt": "2026-11-17T20:00:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "location": {
+      "online": false,
+      "city": "San Francisco",
+      "region": "California",
+      "country": "United States",
+      "lat": 37.79638287123525,
+      "lng": -122.40428396904584
+    },
+    "organizer": "Jackson Square Ventures",
+    "hosts": [
+      "Jackson Square Ventures"
+    ],
+    "imageUrl": "https://images.lumacdn.com/uploads/0o/2e529441-4132-4555-a416-e889d39741f5.png"
+  },
+  {
+    "source": "luma",
+    "sourceId": "evt-RizKqbRuASeVoa4",
+    "title": "World building with Notion, Cognition, and World Labs hosted by Worklife",
+    "description": "Hosted by Brianne Kimmel.",
+    "url": "https://luma.com/5zp6jhop",
+    "startsAt": "2026-11-17T17:00:00-08:00",
+    "endsAt": "2026-11-17T20:30:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "location": {
+      "online": false,
+      "name": "Notion HQ",
+      "address": "Notion HQ, 685 Market St, San Francisco, CA 94105, USA",
+      "city": "San Francisco",
+      "region": "California",
+      "country": "United States",
+      "lat": 37.787782,
+      "lng": -122.4028877
+    },
+    "organizer": "Brianne Kimmel",
+    "hosts": [
+      "Brianne Kimmel"
+    ],
+    "imageUrl": "https://images.lumacdn.com/uploads/ni/aeb38f76-c64a-4eb7-adfc-ee1162382260.png"
+  },
+  {
+    "source": "luma",
+    "sourceId": "evt-PmGE2E96VDsdlZJ",
+    "title": "Build Night: Parallel x AssemblyAI",
+    "description": "Hosted by Harnoor Singh, Parallel Web Systems, George Pickett. Part of the AssemblyAI calendar on Luma.",
+    "url": "https://luma.com/5b3cjgix",
+    "startsAt": "2026-11-17T17:30:00-08:00",
+    "endsAt": "2026-11-17T20:30:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "location": {
+      "online": false,
+      "city": "San Francisco",
+      "region": "California",
+      "country": "United States",
+      "lat": 37.80054049184829,
+      "lng": -122.39853353365538
+    },
+    "organizer": "AssemblyAI",
+    "hosts": [
+      "Harnoor Singh",
+      "Parallel Web Systems",
+      "George Pickett"
+    ],
+    "imageUrl": "https://images.lumacdn.com/uploads/0a/49889777-b49a-43b0-854f-817032d0be1f.png"
+  },
+  {
+    "source": "luma",
+    "sourceId": "evt-zoz8SCPmHExgMGn",
+    "title": "Dawn Danby & David McConville // Planetary Repair, Shared Futures",
+    "description": "Hosted by Jacobs Institute for Design Innovation, Berkeley MDes. Part of the Design Field Notes calendar on Luma.",
+    "url": "https://luma.com/7swc5ktq",
+    "startsAt": "2026-11-17T17:30:00-08:00",
+    "endsAt": "2026-11-17T18:30:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "location": {
+      "online": false,
+      "name": "Jacobs Institute for Design Innovation",
+      "address": "Jacobs Institute for Design Innovation, 2530 Ridge Rd, Berkeley, CA 94709, USA",
+      "city": "Berkeley",
+      "region": "California",
+      "country": "United States",
+      "lat": 37.8760227,
+      "lng": -122.2588207
+    },
+    "organizer": "Design Field Notes",
+    "hosts": [
+      "Jacobs Institute for Design Innovation",
+      "Berkeley MDes"
+    ],
+    "imageUrl": "https://images.lumacdn.com/uploads/01/ccacd092-7f9b-4b8c-857e-ccdef96b3f45.jpg"
+  },
+  {
+    "source": "luma",
+    "sourceId": "evt-gHhBLNIv4jp92IX",
+    "title": "In Production: OpenRouter x ElevenLabs",
+    "description": "Hosted by Dasha Shunina, OpenRouter, Jonathan Chang. Part of the OpenRouter Events calendar on Luma.",
+    "url": "https://luma.com/wvw8xwsi",
+    "startsAt": "2026-11-17T17:30:00-08:00",
+    "endsAt": "2026-11-17T20:00:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "location": {
+      "online": false,
+      "city": "San Francisco",
+      "region": "California",
+      "country": "United States",
+      "lat": 37.788622311472785,
+      "lng": -122.40552851084097
+    },
+    "organizer": "OpenRouter Events",
+    "hosts": [
+      "Dasha Shunina",
+      "OpenRouter",
+      "Jonathan Chang"
+    ],
+    "imageUrl": "https://images.lumacdn.com/uploads/ia/1f0a396c-7b62-43b5-a915-c510c604ee64.png"
+  },
+  {
+    "source": "luma",
+    "sourceId": "evt-5qgjP3GNsbUr4xv",
+    "title": "Physical AI Industry Night: San Francisco",
+    "description": "Hosted by Lauren Brown, Sunny Sahota, Colette Tay, Farihah Sattar, Akshai Parthasarathy. Part of the Foxglove calendar on Luma.",
+    "url": "https://luma.com/foxglove-mxml",
+    "startsAt": "2026-11-17T17:30:00-08:00",
+    "endsAt": "2026-11-17T20:30:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "location": {
+      "online": false,
+      "city": "San Francisco",
+      "region": "California",
+      "country": "United States",
+      "lat": 37.78310689688452,
+      "lng": -122.39964231363619
+    },
+    "organizer": "Foxglove",
+    "hosts": [
+      "Lauren Brown",
+      "Sunny Sahota",
+      "Colette Tay",
+      "Farihah Sattar",
+      "Akshai Parthasarathy"
+    ],
+    "imageUrl": "https://images.lumacdn.com/uploads/jv/65887b3d-8578-4096-9949-f29e912bd1f9.png"
+  }
+]

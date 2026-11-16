@@ -1,0 +1,12 @@
+{
+  "slug": "stanford-bases-events",
+  "model": "openai/gpt-oss-20b",
+  "recordedAt": "2026-11-15T18:28:42.595Z",
+  "now": "2026-11-15T20:00:00.000Z",
+  "status": "ok",
+  "attempts": [
+    {
+      "content": "{\"events\":[{\"title\":\"Salon with Skydio Founder Adam Bry\",\"startsAt\":\"2026-11-17T18:00\",\"endsAt\":null,\"timezone\":null,\"venue\":\"Stanford campus\",\"address\":null,\"online\":false,\"url\":\"https://bases.stanford.edu/events/skydio-adam-bry\",\"description\":null}]}"
+    }
+  ]
+}

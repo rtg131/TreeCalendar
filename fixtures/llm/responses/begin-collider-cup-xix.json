@@ -1,0 +1,12 @@
+{
+  "slug": "begin-collider-cup-xix",
+  "model": "openai/gpt-oss-20b",
+  "recordedAt": "2026-11-15T18:31:25.451Z",
+  "now": "2026-11-15T20:00:00.000Z",
+  "status": "ok",
+  "attempts": [
+    {
+      "content": "{\"events\":[{\"title\":\"Collider Cup XIX\",\"startsAt\":\"2026-12-11T13:00\",\"endsAt\":\"2026-12-11T17:00\",\"timezone\":null,\"venue\":\"Jarvis Auditorium, Grimes Engineering Center\",\"address\":null,\"online\":false,\"url\":\"https://begin.berkeley.edu/events/collider-cup-xix\",\"description\":\"Berkeley's premier student startup pitch competition, plus the SCET Startup Expo.\\n\\n1:00–2:00 pm, Startup Expo: meet this semester’s SCET startup teams and vote for your favorite.\"}]}"
+    }
+  ]
+}

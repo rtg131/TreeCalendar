@@ -1,0 +1,49 @@
+test:
+    metadata:
+        name: going-check-in-ratings
+        platform: ios
+        tags:
+            - attendance
+    build:
+        name: Scout iOS
+    blocks:
+        - type: module_import
+          module: "onboard-student"
+        - type: validation
+          step_description: The For you feed shows upcoming event cards, each with a separate I'm going button.
+        - type: instructions
+          step_description: Tap I'm going on the first upcoming event card, then open that event.
+        - type: validation
+          step_description: The event detail shows Going with a Tap to cancel hint. Save is a separate button.
+        - type: instructions
+          step_description: Tap Save, then go back and open the Saved tab.
+        - type: validation
+          step_description: The saved event shows Going. Saving did not cancel Going.
+        - type: instructions
+          step_description: Open that saved event and tap Going to cancel the commitment.
+        - type: validation
+          step_description: The event still says Saved, but the going control now says I'm going.
+        - type: instructions
+          step_description: Return to the For you feed. This test requires attendanceSeed.run to have been run with this installation's deviceId, creating a demo past commitment. Find the Did you make it card at the top of the feed and tap Yes, I went.
+        - type: validation
+          step_description: A compact Was it worth it form shows a single row of ratings 1 through 10, an investors or recruiters yes/no/not sure choice, an optional one-line note, and a disabled Save my check-in button.
+        - type: instructions
+          step_description: Select 10, select Yes for investors or recruiters, and enter Great founder conversations in the note. Leave the form open for at least 65 seconds, then briefly background and foreground the app without closing it.
+        - type: validation
+          step_description: The form still shows Was it worth it, with 10 and Yes selected and Great founder conversations unchanged. The timer refresh and foreground refresh did not reset the draft.
+        - type: instructions
+          step_description: Tap Save my check-in.
+        - type: validation
+          step_description: The check-in card disappears from the feed.
+        - type: instructions
+          step_description: Open Profile and scroll to Events attended.
+        - type: validation
+          step_description: The demo event appears in Events attended with 10/10 worth it and the private note Great founder conversations.
+        - type: instructions
+          step_description: Open the attended demo event from the history.
+        - type: validation
+          step_description: Beside the inferred investor score, an attendee aggregate shows an average out of 10 (x.x/10 worth it), at least 3 ratings, and an investors or recruiters confirmed by attendees line, clearly separate from the inferred score.
+        - type: instructions
+          step_description: Return to the For you feed, then leave and reopen the app.
+        - type: validation
+          step_description: The answered demo check-in is not prompted again.

@@ -1,0 +1,30 @@
+[
+  {
+    "source": "jsonld",
+    "sourceId": "https://luma.com/demo-night-dec2026",
+    "title": "Demo Night @ WorkOS (December)",
+    "description": "Whether it's a side project, an internal tool, an open source project, or a startup, this is your chance to show what you've been working on and see what others have created.\nThe only rules:\nLive demos only\nNo slides\nNo company pitches\nCome share your work, get feedback, and meet fellow builders in the community.\nDemos by:\ncoming soon 👀\nTo sign up for a demo, fill out the form here: https://forms.gle/ARDz84NbWTQmAZDy5\nWorkOS Event Code of Conduct",
+    "url": "https://luma.com/demo-night-dec2026",
+    "startsAt": "2026-12-07T17:30:00-08:00",
+    "endsAt": "2026-12-07T20:00:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "location": {
+      "online": false,
+      "name": "WorkOS",
+      "address": "WorkOS, San Francisco, California, US",
+      "city": "San Francisco",
+      "region": "California",
+      "country": "US",
+      "lat": 37.788385399999996,
+      "lng": -122.4029183
+    },
+    "organizer": "WorkOS Events",
+    "hosts": [
+      "WorkOS Events",
+      "Michael Grinich",
+      "WorkOS"
+    ],
+    "imageUrl": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1920,height=1920/uploads/3i/e07a8cb2-0d20-43cf-bff0-b1d0911a7656.png",
+    "organizerLogoUrl": "https://images.lumacdn.com/calendars/xz/a7cb4c75-9cbd-4853-8012-496c5ef3eb77.png"
+  }
+]

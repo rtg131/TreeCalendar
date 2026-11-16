@@ -1,0 +1,482 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:icalendar-ruby
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Stanford University Calendar
+X-WR-TIMEZONE:Pacific Time (US & Canada)
+BEGIN:VEVENT
+DTSTAMP:20261115T181700Z
+UID:tag:localist.com\,2008:EventInstance_54161879681745
+DTSTART;VALUE=DATE:20261015
+DESCRIPTION:Boil\, boil\, toil and trouble… what bewitching book will you
+  find at the Education Library?\n\nOur witchy book display has a little bi
+ t of magic for everyone! Meet witches who are mischievous\, adventurous\, 
+ and sometimes downright wicked. From little witches who aren’t too scary
+  to cooking witches (spoiler alert the frog lives!) and skin shedding fire
+ ball witches for older readers\, there’s plenty here to scare up a good 
+ read.\n\nSo come to the Education Library\, pick a book\, and see if you c
+ an find a story that puts you under its spell!
+GEO:37.426318;-122.168289
+LOCATION:Education (Cubberley Bldg)\, 101
+SUMMARY:Book spells
+URL;VALUE=URI:https://events.stanford.edu/event/book-spells
+CATEGORIES:Exhibition
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261115T181701Z
+UID:tag:localist.com\,2008:EventInstance_53383639540201
+DTSTART:20261015T143000Z
+DTEND:20261015T151500Z
+DESCRIPTION:Participants will explore how mindfulness and somatic awareness
+  support the evolution of deeply held values from their initial form as in
+ tellectual understanding into lived\, embodied qualities that shape though
+ ts\, words\, and actions. This guided practice will help foster the discer
+ nment and relational intelligence needed to respond to ourselves and other
+ s with wisdom and compassion\, especially amid the prevalent emphasis on t
+ he intellect and mind more than the body and spirit in the AI era. Partici
+ pants will leave with practical\, accessible contemplative practices that 
+ support living in ways that strengthen and sustain embodiment\, trust\, et
+ hical presence\, resilience\, emotional and relational intelligence\, and 
+ wise\, compassionate engagement. \n\nTia Rich\, PhD also is leading an in-
+ persn workshop titled "The Power of the Pause" on Sat.\, Oct. 17 at 8:30am
+  OR at 10:00am\, as well as a lecture titled Introduction to the 2026 Cont
+ emplation by Design Summit: The Role of Contemplation in the Age of AI on 
+ Wednesday\, Oct. 14 at noon. Please feel free to join one or all of these 
+ sessions that are part of the 2026 Contemplation by Design Summit.\n\nTia 
+ Rich\, PhD\, MA\, MSW\, is the founder and director of the Stanford School
+  of Medicine’s Contemplation by Design® program. As the principal lectu
+ rer for the School of Medicine’s Applied Contemplative Science concentra
+ tion in Community Health and Prevention Research\, Rich teaches and mentor
+ s Stanford undergraduate and graduate students. Academic classes she teach
+ es include: Contemplative Science\, Applying Contemplative Practices\, Con
+ templative Competence for Sustainability of Public and Planetary Health an
+ d Well-being\, Contemplative Movement\, and Translating Contemplative Scie
+ nce into Timely Community Programming. She also teaches co-curricular clas
+ ses through the Stanford Healthy Living program\, including "The Power of 
+ the Pause" contemplative retreat for faculty\, staff\, students\, and comm
+ unity members. She has been integrating contemplative science and practice
+ s into Stanford academic classes and professional development programs sin
+ ce her completion of graduate studies in Social Welfare at UC Berkeley\, a
+ nd in Education at Stanford\, after earning her undergraduate degree in Hu
+ man Biology at Stanford.\n\nThis session is part of the FREE Contemplation
+  by Design Summit\, Oct. 14-25\, 2026.\n\nThe full summit schedule is post
+ ed at: https://med.stanford.edu/contemplation/summit.html.\n\nRegister her
+ e: https://www.eventbrite.com/e/stanford-contemplation-by-design-summit-20
+ 25-online-oct-15-27-registration-1520413249959
+LOCATION:
+SUMMARY:CBD 2026: iPause Guided Practice #1 - Embodying Values and Expressi
+ ng Wise Compassion with Tia Rich\, PhD
+URL;VALUE=URI:https://events.stanford.edu/event/cbd-2026-ipause-guided-prac
+ tice-1-with-tia-rich-phd
+CATEGORIES:Lecture/Presentation/Talk
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261115T181707Z
+UID:tag:localist.com\,2008:EventInstance_52880513824617
+DTSTART;VALUE=DATE:20261115
+DESCRIPTION:Curated by Associate Curator of European Art\, Patrick R. Crowl
+ ey\, JANE! celebrates the aesthetic and affective excesses of Jane Stanfor
+ d\, the Gilded Age founder and matriarch of Stanford University. Bringing 
+ together precious keepsakes\, souvenirs\, archaeological detritus\, and sp
+ ooky messages from beyond the grave\, the exhibition reveals the campy und
+ erside of a familiar biography and perhaps an even more familiar murder my
+ stery.\n\nFrom her elegant French gowns to a colossal painting of her jewe
+ ls\, from the Egyptian artifacts she acquired for her fledgling museum to 
+ a Hawaiian skirt she may or may not have purchased immediately before her 
+ suspicious death\, Jane! presents various idiosyncratic artifacts of Stanf
+ ord lore—many shown for the very first time\, and very likely for the la
+ st.\n\nIMAGE: Napoleon T. Sarony\, Portrait of Jane Lathrop Stanford\, 187
+ 1. Photograph with charcoal touch up\, 55 ½ x 45 in. Cantor Arts Center\,
+  Stanford University\, Stanford Family Collections\, JLS.18217\n\nMUSEUM H
+ OURS\nMon & Fri: 11 AM–6 PM\nThurs: 11 AM–8 PM\nSat & Sun: 10 AM–5 P
+ M\nCLOSED: Tues and Wed\nWe’re always free! Come visit us\, https://muse
+ um.stanford.edu/visit
+GEO:37.432981;-122.170494
+LOCATION:Cantor Arts Center\, Stanford Family Rooms
+SUMMARY:JANE! An intimate exploration of Gilded Age excess  and the enigm
+ atic life and death of Jane Stanford
+URL;VALUE=URI:https://events.stanford.edu/event/jane-an-intimate-exploratio
+ n-of-gilded-age-excess-and-the-enigmatic-life-and-death-of-jane-stanford
+CATEGORIES:Exhibition
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261115T181707Z
+UID:tag:localist.com\,2008:EventInstance_53861575523802
+DTSTART:20261115T180000Z
+DTEND:20261116T020000Z
+DESCRIPTION:Stanford University Libraries presents A Vision of Paris: the R
+ oxane Debuisson Collection at Stanford\, on view in the Peterson Gallery a
+ nd Munger Rotunda of the Cecil H. Green Library from September 22\, 2026 t
+ o January 24\, 2027. \n\nRoxane Debuisson (1927–2018) dedicated sixty ye
+ ars to documenting the transformation of the city of Paris during the nine
+ teenth century.  If Roxane Debuisson could not stop the changes she saw un
+ derway in the late 20th century\, she could at least preserve the city’s
+  earlier history through images\, literature\, guidebooks\, and other docu
+ ments. \n\nHer lifelong project helped to document Paris during the ninete
+ enth century\, especially the city’s rapid changes from the 1850s to the
+  1870s\, when Emperor Napoleon III and his prefect of the Seine\, Baron Eu
+ gène Haussmann\, transformed the city with new boulevards\, green spaces\
+ , and public utilities\, and fostered innovations in commercial and cultur
+ al practices. \n\nA Vision of Paris: the Roxane Debuisson Collection at St
+ anford draws upon the extensive array of commercial almanacs\, prints\, po
+ stcards\, commercial ephemera\, stereographs\, manuscripts\, historic phot
+ ographs\, and other items that are a part of the Roxane Debuisson Collecti
+ on of Paris history\, circa 1789-1970\, acquired by the Department of Spec
+ ial Collections at Stanford University Libraries in 2020. These materials 
+ place Paris as the birthplace of political\, commercial\, and urban innova
+ tions\, and as a city defined by the tension between its historical past a
+ nd its continuous reinvention. The exhibit highlights the city’s rapid c
+ hanges and their diverse causes\, while suggesting the collection’s vast
+  possibilities for both research and instruction.\n\nThis exhibition is cu
+ rated by Sarah Sussman\, Assistant University Librarian for Collections an
+ d Services & Curator of French and Italian Collections\, Stanford Universi
+ ty Libraries\, and Chloe Summers Edmondson\, Assistant Professor of French
+  at the University of Miami. Produced and designed by Deardra Fuzzell\, wi
+ th assistance from Kylee Jo Diedrich\, Sofia McGullam Ornelas\, and Pasha 
+ Tope.\n\nA Vision of Paris: the Roxane Debuisson Collection at Stanford wi
+ ll be open to the public. Registration at the entrance with a valid govern
+ ment ID is required to enter the Cecil H. Green Library and view the exhib
+ it.
+GEO:37.426984;-122.167998
+LOCATION:Green Library\, Bing Wing
+SUMMARY:A Vision of Paris: The Roxane Debuisson Collection at Stanford
+URL;VALUE=URI:https://events.stanford.edu/event/a-vision-of-paris-the-roxan
+ e-debuisson-collection-at-stanford
+CATEGORIES:Exhibition
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261115T181707Z
+UID:tag:localist.com\,2008:EventInstance_54321173951006
+DTSTART:20261115T210000Z
+DTEND:20261115T220000Z
+DESCRIPTION:Green Library's latest book display features books on "Witches 
+ and Witchcraft." From scholarly works on the history of witchcraft and wit
+ ch trials to novels featuring witches\, these titles will spark your curio
+ sity and might even leave you spellbound. All books are available to check
+  out.
+GEO:37.426631;-122.167086
+LOCATION:Hohbach Hall
+SUMMARY:Green Library Book Display: Witches and Witchcraft
+URL;VALUE=URI:https://events.stanford.edu/event/green-library-book-display-
+ witches-and-witchcraft
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261115T181707Z
+UID:tag:localist.com\,2008:EventInstance_53818815587426
+DTSTART:20261115T220000Z
+DTEND:20261115T230000Z
+DESCRIPTION:Join us for casual in-gallery conversations in our special exhi
+ bition\, JANE!\, facilitated by our Museum Engagement Guides. Enjoy a spot
+ light tour focusining on a single object\, followed by an open conversatio
+ n. \n\nCurated by Associate Curator of European Art\, Patrick R. Crowley\,
+  JANE! celebrates the aesthetic and affective excesses of Jane Stanford\, 
+ the Gilded Age founder and matriarch of Stanford University. Bringing toge
+ ther precious keepsakes\, souvenirs\, archaeological detritus\, and spooky
+  messages from beyond the grave\, the exhibition reveals the campy undersi
+ de of a familiar biography and perhaps an even more familiar murder myster
+ y.\n\nFrom her elegant French gowns to a colossal painting of her jewels\,
+  from the Egyptian artifacts she acquired for her fledgling museum to a co
+ ntainer of her beauty cream excavated from her Palo Alto mansion destroyed
+  in the 1906 San Francisco earthquake\, JANE! presents various idiosyncrat
+ ic artifacts of Stanford lore—many of them shown for the very first time
+ —and very probably for the last.\n\nWe gratefully acknowledge lead suppo
+ rt for JANE! provided by Pamela and David Hornik. Sustained support genero
+ usly provided by The C. Diane Christensen Fund for African Art.\n\n---\n\n
+ Public tours are free for all. Please check in at the visitor services des
+ k* in the main museum lobby.\n\n*If you plan to bring a large group with y
+ ou (10 people or more)\, please notify us one week in advance via this for
+ m so we can inform our Guides. Thank you!\n\nIMAGE: Astley D. M. Cooper (A
+ merican\, 1856–19240.) "Mrs. Stanford’s Jewel Collection\," 1898. 50 x
+  75 in. Oil on canvas. Stanford Family Collections\, Cantor Arts Center\, 
+ Stanford University\, JLS.16294
+GEO:37.432981;-122.170494
+LOCATION:Cantor Arts Center\, Stanford Family Room (122)
+SUMMARY:Gallery Conversations | JANE!
+URL;VALUE=URI:https://events.stanford.edu/event/copy-of-gallery-conversatio
+ ns-jeremy-frey-woven-8444
+CATEGORIES:Tour
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261115T181707Z
+UID:tag:localist.com\,2008:EventInstance_54420408876947
+DTSTART:20261118T000000Z
+DTEND:20261118T010000Z
+DESCRIPTION:Interested in advancing your studies in Earth Systems? Join us 
+ on for a hybrid information session to explore Earth Systems’ Coterminal
+  Master’s Degrees\, learn about the application process\, hear from curr
+ ent students\, and get your questions answered!\n\nMS in Earth Systems\n\n
+ Explore complex environmental challenges at the intersection of human acti
+ vities and natural Earth system changes. Tailor your studies to your inter
+ ests while developing the knowledge and skills to address critical social 
+ and environmental issues and sustainability challenges.\n\n \n\n MA in Env
+ ironmental Communication\n\nLearn to communicate complex environmental cha
+ llenges through advanced theoretical frameworks\, analytical tools\, and p
+ ractical skills. Build your expertise through specialized coursework\, ind
+ ependent project work\, and a professional practicum.\n\nFor more informat
+ ion\, visit the Earth Systems Coterminal Programs page.\n\nEvent Details\n
+ \nDate: Tuesday\, November 17\n\nTime: 4:00–5:00pm\n\nLocation: Y2E2 382
+ \, and Zoom\n\nRSVP: https://luma.com/hzrk95cd\n\nZoom: https://stanford.z
+ oom.us/j/95136885017?pwd=nN6SRRuDQblG8EGscLeyqqbbJ7RpbD.1#success\n\nLight
+  refreshments will be provided for in-person attendees. \n\nWe look forwar
+ d to seeing you there!
+GEO:37.42816;-122.175935
+LOCATION:Y2E2 Building\, 382
+SUMMARY:Earth Systems Program Coterm Info Session
+URL;VALUE=URI:https://events.stanford.edu/event/earth-systems-program-coter
+ m-info-session
+CATEGORIES:Lecture/Presentation/Talk
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261115T181707Z
+UID:tag:localist.com\,2008:EventInstance_54480758150182
+DTSTART:20261118T003000Z
+DTEND:20261118T013000Z
+DESCRIPTION:Audience\n\nAll Clinician EducatorSpeakers\n\nMary Sanders (Psy
+ chiatry)\n\nNancy Morioka-Douglas (Medicine)\n\nKimberly Harney (Obstetric
+ s and Gynecology)
+LOCATION:
+SUMMARY:New Beginnings: Jumpstarting the Rest of Your Life for Clinician Ed
+ ucators
+URL;VALUE=URI:https://events.stanford.edu/event/new-beginnings-jumpstarting
+ -the-rest-of-your-life-for-clinician-educators-3971
+CATEGORIES:Workshop
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261115T181709Z
+UID:tag:localist.com\,2008:EventInstance_53887335642672
+DTSTART:20261203T013000Z
+DTEND:20261203T023000Z
+DESCRIPTION:Enrollment opens for undergraduate and graduate students by ass
+ igned group.
+LOCATION:
+SUMMARY:Winter Quarter: Axess Opens for Course Enrollment
+URL;VALUE=URI:https://events.stanford.edu/event/winter-quarter-axess-opens-
+ for-course-enrollment-3710
+CATEGORIES:Academic Dates
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261115T181709Z
+UID:tag:localist.com\,2008:EventInstance_54171374161342
+DTSTART:20261203T033000Z
+DTEND:20261203T050000Z
+DESCRIPTION:The Stanford New Ensemble\, under the direction of Joo-Mee Lee\
+ , presents an evening concert in Campbell Recital Hall showcasing 20th-cen
+ tury works for woodwinds\, performed by talented student soloists.\n\nAdmi
+ ssion Information\n\nFree Admission
+GEO:37.423758;-122.169296
+LOCATION:Braun Music Center\, Campbell Recital Hall
+SUMMARY:Stanford New Ensemble: Wind Power
+URL;VALUE=URI:https://events.stanford.edu/event/stanford-new-ensemble-fall2
+ 6
+CATEGORIES:Performance
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261115T181709Z
+UID:tag:localist.com\,2008:EventInstance_54162431152205
+DTSTART:20261216T013000Z
+DTEND:20261216T023000Z
+DESCRIPTION:Weekly Tuesday Alcoholics Anonymous Meeting on campus at Rogers
+  House.
+GEO:37.423453;-122.17193
+LOCATION:Rogers House\, 102
+SUMMARY:Alcoholics Anonymous Tuesday Meeting
+URL;VALUE=URI:https://events.stanford.edu/event/alcoholics-anonymous-meetin
+ g-4049
+CATEGORIES:Meeting
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261115T181709Z
+UID:tag:localist.com\,2008:EventInstance_54480254745893
+DTSTART:20261216T160000Z
+DTEND:20261217T010000Z
+DESCRIPTION:Did you know that advisors from Fidelity Investments and TIAA p
+ rovide free individual financial counseling on campus at your convenience?
+  They can offer guidance on the best strategy to meet your retirement goal
+ s through Stanford's retirement savings plans.\n\nContact Fidelity directl
+ y to schedule an appointment with a representative to review your current 
+ and future retirement savings options:\n\nFidelity appointment scheduler(8
+ 00) 642-7131
+LOCATION:
+SUMMARY:Financial Counseling with Fidelity (Virtual Only) 
+URL;VALUE=URI:https://events.stanford.edu/event/financial-counseling-with-f
+ idelity-virtual-only-1847
+CATEGORIES:Other
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261115T181710Z
+UID:tag:localist.com\,2008:EventInstance_53861575560720
+DTSTART:20270108T180000Z
+DTEND:20270109T020000Z
+DESCRIPTION:Stanford University Libraries presents A Vision of Paris: the R
+ oxane Debuisson Collection at Stanford\, on view in the Peterson Gallery a
+ nd Munger Rotunda of the Cecil H. Green Library from September 22\, 2026 t
+ o January 24\, 2027. \n\nRoxane Debuisson (1927–2018) dedicated sixty ye
+ ars to documenting the transformation of the city of Paris during the nine
+ teenth century.  If Roxane Debuisson could not stop the changes she saw un
+ derway in the late 20th century\, she could at least preserve the city’s
+  earlier history through images\, literature\, guidebooks\, and other docu
+ ments. \n\nHer lifelong project helped to document Paris during the ninete
+ enth century\, especially the city’s rapid changes from the 1850s to the
+  1870s\, when Emperor Napoleon III and his prefect of the Seine\, Baron Eu
+ gène Haussmann\, transformed the city with new boulevards\, green spaces\
+ , and public utilities\, and fostered innovations in commercial and cultur
+ al practices. \n\nA Vision of Paris: the Roxane Debuisson Collection at St
+ anford draws upon the extensive array of commercial almanacs\, prints\, po
+ stcards\, commercial ephemera\, stereographs\, manuscripts\, historic phot
+ ographs\, and other items that are a part of the Roxane Debuisson Collecti
+ on of Paris history\, circa 1789-1970\, acquired by the Department of Spec
+ ial Collections at Stanford University Libraries in 2020. These materials 
+ place Paris as the birthplace of political\, commercial\, and urban innova
+ tions\, and as a city defined by the tension between its historical past a
+ nd its continuous reinvention. The exhibit highlights the city’s rapid c
+ hanges and their diverse causes\, while suggesting the collection’s vast
+  possibilities for both research and instruction.\n\nThis exhibition is cu
+ rated by Sarah Sussman\, Assistant University Librarian for Collections an
+ d Services & Curator of French and Italian Collections\, Stanford Universi
+ ty Libraries\, and Chloe Summers Edmondson\, Assistant Professor of French
+  at the University of Miami. Produced and designed by Deardra Fuzzell\, wi
+ th assistance from Kylee Jo Diedrich\, Sofia McGullam Ornelas\, and Pasha 
+ Tope.\n\nA Vision of Paris: the Roxane Debuisson Collection at Stanford wi
+ ll be open to the public. Registration at the entrance with a valid govern
+ ment ID is required to enter the Cecil H. Green Library and view the exhib
+ it.
+GEO:37.426984;-122.167998
+LOCATION:Green Library\, Bing Wing
+SUMMARY:A Vision of Paris: The Roxane Debuisson Collection at Stanford
+URL;VALUE=URI:https://events.stanford.edu/event/a-vision-of-paris-the-roxan
+ e-debuisson-collection-at-stanford
+CATEGORIES:Exhibition
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261115T181710Z
+UID:tag:localist.com\,2008:EventInstance_54418093138224
+DTSTART:20270108T190000Z
+DTEND:20270109T010000Z
+DESCRIPTION:Event Details:\n\nIn surfacing\, Patty Chang engages the ocean 
+ as a physical\, geopolitical\, and symbolic space\, inviting you to consid
+ er the work of collection and recollection. Chang’s multimedia sculptura
+ l practice brings together archaeological remains from Point Alones Chines
+ e Fishing Village (now the site of Stanford’s Hopkins Marine Station)\, 
+ fish specimens from Harvard’s Museum of Comparative Zoology\, and archiv
+ al materials documenting the lives of Chinese fisher families on the Monte
+ rey Peninsula.  In a critical encounter with the scientific enterprise of 
+ survey and collection\, Chang surfaces the mysterious intimacies\, forgott
+ en collaborators\, and unrecorded histories that haunt the Pacific and its
+  coast.\n\nPatty Chang: surfacing culminates a year-long residency through
+  the Denning Visiting Artist program\, during which Chang was embedded at 
+ Stanford’s Hopkins Marine Station. The exhibition’s central sculptural
+  work is a porcelain massage table that was originally commissioned for th
+ e Metropolitan Museum of Art’s exhibition Monstrous Beauty: A Feminist R
+ evision of Chinoiserie and now travels to Stanford to take new form as a s
+ urface upon which to dry squid. This act of transmutation connects histori
+ es of the ocean\, labor\, and racial and gendered violence: the transpacif
+ ic migration of porcelain and people\; the scientific collection of marine
+  specimens\; the labor of fishing and drying squid\; and the 2021 Atlanta 
+ Spa Shootings.  It is a project of grief\, memorial\, rage\, and disobedia
+ nce—an invitation to think with the deep\, and to watch for what begins 
+ to rise.\n\nOn view: September 17\, 2026 - February 8\, 2027\nAnderson Col
+ lection\, 314 Lomita Dr\nGallery Hours: Thursday-Monday\, 11am–5pm\nCura
+ ted by Kelsey Chen and Marci Kwon \n\nACKNOWLEDGMENTS\n\nPatty Chang: surf
+ acing is the first solo artist commission by Stanford’s Asian American A
+ rt Initiative.  It is organized by the Anderson Collection at Stanford Uni
+ versity and co-curated by Kelsey Chen\, interdisciplinary theorist\, artis
+ t\, PhD Candidate in Modern Thought & Literature\, and Marci Kwon\, Associ
+ ate Professor of Art & Art History and Marta Sutton Weeks Faculty Scholar 
+ in the Humanities.  The exhibition is made possible with support from the 
+ Robert H. N. Ho Family Foundation Global\, a Humanities Seed Grant from St
+ anford Public Humanities\, the Stanford Arts Roberta Bowman Denning Visiti
+ ng Artist Fund\, and generous support for programs and operations from Wil
+ liam Reller & Kristin E. Klint\, Anderson Student Engagement Fund\, and mu
+ seum members. We extend special thanks to the staff of Hopkins Marine Stat
+ ion\, Quock Mui Foundation\, and the Point Alones Chinese Fishing Village 
+ descendant community.\n\n \n\nVISITOR INFORMATION\n\nThe Anderson Collecti
+ on at Stanford University is located at 314 Lomita Drive\, Stanford\, CA 9
+ 4305\, on the Stanford campus\, adjacent to the Cantor Arts Center. Patty 
+ Chang: surfacing is on view in the Wisch Family Gallery. The museum is ope
+ n Monday and Thursday–Sunday\, 11 a.m.–5 p.m.\, and closed Tuesday and
+  Wednesday. Visitor parking is available in designated areas\, with contac
+ tless payment managed through ParkMobile.\n\nAlternatively\, take Caltrain
+  to the Palo Alto Transit Center and connect to the free Stanford Margueri
+ te Shuttle. The exhibition is open to Stanford affiliates and the general 
+ public. Admission is free\, and advance reservations are not required.\n\n
+ Connect with the Anderson Collection! Subscribe to our mailing list and fo
+ llow us on Instagram and Facebook.
+GEO:37.433768;-122.170791
+LOCATION:Anderson Collection\, Wisch Family Gallery
+SUMMARY:Patty Chang: surfacing
+URL;VALUE=URI:https://events.stanford.edu/event/patty-chang-surfacing
+CATEGORIES:Exhibition
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261115T181711Z
+UID:tag:localist.com\,2008:EventInstance_54418093171010
+DTSTART:20270201T190000Z
+DTEND:20270202T010000Z
+DESCRIPTION:Event Details:\n\nIn surfacing\, Patty Chang engages the ocean 
+ as a physical\, geopolitical\, and symbolic space\, inviting you to consid
+ er the work of collection and recollection. Chang’s multimedia sculptura
+ l practice brings together archaeological remains from Point Alones Chines
+ e Fishing Village (now the site of Stanford’s Hopkins Marine Station)\, 
+ fish specimens from Harvard’s Museum of Comparative Zoology\, and archiv
+ al materials documenting the lives of Chinese fisher families on the Monte
+ rey Peninsula.  In a critical encounter with the scientific enterprise of 
+ survey and collection\, Chang surfaces the mysterious intimacies\, forgott
+ en collaborators\, and unrecorded histories that haunt the Pacific and its
+  coast.\n\nPatty Chang: surfacing culminates a year-long residency through
+  the Denning Visiting Artist program\, during which Chang was embedded at 
+ Stanford’s Hopkins Marine Station. The exhibition’s central sculptural
+  work is a porcelain massage table that was originally commissioned for th
+ e Metropolitan Museum of Art’s exhibition Monstrous Beauty: A Feminist R
+ evision of Chinoiserie and now travels to Stanford to take new form as a s
+ urface upon which to dry squid. This act of transmutation connects histori
+ es of the ocean\, labor\, and racial and gendered violence: the transpacif
+ ic migration of porcelain and people\; the scientific collection of marine
+  specimens\; the labor of fishing and drying squid\; and the 2021 Atlanta 
+ Spa Shootings.  It is a project of grief\, memorial\, rage\, and disobedia
+ nce—an invitation to think with the deep\, and to watch for what begins 
+ to rise.\n\nOn view: September 17\, 2026 - February 8\, 2027\nAnderson Col
+ lection\, 314 Lomita Dr\nGallery Hours: Thursday-Monday\, 11am–5pm\nCura
+ ted by Kelsey Chen and Marci Kwon \n\nACKNOWLEDGMENTS\n\nPatty Chang: surf
+ acing is the first solo artist commission by Stanford’s Asian American A
+ rt Initiative.  It is organized by the Anderson Collection at Stanford Uni
+ versity and co-curated by Kelsey Chen\, interdisciplinary theorist\, artis
+ t\, PhD Candidate in Modern Thought & Literature\, and Marci Kwon\, Associ
+ ate Professor of Art & Art History and Marta Sutton Weeks Faculty Scholar 
+ in the Humanities.  The exhibition is made possible with support from the 
+ Robert H. N. Ho Family Foundation Global\, a Humanities Seed Grant from St
+ anford Public Humanities\, the Stanford Arts Roberta Bowman Denning Visiti
+ ng Artist Fund\, and generous support for programs and operations from Wil
+ liam Reller & Kristin E. Klint\, Anderson Student Engagement Fund\, and mu
+ seum members. We extend special thanks to the staff of Hopkins Marine Stat
+ ion\, Quock Mui Foundation\, and the Point Alones Chinese Fishing Village 
+ descendant community.\n\n \n\nVISITOR INFORMATION\n\nThe Anderson Collecti
+ on at Stanford University is located at 314 Lomita Drive\, Stanford\, CA 9
+ 4305\, on the Stanford campus\, adjacent to the Cantor Arts Center. Patty 
+ Chang: surfacing is on view in the Wisch Family Gallery. The museum is ope
+ n Monday and Thursday–Sunday\, 11 a.m.–5 p.m.\, and closed Tuesday and
+  Wednesday. Visitor parking is available in designated areas\, with contac
+ tless payment managed through ParkMobile.\n\nAlternatively\, take Caltrain
+  to the Palo Alto Transit Center and connect to the free Stanford Margueri
+ te Shuttle. The exhibition is open to Stanford affiliates and the general 
+ public. Admission is free\, and advance reservations are not required.\n\n
+ Connect with the Anderson Collection! Subscribe to our mailing list and fo
+ llow us on Instagram and Facebook.
+GEO:37.433768;-122.170791
+LOCATION:Anderson Collection\, Wisch Family Gallery
+SUMMARY:Patty Chang: surfacing
+URL;VALUE=URI:https://events.stanford.edu/event/patty-chang-surfacing
+CATEGORIES:Exhibition
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261115T181713Z
+UID:tag:localist.com\,2008:EventInstance_54162496693268
+DTSTART:20270501T000000Z
+DTEND:20270501T010000Z
+DESCRIPTION:Weekly All Recovery Meeting at The Well House
+GEO:37.421896;-122.169177
+LOCATION:The Well House\, Computer Cluster\, downstairs
+SUMMARY:All Recovery Meeting
+URL;VALUE=URI:https://events.stanford.edu/event/all-recovery-meeting-2342
+CATEGORIES:Meeting
+END:VEVENT
+END:VCALENDAR

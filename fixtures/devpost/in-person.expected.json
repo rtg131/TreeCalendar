@@ -1,0 +1,508 @@
+[
+  {
+    "source": "devpost",
+    "sourceId": "32109",
+    "title": "sunhacks 2026",
+    "description": "In-person hackathon by sunhacks. $4,784 in prizes. Themes: Design, Open Ended, Social Good. 209 registered. sunhacks is a yearly Fall hackathon (ideathon, coding marathon, prototyping marathon, etc) designed to support students in their innovative journeys. sunhacks is for students of all skill levels, and our job as organizers is to support you by providing the resources you need to achieve your devel",
+    "url": "https://sunhacks-2026.devpost.com/",
+    "startsAt": "2026-11-14T14:00:00-05:00",
+    "endsAt": "2026-11-15T13:30:00-05:00",
+    "timezone": "America/New_York",
+    "location": {
+      "online": false,
+      "name": "ASU Tempe Campus - Student Pavilion",
+      "address": "Undergraduate Academic Services Building, 400 E Orange St., Tempe, AZ 85281, USA",
+      "city": "Tempe",
+      "region": "Arizona",
+      "country": "US"
+    },
+    "organizer": "sunhacks",
+    "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/894/526/datas/medium_square.png",
+    "organizerLogoUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/894/526/datas/medium_square.png",
+    "sourceTags": [
+      "Design",
+      "Open Ended",
+      "Social Good"
+    ],
+    "sourceEventType": "hackathon"
+  },
+  {
+    "source": "devpost",
+    "sourceId": "31879",
+    "title": "Immerse the Bay 2026",
+    "description": "In-person hackathon by Stanford XR. $1,000 in prizes. Themes: AR/VR, Beginner Friendly, Machine Learning/AI. 170 registered. Take Me To The Moon Join Stanford XR at Stanford University on November 13–15, 2026 for Immerse the Bay, a weekend of building, experimenting, and exploring what comes next in extended reality. What is Immerse the Bay? Immerse the Bay brings students, designers, and developers together for 36 hou",
+    "url": "https://immerse-the-bay-2026.devpost.com/",
+    "startsAt": "2026-11-14T00:00:00-05:00",
+    "endsAt": "2026-11-15T18:00:00-05:00",
+    "timezone": "America/New_York",
+    "location": {
+      "online": false,
+      "name": "Stanford University",
+      "address": "450 Jane Stanford Way, Stanford, CA 94305, USA",
+      "city": "Stanford",
+      "region": "California",
+      "country": "US"
+    },
+    "organizer": "Stanford XR",
+    "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/705/553/datas/medium_square.png",
+    "organizerLogoUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/705/553/datas/medium_square.png",
+    "sourceTags": [
+      "AR/VR",
+      "Beginner Friendly",
+      "Machine Learning/AI"
+    ],
+    "sourceEventType": "hackathon"
+  },
+  {
+    "source": "devpost",
+    "sourceId": "30425",
+    "title": "Stupid Ideas Hackathon (Ottawa F26)",
+    "description": "In-person hackathon by stupid ideas hackathon. $CAD 1,252 in prizes. Themes: Beginner Friendly, Open Ended, Social Good. 128 registered. About the challenge build something stupid",
+    "url": "https://stupideas-ottawa-f26.devpost.com/",
+    "startsAt": "2026-11-15T10:00:00-05:00",
+    "endsAt": "2026-11-15T18:15:00-05:00",
+    "timezone": "America/New_York",
+    "location": {
+      "online": false,
+      "name": "Bayview Yards",
+      "address": "7 Bayview Station Rd, Ottawa, ON K1Y 2C5, Canada",
+      "city": "Ottawa",
+      "region": "Ontario",
+      "country": "CA"
+    },
+    "organizer": "stupid ideas hackathon",
+    "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/591/166/datas/medium_square.png",
+    "organizerLogoUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/591/166/datas/medium_square.png",
+    "sourceTags": [
+      "Beginner Friendly",
+      "Open Ended",
+      "Social Good"
+    ],
+    "sourceEventType": "hackathon"
+  },
+  {
+    "source": "devpost",
+    "sourceId": "31484",
+    "title": "2026-2027 Fall ESE Senior Design",
+    "description": "In-person hackathon by university of pennsylvania. Themes: AR/VR, Fintech, Quantum. 119 registered. SHOWCASE OF ESE SENIOR DESIGN PROJECTS 2025-26",
+    "url": "https://ese4500f26.devpost.com/",
+    "startsAt": "2026-09-22T18:00:00-04:00",
+    "endsAt": "2026-12-07T17:00:00-05:00",
+    "timezone": "America/New_York",
+    "location": {
+      "online": false,
+      "name": "Amy Gutman Hall",
+      "address": "3317 Chestnut St Bridge, Philadelphia, PA, USA",
+      "city": "Philadelphia",
+      "region": "Pennsylvania",
+      "country": "US"
+    },
+    "organizer": "university of pennsylvania",
+    "imageUrl": "https://assets.devpost.com/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
+    "organizerLogoUrl": "https://assets.devpost.com/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
+    "sourceTags": [
+      "AR/VR",
+      "Fintech",
+      "Quantum"
+    ],
+    "sourceEventType": "hackathon"
+  },
+  {
+    "source": "devpost",
+    "sourceId": "30697",
+    "title": "SanD Hacks",
+    "description": "In-person hackathon by CSES @ UCSD. $2,250 in prizes. Themes: Databases, Machine Learning/AI, Web. 116 registered. San Diego's student hackathon, hosted by CSE Society at UC San Diego. Hackathon Website for Registration (Registration has been closed!): https://hackathon.csesatucsd.com November 14-15, 2026 | In person | Qualcomm Conference Room, Jacobs Hall, UCSD Build something in about 26 hours, with a team",
+    "url": "https://sand-hacks-26.devpost.com/",
+    "startsAt": "2026-11-14T12:00:00-05:00",
+    "endsAt": "2026-11-15T16:00:00-05:00",
+    "timezone": "America/New_York",
+    "location": {
+      "online": false,
+      "name": "Qualcomm Conference Room",
+      "address": "9736 Engineers Ln, La Jolla, CA 92093, USA",
+      "city": "San Diego",
+      "region": "California",
+      "country": "US"
+    },
+    "organizer": "CSES @ UCSD",
+    "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/996/493/datas/medium_square.png",
+    "organizerLogoUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/996/493/datas/medium_square.png",
+    "sourceTags": [
+      "Databases",
+      "Machine Learning/AI",
+      "Web"
+    ],
+    "sourceEventType": "hackathon"
+  },
+  {
+    "source": "devpost",
+    "sourceId": "30633",
+    "title": "Hack-a-ton with Friends",
+    "description": "In-person hackathon by naitsa. $CAD 0 in prizes. Themes: Education, Beginner Friendly. 38 registered. About the challenge SMIT Club is a student-run club that gives Edmonton post-secondary students hands-on experience through community-built events, bringing together software, IT, business, design, and creative students to learn from each other. This hackathon is designed for first-timers. Whethe",
+    "url": "https://hack-a-ton-with-friends.devpost.com/",
+    "startsAt": "2026-11-14T13:45:00-05:00",
+    "endsAt": "2026-11-15T14:00:00-05:00",
+    "timezone": "America/New_York",
+    "location": {
+      "online": false,
+      "name": "DOW Theatre",
+      "address": "11762 106 St, Edmonton, AB T5G 3H6, Canada",
+      "city": "Edmonton",
+      "region": "Alberta",
+      "country": "CA"
+    },
+    "organizer": "naitsa",
+    "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/191/931/datas/medium_square.png",
+    "organizerLogoUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/191/931/datas/medium_square.png",
+    "sourceTags": [
+      "Education",
+      "Beginner Friendly"
+    ],
+    "sourceEventType": "hackathon"
+  },
+  {
+    "source": "devpost",
+    "sourceId": "31765",
+    "title": "GTransformer AI Buildathon 2026 — AI for Global Good",
+    "description": "Hybrid hackathon by GTransformer Foundation. $1,000 in prizes. Themes: Education, Machine Learning/AI, Social Good. 27 registered. Most hackathons end at the demo. This one is built to continue. The GTransformer AI Buildathon 2026 is a 3-day hybrid buildathon (in person in Milpitas, Bay Area + online) for builders who want to point AI at problems that matter — and leave with a working prototype, not just a pitch deck. North",
+    "url": "https://gtransformer-buildathon-2026.devpost.com/",
+    "startsAt": "2026-11-13T21:00:00-05:00",
+    "endsAt": "2026-11-15T15:00:00-05:00",
+    "timezone": "America/New_York",
+    "location": {
+      "online": false,
+      "name": "Milpitas, Bay Area + Online",
+      "address": "Milpitas, CA, USA",
+      "city": "Milpitas",
+      "region": "California",
+      "country": "US"
+    },
+    "organizer": "GTransformer Foundation",
+    "imageUrl": "https://assets.devpost.com/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
+    "organizerLogoUrl": "https://assets.devpost.com/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
+    "sourceTags": [
+      "Education",
+      "Machine Learning/AI",
+      "Social Good"
+    ],
+    "sourceEventType": "hackathon"
+  },
+  {
+    "source": "devpost",
+    "sourceId": "32088",
+    "title": "UBC eProjects x n8n LOOP Hackathon",
+    "description": "In-person hackathon by n8n. $CAD 1,000 in prizes. Themes: Beginner Friendly, Machine Learning/AI, Web. 23 registered. About the challenge LOOP is a two-day hackathon from UBC eProjects, powered by n8n and Nebius. Form a team, pick a problem worth solving, and build a working prototype in about 27 hours. Any idea is welcome, but with n8n as our lead sponsor, we especially want to see projects that automate someth",
+    "url": "https://loop.devpost.com/",
+    "startsAt": "2026-11-14T00:00:00-05:00",
+    "endsAt": "2026-11-15T17:45:00-05:00",
+    "timezone": "America/New_York",
+    "location": {
+      "online": false,
+      "name": "University of British Columbia",
+      "address": "Student Union Bldg, 6138 Student Union Blvd #2201, Vancouver, BC V6T 1Z1, Canada",
+      "city": "Vancouver",
+      "region": "British Columbia",
+      "country": "CA"
+    },
+    "organizer": "n8n",
+    "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/841/287/datas/medium_square.png",
+    "organizerLogoUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/841/287/datas/medium_square.png",
+    "sourceTags": [
+      "Beginner Friendly",
+      "Machine Learning/AI",
+      "Web"
+    ],
+    "sourceEventType": "hackathon"
+  },
+  {
+    "source": "devpost",
+    "sourceId": "32032",
+    "title": "Datathon PolyFinances BNC x AWS",
+    "description": "In-person hackathon by Polyfinances. $CAD 5,500 in prizes. Themes: Education, Fintech, Machine Learning/AI. 17 registered. À propos du défi Bienvenue à l'aventure ! Prépare-toi à 36 heures d'innovation, de collaboration et de finance guidée par les données, là où la créativité rencontre la pensée analytique. Le Datathon PolyFinances 2026 est bien plus qu'une compétition : c'est une plongée dans le monde réel de la fi",
+    "url": "https://datathon-polyfinances-bnc-aws.devpost.com/",
+    "startsAt": "2026-11-14T23:30:00-05:00",
+    "endsAt": "2026-11-16T00:00:00-05:00",
+    "timezone": "America/New_York",
+    "location": {
+      "online": false,
+      "name": "Polytechnique Montréal",
+      "address": "Pavillons Pierre-Lassonde et Claudette McKay-Lassonde, 2500 Chem. de Polytechnique, Montreal, QC H3T 1J4, Canada",
+      "city": "Montreal",
+      "region": "Quebec",
+      "country": "CA"
+    },
+    "organizer": "Polyfinances",
+    "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/824/284/datas/medium_square.png",
+    "organizerLogoUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/824/284/datas/medium_square.png",
+    "sourceTags": [
+      "Education",
+      "Fintech",
+      "Machine Learning/AI"
+    ],
+    "sourceEventType": "hackathon"
+  },
+  {
+    "source": "devpost",
+    "sourceId": "31321",
+    "title": "Build with Gemma - Innovate in Windsor",
+    "description": "In-person hackathon by Google Developer Groups Windsor. $CAD 0 in prizes. Themes: Machine Learning/AI. 14 registered. About the Challenge We invite teams to submit proposals showcasing innovative on-device solutions that use a Gemma model running locally or on edge hardware to solve a real Windsor-Essex problem. Build For Windsor - Example Ideas: Solve a real problem we face in Windsor-Essex. This comes down to",
+    "url": "https://innovate-in-windsor-hackathon.devpost.com/",
+    "startsAt": "2026-11-13T00:00:00-05:00",
+    "endsAt": "2026-11-20T23:45:00-05:00",
+    "timezone": "America/New_York",
+    "location": {
+      "online": false,
+      "name": "University of Windsor",
+      "address": "Chrysler Hall Tower, 401 Sunset Ave, Windsor, ON N9B 3P4, Canada",
+      "city": "Windsor",
+      "region": "Ontario",
+      "country": "CA"
+    },
+    "organizer": "Google Developer Groups Windsor",
+    "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/298/521/datas/medium_square.png",
+    "organizerLogoUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/298/521/datas/medium_square.png",
+    "sourceTags": [
+      "Machine Learning/AI"
+    ],
+    "sourceEventType": "hackathon"
+  },
+  {
+    "source": "devpost",
+    "sourceId": "31710",
+    "title": "OCSEFHacks 3",
+    "description": "In-person hackathon by HackPac. Themes: Beginner Friendly, Machine Learning/AI, Open Ended. 7 registered. Welcome to OCSEFHacks 2026 Welcome to OCSEFHacks! If you attended in 2025 or earlier this year, welcome back! We are an In-Person hackathon hosted in Southern California! We are partnering with the Orange County Science and Engineering Fair to provide an unforgettable hackathon experience. OCSEFH",
+    "url": "https://ocsefhacks3.devpost.com/",
+    "startsAt": "2026-11-14T13:00:00-05:00",
+    "endsAt": "2026-11-15T18:00:00-05:00",
+    "timezone": "America/New_York",
+    "location": {
+      "online": false,
+      "name": "Westminster High School",
+      "address": "14325 Goldenwest St, Westminster, CA 92683, USA",
+      "city": "Westminster",
+      "region": "California",
+      "country": "US"
+    },
+    "organizer": "HackPac",
+    "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/572/751/datas/medium_square.jpeg",
+    "organizerLogoUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/572/751/datas/medium_square.jpeg",
+    "sourceTags": [
+      "Beginner Friendly",
+      "Machine Learning/AI",
+      "Open Ended"
+    ],
+    "sourceEventType": "hackathon"
+  },
+  {
+    "source": "devpost",
+    "sourceId": "31663",
+    "title": "The Next Frontier 2026: A Space Innovation Hackathon",
+    "description": "In-person hackathon by AI Collective. Themes: Beginner Friendly, Low/No Code, Open Ended. 6 registered. 🚀 The Next Frontier 2026 Where Science, Technology, and Creativity Collide. The Next Frontier is a community-driven space innovation hackathon hosted by AI Collective Hampton Roads in collaboration with ECPI University . We're bringing together students, scientists, developers, designers, and cur",
+    "url": "https://aichr-space.devpost.com/",
+    "startsAt": "2026-11-14T00:00:00-05:00",
+    "endsAt": "2026-11-15T23:45:00-05:00",
+    "timezone": "America/New_York",
+    "location": {
+      "online": false,
+      "name": "ECPI Virginia Beach Campus",
+      "address": "5555 Greenwich Rd, Virginia Beach, VA 23462, USA",
+      "city": "Virginia Beach",
+      "region": "Virginia",
+      "country": "US"
+    },
+    "organizer": "AI Collective",
+    "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/538/743/datas/medium_square.png",
+    "organizerLogoUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/538/743/datas/medium_square.png",
+    "sourceTags": [
+      "Beginner Friendly",
+      "Low/No Code",
+      "Open Ended"
+    ],
+    "sourceEventType": "hackathon"
+  },
+  {
+    "source": "devpost",
+    "sourceId": "31828",
+    "title": "Haven Las Vegas",
+    "description": "In-person hackathon by Hack Club. Themes: Beginner Friendly, Design, Gaming. 5 registered. About the challenge Haven Las Vegas is a free 12-hour game jam for teens ages 13-18. At Haven, participants will group into teams and spend the day programming their own games! This event is run with Hack Club, which is a US-based nonprofit that empowers teenagers to program and create hardware a",
+    "url": "https://haven-las-vegas.devpost.com/",
+    "startsAt": "2026-11-15T08:00:00-05:00",
+    "endsAt": "2026-11-15T20:00:00-05:00",
+    "timezone": "America/New_York",
+    "location": {
+      "online": false,
+      "name": "Pololu Corporation",
+      "address": "920 Pilot Rd, Las Vegas, NV 89119, USA",
+      "city": "Las Vegas",
+      "region": "Nevada",
+      "country": "US"
+    },
+    "organizer": "Hack Club",
+    "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/631/414/datas/medium_square.png",
+    "organizerLogoUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/631/414/datas/medium_square.png",
+    "sourceTags": [
+      "Beginner Friendly",
+      "Design",
+      "Gaming"
+    ],
+    "sourceEventType": "hackathon"
+  },
+  {
+    "source": "devpost",
+    "sourceId": "31088",
+    "title": "Haven Seattle",
+    "description": "In-person hackathon by Hack Club. $100 in prizes. Themes: Design. 4 registered. About the challenge Game jam hackathon for teens Get started Sign up on our website at haven.hackclub.com/seattle",
+    "url": "https://haven-seattle.devpost.com/",
+    "startsAt": "2026-11-14T12:00:00-05:00",
+    "endsAt": "2026-11-15T20:00:00-05:00",
+    "timezone": "America/New_York",
+    "location": {
+      "online": false,
+      "name": "Seattle, Washington, USA",
+      "address": "Seattle, WA, USA",
+      "city": "Seattle",
+      "region": "Washington",
+      "country": "US"
+    },
+    "organizer": "Hack Club",
+    "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/577/271/datas/medium_square.png",
+    "organizerLogoUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/577/271/datas/medium_square.png",
+    "sourceTags": [
+      "Design"
+    ],
+    "sourceEventType": "hackathon"
+  },
+  {
+    "source": "devpost",
+    "sourceId": "30463",
+    "title": "DeveloperWeek 2027 Hackathon",
+    "description": "Hybrid hackathon by DevNetwork. $6,000 in prizes. Themes: Enterprise, IoT, Machine Learning/AI. 351 registered. Join the nation's largest challenge-driven hackathon @ DeveloperWeek 2027! DEVELOPERWEEK 2027 HACKATHON Join the largest challenge-driven in-person & online hackathon, co-located with DeveloperWeek 2027! Our hackathons regularly attract over 800+ participants -- and we are inviting the internatio",
+    "url": "https://developerweek-2027-hackathon.devpost.com/",
+    "startsAt": "2027-01-25T13:00:00-05:00",
+    "endsAt": "2027-02-11T13:00:00-05:00",
+    "timezone": "America/New_York",
+    "location": {
+      "online": false,
+      "name": "Santa Clara Convention Center + Online",
+      "address": "5001 Great America Pkwy, Santa Clara, CA 95054, USA",
+      "city": "Santa Clara",
+      "region": "California",
+      "country": "US"
+    },
+    "organizer": "DevNetwork",
+    "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/828/557/datas/medium_square.jpg",
+    "organizerLogoUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/828/557/datas/medium_square.jpg",
+    "sourceTags": [
+      "Enterprise",
+      "IoT",
+      "Machine Learning/AI"
+    ],
+    "sourceEventType": "hackathon"
+  },
+  {
+    "source": "devpost",
+    "sourceId": "32042",
+    "title": "The Dawn of Superintelligence | Kaya AI Grand Challenge",
+    "description": "In-person hackathon by Kaya AI. $3,000 in prizes. Themes: IoT, Machine Learning/AI, Enterprise. 170 registered. About The Grand Challenge: The Dawn of Superintelligence Kaya AI is the #1 AI-powered Supply Chain Platform in construction, recognized by BuiltWorlds as a Top AI-Driven AEC Solution for 2026. Our India Hackathon is back for Edition 2, and it marks the dawn of a new era: superintelligence for con",
+    "url": "https://kaya-ai-grand-challenge.devpost.com/",
+    "startsAt": "2026-11-29T19:30:00-05:00",
+    "endsAt": "2026-12-06T13:15:00-05:00",
+    "timezone": "America/New_York",
+    "location": {
+      "online": false,
+      "name": "Mumbai",
+      "address": "Mumbai, Maharashtra, India",
+      "city": "Mumbai",
+      "region": "Maharashtra",
+      "country": "IN"
+    },
+    "organizer": "Kaya AI",
+    "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/796/876/datas/medium_square.png",
+    "organizerLogoUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/796/876/datas/medium_square.png",
+    "sourceTags": [
+      "IoT",
+      "Machine Learning/AI",
+      "Enterprise"
+    ],
+    "sourceEventType": "hackathon"
+  },
+  {
+    "source": "devpost",
+    "sourceId": "31655",
+    "title": "HackSussex GameJam 2026",
+    "description": "In-person hackathon by HackSussex. £0 in prizes. Themes: Gaming. 98 registered. About HackSussex Game Jam 2026 This is an opportunity for students of all abilities to collaborate, learn new skills, and build something cool using technology. It's a great way for people with similar interests to work together on exciting projects in a fast-paced, creative environment. HackSuss",
+    "url": "https://hacksussex-gamejam-2026.devpost.com/",
+    "startsAt": "2026-12-05T06:00:00-05:00",
+    "endsAt": "2026-12-06T06:15:00-05:00",
+    "timezone": "America/New_York",
+    "location": {
+      "online": false,
+      "name": "Brighton",
+      "address": "Falmer, Brighton, UK",
+      "city": "Falmer",
+      "region": "England",
+      "country": "GB"
+    },
+    "organizer": "HackSussex",
+    "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/774/255/datas/medium_square.png",
+    "organizerLogoUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/774/255/datas/medium_square.png",
+    "sourceTags": [
+      "Gaming"
+    ],
+    "sourceEventType": "hackathon"
+  },
+  {
+    "source": "devpost",
+    "sourceId": "28629",
+    "title": "Tech to Treasure Hackathon",
+    "description": "In-person hackathon by bin to better. $450 in prizes. Themes: Beginner Friendly, Education, Social Good. 85 registered. 🌱 About the Challenge Get ready to innovate at the Tech to Treasure Environmental Hackathon! Join 100+ Bay Area students for a full day of building sustainability-focused technology solutions that tackle real-world environmental challenges, with free food provided for all participants! 🚀 REGISTER",
+    "url": "https://techtotreasure.devpost.com/",
+    "startsAt": "2027-03-03T13:00:00-05:00",
+    "endsAt": "2027-03-10T21:00:00-05:00",
+    "timezone": "America/New_York",
+    "location": {
+      "online": false,
+      "name": "Tully Community Branch Library",
+      "address": "880 Tully Rd, San Jose, CA 95111, USA",
+      "city": "San Jose",
+      "region": "California",
+      "country": "US"
+    },
+    "organizer": "bin to better",
+    "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/303/066/datas/medium_square.png",
+    "organizerLogoUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/303/066/datas/medium_square.png",
+    "sourceTags": [
+      "Beginner Friendly",
+      "Education",
+      "Social Good"
+    ],
+    "sourceEventType": "hackathon"
+  },
+  {
+    "source": "devpost",
+    "sourceId": "31141",
+    "title": "HackStorm 3.0: Sense, Think and Act",
+    "description": "In-person hackathon by HackStorm. $5,200 in prizes. Themes: DevOps, IoT, Robotic Process Automation. 45 registered. About the challenge DON'T REGISTER HERE. PLEASE VISIT https://luma.com/568fqhic Welcome to contact team@hackstorm.ai for sponsor spots. We're back. 🔥 HackStorm 3.0 is pending. HackStorm 1.0 started as an experiment: can a curated group of builders ship real AI hardware in 48 hours? The answer was",
+    "url": "https://hackstorm3.devpost.com/",
+    "startsAt": "2027-01-15T18:00:00-05:00",
+    "endsAt": "2027-01-17T18:00:00-05:00",
+    "timezone": "America/New_York",
+    "location": {
+      "online": false,
+      "name": "San Francisco, California, USA",
+      "address": "San Francisco, CA, USA",
+      "city": "San Francisco",
+      "region": "California",
+      "country": "US"
+    },
+    "organizer": "HackStorm",
+    "imageUrl": "https://assets.devpost.com/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
+    "organizerLogoUrl": "https://assets.devpost.com/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
+    "sourceTags": [
+      "DevOps",
+      "IoT",
+      "Robotic Process Automation"
+    ],
+    "sourceEventType": "hackathon"
+  }
+]

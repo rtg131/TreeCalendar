@@ -1,0 +1,530 @@
+[
+  {
+    "source": "mlh",
+    "sourceId": "01a063b5-6f38-3b26-77aa-c9afde29ba75",
+    "title": "UniHack",
+    "description": "In-person MLH member hackathon in Timișoara, Timiș.",
+    "url": "https://unihack.eu/",
+    "startsAt": "2026-11-13T20:00:00+00:00",
+    "endsAt": "2026-11-15T22:00:00+00:00",
+    "timezone": "UTC",
+    "location": {
+      "online": false,
+      "name": "Timișoara, Timiș",
+      "city": "Timișoara",
+      "region": "Timiș",
+      "country": "RO"
+    },
+    "imageUrl": "https://mlhusercontent.com/backgrounds/events/01a063b5-6f38-3b26-77aa-c9afde29ba75/unihack-bd_0d324fb221bb_medium.png",
+    "organizerLogoUrl": "https://mlhusercontent.com/logos/events/01a063b5-6f38-3b26-77aa-c9afde29ba75/unihack-bd_53ac31992884_small.png",
+    "sourceTags": [],
+    "sourceEventType": "hackathon"
+  },
+  {
+    "source": "mlh",
+    "sourceId": "019f19d0-5bc4-ae3a-8026-18ec241c0053",
+    "title": "Junction",
+    "description": "In-person MLH member hackathon in Espoo, Uusimaa.",
+    "url": "https://hackjunction.com/",
+    "startsAt": "2026-11-13T21:00:00+00:00",
+    "endsAt": "2026-11-15T21:00:00+00:00",
+    "timezone": "UTC",
+    "location": {
+      "online": false,
+      "name": "Espoo, Uusimaa",
+      "city": "Espoo",
+      "region": "Uusimaa",
+      "country": "FI"
+    },
+    "imageUrl": "https://mlhusercontent.com/backgrounds/events/019f19d0-5bc4-ae3a-8026-18ec241c0053/junction-40_be6645f4d61f_medium.jpg",
+    "organizerLogoUrl": "https://mlhusercontent.com/logos/events/019f19d0-5bc4-ae3a-8026-18ec241c0053/junction-40_8b29b11a3799_small.png",
+    "sourceTags": [],
+    "sourceEventType": "hackathon"
+  },
+  {
+    "source": "mlh",
+    "sourceId": "01a0a1c6-4096-4e39-b0e6-fbb02f1dfd8a",
+    "title": "HackPrinceton Fall 2026",
+    "description": "In-person MLH member hackathon in Princeton, New Jersey.",
+    "url": "https://www.hackprinceton.com/",
+    "startsAt": "2026-11-13T21:00:00+00:00",
+    "endsAt": "2026-11-15T21:00:00+00:00",
+    "timezone": "UTC",
+    "location": {
+      "online": false,
+      "name": "Princeton, New Jersey",
+      "city": "Princeton",
+      "region": "New Jersey",
+      "country": "US"
+    },
+    "imageUrl": "https://mlhusercontent.com/backgrounds/events/01a0a1c6-4096-4e39-b0e6-fbb02f1dfd8a/hackprinceton-fall-2026_9049a188590a_medium.png",
+    "organizerLogoUrl": "https://mlhusercontent.com/logos/events/01a0a1c6-4096-4e39-b0e6-fbb02f1dfd8a/hackprinceton-fall-2026_b76336c6e097_small.png",
+    "sourceTags": [
+      "Software",
+      "Hardware"
+    ],
+    "sourceEventType": "hackathon"
+  },
+  {
+    "source": "mlh",
+    "sourceId": "01a0f9d2-8235-468a-117b-e6e10b159f31",
+    "title": "NASA's Space Apps Challenge NYC",
+    "description": "Hybrid MLH member hackathon in Brooklyn, New York.",
+    "url": "https://www.spaceappschallenge.org/2026/local-events/new-york/",
+    "startsAt": "2026-11-13T21:30:00+00:00",
+    "endsAt": "2026-11-15T21:30:00+00:00",
+    "timezone": "UTC",
+    "location": {
+      "online": false,
+      "name": "Brooklyn, New York",
+      "city": "Brooklyn",
+      "region": "New York",
+      "country": "US"
+    },
+    "imageUrl": "https://mlhusercontent.com/backgrounds/events/01a0f9d2-8235-468a-117b-e6e10b159f31/nasa-s-space-apps-challenge-nyc_12fb3ffa3465_medium.jpg",
+    "organizerLogoUrl": "https://mlhusercontent.com/logos/events/01a0f9d2-8235-468a-117b-e6e10b159f31/nasa-s-space-apps-challenge-nyc_2cf083d604c9_small.jpg",
+    "sourceTags": [
+      "Software"
+    ],
+    "sourceEventType": "hackathon"
+  },
+  {
+    "source": "mlh",
+    "sourceId": "019eb82c-019a-7cdf-8405-6ade2fbe2684",
+    "title": "HackUMass",
+    "description": "In-person MLH member hackathon in Amherst, MA.",
+    "url": "https://www.hackumass.com/",
+    "startsAt": "2026-11-13T23:30:00+00:00",
+    "endsAt": "2026-11-15T21:30:00+00:00",
+    "timezone": "UTC",
+    "location": {
+      "online": false,
+      "name": "Amherst, MA",
+      "city": "Amherst",
+      "region": "MA",
+      "country": "US"
+    },
+    "imageUrl": "https://mlhusercontent.com/backgrounds/events/019eb82c-019a-7cdf-8405-6ade2fbe2684/hackumass-19_7864b6598b02_medium.jpg",
+    "organizerLogoUrl": "https://mlhusercontent.com/logos/events/019eb82c-019a-7cdf-8405-6ade2fbe2684/hackumass-19_c675d6252cc4_small.jpg",
+    "sourceTags": [],
+    "sourceEventType": "hackathon"
+  },
+  {
+    "source": "mlh",
+    "sourceId": "01a0aabc-89e5-455e-e716-fb22af55ff20",
+    "title": "HackUTA",
+    "description": "In-person MLH member hackathon in Arlington, Texas.",
+    "url": "https://hackuta.com/",
+    "startsAt": "2026-11-14T14:00:00+00:00",
+    "endsAt": "2026-11-15T22:30:00+00:00",
+    "timezone": "UTC",
+    "location": {
+      "online": false,
+      "name": "Arlington, Texas",
+      "city": "Arlington",
+      "region": "Texas",
+      "country": "US"
+    },
+    "imageUrl": "https://mlhusercontent.com/backgrounds/events/01a0aabc-89e5-455e-e716-fb22af55ff20/hackuta-53_5642948fc6b6_medium.png",
+    "organizerLogoUrl": "https://mlhusercontent.com/logos/events/01a0aabc-89e5-455e-e716-fb22af55ff20/hackuta-53_44431dc65d02_small.png",
+    "sourceTags": [
+      "Software"
+    ],
+    "sourceEventType": "hackathon"
+  },
+  {
+    "source": "mlh",
+    "sourceId": "01a0f9e6-f4a7-a488-8ff2-a1b83adebc0c",
+    "title": "SanD Hacks",
+    "description": "In-person MLH member hackathon in La Jolla, CA.",
+    "url": "https://hackathon.csesatucsd.com/",
+    "startsAt": "2026-11-14T14:00:00+00:00",
+    "endsAt": "2026-11-15T20:00:00+00:00",
+    "timezone": "UTC",
+    "location": {
+      "online": false,
+      "name": "La Jolla, CA",
+      "city": "La Jolla",
+      "region": "CA",
+      "country": "US"
+    },
+    "imageUrl": "https://mlhusercontent.com/backgrounds/events/01a0f9e6-f4a7-a488-8ff2-a1b83adebc0c/sand-hacks_3d56040e2ce6_medium.png",
+    "organizerLogoUrl": "https://mlhusercontent.com/logos/events/01a0f9e6-f4a7-a488-8ff2-a1b83adebc0c/sand-hacks_fc7200a0c28e_small.png",
+    "sourceTags": [],
+    "sourceEventType": "hackathon"
+  },
+  {
+    "source": "mlh",
+    "sourceId": "01a0f9e8-4c6a-3385-792a-2f6d7b6fc67a",
+    "title": "Hack The Nest",
+    "description": "In-person MLH member hackathon in Ypsilanti, Michigan.",
+    "url": "https://hackthenest.tech/",
+    "startsAt": "2026-11-14T14:00:00+00:00",
+    "endsAt": "2026-11-15T21:00:00+00:00",
+    "timezone": "UTC",
+    "location": {
+      "online": false,
+      "name": "Ypsilanti, Michigan",
+      "city": "Ypsilanti",
+      "region": "Michigan",
+      "country": "US"
+    },
+    "imageUrl": "https://mlhusercontent.com/backgrounds/events/01a0f9e8-4c6a-3385-792a-2f6d7b6fc67a/hack-the-nest-96_3a29d29438ed_medium.jpg",
+    "organizerLogoUrl": "https://mlhusercontent.com/logos/events/01a0f9e8-4c6a-3385-792a-2f6d7b6fc67a/hack-the-nest-96_7866e1022c99_small.jpg",
+    "sourceTags": [
+      "Software",
+      "Hardware"
+    ],
+    "sourceEventType": "hackathon"
+  },
+  {
+    "source": "mlh",
+    "sourceId": "019e50f7-21ed-7be0-d9d3-25041a140a99",
+    "title": "DurHack",
+    "description": "In-person MLH member hackathon in Durham, County Durham.",
+    "url": "https://durhack.com/",
+    "startsAt": "2026-11-14T14:30:00+00:00",
+    "endsAt": "2026-11-15T23:00:00+00:00",
+    "timezone": "UTC",
+    "location": {
+      "online": false,
+      "name": "Durham, County Durham",
+      "city": "Durham",
+      "region": "County Durham",
+      "country": "GB"
+    },
+    "imageUrl": "https://mlhusercontent.com/backgrounds/events/019e50f7-21ed-7be0-d9d3-25041a140a99/durhack-2026_bb7586283086_medium.jpg",
+    "organizerLogoUrl": "https://mlhusercontent.com/logos/events/019e50f7-21ed-7be0-d9d3-25041a140a99/durhack-2026_360496e5d015_small.png",
+    "sourceTags": [],
+    "sourceEventType": "hackathon"
+  },
+  {
+    "source": "mlh",
+    "sourceId": "01a0d389-5cc6-4658-5390-a28cf6a7e25c",
+    "title": "sunhacks",
+    "description": "In-person MLH member hackathon in Tempe, Arizona.",
+    "url": "https://2026.sunhacks.io/",
+    "startsAt": "2026-11-14T15:00:00+00:00",
+    "endsAt": "2026-11-15T20:00:00+00:00",
+    "timezone": "UTC",
+    "location": {
+      "online": false,
+      "name": "Tempe, Arizona",
+      "city": "Tempe",
+      "region": "Arizona",
+      "country": "US"
+    },
+    "imageUrl": "https://mlhusercontent.com/backgrounds/events/01a0d389-5cc6-4658-5390-a28cf6a7e25c/sunhacks-ec_40e9e3b17867_medium.png",
+    "organizerLogoUrl": "https://mlhusercontent.com/logos/events/01a0d389-5cc6-4658-5390-a28cf6a7e25c/sunhacks-ec_9422c2626d87_small.png",
+    "sourceTags": [],
+    "sourceEventType": "hackathon"
+  },
+  {
+    "source": "mlh",
+    "sourceId": "01a104c6-9b18-a67b-4a70-585e177ae7c2",
+    "title": "Hack Western 13",
+    "description": "In-person MLH member hackathon in London, Ontario.",
+    "url": "https://hackwestern.com/",
+    "startsAt": "2026-11-20T23:00:00+00:00",
+    "endsAt": "2026-11-22T20:00:00+00:00",
+    "timezone": "UTC",
+    "location": {
+      "online": false,
+      "name": "London, Ontario",
+      "city": "London",
+      "region": "Ontario",
+      "country": "CA"
+    },
+    "imageUrl": "https://mlhusercontent.com/backgrounds/events/01a104c6-9b18-a67b-4a70-585e177ae7c2/hack-western-13_9e8897d11e8b_medium.png",
+    "organizerLogoUrl": "https://mlhusercontent.com/logos/events/01a104c6-9b18-a67b-4a70-585e177ae7c2/hack-western-13_08cca9030b90_small.png",
+    "sourceTags": [
+      "Software",
+      "Hardware"
+    ],
+    "sourceEventType": "hackathon"
+  },
+  {
+    "source": "mlh",
+    "sourceId": "01a0de7f-c886-fc35-dd21-0502312014f2",
+    "title": "Tech For Community 2026",
+    "description": "In-person MLH member hackathon in St. John's, Newfoundland and Labrador / Avalon Peninsula.",
+    "url": "https://tecnurtur.org/hackathon",
+    "startsAt": "2026-11-21T14:00:00+00:00",
+    "endsAt": "2026-11-22T18:00:00+00:00",
+    "timezone": "UTC",
+    "location": {
+      "online": false,
+      "name": "St. John's, Newfoundland and Labrador / Avalon Peninsula",
+      "city": "St. John's",
+      "region": "Newfoundland and Labrador / Avalon Peninsula",
+      "country": "CA"
+    },
+    "imageUrl": "https://mlhusercontent.com/backgrounds/events/01a0de7f-c886-fc35-dd21-0502312014f2/tech-for-community-2026_fd7fd7960930_medium.png",
+    "organizerLogoUrl": "https://mlhusercontent.com/logos/events/01a0de7f-c886-fc35-dd21-0502312014f2/tech-for-community-2026_5614fab3f5f9_small.png",
+    "sourceTags": [
+      "Software",
+      "Hardware"
+    ],
+    "sourceEventType": "hackathon"
+  },
+  {
+    "source": "mlh",
+    "sourceId": "01a0f38e-1449-10c7-26aa-22f959036fa7",
+    "title": "WHACK (Wellesley Hackathon)",
+    "description": "In-person MLH member hackathon in Wellesley, Massachesetts.",
+    "url": "https://www.wellesleyhacks.org/",
+    "startsAt": "2026-11-21T14:00:00+00:00",
+    "endsAt": "2026-11-22T20:00:00+00:00",
+    "timezone": "UTC",
+    "location": {
+      "online": false,
+      "name": "Wellesley , Massachesetts",
+      "city": "Wellesley",
+      "region": "Massachesetts",
+      "country": "US"
+    },
+    "imageUrl": "https://mlhusercontent.com/backgrounds/events/01a0f38e-1449-10c7-26aa-22f959036fa7/whack-wellesley-hackathon_d4f323e7fc72_medium.png",
+    "organizerLogoUrl": "https://mlhusercontent.com/logos/events/01a0f38e-1449-10c7-26aa-22f959036fa7/whack-wellesley-hackathon_42788d8ac8cf_small.png",
+    "sourceTags": [
+      "Software"
+    ],
+    "sourceEventType": "hackathon"
+  },
+  {
+    "source": "mlh",
+    "sourceId": "01a0f9e8-b03e-c774-05a6-1fa2df981ef1",
+    "title": "BostonHacks",
+    "description": "In-person MLH member hackathon in Boston, MA.",
+    "url": "https://bostonhacks.org/",
+    "startsAt": "2026-11-21T15:00:00+00:00",
+    "endsAt": "2026-11-22T17:00:00+00:00",
+    "timezone": "UTC",
+    "location": {
+      "online": false,
+      "name": "Boston, MA",
+      "city": "Boston",
+      "region": "MA",
+      "country": "US"
+    },
+    "imageUrl": "https://mlhusercontent.com/backgrounds/events/01a0f9e8-b03e-c774-05a6-1fa2df981ef1/bostonhacks-de_ac8147f07c27_medium.png",
+    "organizerLogoUrl": "https://mlhusercontent.com/logos/events/01a0f9e8-b03e-c774-05a6-1fa2df981ef1/bostonhacks-de_a5fb57cc7cd8_small.png",
+    "sourceTags": [],
+    "sourceEventType": "hackathon"
+  },
+  {
+    "source": "mlh",
+    "sourceId": "01a1169b-c4ad-5d41-61cf-deccaa37655c",
+    "title": "HackEPS",
+    "description": "In-person MLH member hackathon in Lleida, Lleida, Spain.",
+    "url": "https://hackeps.dev/",
+    "startsAt": "2026-11-28T01:11:11+00:00",
+    "endsAt": "2026-11-29T23:59:59+00:00",
+    "timezone": "UTC",
+    "location": {
+      "online": false,
+      "name": "Lleida, Lleida, Spain",
+      "city": "Lleida",
+      "region": "Lleida, Spain",
+      "country": "ES"
+    },
+    "imageUrl": "https://mlhusercontent.com/backgrounds/events/01a1169b-c4ad-5d41-61cf-deccaa37655c/hackeps_4e50b8885d6c_medium.png",
+    "organizerLogoUrl": "https://mlhusercontent.com/logos/events/01a1169b-c4ad-5d41-61cf-deccaa37655c/hackeps_b26edb2823dd_small.png",
+    "sourceTags": [],
+    "sourceEventType": "hackathon"
+  },
+  {
+    "source": "mlh",
+    "sourceId": "01a0f9ea-d3be-e792-03f7-10f0e3db8e66",
+    "title": "HackSheffield11",
+    "description": "In-person MLH member hackathon in Sheffield, South Yorkshire.",
+    "url": "https://hacksheffield.uk/",
+    "startsAt": "2026-11-28T14:00:00+00:00",
+    "endsAt": "2026-11-29T22:00:00+00:00",
+    "timezone": "UTC",
+    "location": {
+      "online": false,
+      "name": "Sheffield, South Yorkshire",
+      "city": "Sheffield",
+      "region": "South Yorkshire",
+      "country": "GB"
+    },
+    "imageUrl": "https://mlhusercontent.com/backgrounds/events/01a0f9ea-d3be-e792-03f7-10f0e3db8e66/hacksheffield11_a068f63f9ef8_medium.png",
+    "organizerLogoUrl": "https://mlhusercontent.com/logos/events/01a0f9ea-d3be-e792-03f7-10f0e3db8e66/hacksheffield11_78365cd10b38_small.png",
+    "sourceTags": [
+      "Software"
+    ],
+    "sourceEventType": "hackathon"
+  },
+  {
+    "source": "mlh",
+    "sourceId": "01a16a32-e904-56ac-4c0e-37892fa37521",
+    "title": "Hack Cats",
+    "description": "In-person MLH member hackathon in Manhattan, Kansas.",
+    "url": "https://hackkstate.tech/",
+    "startsAt": "2026-12-04T22:00:00+00:00",
+    "endsAt": "2026-12-06T17:00:00+00:00",
+    "timezone": "UTC",
+    "location": {
+      "online": false,
+      "name": "Manhattan, Kansas",
+      "city": "Manhattan",
+      "region": "Kansas",
+      "country": "US"
+    },
+    "imageUrl": "https://mlhusercontent.com/backgrounds/events/01a16a32-e904-56ac-4c0e-37892fa37521/hack-cats-cd_424ae7b4b9a7_medium.png",
+    "organizerLogoUrl": "https://mlhusercontent.com/logos/events/01a16a32-e904-56ac-4c0e-37892fa37521/hack-cats-cd_45f101868eb3_small.png",
+    "sourceTags": [
+      "Software"
+    ],
+    "sourceEventType": "hackathon"
+  },
+  {
+    "source": "mlh",
+    "sourceId": "019ec393-69be-a63b-04c3-db014796cd27",
+    "title": "DeltaHacks",
+    "description": "In-person MLH member hackathon in Hamilton, Ontario.",
+    "url": "https://www.deltahacks.com/",
+    "startsAt": "2027-01-09T13:00:00+00:00",
+    "endsAt": "2027-01-10T22:00:00+00:00",
+    "timezone": "UTC",
+    "location": {
+      "online": false,
+      "name": "Hamilton, Ontario",
+      "city": "Hamilton",
+      "region": "Ontario",
+      "country": "CA"
+    },
+    "imageUrl": "https://mlhusercontent.com/backgrounds/events/019ec393-69be-a63b-04c3-db014796cd27/deltahacks-d5_98b7f1477ff4_medium.png",
+    "organizerLogoUrl": "https://mlhusercontent.com/logos/events/019ec393-69be-a63b-04c3-db014796cd27/deltahacks-d5_f8a2ff0c3b84_small.png",
+    "sourceTags": [],
+    "sourceEventType": "hackathon"
+  },
+  {
+    "source": "mlh",
+    "sourceId": "019ebdcf-0a9f-874f-6be7-bd6b1ec311be",
+    "title": "UofTHacks",
+    "description": "In-person MLH member hackathon in Toronto, Ontario.",
+    "url": "https://uofthacks.com/",
+    "startsAt": "2027-01-15T01:11:11+00:00",
+    "endsAt": "2027-01-17T23:59:59+00:00",
+    "timezone": "UTC",
+    "location": {
+      "online": false,
+      "name": "Toronto, Ontario",
+      "city": "Toronto",
+      "region": "Ontario",
+      "country": "CA"
+    },
+    "imageUrl": "https://mlhusercontent.com/backgrounds/events/019ebdcf-0a9f-874f-6be7-bd6b1ec311be/uofthacks-99_0ed9d302bbe0_medium.png",
+    "organizerLogoUrl": "https://mlhusercontent.com/logos/events/019ebdcf-0a9f-874f-6be7-bd6b1ec311be/uofthacks-99_b82bedbf893c_small.png",
+    "sourceTags": [],
+    "sourceEventType": "hackathon"
+  },
+  {
+    "source": "mlh",
+    "sourceId": "019efa0f-7a9a-554b-48cf-dfd63de84b85",
+    "title": "uOttaHack 9",
+    "description": "In-person MLH member hackathon in Ottawa, Ontario.",
+    "url": "https://2027.uottahack.ca/",
+    "startsAt": "2027-01-15T01:11:11+00:00",
+    "endsAt": "2027-01-17T23:59:59+00:00",
+    "timezone": "UTC",
+    "location": {
+      "online": false,
+      "name": "Ottawa, Ontario",
+      "city": "Ottawa",
+      "region": "Ontario",
+      "country": "CA"
+    },
+    "imageUrl": "https://mlhusercontent.com/backgrounds/events/019efa0f-7a9a-554b-48cf-dfd63de84b85/uottahack-9_eb579a5e79e9_medium.webp",
+    "organizerLogoUrl": "https://mlhusercontent.com/logos/events/019efa0f-7a9a-554b-48cf-dfd63de84b85/uottahack-9_f00be0da212f_small.webp",
+    "sourceTags": [],
+    "sourceEventType": "hackathon"
+  },
+  {
+    "source": "mlh",
+    "sourceId": "01a1315e-f6a6-dd0f-237b-3ecdf0027f3c",
+    "title": "QWER Hacks",
+    "description": "In-person MLH member hackathon in Los Angeles, CA.",
+    "url": "https://www.qwerhacks.com/",
+    "startsAt": "2027-01-16T01:11:11+00:00",
+    "endsAt": "2027-01-17T23:59:59+00:00",
+    "timezone": "UTC",
+    "location": {
+      "online": false,
+      "name": "Los Angeles, CA",
+      "city": "Los Angeles",
+      "region": "CA",
+      "country": "US"
+    },
+    "imageUrl": "https://mlhusercontent.com/backgrounds/events/01a1315e-f6a6-dd0f-237b-3ecdf0027f3c/qwer-hacks-12_cdc8a1cb0efd_medium.jpg",
+    "organizerLogoUrl": "https://mlhusercontent.com/logos/events/01a1315e-f6a6-dd0f-237b-3ecdf0027f3c/qwer-hacks-12_e0bf0bb78869_small.jpg",
+    "sourceTags": [],
+    "sourceEventType": "hackathon"
+  },
+  {
+    "source": "mlh",
+    "sourceId": "019ed5df-8f65-6d9c-3d59-c1ec15fbeff8",
+    "title": "nwHacks",
+    "description": "In-person MLH member hackathon in Vancouver, British Columbia.",
+    "url": "https://nwhacks.io/",
+    "startsAt": "2027-01-16T14:00:00+00:00",
+    "endsAt": "2027-01-17T23:00:00+00:00",
+    "timezone": "UTC",
+    "location": {
+      "online": false,
+      "name": "Vancouver, British Columbia",
+      "city": "Vancouver",
+      "region": "British Columbia",
+      "country": "CA"
+    },
+    "imageUrl": "https://mlhusercontent.com/backgrounds/events/019ed5df-8f65-6d9c-3d59-c1ec15fbeff8/nwhacks-29_314b488f62f1_medium.png",
+    "organizerLogoUrl": "https://mlhusercontent.com/logos/events/019ed5df-8f65-6d9c-3d59-c1ec15fbeff8/nwhacks-29_e93d6e14d5e0_small.png",
+    "sourceTags": [],
+    "sourceEventType": "hackathon"
+  },
+  {
+    "source": "mlh",
+    "sourceId": "01a19e3c-786a-47c1-3cc5-c28a9a8c4429",
+    "title": "HackBI X",
+    "description": "In-person MLH member hackathon in Alexandria, Virginia.",
+    "url": "https://hackbi.org/",
+    "startsAt": "2027-01-16T14:00:00+00:00",
+    "endsAt": "2027-01-17T16:30:00+00:00",
+    "timezone": "UTC",
+    "location": {
+      "online": false,
+      "name": "Alexandria, Virginia",
+      "city": "Alexandria",
+      "region": "Virginia",
+      "country": "US"
+    },
+    "imageUrl": "https://mlhusercontent.com/backgrounds/events/01a19e3c-786a-47c1-3cc5-c28a9a8c4429/hackbi-x_aee28ad7a1b6_medium.jpg",
+    "organizerLogoUrl": "https://mlhusercontent.com/logos/events/01a19e3c-786a-47c1-3cc5-c28a9a8c4429/hackbi-x_47e9818f85d9_small.png",
+    "sourceTags": [
+      "Software"
+    ],
+    "sourceEventType": "hackathon"
+  },
+  {
+    "source": "mlh",
+    "sourceId": "019eb85f-06b5-26a0-ef38-176d6b74e7c4",
+    "title": "Hoya Hacks",
+    "description": "In-person MLH member hackathon in Washington, DC.",
+    "url": "https://www.hoyahacks.com/",
+    "startsAt": "2027-01-22T22:00:00+00:00",
+    "endsAt": "2027-01-24T17:00:00+00:00",
+    "timezone": "UTC",
+    "location": {
+      "online": false,
+      "name": "Washington, DC",
+      "city": "Washington",
+      "region": "DC",
+      "country": "US"
+    },
+    "imageUrl": "https://mlhusercontent.com/backgrounds/events/019eb85f-06b5-26a0-ef38-176d6b74e7c4/hoya-hacks-39_580253204585_medium.png",
+    "organizerLogoUrl": "https://mlhusercontent.com/logos/events/019eb85f-06b5-26a0-ef38-176d6b74e7c4/hoya-hacks-39_1089d23f8f37_small.png",
+    "sourceTags": [],
+    "sourceEventType": "hackathon"
+  }
+]

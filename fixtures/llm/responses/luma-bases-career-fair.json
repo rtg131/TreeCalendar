@@ -1,0 +1,12 @@
+{
+  "slug": "luma-bases-career-fair",
+  "model": "openai/gpt-oss-20b",
+  "recordedAt": "2026-11-15T18:28:58.727Z",
+  "now": "2026-11-15T20:00:00.000Z",
+  "status": "ok",
+  "attempts": [
+    {
+      "content": "{\"events\":[{\"title\":\"BASES Startup Career Fair 2026\",\"startsAt\":\"2026-02-26T13:00\",\"endsAt\":\"2026-02-26T16:00\",\"timezone\":\"America/Los_Angeles\",\"venue\":\"Meyer Green\",\"address\":\"Escondido Mall, Stanford, CA 94305, USA\",\"online\":false,\"url\":\"https://luma.com/wgn5gx8t\",\"description\":\"Stanford's biggest startup recruiting event is here!\\nCompanies include: Mercor, Rox, Delve, Spectral Labs, Prime Intellect, Mem0, Sphere, Ironsite AI, Phinity, and others at the frontier of AI, spatial intelligence, biotech, robotics, infrastructure, and AI-native SaaS.\"}]}"
+    }
+  ]
+}

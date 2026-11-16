@@ -1,0 +1,194 @@
+[
+  {
+    "source": "ical",
+    "sourceId": "weekly-build-night@google.com#2026-11-18T02:30:00.000Z",
+    "title": "Weekly Build Night",
+    "description": "Bring a project, get unstuck, ship something. RSVP at https://example.org/build-night",
+    "url": "https://example.org/build-night",
+    "startsAt": "2026-11-17T18:30:00-08:00",
+    "endsAt": "2026-11-17T20:00:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "location": {
+      "online": false,
+      "address": "Hacker Dojo, 855 Maude Ave, Mountain View, CA 94043, USA",
+      "name": "Hacker Dojo"
+    }
+  },
+  {
+    "source": "ical",
+    "sourceId": "founder-fireside@google.com",
+    "title": "Founder Fireside",
+    "description": "Fireside chat with student founders.",
+    "url": "https://example.org/fireside",
+    "startsAt": "2026-11-18T18:00:00-08:00",
+    "endsAt": "2026-11-18T19:30:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "location": {
+      "online": false,
+      "address": "Soda Hall, Berkeley, CA 94720, USA",
+      "name": "Soda Hall"
+    }
+  },
+  {
+    "source": "ical",
+    "sourceId": "weekly-build-night@google.com#2026-12-02T02:30:00.000Z",
+    "title": "Weekly Build Night",
+    "description": "Bring a project, get unstuck, ship something. RSVP at https://example.org/build-night",
+    "url": "https://example.org/build-night",
+    "startsAt": "2026-12-01T18:30:00-08:00",
+    "endsAt": "2026-12-01T20:00:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "location": {
+      "online": false,
+      "address": "Hacker Dojo, 855 Maude Ave, Mountain View, CA 94043, USA",
+      "name": "Hacker Dojo"
+    }
+  },
+  {
+    "source": "ical",
+    "sourceId": "east-coast-webinar@google.com",
+    "title": "Accelerator Info Webinar",
+    "description": "Online info session.",
+    "url": "https://example.zoom.us/j/1234567890",
+    "startsAt": "2026-12-03T12:00:00-05:00",
+    "endsAt": "2026-12-03T13:00:00-05:00",
+    "timezone": "America/New_York",
+    "location": {
+      "online": true
+    }
+  },
+  {
+    "source": "ical",
+    "sourceId": "first-saturday-hack@google.com#2026-12-05T18:00:00.000Z",
+    "title": "First Saturday Hack Day",
+    "description": "Monthly one-day hackathon for students.",
+    "url": "https://calendar.google.com/calendar/ical/bay-area-builders/public/basic.ics",
+    "startsAt": "2026-12-05T10:00:00-08:00",
+    "endsAt": "2026-12-05T17:00:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "location": {
+      "online": false,
+      "address": "Stanford d.school, 416 Escondido Mall, Stanford, CA 94305, USA",
+      "name": "Stanford d.school"
+    }
+  },
+  {
+    "source": "ical",
+    "sourceId": "weekly-build-night@google.com#2026-12-09T02:30:00.000Z",
+    "title": "Weekly Build Night: Holiday Demos",
+    "description": "Holiday demo night edition. RSVP at https://example.org/build-night",
+    "url": "https://example.org/build-night",
+    "startsAt": "2026-12-08T19:00:00-08:00",
+    "endsAt": "2026-12-08T21:00:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "location": {
+      "online": false,
+      "address": "Computer History Museum, 1401 N Shoreline Blvd, Mountain View, CA 94043, USA",
+      "name": "Computer History Museum"
+    }
+  },
+  {
+    "source": "ical",
+    "sourceId": "weekly-build-night@google.com#2026-12-16T02:30:00.000Z",
+    "title": "Weekly Build Night",
+    "description": "Bring a project, get unstuck, ship something. RSVP at https://example.org/build-night",
+    "url": "https://example.org/build-night",
+    "startsAt": "2026-12-15T18:30:00-08:00",
+    "endsAt": "2026-12-15T20:00:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "location": {
+      "online": false,
+      "address": "Hacker Dojo, 855 Maude Ave, Mountain View, CA 94043, USA",
+      "name": "Hacker Dojo"
+    }
+  },
+  {
+    "source": "ical",
+    "sourceId": "winter-hackathon@google.com",
+    "title": "Winter Hackathon",
+    "description": "48-hour winter hackathon.",
+    "url": "https://calendar.google.com/calendar/ical/bay-area-builders/public/basic.ics",
+    "startsAt": "2026-12-19T00:00:00-08:00",
+    "endsAt": "2026-12-21T00:00:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "location": {
+      "online": false,
+      "address": "San Jose State University, San Jose, CA 95192, USA",
+      "name": "San Jose State University"
+    }
+  },
+  {
+    "source": "ical",
+    "sourceId": "weekly-build-night@google.com#2026-12-23T02:30:00.000Z",
+    "title": "Weekly Build Night",
+    "description": "Bring a project, get unstuck, ship something. RSVP at https://example.org/build-night",
+    "url": "https://example.org/build-night",
+    "startsAt": "2026-12-22T18:30:00-08:00",
+    "endsAt": "2026-12-22T20:00:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "location": {
+      "online": false,
+      "address": "Hacker Dojo, 855 Maude Ave, Mountain View, CA 94043, USA",
+      "name": "Hacker Dojo"
+    }
+  },
+  {
+    "source": "ical",
+    "sourceId": "first-saturday-hack@google.com#2027-01-02T18:00:00.000Z",
+    "title": "First Saturday Hack Day",
+    "description": "Monthly one-day hackathon for students.",
+    "url": "https://calendar.google.com/calendar/ical/bay-area-builders/public/basic.ics",
+    "startsAt": "2027-01-02T10:00:00-08:00",
+    "endsAt": "2027-01-02T17:00:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "location": {
+      "online": false,
+      "address": "Stanford d.school, 416 Escondido Mall, Stanford, CA 94305, USA",
+      "name": "Stanford d.school"
+    }
+  },
+  {
+    "source": "ical",
+    "sourceId": "weekly-build-night@google.com#2027-01-06T02:30:00.000Z",
+    "title": "Weekly Build Night",
+    "description": "Bring a project, get unstuck, ship something. RSVP at https://example.org/build-night",
+    "url": "https://example.org/build-night",
+    "startsAt": "2027-01-05T18:30:00-08:00",
+    "endsAt": "2027-01-05T20:00:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "location": {
+      "online": false,
+      "address": "Hacker Dojo, 855 Maude Ave, Mountain View, CA 94043, USA",
+      "name": "Hacker Dojo"
+    }
+  },
+  {
+    "source": "ical",
+    "sourceId": "weekly-build-night@google.com#2027-01-13T02:30:00.000Z",
+    "title": "Weekly Build Night",
+    "description": "Bring a project, get unstuck, ship something. RSVP at https://example.org/build-night",
+    "url": "https://example.org/build-night",
+    "startsAt": "2027-01-12T18:30:00-08:00",
+    "endsAt": "2027-01-12T20:00:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "location": {
+      "online": false,
+      "address": "Hacker Dojo, 855 Maude Ave, Mountain View, CA 94043, USA",
+      "name": "Hacker Dojo"
+    }
+  },
+  {
+    "source": "ical",
+    "sourceId": "spring-demo-day@google.com",
+    "title": "Spring Demo Day",
+    "description": "",
+    "url": "https://calendar.google.com/calendar/ical/bay-area-builders/public/basic.ics",
+    "startsAt": "2027-03-01T18:00:00-08:00",
+    "endsAt": "2027-03-01T20:00:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "location": {
+      "online": false,
+      "address": "Palo Alto, CA, USA"
+    }
+  }
+]

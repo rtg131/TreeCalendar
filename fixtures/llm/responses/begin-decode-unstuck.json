@@ -1,0 +1,12 @@
+{
+  "slug": "begin-decode-unstuck",
+  "model": "openai/gpt-oss-20b",
+  "recordedAt": "2026-11-15T18:31:12.229Z",
+  "now": "2026-11-15T20:00:00.000Z",
+  "status": "ok",
+  "attempts": [
+    {
+      "content": "{\"events\":[{\"title\":\"Unstuck Your Startup (DECODE Conference)\",\"startsAt\":\"2026-11-14T12:30\",\"endsAt\":\"2026-11-14T17:30\",\"timezone\":null,\"venue\":\"David Brower Center\",\"address\":\"2150 Allston Way, Berkeley\",\"online\":false,\"url\":\"https://begin.berkeley.edu/events/decode-unstuck-your-startup-2026\",\"description\":\"Bring your current blockers to DECODE Conference and work them on the spot with tech execs who have founded, funded, or advised a startup. Sold out in 2025.\"}]}"
+    }
+  ]
+}

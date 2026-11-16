@@ -1,0 +1,46 @@
+{
+  "a": {
+    "source": "devpost",
+    "sourceId": "29999",
+    "title": "Hack the Bay 2026",
+    "description": "In-person hackathon by Hack the Bay. $10,000 in prizes. Themes: AI, Climate. 312 registered.",
+    "url": "https://hack-the-bay-2026.devpost.com/",
+    "startsAt": "2026-12-05T09:00:00-08:00",
+    "endsAt": "2026-12-06T17:00:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "location": {
+      "online": false,
+      "name": "Martin Luther King Jr. Student Union",
+      "address": "2495 Bancroft Way, Berkeley, CA 94720, USA",
+      "city": "Berkeley",
+      "region": "California",
+      "country": "US"
+    },
+    "organizer": "Hack the Bay",
+    "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/hack-the-bay.png",
+    "sourceTags": [
+      "Machine Learning/AI",
+      "Climate"
+    ],
+    "sourceEventType": "hackathon"
+  },
+  "b": {
+    "source": "llm",
+    "sourceId": "https://berkeleystartupclub.org/events/hack-the-bay",
+    "title": "HACK THE BAY 2026!",
+    "description": "Berkeley Startup Club and Cal Hacks present Hack the Bay, our 24-hour student hackathon. Doors open at 10am, hacking starts at noon. Build with AI and climate data, pitch to a judging panel of founders and investors from Berkeley SkyDeck, and compete for $10k in prizes. Open to all college students; no experience needed.",
+    "url": "https://berkeleystartupclub.org/events/hack-the-bay",
+    "startsAt": "2026-12-05T10:00:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "location": {
+      "online": false,
+      "name": "MLK Student Union, UC Berkeley",
+      "city": "Berkeley"
+    },
+    "organizer": "Berkeley Startup Club",
+    "hosts": [
+      "Berkeley Startup Club",
+      "Cal Hacks"
+    ]
+  }
+}

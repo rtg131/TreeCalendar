@@ -1,0 +1,389 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Luma//OpenRouter Events//EN
+X-WR-CALNAME:OpenRouter Events
+X-WR-CALDESC:Luma Calendar
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTART:20260507T220000Z
+DTEND:20260508T000000Z
+DTSTAMP:20261115T181915Z
+ORGANIZER;CN="Neal Patel":MAILTO:calendar-invite@lu.ma
+UID:evt-vQCuIzYcmAHrysD@events.lu.ma
+SUMMARY:UC Berkeley × UCLA × USC × Stanford Startup Builders Happy Hour
+DESCRIPTION:Get up-to-date information at: https://luma.com/e7o85jl6\n\nAd
+ dress:\nCheck event page for more details.\n\nHosted by Neal Patel & 3 oth
+ ers
+LOCATION:https://luma.com/event/evt-vQCuIzYcmAHrysD
+GEO:40.727360734735356;-73.99849250279803
+SEQUENCE:216929955
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260630T020000Z
+DTEND:20260630T050000Z
+DTSTAMP:20261115T181915Z
+ORGANIZER;CN="Lynn Composio":MAILTO:calendar-invite@lu.ma
+UID:evt-0h5I9tvMJR31soc@events.lu.ma
+SUMMARY:THE AI Engineer Afterparty
+DESCRIPTION:Get up-to-date information at: https://luma.com/composio-lh5g
+ \n\nAddress:\nCheck event page for more details.\n\nHosted by Lynn Composi
+ o & 11 others
+LOCATION:https://luma.com/event/evt-0h5I9tvMJR31soc
+GEO:37.786035538433396;-122.40382135961364
+SEQUENCE:216929955
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260704T080000Z
+DTEND:20260704T170000Z
+DTSTAMP:20261115T181915Z
+ORGANIZER;CN="Londonmaxxing":MAILTO:calendar-invite@lu.ma
+UID:evt-uPfKbzkU2G1mS8f@events.lu.ma
+SUMMARY:Londonmaxxing 003: Maxxing London Hackathon
+DESCRIPTION:Get up-to-date information at: https://luma.com/maxxing-london
+ \n\nAddress:\nRamen Space\nLondon, United Kingdom\n\nHosted by Londonmaxxi
+ ng & 13 others
+LOCATION:Ramen Space, Unit 6, Sledge Tower, Dalston Square, London E8 3GP,
+  UK
+GEO:51.5451975;-0.0748505
+SEQUENCE:216929955
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260715T003000Z
+DTEND:20260715T033000Z
+DTSTAMP:20261115T181915Z
+ORGANIZER;CN="OpenRouter":MAILTO:calendar-invite@lu.ma
+UID:evt-sNxBXVrPGBtwrh0@events.lu.ma
+SUMMARY:Rethinking Token Economics: A Conversation with Deedy Das (Menlo V
+ entures) & Shashank Goyal (OpenRouter)
+DESCRIPTION:Get up-to-date information at: https://luma.com/openro-kwy3\n
+ \nAddress:\nCheck event page for more details.\n\nHosted by OpenRouter
+LOCATION:https://luma.com/event/evt-sNxBXVrPGBtwrh0
+GEO:37.78912168708755;-122.39551380720397
+SEQUENCE:216929955
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260728T180000Z
+DTEND:20260728T190000Z
+DTSTAMP:20261115T181915Z
+ORGANIZER;CN="OpenRouter":MAILTO:calendar-invite@lu.ma
+UID:evt-fBjYBB4IrMUyZcE@events.lu.ma
+SUMMARY:Uptime & Cost Control in a Chaotic Model Environment
+DESCRIPTION:Get up-to-date information at: https://luma.com/openro-z3l2\n
+ \nHosted by OpenRouter
+LOCATION:https://luma.com/event/evt-fBjYBB4IrMUyZcE
+SEQUENCE:216929955
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260813T003000Z
+DTEND:20260813T033000Z
+DTSTAMP:20261115T181915Z
+ORGANIZER;CN="Dasha Shunina":MAILTO:calendar-invite@lu.ma
+UID:evt-VpG8u2y884pBVsK@events.lu.ma
+SUMMARY:Best Move Club: Chess Community Event Series
+DESCRIPTION:Get up-to-date information at: https://luma.com/openro-y6oq\n
+ \nAddress:\nCheck event page for more details.\n\nHosted by Dasha Shunina 
+ & OpenRouter
+LOCATION:https://luma.com/event/evt-VpG8u2y884pBVsK
+GEO:37.7870424205103;-122.40321501312938
+SEQUENCE:216929955
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260818T170000Z
+DTEND:20260818T180000Z
+DTSTAMP:20261115T181915Z
+ORGANIZER;CN="OpenRouter":MAILTO:calendar-invite@lu.ma
+UID:evt-vUt94arRrGMTTnl@events.lu.ma
+SUMMARY:Cut Your AI Bill Without Cutting Quality
+DESCRIPTION:Get up-to-date information at: https://luma.com/openro-1xd5\n
+ \nHosted by OpenRouter
+LOCATION:https://luma.com/event/evt-vUt94arRrGMTTnl
+SEQUENCE:216929955
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260820T220000Z
+DTEND:20260821T010000Z
+DTSTAMP:20261115T181915Z
+ORGANIZER;CN="Together AI":MAILTO:calendar-invite@lu.ma
+UID:evt-DE1g8fV7UkWAnvB@events.lu.ma
+SUMMARY:Open Models NYC | Together AI × OpenRouter
+DESCRIPTION:Get up-to-date information at: https://luma.com/pl30d8pc\n\nAd
+ dress:\nCheck event page for more details.\n\nHosted by Together AI & Open
+ Router
+LOCATION:https://luma.com/event/evt-DE1g8fV7UkWAnvB
+GEO:40.75136788250009;-74.00345833625421
+SEQUENCE:216929955
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260828T003000Z
+DTEND:20260828T033000Z
+DTSTAMP:20261115T181915Z
+ORGANIZER;CN="OpenRouter":MAILTO:calendar-invite@lu.ma
+UID:evt-HzkaQUbT9iMzckG@events.lu.ma
+SUMMARY:Who Will Own The Intelligence Layer?
+DESCRIPTION:Get up-to-date information at: https://luma.com/openro-3qtx\n
+ \nAddress:\nCheck event page for more details.\n\nHosted by OpenRouter
+LOCATION:https://luma.com/event/evt-HzkaQUbT9iMzckG
+GEO:37.794566775865135;-122.39529084861343
+SEQUENCE:216929955
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260910T010000Z
+DTEND:20260910T030000Z
+DTSTAMP:20261115T181915Z
+ORGANIZER;CN="OpenRouter":MAILTO:calendar-invite@lu.ma
+UID:evt-gSqCRnttw8SUrGu@events.lu.ma
+SUMMARY:In Production by OpenRouter
+DESCRIPTION:Get up-to-date information at: https://luma.com/openro-8qy3\n
+ \nAddress:\nCheck event page for more details.\n\nHosted by OpenRouter
+LOCATION:https://luma.com/event/evt-gSqCRnttw8SUrGu
+GEO:37.795782503248454;-122.39170053080232
+SEQUENCE:216929955
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260915T160000Z
+DTEND:20260915T190000Z
+DTSTAMP:20261115T181915Z
+ORGANIZER;CN="OpenRouter":MAILTO:calendar-invite@lu.ma
+UID:evt-UuTok8C7pDZGjbC@events.lu.ma
+SUMMARY:Breakfast & Coffee
+DESCRIPTION:Get up-to-date information at: https://luma.com/openro-6w7m\n
+ \nAddress:\nCheck event page for more details.\n\nHosted by OpenRouter
+LOCATION:https://luma.com/event/evt-UuTok8C7pDZGjbC
+GEO:37.79141707570595;-122.40359830460156
+SEQUENCE:216929955
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260916T170000Z
+DTEND:20260916T180000Z
+DTSTAMP:20261115T181915Z
+ORGANIZER;CN="OpenRouter":MAILTO:calendar-invite@lu.ma
+UID:evt-kKV5p9YWC5GIV9Z@events.lu.ma
+SUMMARY:Model Selection: When Should a Router Decide for You?
+DESCRIPTION:Get up-to-date information at: https://luma.com/openro-4o3x\n
+ \nHosted by OpenRouter
+LOCATION:https://luma.com/event/evt-kKV5p9YWC5GIV9Z
+SEQUENCE:216929955
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260918T003000Z
+DTEND:20260918T033000Z
+DTSTAMP:20261115T181915Z
+ORGANIZER;CN="OpenRouter":MAILTO:calendar-invite@lu.ma
+UID:evt-6gxX9d7ZUC0FIEE@events.lu.ma
+SUMMARY:Best Move Club: Chess Community Event Series
+DESCRIPTION:Get up-to-date information at: https://luma.com/5aijb3kb\n\nAd
+ dress:\nCheck event page for more details.\n\nHosted by OpenRouter
+LOCATION:https://luma.com/event/evt-6gxX9d7ZUC0FIEE
+GEO:37.78920791377962;-122.40029902406565
+SEQUENCE:216929955
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260918T190000Z
+DTEND:20260918T210000Z
+DTSTAMP:20261115T181915Z
+ORGANIZER;CN="OpenRouter":MAILTO:calendar-invite@lu.ma
+UID:evt-j9CjWxQgbQHr2I5@events.lu.ma
+SUMMARY:The New Model Dilemma: Should You Switch?
+DESCRIPTION:Get up-to-date information at: https://luma.com/openro-kcis\n
+ \nAddress:\nCheck event page for more details.\n\nHosted by OpenRouter
+LOCATION:https://luma.com/event/evt-j9CjWxQgbQHr2I5
+GEO:37.78179814715277;-122.39255344344093
+SEQUENCE:216929955
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261001T003000Z
+DTEND:20261001T033000Z
+DTSTAMP:20261115T181915Z
+ORGANIZER;CN="OpenRouter":MAILTO:calendar-invite@lu.ma
+UID:evt-YUXj40WxzAttDXn@events.lu.ma
+SUMMARY:How AI Models Learn to Do Real Work
+DESCRIPTION:Get up-to-date information at: https://luma.com/icar7u2x\n\nAd
+ dress:\nCheck event page for more details.\n\nHosted by OpenRouter
+LOCATION:https://luma.com/event/evt-YUXj40WxzAttDXn
+GEO:37.7892794984569;-122.40341881710792
+SEQUENCE:216929955
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261007T003000Z
+DTEND:20261007T033000Z
+DTSTAMP:20261115T181915Z
+ORGANIZER;CN="OpenRouter":MAILTO:calendar-invite@lu.ma
+UID:calev-uu4CkTjsRScUsvH@events.lu.ma
+SUMMARY:State of Models - #SFTechWeek
+DESCRIPTION:Find more information on https://luma.com/openrouter
+LOCATION:https://partiful.com/e/eTTiAwr4mf8SdDKsj6CR
+GEO:37.7948167;-122.397348
+SEQUENCE:216929955
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261007T160000Z
+DTEND:20261008T010000Z
+DTSTAMP:20261115T181915Z
+ORGANIZER;CN="OpenRouter Events":MAILTO:calendar-invite@lu.ma
+UID:calev-7o4yOB4IgjhvKEI@events.lu.ma
+SUMMARY:Recharge with OpenRouter - # SF TechWeek
+DESCRIPTION:Find more information on https://luma.com/openrouter
+LOCATION:https://partiful.com/e/ROEiX8DAAnnWoevDCezK
+SEQUENCE:216929955
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261014T170000Z
+DTEND:20261014T180000Z
+DTSTAMP:20261115T181915Z
+ORGANIZER;CN="OpenRouter":MAILTO:calendar-invite@lu.ma
+UID:evt-rE4lJtbxhl4YTGJ@events.lu.ma
+SUMMARY:Building AI That Doesn't Break: Fallbacks, Rate Limits & Reliabili
+ ty
+DESCRIPTION:Get up-to-date information at: https://luma.com/hv8nyaoj\n\nHo
+ sted by OpenRouter
+LOCATION:https://luma.com/event/evt-rE4lJtbxhl4YTGJ
+SEQUENCE:216929955
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261015T010000Z
+DTEND:20261015T033000Z
+DTSTAMP:20261115T181915Z
+ORGANIZER;CN="OpenRouter":MAILTO:calendar-invite@lu.ma
+UID:evt-elfadbLlxmaUXhz@events.lu.ma
+SUMMARY:Best Move Club: Chess Community Event Series
+DESCRIPTION:Get up-to-date information at: https://luma.com/r61stqxc\n\nAd
+ dress:\nCheck event page for more details.\n\nHosted by OpenRouter
+LOCATION:https://luma.com/event/evt-elfadbLlxmaUXhz
+GEO:37.78721038391555;-122.40132333122932
+SEQUENCE:216929955
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261028T003000Z
+DTEND:20261028T033000Z
+DTSTAMP:20261115T181915Z
+ORGANIZER;CN="OpenRouter":MAILTO:calendar-invite@lu.ma
+UID:evt-TAjWBGHDrZT7ugr@events.lu.ma
+SUMMARY:Who Controls the Future of AI Coding?
+DESCRIPTION:Get up-to-date information at: https://luma.com/dtzhn1ux\n\nAd
+ dress:\nCheck event page for more details.\n\nHosted by OpenRouter
+LOCATION:https://luma.com/event/evt-TAjWBGHDrZT7ugr
+GEO:37.79380266406071;-122.39580145941986
+SEQUENCE:216929955
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261029T160000Z
+DTEND:20261029T170000Z
+DTSTAMP:20261115T181915Z
+ORGANIZER;CN="Dasha Shunina":MAILTO:calendar-invite@lu.ma
+UID:evt-j2NRLlEqKuQgDpd@events.lu.ma
+SUMMARY:OpenRouter x ElevenLabs: Live-casting an LLM Battle Royale
+DESCRIPTION:Get up-to-date information at: https://luma.com/openro-wiio\n
+ \nHosted by Dasha Shunina
+LOCATION:https://luma.com/event/evt-j2NRLlEqKuQgDpd
+SEQUENCE:216929955
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261110T013000Z
+DTEND:20261110T043000Z
+DTSTAMP:20261115T181915Z
+ORGANIZER;CN="OpenRouter":MAILTO:calendar-invite@lu.ma
+UID:evt-rHsW01TbVlWcu5h@events.lu.ma
+SUMMARY:Build Day: OpenRouter x Meta
+DESCRIPTION:Get up-to-date information at: https://luma.com/openro-lu9g\n
+ \nAddress:\nCheck event page for more details.\n\nHosted by OpenRouter
+LOCATION:https://luma.com/event/evt-rHsW01TbVlWcu5h
+GEO:37.79475711874529;-122.39248043213138
+SEQUENCE:216929955
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261118T013000Z
+DTEND:20261118T040000Z
+DTSTAMP:20261115T181915Z
+ORGANIZER;CN="Dasha Shunina":MAILTO:calendar-invite@lu.ma
+UID:evt-gHhBLNIv4jp92IX@events.lu.ma
+SUMMARY:In Production: OpenRouter x ElevenLabs
+DESCRIPTION:Get up-to-date information at: https://luma.com/wvw8xwsi\n\nAd
+ dress:\nCheck event page for more details.\n\nHosted by Dasha Shunina, Ope
+ nRouter & Jonathan Chang
+LOCATION:https://luma.com/event/evt-gHhBLNIv4jp92IX
+GEO:37.788622311472785;-122.40552851084097
+SEQUENCE:216929955
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261118T180000Z
+DTEND:20261118T190000Z
+DTSTAMP:20261115T181915Z
+ORGANIZER;CN="Dasha Shunina":MAILTO:calendar-invite@lu.ma
+UID:evt-f897Rh7OqUeulMv@events.lu.ma
+SUMMARY:Cheapest Isn’t Best: How We Rebuilt Provider Routing
+DESCRIPTION:Get up-to-date information at: https://luma.com/j2m3ly7c\n\nHo
+ sted by Dasha Shunina
+LOCATION:https://luma.com/event/evt-f897Rh7OqUeulMv
+SEQUENCE:216929955
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261119T020000Z
+DTEND:20261119T043000Z
+DTSTAMP:20261115T181915Z
+ORGANIZER;CN="OpenRouter":MAILTO:calendar-invite@lu.ma
+UID:evt-jeaYt028SDQcR86@events.lu.ma
+SUMMARY:Best Move Club: Chess Community Event Series
+DESCRIPTION:Get up-to-date information at: https://luma.com/uq9xqfaf\n\nAd
+ dress:\nCheck event page for more details.\n\nHosted by OpenRouter
+LOCATION:https://luma.com/event/evt-jeaYt028SDQcR86
+GEO:37.79034067763347;-122.40356236471928
+SEQUENCE:216929955
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261202T170000Z
+DTEND:20261202T190000Z
+DTSTAMP:20261115T181915Z
+ORGANIZER;CN="Dasha Shunina":MAILTO:calendar-invite@lu.ma
+UID:evt-s5LlrVThqIV1Ce7@events.lu.ma
+SUMMARY:Lunch & Learn: OpenRouter x Antler
+DESCRIPTION:Get up-to-date information at: https://luma.com/openro-0n8z\n
+ \nAddress:\nCheck event page for more details.\n\nHosted by Dasha Shunina,
+  OpenRouter & Kaila J. Lim
+LOCATION:https://luma.com/event/evt-s5LlrVThqIV1Ce7
+GEO:40.739271956343195;-73.9914783106424
+SEQUENCE:216929955
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261203T223000Z
+DTEND:20261204T013000Z
+DTSTAMP:20261115T181915Z
+ORGANIZER;CN="OpenRouter":MAILTO:calendar-invite@lu.ma
+UID:evt-zAqj6otQBzV3xKI@events.lu.ma
+SUMMARY:Can AI Learn Without Humans?
+DESCRIPTION:Get up-to-date information at: https://luma.com/12xc9wku\n\nAd
+ dress:\nCheck event page for more details.\n\nHosted by OpenRouter
+LOCATION:https://luma.com/event/evt-zAqj6otQBzV3xKI
+GEO:40.74501947160206;-73.99012607482224
+SEQUENCE:216929955
+STATUS:TENTATIVE
+END:VEVENT
+END:VCALENDAR

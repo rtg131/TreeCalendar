@@ -1,0 +1,14 @@
+{
+  "url": "https://treehacks.com/",
+  "events": [
+    {
+      "title": "TreeHacks 2027",
+      "startsAt": "2027-02-12",
+      "endsAt": "2027-02-14",
+      "location": "Stanford's campus",
+      "url": "https://treehacks.com/",
+      "description": "TreeHacks is Stanford's premier hackathon. We fly out the world's most talented builders to Stanford, where they create products that tackle humanity's toughest challenges in just 36 hours."
+    }
+  ],
+  "notes": "Date-only ('Feb 12 - 14 · 2027'); location only stated in the FAQ ('on Stanford's campus')."
+}

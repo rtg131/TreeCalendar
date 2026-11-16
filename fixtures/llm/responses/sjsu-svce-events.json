@@ -1,0 +1,12 @@
+{
+  "slug": "sjsu-svce-events",
+  "model": "openai/gpt-oss-20b",
+  "recordedAt": "2026-11-15T18:34:12.769Z",
+  "now": "2026-11-15T20:00:00.000Z",
+  "status": "ok",
+  "attempts": [
+    {
+      "content": "{\"events\":[{\"title\":\"Entrepreneurship in the Age of AI: Toughness, Heart and Human Connection\",\"startsAt\":\"2026-09-14T18:00\",\"endsAt\":\"2026-09-14T19:00\",\"timezone\":null,\"venue\":\"SJSU Student Union Theater\",\"address\":null,\"online\":false,\"url\":\"https://www.sjsu.edu/svce/events/index.php\",\"description\":null},{\"title\":\"The Nuts & Bolts of Entrepreneurship\",\"startsAt\":\"2026-03-16T18:00\",\"endsAt\":\"2026-03-16T19:00\",\"timezone\":null,\"venue\":\"SJSU Student Union Theater\",\"address\":null,\"online\":false,\"url\":\"https://www.sjsu.edu/svce/events/index.php\",\"description\":null},{\"title\":\"Pushing Boundaries: An Entrepreneur's Journey\",\"startsAt\":\"2026-02-16T18:00\",\"endsAt\":\"2026-02-16T19:00\",\"timezone\":null,\"venue\":\"SJSU Student Union Theater\",\"address\":null,\"online\":false,\"url\":\"https://www.sjsu.edu/svce/events/index.php\",\"description\":null},{\"title\":\"SJSU Lucas College of Business Entrepreneurial Ecosystem Launch\",\"startsAt\":\"2026-02-12T16:00\",\"endsAt\":\"2026-02-12T18:00\",\"timezone\":null,\"venue\":\"SJSU Student Union Ballroom C\",\"address\":null,\"online\":false,\"url\":\"https://www.sjsu.edu/svce/events/index.php\",\"description\":null}]}"
+    }
+  ]
+}

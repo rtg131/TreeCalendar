@@ -1,0 +1,32 @@
+# Revyl Test Definition
+
+_meta:
+    remote_id: 8053ec24-10d1-410d-be37-7ca9b76a2aa3
+    remote_version: 3
+    local_version: 3
+    last_synced_at: "2026-11-15T19:01:07Z"
+    checksum: 0dfddc3a355b07f6edfbacf27284e07adfb2921a248b79ad0c42f8453b2c7f73
+test:
+    metadata:
+        name: feed-filters
+        platform: ios
+        tags:
+            - e2e
+            - student
+    build:
+        name: Scout iOS
+    blocks:
+        - type: module_import
+          module: onboard-student
+        - type: instructions
+          step_description: Tap the "Investors likely" filter chip.
+        - type: validation
+          step_description: The "Investors likely" chip is selected, and every event card in the list shows an "Investors likely" badge.
+        - type: instructions
+          step_description: Tap the "This week" filter chip.
+        - type: validation
+          step_description: The "This week" chip is selected, and the list shows either event cards dated within the next seven days or a "Nothing matches this filter" message.
+        - type: instructions
+          step_description: Tap the "All" filter chip.
+        - type: validation
+          step_description: The "All" chip is selected and the feed lists at least three event cards.

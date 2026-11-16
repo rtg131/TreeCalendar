@@ -1,0 +1,55 @@
+{
+  "url": "https://innovation.ucsf.edu/about/events",
+  "maxEvents": 6,
+  "events": [
+    {
+      "title": "AI in Drug Discovery and the Life Sciences: IP and Legal Essentials Part 6",
+      "startsAt": "2026-04-08T16:00:00-07:00",
+      "endsAt": "2026-04-08T17:00:00-07:00",
+      "location": null,
+      "url": "https://innovation.ucsf.edu/about/events/ai-drug-discovery-and-life-sciences-ip-and-legal-essentials-part-6",
+      "description": null
+    },
+    {
+      "title": "UCSF NSF I-Corps April 2026 Course",
+      "startsAt": "2026-04-01T17:00:00-07:00",
+      "endsAt": "2026-04-01T20:00:00-07:00",
+      "location": null,
+      "url": "https://innovation.ucsf.edu/about/events/ucsf-nsf-i-corps-april-2026-course",
+      "description": null
+    },
+    {
+      "title": "AI in Drug Discovery and the Life Sciences: IP and Legal Essentials Part 5",
+      "startsAt": "2026-04-01T16:00:00-07:00",
+      "endsAt": "2026-04-01T17:00:00-07:00",
+      "location": null,
+      "url": "https://innovation.ucsf.edu/about/events/ai-drug-discovery-and-life-sciences-ip-and-legal-essentials-part-5",
+      "description": null
+    },
+    {
+      "title": "2026 Catalyst Pitch Finals",
+      "startsAt": "2026-03-30T11:00:00-07:00",
+      "endsAt": "2026-03-30T20:00:00-07:00",
+      "location": null,
+      "url": "https://innovation.ucsf.edu/about/events/2026-catalyst-pitch-finals",
+      "description": null
+    },
+    {
+      "title": "AI in Drug Discovery and the Life Sciences: IP and Legal Essentials Part 4",
+      "startsAt": "2026-03-25T16:00:00-07:00",
+      "endsAt": "2026-03-25T17:00:00-07:00",
+      "location": null,
+      "url": "https://innovation.ucsf.edu/about/events/ai-drug-discovery-and-life-sciences-ip-and-legal-essentials-part-4",
+      "description": null
+    },
+    {
+      "title": "Demystifying Strategic Partnerships",
+      "startsAt": "2026-03-24T16:00:00-07:00",
+      "endsAt": "2026-03-24T18:00:00-07:00",
+      "location": null,
+      "url": "https://innovation.ucsf.edu/about/events/demystifying-strategic-partnerships",
+      "description": null
+    }
+  ],
+  "notes": "'PREVIOUS EVENTS' listing with no years and compact times ('4 - 5PM', '11 - 8PM' = 11 AM–8 PM). Years inferred as 2026 (most recent past occurrence before 2026-11-15; weekdays match). The list has 15 items reaching back to 2018; first 6 labeled."
+}

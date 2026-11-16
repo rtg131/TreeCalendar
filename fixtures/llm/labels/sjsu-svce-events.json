@@ -1,0 +1,38 @@
+{
+  "url": "https://www.sjsu.edu/svce/events/index.php",
+  "events": [
+    {
+      "title": "Entrepreneurship in the Age of AI: Toughness, Heart and Human Connection",
+      "startsAt": "2026-09-14T18:00:00-07:00",
+      "endsAt": "2026-09-14T19:00:00-07:00",
+      "location": "SJSU Student Union Theater",
+      "url": "https://www.sjsu.edu/svce/events/index.php",
+      "description": null
+    },
+    {
+      "title": "The Nuts & Bolts of Entrepreneurship",
+      "startsAt": "2026-03-16T18:00:00-07:00",
+      "endsAt": "2026-03-16T19:00:00-07:00",
+      "location": "SJSU Student Union Theater",
+      "url": "https://www.sjsu.edu/svce/events/index.php",
+      "description": null
+    },
+    {
+      "title": "Pushing Boundaries: An Entrepreneur's Journey",
+      "startsAt": "2026-02-16T18:00:00-08:00",
+      "endsAt": "2026-02-16T19:00:00-08:00",
+      "location": "SJSU Student Union Theater",
+      "url": "https://www.sjsu.edu/svce/events/index.php",
+      "description": null
+    },
+    {
+      "title": "SJSU Lucas College of Business Entrepreneurial Ecosystem Launch",
+      "startsAt": "2026-02-12T16:00:00-08:00",
+      "endsAt": "2026-02-12T18:00:00-08:00",
+      "location": "SJSU Student Union Ballroom C",
+      "url": "https://www.sjsu.edu/svce/events/index.php",
+      "description": null
+    }
+  ],
+  "notes": "Entries have speaker bios but no event description; only registration form links, so url is the page url. Mar 16 is PDT, Feb dates PST."
+}

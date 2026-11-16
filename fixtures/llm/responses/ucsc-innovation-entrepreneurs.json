@@ -1,0 +1,12 @@
+{
+  "slug": "ucsc-innovation-entrepreneurs",
+  "model": "openai/gpt-oss-20b",
+  "recordedAt": "2026-11-15T19:12:59.329Z",
+  "now": "2026-11-15T20:00:00.000Z",
+  "status": "ok",
+  "attempts": [
+    {
+      "content": "{\"events\": []}"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+[
+  {
+    "source": "ical",
+    "sourceId": "venue-0@example.org",
+    "title": "Venue case 0",
+    "description": "",
+    "url": "https://example.org/venue-0",
+    "startsAt": "2026-11-19T18:00:00-08:00",
+    "endsAt": "2026-11-19T20:00:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "location": {
+      "online": false,
+      "address": "Frontier Tower, 995 Market St, San Francisco, CA 94103",
+      "name": "Frontier Tower"
+    }
+  },
+  {
+    "source": "ical",
+    "sourceId": "venue-1@example.org",
+    "title": "Venue case 1",
+    "description": "",
+    "url": "https://example.org/venue-1",
+    "startsAt": "2026-11-20T18:00:00-08:00",
+    "endsAt": "2026-11-20T20:00:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "location": {
+      "online": false,
+      "address": "855 Maude Ave, Mountain View, CA 94043"
+    }
+  },
+  {
+    "source": "ical",
+    "sourceId": "venue-2@example.org",
+    "title": "Venue case 2",
+    "description": "",
+    "url": "https://example.org/venue-2",
+    "startsAt": "2026-11-21T18:00:00-08:00",
+    "endsAt": "2026-11-21T20:00:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "location": {
+      "online": false,
+      "address": "San Francisco, CA"
+    }
+  },
+  {
+    "source": "ical",
+    "sourceId": "venue-3@example.org",
+    "title": "Venue case 3",
+    "description": "",
+    "url": "https://example.org/venue-3",
+    "startsAt": "2026-11-22T18:00:00-08:00",
+    "endsAt": "2026-11-22T20:00:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "location": {
+      "online": false,
+      "address": "Seattle, WA"
+    }
+  },
+  {
+    "source": "ical",
+    "sourceId": "venue-4@example.org",
+    "title": "Venue case 4",
+    "description": "",
+    "url": "https://example.org/venue-4",
+    "startsAt": "2026-11-23T18:00:00-08:00",
+    "endsAt": "2026-11-23T20:00:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "location": {
+      "online": false,
+      "address": "Hohbach Hall",
+      "name": "Hohbach Hall"
+    }
+  },
+  {
+    "source": "ical",
+    "sourceId": "venue-5@example.org",
+    "title": "Venue case 5",
+    "description": "",
+    "url": "https://example.org/venue-5",
+    "startsAt": "2026-11-24T18:00:00-08:00",
+    "endsAt": "2026-11-24T20:00:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "location": {
+      "online": false,
+      "address": "Mission Bay Conference Center",
+      "name": "Mission Bay Conference Center"
+    }
+  },
+  {
+    "source": "ical",
+    "sourceId": "venue-6@example.org",
+    "title": "Venue case 6",
+    "description": "",
+    "url": "https://example.org/venue-6",
+    "startsAt": "2026-11-25T18:00:00-08:00",
+    "endsAt": "2026-11-25T20:00:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "location": {
+      "online": false,
+      "address": "Suite 400, 1 Market St, San Francisco"
+    }
+  },
+  {
+    "source": "ical",
+    "sourceId": "venue-7@example.org",
+    "title": "Venue case 7",
+    "description": "",
+    "url": "https://example.org/venue-7",
+    "startsAt": "2026-11-26T18:00:00-08:00",
+    "endsAt": "2026-11-26T20:00:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "location": {
+      "online": false,
+      "address": "Palo Alto"
+    }
+  }
+]

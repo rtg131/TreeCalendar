@@ -1,0 +1,1580 @@
+{
+  "events": [
+    {
+      "name": {
+        "text": "Tech Weekend Nov 19–20 | Founder-VC Matchmaking & Pitch Competitions"
+      },
+      "description": {
+        "text": "A 48-hour fundraising sprint where pre-seed to Series A founders meet investors in back to back meetings."
+      },
+      "url": "https://www.eventbrite.com/e/tech-weekend-nov-1920-founder-vc-matchmaking-pitch-competitions-tickets-2001035009580",
+      "vanity_url": "https://TWNov26.eventbrite.com",
+      "start": {
+        "timezone": "America/Los_Angeles",
+        "utc": "2026-11-19T17:00:00Z",
+        "local": "2026-11-19T09:00:00"
+      },
+      "end": {
+        "timezone": "America/Los_Angeles",
+        "utc": "2026-11-21T04:00:00Z",
+        "local": "2026-11-20T20:00:00"
+      },
+      "organization_id": "321112036139",
+      "created": "2026-09-15T04:27:56Z",
+      "changed": "2026-11-13T15:24:33Z",
+      "published": "2026-09-15T11:00:27Z",
+      "capacity": null,
+      "capacity_is_custom": null,
+      "status": "live",
+      "currency": "USD",
+      "listed": true,
+      "shareable": true,
+      "online_event": false,
+      "tx_time_limit": 3600,
+      "hide_start_date": false,
+      "hide_end_date": false,
+      "locale": "en_US",
+      "is_locked": false,
+      "privacy_setting": "unlocked",
+      "is_series": false,
+      "is_series_parent": false,
+      "inventory_type": "limited",
+      "is_reserved_seating": false,
+      "show_pick_a_seat": false,
+      "show_seatmap_thumbnail": false,
+      "show_colors_in_seatmap_thumbnail": false,
+      "source": "coyote",
+      "is_free": false,
+      "version": null,
+      "summary": "A 48-hour fundraising sprint where pre-seed to Series A founders meet investors in back to back meetings.",
+      "facebook_event_id": null,
+      "logo_id": "1193522751",
+      "organizer_id": "32506722299",
+      "venue_id": "299430166",
+      "category_id": "101",
+      "subcategory_id": "1001",
+      "format_id": "1",
+      "id": "2001035009580",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/2001035009580/",
+      "is_externally_ticketed": false,
+      "logo": {
+        "crop_mask": null,
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193522751%2F321112036139%2F1%2Foriginal.20260915-042856?auto=format%2Ccompress&q=75&sharp=10&s=1ea6087f086d6fdf29480565143da51e",
+          "width": 2000,
+          "height": 992
+        },
+        "id": "1193522751",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193522751%2F321112036139%2F1%2Foriginal.20260915-042856?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4acdb86a916e86f53398cc4318e6eb8e",
+        "aspect_ratio": "2.015",
+        "edge_color": "#111617",
+        "edge_color_set": true
+      },
+      "organizer": {
+        "description": {
+          "text": "Founders Villageis a San Francisco–based startup community that connects early-stage tech founders with investors, mentors, and partners. At its core, it's a space where founders meet other founders, investors, pitch, share resources, and learn from each other in a focused, close-knit environment.Tech Weekend is our flagship event series — hosted every 6–8 weeks in San Francisco. It brings together 100+ technical founders and 50–75 venture capitalists for three days of 1:1 investor meetings, live pitch competitions, panels on market trends, and private VC dinners.To date, we’ve hosted thousands of founders and welcomed VCs from firms like Khosla Ventures, LG Technology Ventures, Samsung Ventures, General Catalyst and many more. Whether you’re actively raising or looking to surround yourself with the right people — Founders Village exists to accelerate your path forward.InstagramLinkedInTwitter"
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/organizers/32506722299/",
+        "_type": "organizer",
+        "id": "32506722299",
+        "name": "Founders Village",
+        "url": "https://www.eventbrite.com/o/founders-village-32506722299",
+        "num_past_events": 0,
+        "num_future_events": 0,
+        "website": "https://www.foundersvillage.co/",
+        "twitter": "foundersvillge",
+        "organization_id": "321112036139",
+        "disable_marketing_opt_in": false,
+        "logo_id": "613431939"
+      },
+      "venue": {
+        "address": {
+          "address_1": "75 Arbor Road",
+          "address_2": "",
+          "city": "Menlo Park",
+          "region": "CA",
+          "postal_code": "94025",
+          "country": "US",
+          "latitude": "37.4412431",
+          "longitude": "-122.1793714",
+          "localized_address_display": "75 Arbor Road, Menlo Park, CA 94025",
+          "localized_area_display": "Menlo Park, CA",
+          "localized_multi_line_address_display": [
+            "75 Arbor Road",
+            "Menlo Park, CA 94025"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/299430166/",
+        "id": "299430166",
+        "age_restriction": null,
+        "capacity": null,
+        "name": "Allied Arts Guild - 75 Arbor Rd, Menlo Park, CA 94025",
+        "latitude": "37.4412431",
+        "longitude": "-122.1793714"
+      }
+    },
+    {
+      "name": {
+        "text": "Tech Weekend Happy Hour | Tech Weekend November 2026 | Menlo Park"
+      },
+      "description": {
+        "text": "Join founders and investors for an evening of relaxed networking and conversations at Tech Weekend Day 1 Connect, unwind, & collab"
+      },
+      "url": "https://www.eventbrite.com/e/tech-weekend-happy-hour-tech-weekend-november-2026-menlo-park-tickets-2003643842670",
+      "start": {
+        "timezone": "America/Los_Angeles",
+        "utc": "2026-11-20T01:00:00Z",
+        "local": "2026-11-19T17:00:00"
+      },
+      "end": {
+        "timezone": "America/Los_Angeles",
+        "utc": "2026-11-20T04:00:00Z",
+        "local": "2026-11-19T20:00:00"
+      },
+      "organization_id": "321112036139",
+      "created": "2026-10-20T03:21:25Z",
+      "changed": "2026-11-10T01:34:13Z",
+      "published": "2026-10-20T13:59:12Z",
+      "capacity": null,
+      "capacity_is_custom": null,
+      "status": "live",
+      "currency": "USD",
+      "listed": true,
+      "shareable": true,
+      "online_event": false,
+      "tx_time_limit": 2400,
+      "hide_start_date": false,
+      "hide_end_date": false,
+      "locale": "en_US",
+      "is_locked": false,
+      "privacy_setting": "unlocked",
+      "is_series": false,
+      "is_series_parent": false,
+      "inventory_type": "limited",
+      "is_reserved_seating": false,
+      "show_pick_a_seat": false,
+      "show_seatmap_thumbnail": false,
+      "show_colors_in_seatmap_thumbnail": false,
+      "source": "coyote",
+      "is_free": false,
+      "version": null,
+      "summary": "Join founders and investors for an evening of relaxed networking and conversations at Tech Weekend Day 1 Connect, unwind, & collab",
+      "facebook_event_id": null,
+      "logo_id": "1196158863",
+      "organizer_id": "32506722299",
+      "venue_id": "299915699",
+      "category_id": "101",
+      "subcategory_id": "1001",
+      "format_id": "10",
+      "id": "2003643842670",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/2003643842670/",
+      "is_externally_ticketed": false,
+      "logo": {
+        "crop_mask": null,
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196158863%2F321112036139%2F1%2Foriginal.20261020-040917?auto=format%2Ccompress&q=75&sharp=10&s=267c4248fc4535f28727af3d27ca2b7f",
+          "width": 2160,
+          "height": 1080
+        },
+        "id": "1196158863",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196158863%2F321112036139%2F1%2Foriginal.20261020-040917?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=684ad0b538ede29cb51de31bfbcbb39a",
+        "aspect_ratio": "2",
+        "edge_color": "#fc6f15",
+        "edge_color_set": true
+      },
+      "organizer": {
+        "description": {
+          "text": "Founders Villageis a San Francisco–based startup community that connects early-stage tech founders with investors, mentors, and partners. At its core, it's a space where founders meet other founders, investors, pitch, share resources, and learn from each other in a focused, close-knit environment.Tech Weekend is our flagship event series — hosted every 6–8 weeks in San Francisco. It brings together 100+ technical founders and 50–75 venture capitalists for three days of 1:1 investor meetings, live pitch competitions, panels on market trends, and private VC dinners.To date, we’ve hosted thousands of founders and welcomed VCs from firms like Khosla Ventures, LG Technology Ventures, Samsung Ventures, General Catalyst and many more. Whether you’re actively raising or looking to surround yourself with the right people — Founders Village exists to accelerate your path forward.InstagramLinkedInTwitter"
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/organizers/32506722299/",
+        "_type": "organizer",
+        "id": "32506722299",
+        "name": "Founders Village",
+        "url": "https://www.eventbrite.com/o/founders-village-32506722299",
+        "num_past_events": 0,
+        "num_future_events": 0,
+        "website": "https://www.foundersvillage.co/",
+        "twitter": "foundersvillge",
+        "organization_id": "321112036139",
+        "disable_marketing_opt_in": false,
+        "logo_id": "613431939"
+      },
+      "venue": {
+        "address": {
+          "address_1": "75 Arbor Road",
+          "address_2": "",
+          "city": "Menlo Park",
+          "region": "CA",
+          "postal_code": "94025",
+          "country": "US",
+          "latitude": "37.4412431",
+          "longitude": "-122.1793714",
+          "localized_address_display": "75 Arbor Road, Menlo Park, CA 94025",
+          "localized_area_display": "Menlo Park, CA",
+          "localized_multi_line_address_display": [
+            "75 Arbor Road",
+            "Menlo Park, CA 94025"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/299915699/",
+        "id": "299915699",
+        "age_restriction": null,
+        "capacity": null,
+        "name": "Allied Arts Guild - 75 Arbor Rd, Menlo Park, CA 94025",
+        "latitude": "37.4412431",
+        "longitude": "-122.1793714"
+      }
+    },
+    {
+      "name": {
+        "text": "Deep Tech Pitch Competition & Happy Hour | Tech Weekend| Silicon Valley"
+      },
+      "description": {
+        "text": "Meet Deep tech founders and VCs at Tech Weekend November 2026. Watch live deep tech pitches, followed by a Happy Hour."
+      },
+      "url": "https://www.eventbrite.com/e/deep-tech-pitch-competition-happy-hour-tech-weekend-silicon-valley-tickets-2003644018195",
+      "start": {
+        "timezone": "America/Los_Angeles",
+        "utc": "2026-11-19T22:30:00Z",
+        "local": "2026-11-19T14:30:00"
+      },
+      "end": {
+        "timezone": "America/Los_Angeles",
+        "utc": "2026-11-20T03:30:00Z",
+        "local": "2026-11-19T19:30:00"
+      },
+      "organization_id": "321112036139",
+      "created": "2026-10-20T03:22:46Z",
+      "changed": "2026-11-15T06:06:33Z",
+      "published": "2026-10-20T13:59:10Z",
+      "capacity": null,
+      "capacity_is_custom": null,
+      "status": "live",
+      "currency": "USD",
+      "listed": true,
+      "shareable": true,
+      "online_event": false,
+      "tx_time_limit": 2400,
+      "hide_start_date": false,
+      "hide_end_date": false,
+      "locale": "en_US",
+      "is_locked": false,
+      "privacy_setting": "unlocked",
+      "is_series": false,
+      "is_series_parent": false,
+      "inventory_type": "limited",
+      "is_reserved_seating": false,
+      "show_pick_a_seat": false,
+      "show_seatmap_thumbnail": false,
+      "show_colors_in_seatmap_thumbnail": false,
+      "source": "coyote",
+      "is_free": false,
+      "version": null,
+      "summary": "Meet Deep tech founders and VCs at Tech Weekend November 2026. Watch live deep tech pitches, followed by a Happy Hour.",
+      "facebook_event_id": null,
+      "logo_id": "1196158890",
+      "organizer_id": "32506722299",
+      "venue_id": "299915711",
+      "category_id": "101",
+      "subcategory_id": "1001",
+      "format_id": "10",
+      "id": "2003644018195",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/2003644018195/",
+      "is_externally_ticketed": false,
+      "logo": {
+        "crop_mask": null,
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196158890%2F321112036139%2F1%2Foriginal.20261020-041010?auto=format%2Ccompress&q=75&sharp=10&s=b1890d1174d788f72ed32b41fff88029",
+          "width": 2160,
+          "height": 1080
+        },
+        "id": "1196158890",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196158890%2F321112036139%2F1%2Foriginal.20261020-041010?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=5fd0e0720098d030007c012786e436ad",
+        "aspect_ratio": "2",
+        "edge_color": "#040402",
+        "edge_color_set": true
+      },
+      "organizer": {
+        "description": {
+          "text": "Founders Villageis a San Francisco–based startup community that connects early-stage tech founders with investors, mentors, and partners. At its core, it's a space where founders meet other founders, investors, pitch, share resources, and learn from each other in a focused, close-knit environment.Tech Weekend is our flagship event series — hosted every 6–8 weeks in San Francisco. It brings together 100+ technical founders and 50–75 venture capitalists for three days of 1:1 investor meetings, live pitch competitions, panels on market trends, and private VC dinners.To date, we’ve hosted thousands of founders and welcomed VCs from firms like Khosla Ventures, LG Technology Ventures, Samsung Ventures, General Catalyst and many more. Whether you’re actively raising or looking to surround yourself with the right people — Founders Village exists to accelerate your path forward.InstagramLinkedInTwitter"
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/organizers/32506722299/",
+        "_type": "organizer",
+        "id": "32506722299",
+        "name": "Founders Village",
+        "url": "https://www.eventbrite.com/o/founders-village-32506722299",
+        "num_past_events": 0,
+        "num_future_events": 0,
+        "website": "https://www.foundersvillage.co/",
+        "twitter": "foundersvillge",
+        "organization_id": "321112036139",
+        "disable_marketing_opt_in": false,
+        "logo_id": "613431939"
+      },
+      "venue": {
+        "address": {
+          "address_1": "75 Arbor Road",
+          "address_2": "",
+          "city": "Menlo Park",
+          "region": "CA",
+          "postal_code": "94025",
+          "country": "US",
+          "latitude": "37.4412431",
+          "longitude": "-122.1793714",
+          "localized_address_display": "75 Arbor Road, Menlo Park, CA 94025",
+          "localized_area_display": "Menlo Park, CA",
+          "localized_multi_line_address_display": [
+            "75 Arbor Road",
+            "Menlo Park, CA 94025"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/299915711/",
+        "id": "299915711",
+        "age_restriction": null,
+        "capacity": null,
+        "name": "Allied Arts Guild - 75 Arbor Rd, Menlo Park, CA 94025",
+        "latitude": "37.4412431",
+        "longitude": "-122.1793714"
+      }
+    },
+    {
+      "name": {
+        "text": "Tech Weekend November 2026 | Happy Hour | Menlo Park | Silicon Valley"
+      },
+      "description": {
+        "text": "Close out Tech Weekend November 2026 with a happy hour. Build relationships and celebrate the weekend’s highlights."
+      },
+      "url": "https://www.eventbrite.com/e/tech-weekend-november-2026-happy-hour-menlo-park-silicon-valley-tickets-2003644034243",
+      "start": {
+        "timezone": "America/Los_Angeles",
+        "utc": "2026-11-21T01:00:00Z",
+        "local": "2026-11-20T17:00:00"
+      },
+      "end": {
+        "timezone": "America/Los_Angeles",
+        "utc": "2026-11-21T03:30:00Z",
+        "local": "2026-11-20T19:30:00"
+      },
+      "organization_id": "321112036139",
+      "created": "2026-10-20T03:24:12Z",
+      "changed": "2026-10-20T14:00:19Z",
+      "published": "2026-10-20T14:00:19Z",
+      "capacity": null,
+      "capacity_is_custom": null,
+      "status": "live",
+      "currency": "USD",
+      "listed": true,
+      "shareable": true,
+      "online_event": false,
+      "tx_time_limit": 2400,
+      "hide_start_date": false,
+      "hide_end_date": false,
+      "locale": "en_US",
+      "is_locked": false,
+      "privacy_setting": "unlocked",
+      "is_series": false,
+      "is_series_parent": false,
+      "inventory_type": "limited",
+      "is_reserved_seating": false,
+      "show_pick_a_seat": false,
+      "show_seatmap_thumbnail": false,
+      "show_colors_in_seatmap_thumbnail": false,
+      "source": "coyote",
+      "is_free": false,
+      "version": null,
+      "summary": "Close out Tech Weekend November 2026 with a happy hour. Build relationships and celebrate the weekend’s highlights.",
+      "facebook_event_id": null,
+      "logo_id": "1196159064",
+      "organizer_id": "32506722299",
+      "venue_id": "299915729",
+      "category_id": "101",
+      "subcategory_id": "1001",
+      "format_id": "10",
+      "id": "2003644034243",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/2003644034243/",
+      "is_externally_ticketed": false,
+      "logo": {
+        "crop_mask": null,
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196159064%2F321112036139%2F1%2Foriginal.20261020-041451?auto=format%2Ccompress&q=75&sharp=10&s=16278970eadc3399d1b275a08b846243",
+          "width": 2160,
+          "height": 1080
+        },
+        "id": "1196159064",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196159064%2F321112036139%2F1%2Foriginal.20261020-041451?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=386488ef982e162fc5237ab7b5779ef8",
+        "aspect_ratio": "2",
+        "edge_color": "#fffbf8",
+        "edge_color_set": true
+      },
+      "organizer": {
+        "description": {
+          "text": "Founders Villageis a San Francisco–based startup community that connects early-stage tech founders with investors, mentors, and partners. At its core, it's a space where founders meet other founders, investors, pitch, share resources, and learn from each other in a focused, close-knit environment.Tech Weekend is our flagship event series — hosted every 6–8 weeks in San Francisco. It brings together 100+ technical founders and 50–75 venture capitalists for three days of 1:1 investor meetings, live pitch competitions, panels on market trends, and private VC dinners.To date, we’ve hosted thousands of founders and welcomed VCs from firms like Khosla Ventures, LG Technology Ventures, Samsung Ventures, General Catalyst and many more. Whether you’re actively raising or looking to surround yourself with the right people — Founders Village exists to accelerate your path forward.InstagramLinkedInTwitter"
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/organizers/32506722299/",
+        "_type": "organizer",
+        "id": "32506722299",
+        "name": "Founders Village",
+        "url": "https://www.eventbrite.com/o/founders-village-32506722299",
+        "num_past_events": 0,
+        "num_future_events": 0,
+        "website": "https://www.foundersvillage.co/",
+        "twitter": "foundersvillge",
+        "organization_id": "321112036139",
+        "disable_marketing_opt_in": false,
+        "logo_id": "613431939"
+      },
+      "venue": {
+        "address": {
+          "address_1": "75 Arbor Road",
+          "address_2": "",
+          "city": "Menlo Park",
+          "region": "CA",
+          "postal_code": "94025",
+          "country": "US",
+          "latitude": "37.4412431",
+          "longitude": "-122.1793714",
+          "localized_address_display": "75 Arbor Road, Menlo Park, CA 94025",
+          "localized_area_display": "Menlo Park, CA",
+          "localized_multi_line_address_display": [
+            "75 Arbor Road",
+            "Menlo Park, CA 94025"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/299915729/",
+        "id": "299915729",
+        "age_restriction": null,
+        "capacity": null,
+        "name": "Allied Arts Guild - 75 Arbor Rd, Menlo Park, CA 94025",
+        "latitude": "37.4412431",
+        "longitude": "-122.1793714"
+      }
+    },
+    {
+      "name": {
+        "text": "AI Startup Pitch Competition & Happy Hour | Tech Weekend November 2026"
+      },
+      "description": {
+        "text": "Explore the future of AI and Deep Tech with VCs, watch live startup pitches, and meet investors during the Friday mixer at Tech Weekend"
+      },
+      "url": "https://www.eventbrite.com/e/ai-startup-pitch-competition-happy-hour-tech-weekend-november-2026-tickets-2003644256909",
+      "start": {
+        "timezone": "America/Los_Angeles",
+        "utc": "2026-11-20T22:30:00Z",
+        "local": "2026-11-20T14:30:00"
+      },
+      "end": {
+        "timezone": "America/Los_Angeles",
+        "utc": "2026-11-21T04:00:00Z",
+        "local": "2026-11-20T20:00:00"
+      },
+      "organization_id": "321112036139",
+      "created": "2026-10-20T03:32:24Z",
+      "changed": "2026-10-20T13:59:18Z",
+      "published": "2026-10-20T13:59:18Z",
+      "capacity": null,
+      "capacity_is_custom": null,
+      "status": "live",
+      "currency": "USD",
+      "listed": true,
+      "shareable": true,
+      "online_event": false,
+      "tx_time_limit": 2400,
+      "hide_start_date": false,
+      "hide_end_date": false,
+      "locale": "en_US",
+      "is_locked": false,
+      "privacy_setting": "unlocked",
+      "is_series": false,
+      "is_series_parent": false,
+      "inventory_type": "limited",
+      "is_reserved_seating": false,
+      "show_pick_a_seat": false,
+      "show_seatmap_thumbnail": false,
+      "show_colors_in_seatmap_thumbnail": false,
+      "source": "coyote",
+      "is_free": false,
+      "version": null,
+      "summary": "Explore the future of AI and Deep Tech with VCs, watch live startup pitches, and meet investors during the Friday mixer at Tech Weekend",
+      "facebook_event_id": null,
+      "logo_id": "1196159021",
+      "organizer_id": "32506722299",
+      "venue_id": "299915788",
+      "category_id": "101",
+      "subcategory_id": "1001",
+      "format_id": "10",
+      "id": "2003644256909",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/2003644256909/",
+      "is_externally_ticketed": false,
+      "logo": {
+        "crop_mask": null,
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196159021%2F321112036139%2F1%2Foriginal.20261020-041352?auto=format%2Ccompress&q=75&sharp=10&s=0f5c863cc2f6a3e7cf59ee818e264d8e",
+          "width": 2160,
+          "height": 1080
+        },
+        "id": "1196159021",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196159021%2F321112036139%2F1%2Foriginal.20261020-041352?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=2a32b37468b329e6956d586a77c212ce",
+        "aspect_ratio": "2",
+        "edge_color": "#050404",
+        "edge_color_set": true
+      },
+      "organizer": {
+        "description": {
+          "text": "Founders Villageis a San Francisco–based startup community that connects early-stage tech founders with investors, mentors, and partners. At its core, it's a space where founders meet other founders, investors, pitch, share resources, and learn from each other in a focused, close-knit environment.Tech Weekend is our flagship event series — hosted every 6–8 weeks in San Francisco. It brings together 100+ technical founders and 50–75 venture capitalists for three days of 1:1 investor meetings, live pitch competitions, panels on market trends, and private VC dinners.To date, we’ve hosted thousands of founders and welcomed VCs from firms like Khosla Ventures, LG Technology Ventures, Samsung Ventures, General Catalyst and many more. Whether you’re actively raising or looking to surround yourself with the right people — Founders Village exists to accelerate your path forward.InstagramLinkedInTwitter"
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/organizers/32506722299/",
+        "_type": "organizer",
+        "id": "32506722299",
+        "name": "Founders Village",
+        "url": "https://www.eventbrite.com/o/founders-village-32506722299",
+        "num_past_events": 0,
+        "num_future_events": 0,
+        "website": "https://www.foundersvillage.co/",
+        "twitter": "foundersvillge",
+        "organization_id": "321112036139",
+        "disable_marketing_opt_in": false,
+        "logo_id": "613431939"
+      },
+      "venue": {
+        "address": {
+          "address_1": "75 Arbor Road",
+          "address_2": "",
+          "city": "Menlo Park",
+          "region": "CA",
+          "postal_code": "94025",
+          "country": "US",
+          "latitude": "37.4412431",
+          "longitude": "-122.1793714",
+          "localized_address_display": "75 Arbor Road, Menlo Park, CA 94025",
+          "localized_area_display": "Menlo Park, CA",
+          "localized_multi_line_address_display": [
+            "75 Arbor Road",
+            "Menlo Park, CA 94025"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/299915788/",
+        "id": "299915788",
+        "age_restriction": null,
+        "capacity": null,
+        "name": "Allied Arts Guild - 75 Arbor Rd, Menlo Park, CA 94025",
+        "latitude": "37.4412431",
+        "longitude": "-122.1793714"
+      }
+    },
+    {
+      "name": {
+        "text": "Startup & VC Day at Tech Weekend November 2026 | Silicon Valley"
+      },
+      "description": {
+        "text": "A full day of startup-VC programming featuring expert panels, a live Deep Tech Pitch Competition, and curated networking at Tech Weekend"
+      },
+      "url": "https://www.eventbrite.com/e/startup-vc-day-at-tech-weekend-november-2026-silicon-valley-tickets-2003644584890",
+      "start": {
+        "timezone": "America/Los_Angeles",
+        "utc": "2026-11-19T17:00:00Z",
+        "local": "2026-11-19T09:00:00"
+      },
+      "end": {
+        "timezone": "America/Los_Angeles",
+        "utc": "2026-11-20T03:30:00Z",
+        "local": "2026-11-19T19:30:00"
+      },
+      "organization_id": "321112036139",
+      "created": "2026-10-20T03:36:24Z",
+      "changed": "2026-11-10T15:26:20Z",
+      "published": "2026-10-20T13:59:06Z",
+      "capacity": null,
+      "capacity_is_custom": null,
+      "status": "live",
+      "currency": "USD",
+      "listed": true,
+      "shareable": true,
+      "online_event": false,
+      "tx_time_limit": 2400,
+      "hide_start_date": false,
+      "hide_end_date": false,
+      "locale": "en_US",
+      "is_locked": false,
+      "privacy_setting": "unlocked",
+      "is_series": false,
+      "is_series_parent": false,
+      "inventory_type": "limited",
+      "is_reserved_seating": false,
+      "show_pick_a_seat": false,
+      "show_seatmap_thumbnail": false,
+      "show_colors_in_seatmap_thumbnail": false,
+      "source": "coyote",
+      "is_free": false,
+      "version": null,
+      "summary": "A full day of startup-VC programming featuring expert panels, a live Deep Tech Pitch Competition, and curated networking at Tech Weekend",
+      "facebook_event_id": null,
+      "logo_id": "1196158809",
+      "organizer_id": "32506722299",
+      "venue_id": "299915811",
+      "category_id": "101",
+      "subcategory_id": "1001",
+      "format_id": "10",
+      "id": "2003644584890",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/2003644584890/",
+      "is_externally_ticketed": false,
+      "logo": {
+        "crop_mask": null,
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196158809%2F321112036139%2F1%2Foriginal.20261020-040751?auto=format%2Ccompress&q=75&sharp=10&s=c4a9b7b3375dc4182e4b3a1dd4b928e8",
+          "width": 2160,
+          "height": 1080
+        },
+        "id": "1196158809",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196158809%2F321112036139%2F1%2Foriginal.20261020-040751?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=cfd7909987cc87f83da56bc58d5f27e7",
+        "aspect_ratio": "2",
+        "edge_color": "#000000",
+        "edge_color_set": true
+      },
+      "organizer": {
+        "description": {
+          "text": "Founders Villageis a San Francisco–based startup community that connects early-stage tech founders with investors, mentors, and partners. At its core, it's a space where founders meet other founders, investors, pitch, share resources, and learn from each other in a focused, close-knit environment.Tech Weekend is our flagship event series — hosted every 6–8 weeks in San Francisco. It brings together 100+ technical founders and 50–75 venture capitalists for three days of 1:1 investor meetings, live pitch competitions, panels on market trends, and private VC dinners.To date, we’ve hosted thousands of founders and welcomed VCs from firms like Khosla Ventures, LG Technology Ventures, Samsung Ventures, General Catalyst and many more. Whether you’re actively raising or looking to surround yourself with the right people — Founders Village exists to accelerate your path forward.InstagramLinkedInTwitter"
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/organizers/32506722299/",
+        "_type": "organizer",
+        "id": "32506722299",
+        "name": "Founders Village",
+        "url": "https://www.eventbrite.com/o/founders-village-32506722299",
+        "num_past_events": 0,
+        "num_future_events": 0,
+        "website": "https://www.foundersvillage.co/",
+        "twitter": "foundersvillge",
+        "organization_id": "321112036139",
+        "disable_marketing_opt_in": false,
+        "logo_id": "613431939"
+      },
+      "venue": {
+        "address": {
+          "address_1": "75 Arbor Road",
+          "address_2": "",
+          "city": "Menlo Park",
+          "region": "CA",
+          "postal_code": "94025",
+          "country": "US",
+          "latitude": "37.4412431",
+          "longitude": "-122.1793714",
+          "localized_address_display": "75 Arbor Road, Menlo Park, CA 94025",
+          "localized_area_display": "Menlo Park, CA",
+          "localized_multi_line_address_display": [
+            "75 Arbor Road",
+            "Menlo Park, CA 94025"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/299915811/",
+        "id": "299915811",
+        "age_restriction": null,
+        "capacity": null,
+        "name": "Allied Arts Guild - 75 Arbor Rd, Menlo Park, CA 94025",
+        "latitude": "37.4412431",
+        "longitude": "-122.1793714"
+      }
+    },
+    {
+      "name": {
+        "text": "Startup Day at Tech Weekend Day 2 | Panels, Pitch Competition & Happy Hour"
+      },
+      "description": {
+        "text": "Explore the future of AI and Deep Tech with VCs, watch live startup pitches, and meet investors during the Friday mixer at Tech Weekend."
+      },
+      "url": "https://www.eventbrite.com/e/startup-day-at-tech-weekend-day-2-panels-pitch-competition-happy-hour-tickets-2003644593917",
+      "start": {
+        "timezone": "America/Los_Angeles",
+        "utc": "2026-11-20T17:00:00Z",
+        "local": "2026-11-20T09:00:00"
+      },
+      "end": {
+        "timezone": "America/Los_Angeles",
+        "utc": "2026-11-21T03:30:00Z",
+        "local": "2026-11-20T19:30:00"
+      },
+      "organization_id": "321112036139",
+      "created": "2026-10-20T03:37:30Z",
+      "changed": "2026-10-20T13:59:14Z",
+      "published": "2026-10-20T13:59:14Z",
+      "capacity": null,
+      "capacity_is_custom": null,
+      "status": "live",
+      "currency": "USD",
+      "listed": true,
+      "shareable": true,
+      "online_event": false,
+      "tx_time_limit": 2400,
+      "hide_start_date": false,
+      "hide_end_date": false,
+      "locale": "en_US",
+      "is_locked": false,
+      "privacy_setting": "unlocked",
+      "is_series": false,
+      "is_series_parent": false,
+      "inventory_type": "limited",
+      "is_reserved_seating": false,
+      "show_pick_a_seat": false,
+      "show_seatmap_thumbnail": false,
+      "show_colors_in_seatmap_thumbnail": false,
+      "source": "coyote",
+      "is_free": false,
+      "version": null,
+      "summary": "Explore the future of AI and Deep Tech with VCs, watch live startup pitches, and meet investors during the Friday mixer at Tech Weekend.",
+      "facebook_event_id": null,
+      "logo_id": "1196158953",
+      "organizer_id": "32506722299",
+      "venue_id": "299915817",
+      "category_id": "101",
+      "subcategory_id": "1001",
+      "format_id": "10",
+      "id": "2003644593917",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/2003644593917/",
+      "is_externally_ticketed": false,
+      "logo": {
+        "crop_mask": null,
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196158953%2F321112036139%2F1%2Foriginal.20261020-041201?auto=format%2Ccompress&q=75&sharp=10&s=1aab10da4e3c898d72fe8cb389cc4b17",
+          "width": 2160,
+          "height": 1080
+        },
+        "id": "1196158953",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196158953%2F321112036139%2F1%2Foriginal.20261020-041201?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=5c035acdd454c74739294108a4ca2b9b",
+        "aspect_ratio": "2",
+        "edge_color": "#050404",
+        "edge_color_set": true
+      },
+      "organizer": {
+        "description": {
+          "text": "Founders Villageis a San Francisco–based startup community that connects early-stage tech founders with investors, mentors, and partners. At its core, it's a space where founders meet other founders, investors, pitch, share resources, and learn from each other in a focused, close-knit environment.Tech Weekend is our flagship event series — hosted every 6–8 weeks in San Francisco. It brings together 100+ technical founders and 50–75 venture capitalists for three days of 1:1 investor meetings, live pitch competitions, panels on market trends, and private VC dinners.To date, we’ve hosted thousands of founders and welcomed VCs from firms like Khosla Ventures, LG Technology Ventures, Samsung Ventures, General Catalyst and many more. Whether you’re actively raising or looking to surround yourself with the right people — Founders Village exists to accelerate your path forward.InstagramLinkedInTwitter"
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/organizers/32506722299/",
+        "_type": "organizer",
+        "id": "32506722299",
+        "name": "Founders Village",
+        "url": "https://www.eventbrite.com/o/founders-village-32506722299",
+        "num_past_events": 0,
+        "num_future_events": 0,
+        "website": "https://www.foundersvillage.co/",
+        "twitter": "foundersvillge",
+        "organization_id": "321112036139",
+        "disable_marketing_opt_in": false,
+        "logo_id": "613431939"
+      },
+      "venue": {
+        "address": {
+          "address_1": "75 Arbor Road",
+          "address_2": "",
+          "city": "Menlo Park",
+          "region": "CA",
+          "postal_code": "94025",
+          "country": "US",
+          "latitude": "37.4412431",
+          "longitude": "-122.1793714",
+          "localized_address_display": "75 Arbor Road, Menlo Park, CA 94025",
+          "localized_area_display": "Menlo Park, CA",
+          "localized_multi_line_address_display": [
+            "75 Arbor Road",
+            "Menlo Park, CA 94025"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/299915817/",
+        "id": "299915817",
+        "age_restriction": null,
+        "capacity": null,
+        "name": "Allied Arts Guild - 75 Arbor Rd, Menlo Park, CA 94025",
+        "latitude": "37.4412431",
+        "longitude": "-122.1793714"
+      }
+    },
+    {
+      "name": {
+        "text": "Tech Weekend Feb 18–19 | Founder-VC Matchmaking & Pitch Competitions"
+      },
+      "description": {
+        "text": "A 48-hour fundraising sprint where pre-seed to Series A founders meet investors in back to back meetings."
+      },
+      "url": "https://www.eventbrite.com/e/tech-weekend-feb-1819-founder-vc-matchmaking-pitch-competitions-tickets-2003842026443",
+      "start": {
+        "timezone": "America/Los_Angeles",
+        "utc": "2027-02-18T17:00:00Z",
+        "local": "2027-02-18T09:00:00"
+      },
+      "end": {
+        "timezone": "America/Los_Angeles",
+        "utc": "2027-02-20T04:00:00Z",
+        "local": "2027-02-19T20:00:00"
+      },
+      "organization_id": "321112036139",
+      "created": "2026-10-23T21:34:30Z",
+      "changed": "2026-11-09T23:00:16Z",
+      "published": "2026-11-09T23:00:16Z",
+      "capacity": null,
+      "capacity_is_custom": null,
+      "status": "live",
+      "currency": "USD",
+      "listed": true,
+      "shareable": true,
+      "online_event": false,
+      "tx_time_limit": 3600,
+      "hide_start_date": false,
+      "hide_end_date": false,
+      "locale": "en_US",
+      "is_locked": false,
+      "privacy_setting": "unlocked",
+      "is_series": false,
+      "is_series_parent": false,
+      "inventory_type": "limited",
+      "is_reserved_seating": false,
+      "show_pick_a_seat": false,
+      "show_seatmap_thumbnail": false,
+      "show_colors_in_seatmap_thumbnail": false,
+      "source": "coyote",
+      "is_free": false,
+      "version": null,
+      "summary": "A 48-hour fundraising sprint where pre-seed to Series A founders meet investors in back to back meetings.",
+      "facebook_event_id": null,
+      "logo_id": "1193522751",
+      "organizer_id": "32506722299",
+      "venue_id": "299973354",
+      "category_id": "101",
+      "subcategory_id": "1001",
+      "format_id": "1",
+      "id": "2003842026443",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/2003842026443/",
+      "is_externally_ticketed": false,
+      "logo": {
+        "crop_mask": null,
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193522751%2F321112036139%2F1%2Foriginal.20260915-042856?auto=format%2Ccompress&q=75&sharp=10&s=1ea6087f086d6fdf29480565143da51e",
+          "width": 2000,
+          "height": 992
+        },
+        "id": "1193522751",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193522751%2F321112036139%2F1%2Foriginal.20260915-042856?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4acdb86a916e86f53398cc4318e6eb8e",
+        "aspect_ratio": "2.015",
+        "edge_color": "#111617",
+        "edge_color_set": true
+      },
+      "organizer": {
+        "description": {
+          "text": "Founders Villageis a San Francisco–based startup community that connects early-stage tech founders with investors, mentors, and partners. At its core, it's a space where founders meet other founders, investors, pitch, share resources, and learn from each other in a focused, close-knit environment.Tech Weekend is our flagship event series — hosted every 6–8 weeks in San Francisco. It brings together 100+ technical founders and 50–75 venture capitalists for three days of 1:1 investor meetings, live pitch competitions, panels on market trends, and private VC dinners.To date, we’ve hosted thousands of founders and welcomed VCs from firms like Khosla Ventures, LG Technology Ventures, Samsung Ventures, General Catalyst and many more. Whether you’re actively raising or looking to surround yourself with the right people — Founders Village exists to accelerate your path forward.InstagramLinkedInTwitter"
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/organizers/32506722299/",
+        "_type": "organizer",
+        "id": "32506722299",
+        "name": "Founders Village",
+        "url": "https://www.eventbrite.com/o/founders-village-32506722299",
+        "num_past_events": 0,
+        "num_future_events": 0,
+        "website": "https://www.foundersvillage.co/",
+        "twitter": "foundersvillge",
+        "organization_id": "321112036139",
+        "disable_marketing_opt_in": false,
+        "logo_id": "613431939"
+      },
+      "venue": {
+        "address": {
+          "address_1": "75 Arbor Road",
+          "address_2": "",
+          "city": "Menlo Park",
+          "region": "CA",
+          "postal_code": "94025",
+          "country": "US",
+          "latitude": "37.4412431",
+          "longitude": "-122.1793714",
+          "localized_address_display": "75 Arbor Road, Menlo Park, CA 94025",
+          "localized_area_display": "Menlo Park, CA",
+          "localized_multi_line_address_display": [
+            "75 Arbor Road",
+            "Menlo Park, CA 94025"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/299973354/",
+        "id": "299973354",
+        "age_restriction": null,
+        "capacity": null,
+        "name": "Allied Arts Guild - 75 Arbor Rd, Menlo Park, CA 94025",
+        "latitude": "37.4412431",
+        "longitude": "-122.1793714"
+      }
+    },
+    {
+      "name": {
+        "text": "Startup & VC Day at Tech Weekend February 2027 | Silicon Valley"
+      },
+      "description": {
+        "text": "A full day of startup-VC programming featuring expert panels, a live Deep Tech Pitch Competition, and curated networking at Tech Weekend"
+      },
+      "url": "https://www.eventbrite.com/e/startup-vc-day-at-tech-weekend-february-2027-silicon-valley-tickets-2003842728543",
+      "start": {
+        "timezone": "America/Los_Angeles",
+        "utc": "2027-02-18T17:00:00Z",
+        "local": "2027-02-18T09:00:00"
+      },
+      "end": {
+        "timezone": "America/Los_Angeles",
+        "utc": "2027-02-19T03:30:00Z",
+        "local": "2027-02-18T19:30:00"
+      },
+      "organization_id": "321112036139",
+      "created": "2026-10-23T22:04:51Z",
+      "changed": "2026-11-09T22:16:40Z",
+      "published": "2026-11-09T22:16:03Z",
+      "capacity": null,
+      "capacity_is_custom": null,
+      "status": "live",
+      "currency": "USD",
+      "listed": true,
+      "shareable": true,
+      "online_event": false,
+      "tx_time_limit": 2400,
+      "hide_start_date": false,
+      "hide_end_date": false,
+      "locale": "en_US",
+      "is_locked": false,
+      "privacy_setting": "unlocked",
+      "is_series": false,
+      "is_series_parent": false,
+      "inventory_type": "limited",
+      "is_reserved_seating": false,
+      "show_pick_a_seat": false,
+      "show_seatmap_thumbnail": false,
+      "show_colors_in_seatmap_thumbnail": false,
+      "source": "coyote",
+      "is_free": false,
+      "version": null,
+      "summary": "A full day of startup-VC programming featuring expert panels, a live Deep Tech Pitch Competition, and curated networking at Tech Weekend",
+      "facebook_event_id": null,
+      "logo_id": "1196476398",
+      "organizer_id": "32506722299",
+      "venue_id": "299973608",
+      "category_id": "101",
+      "subcategory_id": "1001",
+      "format_id": "10",
+      "id": "2003842728543",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/2003842728543/",
+      "is_externally_ticketed": false,
+      "logo": {
+        "crop_mask": null,
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196476398%2F321112036139%2F1%2Foriginal.20261023-221306?auto=format%2Ccompress&q=75&sharp=10&s=c72ae2704bd07de3d3d1199a24212c31",
+          "width": 2160,
+          "height": 1080
+        },
+        "id": "1196476398",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196476398%2F321112036139%2F1%2Foriginal.20261023-221306?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=ad80c68a1f36317a8cca963406afae45",
+        "aspect_ratio": "2",
+        "edge_color": "#000000",
+        "edge_color_set": true
+      },
+      "organizer": {
+        "description": {
+          "text": "Founders Villageis a San Francisco–based startup community that connects early-stage tech founders with investors, mentors, and partners. At its core, it's a space where founders meet other founders, investors, pitch, share resources, and learn from each other in a focused, close-knit environment.Tech Weekend is our flagship event series — hosted every 6–8 weeks in San Francisco. It brings together 100+ technical founders and 50–75 venture capitalists for three days of 1:1 investor meetings, live pitch competitions, panels on market trends, and private VC dinners.To date, we’ve hosted thousands of founders and welcomed VCs from firms like Khosla Ventures, LG Technology Ventures, Samsung Ventures, General Catalyst and many more. Whether you’re actively raising or looking to surround yourself with the right people — Founders Village exists to accelerate your path forward.InstagramLinkedInTwitter"
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/organizers/32506722299/",
+        "_type": "organizer",
+        "id": "32506722299",
+        "name": "Founders Village",
+        "url": "https://www.eventbrite.com/o/founders-village-32506722299",
+        "num_past_events": 0,
+        "num_future_events": 0,
+        "website": "https://www.foundersvillage.co/",
+        "twitter": "foundersvillge",
+        "organization_id": "321112036139",
+        "disable_marketing_opt_in": false,
+        "logo_id": "613431939"
+      },
+      "venue": {
+        "address": {
+          "address_1": "75 Arbor Road",
+          "address_2": "",
+          "city": "Menlo Park",
+          "region": "CA",
+          "postal_code": "94025",
+          "country": "US",
+          "latitude": "37.4412431",
+          "longitude": "-122.1793714",
+          "localized_address_display": "75 Arbor Road, Menlo Park, CA 94025",
+          "localized_area_display": "Menlo Park, CA",
+          "localized_multi_line_address_display": [
+            "75 Arbor Road",
+            "Menlo Park, CA 94025"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/299973608/",
+        "id": "299973608",
+        "age_restriction": null,
+        "capacity": null,
+        "name": "Allied Arts Guild - 75 Arbor Rd, Menlo Park, CA 94025",
+        "latitude": "37.4412431",
+        "longitude": "-122.1793714"
+      }
+    },
+    {
+      "name": {
+        "text": "Tech Weekend Happy Hour | Tech Weekend February 2027 | Menlo Park"
+      },
+      "description": {
+        "text": "Join founders and investors for an evening of relaxed networking and conversations at Tech Weekend Day 1 Connect, unwind, & collab"
+      },
+      "url": "https://www.eventbrite.com/e/tech-weekend-happy-hour-tech-weekend-february-2027-menlo-park-tickets-2003842739576",
+      "start": {
+        "timezone": "America/Los_Angeles",
+        "utc": "2027-02-19T01:00:00Z",
+        "local": "2027-02-18T17:00:00"
+      },
+      "end": {
+        "timezone": "America/Los_Angeles",
+        "utc": "2027-02-19T04:00:00Z",
+        "local": "2027-02-18T20:00:00"
+      },
+      "organization_id": "321112036139",
+      "created": "2026-10-23T22:05:27Z",
+      "changed": "2026-11-09T22:17:28Z",
+      "published": "2026-11-09T22:17:28Z",
+      "capacity": null,
+      "capacity_is_custom": null,
+      "status": "live",
+      "currency": "USD",
+      "listed": true,
+      "shareable": true,
+      "online_event": false,
+      "tx_time_limit": 2400,
+      "hide_start_date": false,
+      "hide_end_date": false,
+      "locale": "en_US",
+      "is_locked": false,
+      "privacy_setting": "unlocked",
+      "is_series": false,
+      "is_series_parent": false,
+      "inventory_type": "limited",
+      "is_reserved_seating": false,
+      "show_pick_a_seat": false,
+      "show_seatmap_thumbnail": false,
+      "show_colors_in_seatmap_thumbnail": false,
+      "source": "coyote",
+      "is_free": false,
+      "version": null,
+      "summary": "Join founders and investors for an evening of relaxed networking and conversations at Tech Weekend Day 1 Connect, unwind, & collab",
+      "facebook_event_id": null,
+      "logo_id": "1196476484",
+      "organizer_id": "32506722299",
+      "venue_id": "299973618",
+      "category_id": "101",
+      "subcategory_id": "1001",
+      "format_id": "10",
+      "id": "2003842739576",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/2003842739576/",
+      "is_externally_ticketed": false,
+      "logo": {
+        "crop_mask": null,
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196476484%2F321112036139%2F1%2Foriginal.20261023-221442?auto=format%2Ccompress&q=75&sharp=10&s=04fbbdef1b3fbd099657bfe62d367b45",
+          "width": 2160,
+          "height": 1080
+        },
+        "id": "1196476484",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196476484%2F321112036139%2F1%2Foriginal.20261023-221442?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=2d9906b67e948bfd1c5216c6b02c01ef",
+        "aspect_ratio": "2",
+        "edge_color": "#fc6f15",
+        "edge_color_set": true
+      },
+      "organizer": {
+        "description": {
+          "text": "Founders Villageis a San Francisco–based startup community that connects early-stage tech founders with investors, mentors, and partners. At its core, it's a space where founders meet other founders, investors, pitch, share resources, and learn from each other in a focused, close-knit environment.Tech Weekend is our flagship event series — hosted every 6–8 weeks in San Francisco. It brings together 100+ technical founders and 50–75 venture capitalists for three days of 1:1 investor meetings, live pitch competitions, panels on market trends, and private VC dinners.To date, we’ve hosted thousands of founders and welcomed VCs from firms like Khosla Ventures, LG Technology Ventures, Samsung Ventures, General Catalyst and many more. Whether you’re actively raising or looking to surround yourself with the right people — Founders Village exists to accelerate your path forward.InstagramLinkedInTwitter"
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/organizers/32506722299/",
+        "_type": "organizer",
+        "id": "32506722299",
+        "name": "Founders Village",
+        "url": "https://www.eventbrite.com/o/founders-village-32506722299",
+        "num_past_events": 0,
+        "num_future_events": 0,
+        "website": "https://www.foundersvillage.co/",
+        "twitter": "foundersvillge",
+        "organization_id": "321112036139",
+        "disable_marketing_opt_in": false,
+        "logo_id": "613431939"
+      },
+      "venue": {
+        "address": {
+          "address_1": "75 Arbor Road",
+          "address_2": "",
+          "city": "Menlo Park",
+          "region": "CA",
+          "postal_code": "94025",
+          "country": "US",
+          "latitude": "37.4412431",
+          "longitude": "-122.1793714",
+          "localized_address_display": "75 Arbor Road, Menlo Park, CA 94025",
+          "localized_area_display": "Menlo Park, CA",
+          "localized_multi_line_address_display": [
+            "75 Arbor Road",
+            "Menlo Park, CA 94025"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/299973618/",
+        "id": "299973618",
+        "age_restriction": null,
+        "capacity": null,
+        "name": "Allied Arts Guild - 75 Arbor Rd, Menlo Park, CA 94025",
+        "latitude": "37.4412431",
+        "longitude": "-122.1793714"
+      }
+    },
+    {
+      "name": {
+        "text": "Deep Tech Pitch Competition & Happy Hour | Tech Weekend| Silicon Valley"
+      },
+      "description": {
+        "text": "Meet Deep tech founders and VCs at Tech Weekend February 2027. Watch live deep tech pitches, followed by a Happy Hour."
+      },
+      "url": "https://www.eventbrite.com/e/deep-tech-pitch-competition-happy-hour-tech-weekend-silicon-valley-tickets-2003842744591",
+      "start": {
+        "timezone": "America/Los_Angeles",
+        "utc": "2027-02-18T22:30:00Z",
+        "local": "2027-02-18T14:30:00"
+      },
+      "end": {
+        "timezone": "America/Los_Angeles",
+        "utc": "2027-02-19T03:30:00Z",
+        "local": "2027-02-18T19:30:00"
+      },
+      "organization_id": "321112036139",
+      "created": "2026-10-23T22:05:59Z",
+      "changed": "2026-11-09T22:16:57Z",
+      "published": "2026-11-09T22:16:57Z",
+      "capacity": null,
+      "capacity_is_custom": null,
+      "status": "live",
+      "currency": "USD",
+      "listed": true,
+      "shareable": true,
+      "online_event": false,
+      "tx_time_limit": 2400,
+      "hide_start_date": false,
+      "hide_end_date": false,
+      "locale": "en_US",
+      "is_locked": false,
+      "privacy_setting": "unlocked",
+      "is_series": false,
+      "is_series_parent": false,
+      "inventory_type": "limited",
+      "is_reserved_seating": false,
+      "show_pick_a_seat": false,
+      "show_seatmap_thumbnail": false,
+      "show_colors_in_seatmap_thumbnail": false,
+      "source": "coyote",
+      "is_free": false,
+      "version": null,
+      "summary": "Meet Deep tech founders and VCs at Tech Weekend February 2027. Watch live deep tech pitches, followed by a Happy Hour.",
+      "facebook_event_id": null,
+      "logo_id": "1196476543",
+      "organizer_id": "32506722299",
+      "venue_id": "299973624",
+      "category_id": "101",
+      "subcategory_id": "1001",
+      "format_id": "10",
+      "id": "2003842744591",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/2003842744591/",
+      "is_externally_ticketed": false,
+      "logo": {
+        "crop_mask": null,
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196476543%2F321112036139%2F1%2Foriginal.20261023-221541?auto=format%2Ccompress&q=75&sharp=10&s=7d70395bea561f83a888552f20b8cc70",
+          "width": 2160,
+          "height": 1080
+        },
+        "id": "1196476543",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196476543%2F321112036139%2F1%2Foriginal.20261023-221541?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=90cb2fa2eff0298525cd02dd9f8bd065",
+        "aspect_ratio": "2",
+        "edge_color": "#050404",
+        "edge_color_set": true
+      },
+      "organizer": {
+        "description": {
+          "text": "Founders Villageis a San Francisco–based startup community that connects early-stage tech founders with investors, mentors, and partners. At its core, it's a space where founders meet other founders, investors, pitch, share resources, and learn from each other in a focused, close-knit environment.Tech Weekend is our flagship event series — hosted every 6–8 weeks in San Francisco. It brings together 100+ technical founders and 50–75 venture capitalists for three days of 1:1 investor meetings, live pitch competitions, panels on market trends, and private VC dinners.To date, we’ve hosted thousands of founders and welcomed VCs from firms like Khosla Ventures, LG Technology Ventures, Samsung Ventures, General Catalyst and many more. Whether you’re actively raising or looking to surround yourself with the right people — Founders Village exists to accelerate your path forward.InstagramLinkedInTwitter"
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/organizers/32506722299/",
+        "_type": "organizer",
+        "id": "32506722299",
+        "name": "Founders Village",
+        "url": "https://www.eventbrite.com/o/founders-village-32506722299",
+        "num_past_events": 0,
+        "num_future_events": 0,
+        "website": "https://www.foundersvillage.co/",
+        "twitter": "foundersvillge",
+        "organization_id": "321112036139",
+        "disable_marketing_opt_in": false,
+        "logo_id": "613431939"
+      },
+      "venue": {
+        "address": {
+          "address_1": "75 Arbor Road",
+          "address_2": "",
+          "city": "Menlo Park",
+          "region": "CA",
+          "postal_code": "94025",
+          "country": "US",
+          "latitude": "37.4412431",
+          "longitude": "-122.1793714",
+          "localized_address_display": "75 Arbor Road, Menlo Park, CA 94025",
+          "localized_area_display": "Menlo Park, CA",
+          "localized_multi_line_address_display": [
+            "75 Arbor Road",
+            "Menlo Park, CA 94025"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/299973624/",
+        "id": "299973624",
+        "age_restriction": null,
+        "capacity": null,
+        "name": "Allied Arts Guild - 75 Arbor Rd, Menlo Park, CA 94025",
+        "latitude": "37.4412431",
+        "longitude": "-122.1793714"
+      }
+    },
+    {
+      "name": {
+        "text": "Startup Day at Tech Weekend Day 2 | Panels, Pitch Competition & Happy Hour"
+      },
+      "description": {
+        "text": "Explore the future of AI and Deep Tech with VCs, watch live startup pitches, and meet investors during the Friday mixer at Tech Weekend."
+      },
+      "url": "https://www.eventbrite.com/e/startup-day-at-tech-weekend-day-2-panels-pitch-competition-happy-hour-tickets-2003842752615",
+      "start": {
+        "timezone": "America/Los_Angeles",
+        "utc": "2027-02-19T17:00:00Z",
+        "local": "2027-02-19T09:00:00"
+      },
+      "end": {
+        "timezone": "America/Los_Angeles",
+        "utc": "2027-02-20T03:30:00Z",
+        "local": "2027-02-19T19:30:00"
+      },
+      "organization_id": "321112036139",
+      "created": "2026-10-23T22:06:33Z",
+      "changed": "2026-11-09T22:18:38Z",
+      "published": "2026-11-09T22:18:38Z",
+      "capacity": null,
+      "capacity_is_custom": null,
+      "status": "live",
+      "currency": "USD",
+      "listed": true,
+      "shareable": true,
+      "online_event": false,
+      "tx_time_limit": 2400,
+      "hide_start_date": false,
+      "hide_end_date": false,
+      "locale": "en_US",
+      "is_locked": false,
+      "privacy_setting": "unlocked",
+      "is_series": false,
+      "is_series_parent": false,
+      "inventory_type": "limited",
+      "is_reserved_seating": false,
+      "show_pick_a_seat": false,
+      "show_seatmap_thumbnail": false,
+      "show_colors_in_seatmap_thumbnail": false,
+      "source": "coyote",
+      "is_free": false,
+      "version": null,
+      "summary": "Explore the future of AI and Deep Tech with VCs, watch live startup pitches, and meet investors during the Friday mixer at Tech Weekend.",
+      "facebook_event_id": null,
+      "logo_id": "1196476592",
+      "organizer_id": "32506722299",
+      "venue_id": "299973628",
+      "category_id": "101",
+      "subcategory_id": "1001",
+      "format_id": "10",
+      "id": "2003842752615",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/2003842752615/",
+      "is_externally_ticketed": false,
+      "logo": {
+        "crop_mask": null,
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196476592%2F321112036139%2F1%2Foriginal.20261023-221625?auto=format%2Ccompress&q=75&sharp=10&s=f12b5ba296b3f6b325ebd3b5ee0c0be7",
+          "width": 2160,
+          "height": 1080
+        },
+        "id": "1196476592",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196476592%2F321112036139%2F1%2Foriginal.20261023-221625?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=c4712345248c7dc725c3c28073face68",
+        "aspect_ratio": "2",
+        "edge_color": "#040402",
+        "edge_color_set": true
+      },
+      "organizer": {
+        "description": {
+          "text": "Founders Villageis a San Francisco–based startup community that connects early-stage tech founders with investors, mentors, and partners. At its core, it's a space where founders meet other founders, investors, pitch, share resources, and learn from each other in a focused, close-knit environment.Tech Weekend is our flagship event series — hosted every 6–8 weeks in San Francisco. It brings together 100+ technical founders and 50–75 venture capitalists for three days of 1:1 investor meetings, live pitch competitions, panels on market trends, and private VC dinners.To date, we’ve hosted thousands of founders and welcomed VCs from firms like Khosla Ventures, LG Technology Ventures, Samsung Ventures, General Catalyst and many more. Whether you’re actively raising or looking to surround yourself with the right people — Founders Village exists to accelerate your path forward.InstagramLinkedInTwitter"
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/organizers/32506722299/",
+        "_type": "organizer",
+        "id": "32506722299",
+        "name": "Founders Village",
+        "url": "https://www.eventbrite.com/o/founders-village-32506722299",
+        "num_past_events": 0,
+        "num_future_events": 0,
+        "website": "https://www.foundersvillage.co/",
+        "twitter": "foundersvillge",
+        "organization_id": "321112036139",
+        "disable_marketing_opt_in": false,
+        "logo_id": "613431939"
+      },
+      "venue": {
+        "address": {
+          "address_1": "75 Arbor Road",
+          "address_2": "",
+          "city": "Menlo Park",
+          "region": "CA",
+          "postal_code": "94025",
+          "country": "US",
+          "latitude": "37.4412431",
+          "longitude": "-122.1793714",
+          "localized_address_display": "75 Arbor Road, Menlo Park, CA 94025",
+          "localized_area_display": "Menlo Park, CA",
+          "localized_multi_line_address_display": [
+            "75 Arbor Road",
+            "Menlo Park, CA 94025"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/299973628/",
+        "id": "299973628",
+        "age_restriction": null,
+        "capacity": null,
+        "name": "Allied Arts Guild - 75 Arbor Rd, Menlo Park, CA 94025",
+        "latitude": "37.4412431",
+        "longitude": "-122.1793714"
+      }
+    },
+    {
+      "name": {
+        "text": "AI Startup Pitch Competition & Happy Hour | Tech Weekend February 2027"
+      },
+      "description": {
+        "text": "Explore the future of AI and Deep Tech with VCs, watch live startup pitches, and meet investors during the Friday mixer at Tech Weekend"
+      },
+      "url": "https://www.eventbrite.com/e/ai-startup-pitch-competition-happy-hour-tech-weekend-february-2027-tickets-2003842761642",
+      "start": {
+        "timezone": "America/Los_Angeles",
+        "utc": "2027-02-19T22:30:00Z",
+        "local": "2027-02-19T14:30:00"
+      },
+      "end": {
+        "timezone": "America/Los_Angeles",
+        "utc": "2027-02-20T04:00:00Z",
+        "local": "2027-02-19T20:00:00"
+      },
+      "organization_id": "321112036139",
+      "created": "2026-10-23T22:07:04Z",
+      "changed": "2026-11-09T22:17:40Z",
+      "published": "2026-11-09T22:17:40Z",
+      "capacity": null,
+      "capacity_is_custom": null,
+      "status": "live",
+      "currency": "USD",
+      "listed": true,
+      "shareable": true,
+      "online_event": false,
+      "tx_time_limit": 2400,
+      "hide_start_date": false,
+      "hide_end_date": false,
+      "locale": "en_US",
+      "is_locked": false,
+      "privacy_setting": "unlocked",
+      "is_series": false,
+      "is_series_parent": false,
+      "inventory_type": "limited",
+      "is_reserved_seating": false,
+      "show_pick_a_seat": false,
+      "show_seatmap_thumbnail": false,
+      "show_colors_in_seatmap_thumbnail": false,
+      "source": "coyote",
+      "is_free": false,
+      "version": null,
+      "summary": "Explore the future of AI and Deep Tech with VCs, watch live startup pitches, and meet investors during the Friday mixer at Tech Weekend",
+      "facebook_event_id": null,
+      "logo_id": "1196477265",
+      "organizer_id": "32506722299",
+      "venue_id": "299973634",
+      "category_id": "101",
+      "subcategory_id": "1001",
+      "format_id": "10",
+      "id": "2003842761642",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/2003842761642/",
+      "is_externally_ticketed": false,
+      "logo": {
+        "crop_mask": null,
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196477265%2F321112036139%2F1%2Foriginal.20261023-222804?auto=format%2Ccompress&q=75&sharp=10&s=b6710a2e4a36426c82311190fc98ff70",
+          "width": 2160,
+          "height": 1080
+        },
+        "id": "1196477265",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196477265%2F321112036139%2F1%2Foriginal.20261023-222804?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=baf05ebaef61ba62833dc5b6da151296",
+        "aspect_ratio": "2",
+        "edge_color": "#040402",
+        "edge_color_set": true
+      },
+      "organizer": {
+        "description": {
+          "text": "Founders Villageis a San Francisco–based startup community that connects early-stage tech founders with investors, mentors, and partners. At its core, it's a space where founders meet other founders, investors, pitch, share resources, and learn from each other in a focused, close-knit environment.Tech Weekend is our flagship event series — hosted every 6–8 weeks in San Francisco. It brings together 100+ technical founders and 50–75 venture capitalists for three days of 1:1 investor meetings, live pitch competitions, panels on market trends, and private VC dinners.To date, we’ve hosted thousands of founders and welcomed VCs from firms like Khosla Ventures, LG Technology Ventures, Samsung Ventures, General Catalyst and many more. Whether you’re actively raising or looking to surround yourself with the right people — Founders Village exists to accelerate your path forward.InstagramLinkedInTwitter"
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/organizers/32506722299/",
+        "_type": "organizer",
+        "id": "32506722299",
+        "name": "Founders Village",
+        "url": "https://www.eventbrite.com/o/founders-village-32506722299",
+        "num_past_events": 0,
+        "num_future_events": 0,
+        "website": "https://www.foundersvillage.co/",
+        "twitter": "foundersvillge",
+        "organization_id": "321112036139",
+        "disable_marketing_opt_in": false,
+        "logo_id": "613431939"
+      },
+      "venue": {
+        "address": {
+          "address_1": "75 Arbor Road",
+          "address_2": "",
+          "city": "Menlo Park",
+          "region": "CA",
+          "postal_code": "94025",
+          "country": "US",
+          "latitude": "37.4412431",
+          "longitude": "-122.1793714",
+          "localized_address_display": "75 Arbor Road, Menlo Park, CA 94025",
+          "localized_area_display": "Menlo Park, CA",
+          "localized_multi_line_address_display": [
+            "75 Arbor Road",
+            "Menlo Park, CA 94025"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/299973634/",
+        "id": "299973634",
+        "age_restriction": null,
+        "capacity": null,
+        "name": "Allied Arts Guild - 75 Arbor Rd, Menlo Park, CA 94025",
+        "latitude": "37.4412431",
+        "longitude": "-122.1793714"
+      }
+    },
+    {
+      "name": {
+        "text": "Tech Weekend February 2027 | Happy Hour | Menlo Park | Silicon Valley"
+      },
+      "description": {
+        "text": "Close out Tech Weekend February 2027 with a happy hour. Build relationships and celebrate the weekend's highlights."
+      },
+      "url": "https://www.eventbrite.com/e/tech-weekend-february-2027-happy-hour-menlo-park-silicon-valley-tickets-2003842788723",
+      "start": {
+        "timezone": "America/Los_Angeles",
+        "utc": "2027-02-20T01:00:00Z",
+        "local": "2027-02-19T17:00:00"
+      },
+      "end": {
+        "timezone": "America/Los_Angeles",
+        "utc": "2027-02-20T03:30:00Z",
+        "local": "2027-02-19T19:30:00"
+      },
+      "organization_id": "321112036139",
+      "created": "2026-10-23T22:08:09Z",
+      "changed": "2026-11-09T22:17:49Z",
+      "published": "2026-11-09T22:17:49Z",
+      "capacity": null,
+      "capacity_is_custom": null,
+      "status": "live",
+      "currency": "USD",
+      "listed": true,
+      "shareable": true,
+      "online_event": false,
+      "tx_time_limit": 2400,
+      "hide_start_date": false,
+      "hide_end_date": false,
+      "locale": "en_US",
+      "is_locked": false,
+      "privacy_setting": "unlocked",
+      "is_series": false,
+      "is_series_parent": false,
+      "inventory_type": "limited",
+      "is_reserved_seating": false,
+      "show_pick_a_seat": false,
+      "show_seatmap_thumbnail": false,
+      "show_colors_in_seatmap_thumbnail": false,
+      "source": "coyote",
+      "is_free": false,
+      "version": null,
+      "summary": "Close out Tech Weekend February 2027 with a happy hour. Build relationships and celebrate the weekend's highlights.",
+      "facebook_event_id": null,
+      "logo_id": "1196477328",
+      "organizer_id": "32506722299",
+      "venue_id": "299973647",
+      "category_id": "101",
+      "subcategory_id": "1001",
+      "format_id": "10",
+      "id": "2003842788723",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/2003842788723/",
+      "is_externally_ticketed": false,
+      "logo": {
+        "crop_mask": null,
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196477328%2F321112036139%2F1%2Foriginal.20261023-222922?auto=format%2Ccompress&q=75&sharp=10&s=f00aa87dcbc1e38e3fee72b921ac4cba",
+          "width": 2160,
+          "height": 1080
+        },
+        "id": "1196477328",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196477328%2F321112036139%2F1%2Foriginal.20261023-222922?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=47c112746b3f25186986f8fbcf157f52",
+        "aspect_ratio": "2",
+        "edge_color": "#fffbf8",
+        "edge_color_set": true
+      },
+      "organizer": {
+        "description": {
+          "text": "Founders Villageis a San Francisco–based startup community that connects early-stage tech founders with investors, mentors, and partners. At its core, it's a space where founders meet other founders, investors, pitch, share resources, and learn from each other in a focused, close-knit environment.Tech Weekend is our flagship event series — hosted every 6–8 weeks in San Francisco. It brings together 100+ technical founders and 50–75 venture capitalists for three days of 1:1 investor meetings, live pitch competitions, panels on market trends, and private VC dinners.To date, we’ve hosted thousands of founders and welcomed VCs from firms like Khosla Ventures, LG Technology Ventures, Samsung Ventures, General Catalyst and many more. Whether you’re actively raising or looking to surround yourself with the right people — Founders Village exists to accelerate your path forward.InstagramLinkedInTwitter"
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/organizers/32506722299/",
+        "_type": "organizer",
+        "id": "32506722299",
+        "name": "Founders Village",
+        "url": "https://www.eventbrite.com/o/founders-village-32506722299",
+        "num_past_events": 0,
+        "num_future_events": 0,
+        "website": "https://www.foundersvillage.co/",
+        "twitter": "foundersvillge",
+        "organization_id": "321112036139",
+        "disable_marketing_opt_in": false,
+        "logo_id": "613431939"
+      },
+      "venue": {
+        "address": {
+          "address_1": "75 Arbor Road",
+          "address_2": "",
+          "city": "Menlo Park",
+          "region": "CA",
+          "postal_code": "94025",
+          "country": "US",
+          "latitude": "37.4412431",
+          "longitude": "-122.1793714",
+          "localized_address_display": "75 Arbor Road, Menlo Park, CA 94025",
+          "localized_area_display": "Menlo Park, CA",
+          "localized_multi_line_address_display": [
+            "75 Arbor Road",
+            "Menlo Park, CA 94025"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/299973647/",
+        "id": "299973647",
+        "age_restriction": null,
+        "capacity": null,
+        "name": "Allied Arts Guild - 75 Arbor Rd, Menlo Park, CA 94025",
+        "latitude": "37.4412431",
+        "longitude": "-122.1793714"
+      }
+    }
+  ],
+  "pagination": {
+    "object_count": 14,
+    "page_number": 1,
+    "page_size": 50,
+    "page_count": 1,
+    "has_more_items": false
+  }
+}

@@ -1,0 +1,2 @@
+- Fetch tier order: (1) feed (iCal/RSS/public JSON API), (2) JSON-LD in the page, (3) open-model extraction (gpt-oss-20b), (4) hosted browser. Use the first tier that works for a source.
+- Adapters only fetch and parse into RawEvent[]. Normalizing (geocode, dedupe, tag, embed) happens later in convex/normalize/.

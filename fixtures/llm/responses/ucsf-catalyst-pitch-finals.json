@@ -1,0 +1,12 @@
+{
+  "slug": "ucsf-catalyst-pitch-finals",
+  "model": "openai/gpt-oss-20b",
+  "recordedAt": "2026-11-15T18:45:14.860Z",
+  "now": "2026-11-15T20:00:00.000Z",
+  "status": "ok",
+  "attempts": [
+    {
+      "content": "{\"events\":[{\"title\":\"2026 Catalyst Pitch Finals\",\"startsAt\":\"2026-03-30T11:00\",\"endsAt\":\"2026-03-30T20:00\",\"timezone\":null,\"venue\":\"Byers Auditorium\",\"address\":null,\"online\":false,\"url\":\"https://innovation.ucsf.edu/about/events/2026-catalyst-pitch-finals\",\"description\":null}]}"
+    }
+  ]
+}

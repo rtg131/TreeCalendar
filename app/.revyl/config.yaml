@@ -1,0 +1,73 @@
+project:
+    id: ae64962c-9d17-4555-9d1a-49a83a025a47
+session:
+    idle_timeout_seconds: 1800
+build:
+    framework: expo
+    env:
+        EXPO_PUBLIC_CONVEX_URL: https://nautical-sheep-358.convex.cloud
+    profiles:
+        development:
+            ios:
+                app_id: b0a5354c-a6a6-47b9-8a87-20d2fab74b49
+                setup_commands:
+                    - cd .. && pnpm install
+                    - if [ ! -d ios ]; then npx expo prebuild --platform ios --no-install; fi
+                build_commands:
+                    - cd ios && if [ ! -d Pods ]; then pod install; fi && WS=$(ls -d *.xcworkspace | head -n 1) && xcodebuild -workspace "$WS" -scheme "${WS%.xcworkspace}" -configuration Debug -sdk iphonesimulator -destination 'generic/platform=iOS Simulator' ARCHS=arm64 -derivedDataPath build
+                output_path: ios/build/Build/Products/Debug-iphonesimulator/*.app
+            android:
+                setup_commands:
+                    - cd .. && pnpm install
+                    - if [ ! -d android ]; then npx expo prebuild --platform android --no-install; fi
+                build_commands:
+                    - cd android && ./gradlew assembleDebug -PreactNativeArchitectures=x86_64
+                output_path: android/app/build/outputs/apk/debug/app-debug.apk
+        preview:
+            ios:
+                app_id: b0a5354c-a6a6-47b9-8a87-20d2fab74b49
+                setup_commands:
+                    - cd .. && pnpm install
+                    - if [ ! -d ios ]; then npx expo prebuild --platform ios --no-install; fi
+                build_commands:
+                    - cd ios && if [ ! -d Pods ]; then pod install; fi && WS=$(ls -d *.xcworkspace | head -n 1) && xcodebuild -workspace "$WS" -scheme "${WS%.xcworkspace}" -configuration Release -sdk iphonesimulator -destination 'generic/platform=iOS Simulator' ARCHS=arm64 -derivedDataPath build
+                output_path: ios/build/Build/Products/Release-iphonesimulator/*.app
+            android:
+                setup_commands:
+                    - cd .. && pnpm install
+                    - if [ ! -d android ]; then npx expo prebuild --platform android --no-install; fi
+                build_commands:
+                    - cd android && ./gradlew assembleRelease -PreactNativeArchitectures=x86_64
+                output_path: android/app/build/outputs/apk/release/app-release.apk
+        pull-request:
+            ios:
+                app_id: b0a5354c-a6a6-47b9-8a87-20d2fab74b49
+                setup_commands:
+                    - cd .. && pnpm install
+                    - if [ ! -d ios ]; then npx expo prebuild --platform ios --no-install; fi
+                build_commands:
+                    - cd ios && if [ ! -d Pods ]; then pod install; fi && WS=$(ls -d *.xcworkspace | head -n 1) && xcodebuild -workspace "$WS" -scheme "${WS%.xcworkspace}" -configuration Release -sdk iphonesimulator -destination 'generic/platform=iOS Simulator' ARCHS=arm64 -derivedDataPath build
+                output_path: ios/build/Build/Products/Release-iphonesimulator/*.app
+pr_review:
+    enabled: true
+    triggers:
+        paths:
+            - "app/**"
+            - "pnpm-lock.yaml"
+        drafts: false
+    build:
+        kind: revyl
+        profile: pull-request
+    proof_of_changes:
+        enabled: true
+        harness:
+            kind: revyl
+        always_verify:
+            - "The app launches to the Scout onboarding screen or the feed"
+    workflows:
+        enabled: true
+        workflow_ids:
+            - "12886020-b777-4dcf-bcce-c19ae75154f1"
+    strict_ci_check:
+        build: true
+run_test_definitions_from_git: true

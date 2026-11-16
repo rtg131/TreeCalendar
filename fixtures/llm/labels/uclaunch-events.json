@@ -1,0 +1,22 @@
+{
+  "url": "https://www.uclaunch.com/events",
+  "events": [
+    {
+      "title": "LAUNCH-A-THON WEEKEND",
+      "startsAt": "2026-10-03",
+      "endsAt": "2026-10-04",
+      "location": "Berkeley Haas",
+      "url": "https://www.uclaunch.com/events",
+      "description": "Build With Real Startups. Win $500."
+    },
+    {
+      "title": "F26 LAUNCH DEMO DAY",
+      "startsAt": "2026-12-01",
+      "endsAt": null,
+      "location": "Berkeley Haas",
+      "url": "https://www.uclaunch.com/events",
+      "description": "Register early, limited spots!"
+    }
+  ],
+  "notes": "Launch-a-thon shows 'Sat. Oct 3 - Sun. Oct 4' with no year; inferred 2026 (Oct 3, 2026 is a Saturday; F26 cohort). No times given, so date-only. Only registration links (Google Form, Luma) are linked, so url is the page url."
+}

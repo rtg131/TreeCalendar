@@ -1,0 +1,12 @@
+{
+  "slug": "luma-gtm-breakthrough-summit",
+  "recordedAt": "2026-11-15T19:46:03.050Z",
+  "now": "2026-11-15T20:00:00.000Z",
+  "status": "ok",
+  "attempts": [
+    {
+      "content": "{\"events\":[{\"title\":\"🚀 GTM Breakthrough Summit | $25K Founder Opportunity\",\"startsAt\":\"2026-11-17\",\"endsAt\":null,\"timezone\":null,\"venue\":\"201 California St\",\"address\":\"201 California St, San Francisco, CA 94111, USA\",\"online\":false,\"url\":\"https://luma.com/fblgtm\",\"description\":\"Land your first 100 customers with GTM leaders from Workday, Clay, Blitzscaling Ventures, Virio, Resemble AI, Teleport and Imprezia (YC S25). Join the GTM Breakthrough Summit on Nov 17 in San Francisco if you’re a pre-seed to Series A B2B founder with a product live and a few design partners or pilots, and you’re stuck turning them into repeatable revenue.\"}]}",
+      "model": "openrouter.ai openai/gpt-oss-20b"
+    }
+  ]
+}

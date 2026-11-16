@@ -1,0 +1,199 @@
+[
+  {
+    "source": "devpost",
+    "sourceId": "31667",
+    "title": "Kiroween 2026",
+    "description": "Online hackathon by Kiro. $100,000 in prizes. Themes: Beginner Friendly, Machine Learning/AI, Open Ended. 14,230 registered.",
+    "url": "https://kiroween.devpost.com/",
+    "startsAt": "2026-10-30T09:00:00-07:00",
+    "endsAt": "2026-12-04T23:59:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "location": {
+      "online": true
+    },
+    "organizer": "Kiro",
+    "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/585/149/datas/medium_square.png",
+    "organizerLogoUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/585/149/datas/medium_square.png",
+    "sourceTags": [
+      "Beginner Friendly",
+      "Machine Learning/AI",
+      "Open Ended"
+    ],
+    "sourceEventType": "hackathon"
+  },
+  {
+    "source": "devpost",
+    "sourceId": "31024",
+    "title": "Meta VR Start Developer Competition 2026",
+    "description": "Online hackathon by Meta. $1,000,000 in prizes. Themes: AR/VR, Machine Learning/AI, Web. 6,336 registered.",
+    "url": "https://start-developer-competition-26.devpost.com/",
+    "startsAt": "2026-09-24T09:00:00-07:00",
+    "endsAt": "2026-11-18T23:59:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "location": {
+      "online": true
+    },
+    "organizer": "Meta",
+    "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/374/843/datas/medium_square.png",
+    "organizerLogoUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/374/843/datas/medium_square.png",
+    "sourceTags": [
+      "AR/VR",
+      "Machine Learning/AI",
+      "Web"
+    ],
+    "sourceEventType": "hackathon"
+  },
+  {
+    "source": "devpost",
+    "sourceId": "31572",
+    "title": "Codegeist 2026: Build with context. Ship with confidence.",
+    "description": "Online hackathon by Atlassian. $120,000 in prizes. Themes: Machine Learning/AI, Enterprise, Productivity. 3,568 registered.",
+    "url": "https://codegeist2026.devpost.com/",
+    "startsAt": "2026-10-27T09:00:00-07:00",
+    "endsAt": "2026-12-22T23:59:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "location": {
+      "online": true
+    },
+    "organizer": "Atlassian",
+    "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/624/479/datas/medium_square.png",
+    "organizerLogoUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/624/479/datas/medium_square.png",
+    "sourceTags": [
+      "Machine Learning/AI",
+      "Enterprise",
+      "Productivity"
+    ],
+    "sourceEventType": "hackathon"
+  },
+  {
+    "source": "devpost",
+    "sourceId": "31552",
+    "title": "UGREEN Hackathon 2026 on AI NAS",
+    "description": "Online hackathon by UGREEN. $46,000 in prizes. Themes: Lifehacks, Machine Learning/AI, Productivity. 2,672 registered.",
+    "url": "https://ugreenhackathon.devpost.com/",
+    "startsAt": "2026-10-22T09:00:00-07:00",
+    "endsAt": "2026-11-16T23:59:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "location": {
+      "online": true
+    },
+    "organizer": "UGREEN",
+    "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/624/690/datas/medium_square.png",
+    "organizerLogoUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/624/690/datas/medium_square.png",
+    "sourceTags": [
+      "Lifehacks",
+      "Machine Learning/AI",
+      "Productivity"
+    ],
+    "sourceEventType": "hackathon"
+  },
+  {
+    "source": "devpost",
+    "sourceId": "31808",
+    "title": "#BuildHybridAI 2026",
+    "description": "Online hackathon by Google. $30,000 in prizes. Themes: Machine Learning/AI, Mobile, Web. 2,424 registered.",
+    "url": "https://firebasehybridaihackathon.devpost.com/",
+    "startsAt": "2026-11-11T09:00:00-08:00",
+    "endsAt": "2026-11-30T23:59:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "location": {
+      "online": true
+    },
+    "organizer": "Google",
+    "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/784/130/datas/medium_square.png",
+    "organizerLogoUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/784/130/datas/medium_square.png",
+    "sourceTags": [
+      "Machine Learning/AI",
+      "Mobile",
+      "Web"
+    ],
+    "sourceEventType": "hackathon"
+  },
+  {
+    "source": "devpost",
+    "sourceId": "31083",
+    "title": "QNX Global Hackathon",
+    "description": "Online hackathon by QNX. $50,000 in prizes. Themes: IoT, Machine Learning/AI, Open Ended. 1,663 registered.",
+    "url": "https://qnx.devpost.com/",
+    "startsAt": "2026-11-02T09:00:00-08:00",
+    "endsAt": "2026-12-15T23:59:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "location": {
+      "online": true
+    },
+    "organizer": "QNX",
+    "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/522/477/datas/medium_square.jpg",
+    "organizerLogoUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/522/477/datas/medium_square.jpg",
+    "sourceTags": [
+      "IoT",
+      "Machine Learning/AI",
+      "Open Ended"
+    ],
+    "sourceEventType": "hackathon"
+  },
+  {
+    "source": "devpost",
+    "sourceId": "31644",
+    "title": "Reddit’s Game of the Day Hackathon",
+    "description": "Online hackathon by reddit. $35,000 in prizes. Themes: Beginner Friendly, Gaming. 1,276 registered.",
+    "url": "https://redditgameofday2026.devpost.com/",
+    "startsAt": "2026-11-11T09:00:00-08:00",
+    "endsAt": "2026-12-08T23:59:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "location": {
+      "online": true
+    },
+    "organizer": "reddit",
+    "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/533/494/datas/medium_square.png",
+    "organizerLogoUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/533/494/datas/medium_square.png",
+    "sourceTags": [
+      "Beginner Friendly",
+      "Gaming"
+    ],
+    "sourceEventType": "hackathon"
+  },
+  {
+    "source": "devpost",
+    "sourceId": "32026",
+    "title": "Open Agentic Web Challenge",
+    "description": "Online hackathon by Cognizant. $10,000 in prizes. Themes: Machine Learning/AI, Web, Social Good. 703 registered.",
+    "url": "https://cognizant-agenticweb.devpost.com/",
+    "startsAt": "2026-11-11T09:00:00-08:00",
+    "endsAt": "2027-01-11T23:59:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "location": {
+      "online": true
+    },
+    "organizer": "Cognizant",
+    "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/839/029/datas/medium_square.png",
+    "organizerLogoUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/839/029/datas/medium_square.png",
+    "sourceTags": [
+      "Machine Learning/AI",
+      "Web",
+      "Social Good"
+    ],
+    "sourceEventType": "hackathon"
+  },
+  {
+    "source": "devpost",
+    "sourceId": "30789",
+    "title": "Arbiter Hacks V1",
+    "description": "Online hackathon by Arbiter . $7,800 in prizes. Themes: Beginner Friendly, Machine Learning/AI, Open Ended. 1,165 registered.",
+    "url": "https://arbiter-hacks-v1.devpost.com/",
+    "startsAt": "2026-10-20T09:00:00-07:00",
+    "endsAt": "2026-12-21T23:59:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "location": {
+      "online": true
+    },
+    "organizer": "Arbiter ",
+    "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/995/823/datas/medium_square.jpg",
+    "organizerLogoUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/995/823/datas/medium_square.jpg",
+    "sourceTags": [
+      "Beginner Friendly",
+      "Machine Learning/AI",
+      "Open Ended"
+    ],
+    "sourceEventType": "hackathon"
+  }
+]

@@ -1,0 +1,43 @@
+# Revyl Test Definition
+
+_meta:
+    remote_id: f8fbd4fa-6983-4de8-9863-6fd59a80a75b
+    remote_version: 2
+    local_version: 2
+    last_synced_at: "2026-11-15T21:55:42Z"
+    checksum: 295540fa438f84ad350216f40cf64b322cb673927b98f938622e056cdbf9dbfc
+test:
+    metadata:
+        name: map-discovery
+        platform: ios
+        tags:
+            - map
+    build:
+        name: Scout iOS
+    blocks:
+        - type: module_import
+          module: onboard-student
+        - type: instructions
+          step_description: Tap the Map tab.
+        - type: validation
+          step_description: Explore the map is visible with a search-area control, filters, a radius selector, Recenter, and List. The map shows Apple map attribution. No location prompt appears automatically.
+        - type: instructions
+          step_description: Select the Investors likely filter, then select For you. Select the Bay Area radius.
+        - type: validation
+          step_description: The located event count updates. The screen explains that results are capped and moving the map does not search. Online and unlocated events are not plotted.
+        - type: instructions
+          step_description: Tap a map pin, then a different numbered event selector beneath the map.
+        - type: validation
+          step_description: The event preview changes to match the selection and shows title, date and time, venue, distance, event type, and investor signal estimate.
+        - type: instructions
+          step_description: Tap the selected event preview, then go back to Map.
+        - type: validation
+          step_description: The existing event detail opens for that preview, and returning restores the Map route.
+        - type: instructions
+          step_description: Tap the area control, tap Use my current location, and deny location access if prompted.
+        - type: validation
+          step_description: A location-off message and manual city choices remain usable. No repeated permission prompt appears when panning the map.
+        - type: instructions
+          step_description: Choose San Francisco, tap Recenter, then tap List.
+        - type: validation
+          step_description: The feed list is available and uses the selected city and radius. Saved and Profile tabs are still available.

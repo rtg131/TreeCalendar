@@ -1,0 +1,12 @@
+{
+  "slug": "treehacks",
+  "model": "openai/gpt-oss-20b",
+  "recordedAt": "2026-11-15T18:30:54.402Z",
+  "now": "2026-11-15T20:00:00.000Z",
+  "status": "ok",
+  "attempts": [
+    {
+      "content": "{\"events\":[{\"title\":\"TreeHacks 2027\",\"startsAt\":\"2027-02-12\",\"endsAt\":\"2027-02-14\",\"timezone\":null,\"venue\":\"Stanford University campus\",\"address\":\"Stanford, CA\",\"online\":false,\"url\":\"https://treehacks.com/\",\"description\":\"TreeHacks is Stanford's premier hackathon. The world's most talented builders are flown to Stanford's campus, where they create products that tackle humanity's toughest challenges in just 36 hours.\"}]}"
+    }
+  ]
+}

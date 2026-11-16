@@ -1,0 +1,31 @@
+[
+  {
+    "source": "fixture",
+    "sourceId": "fixture-1",
+    "title": "Fixture Hackathon",
+    "description": "A fixture event for the dispatch pipeline.",
+    "url": "https://example.test/events/stub-1",
+    "startsAt": "2026-12-05T09:00:00-08:00",
+    "endsAt": "2026-12-06T17:00:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "location": {
+      "online": false,
+      "name": "Stub Hall",
+      "city": "Palo Alto",
+      "region": "CA",
+      "country": "US"
+    }
+  },
+  {
+    "source": "fixture",
+    "sourceId": "fixture-2",
+    "title": "Fixture Pitch Night",
+    "description": "Second fixture event.",
+    "url": "https://example.test/events/stub-2",
+    "startsAt": "2026-12-10T18:00:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "location": {
+      "online": true
+    }
+  }
+]

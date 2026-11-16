@@ -1,0 +1,25 @@
+[
+  {
+    "source": "jsonld",
+    "sourceId": "https://www.eventbrite.com/e/write-together-december-tickets-2002663923706",
+    "title": "Write Together -  December",
+    "description": "Spend a Saturday morning writing in community!",
+    "url": "https://www.eventbrite.com/e/write-together-december-tickets-2002663923706",
+    "startsAt": "2026-12-05T10:30:00-08:00",
+    "endsAt": "2026-12-05T12:30:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "location": {
+      "online": false,
+      "name": "297 Page St",
+      "address": "297 Page Street, San Francisco, CA 94102, US",
+      "city": "San Francisco",
+      "region": "CA",
+      "country": "US"
+    },
+    "organizer": "Hosted by Page Street",
+    "hosts": [
+      "Hosted by Page Street"
+    ],
+    "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194767003%2F1323297460383%2F1%2Foriginal.20260930-212549?crop=focalpoint&fit=crop&w=940&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=c59659053468ce8c492febf338fedb51"
+  }
+]

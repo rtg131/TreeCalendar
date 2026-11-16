@@ -1,0 +1,75 @@
+[
+  {
+    "source": "ical",
+    "sourceId": "evt-gHhBLNIv4jp92IX@events.lu.ma",
+    "title": "In Production: OpenRouter x ElevenLabs",
+    "description": "Get up-to-date information at: https://luma.com/wvw8xwsi\n\nAddress:\nCheck event page for more details.\n\nHosted by Dasha Shunina, OpenRouter & Jonathan Chang",
+    "url": "https://luma.com/wvw8xwsi",
+    "startsAt": "2026-11-18T01:30:00+00:00",
+    "endsAt": "2026-11-18T04:00:00+00:00",
+    "timezone": "UTC",
+    "location": {
+      "online": false,
+      "lat": 37.788622311472785,
+      "lng": -122.40552851084097
+    }
+  },
+  {
+    "source": "ical",
+    "sourceId": "evt-f897Rh7OqUeulMv@events.lu.ma",
+    "title": "Cheapest Isn’t Best: How We Rebuilt Provider Routing",
+    "description": "Get up-to-date information at: https://luma.com/j2m3ly7c\n\nHosted by Dasha Shunina",
+    "url": "https://luma.com/j2m3ly7c",
+    "startsAt": "2026-11-18T18:00:00+00:00",
+    "endsAt": "2026-11-18T19:00:00+00:00",
+    "timezone": "UTC",
+    "location": {
+      "online": false
+    }
+  },
+  {
+    "source": "ical",
+    "sourceId": "evt-jeaYt028SDQcR86@events.lu.ma",
+    "title": "Best Move Club: Chess Community Event Series",
+    "description": "Get up-to-date information at: https://luma.com/uq9xqfaf\n\nAddress:\nCheck event page for more details.\n\nHosted by OpenRouter",
+    "url": "https://luma.com/uq9xqfaf",
+    "startsAt": "2026-11-19T02:00:00+00:00",
+    "endsAt": "2026-11-19T04:30:00+00:00",
+    "timezone": "UTC",
+    "location": {
+      "online": false,
+      "lat": 37.79034067763347,
+      "lng": -122.40356236471928
+    }
+  },
+  {
+    "source": "ical",
+    "sourceId": "evt-s5LlrVThqIV1Ce7@events.lu.ma",
+    "title": "Lunch & Learn: OpenRouter x Antler",
+    "description": "Get up-to-date information at: https://luma.com/openro-0n8z\n\nAddress:\nCheck event page for more details.\n\nHosted by Dasha Shunina, OpenRouter & Kaila J. Lim",
+    "url": "https://luma.com/openro-0n8z",
+    "startsAt": "2026-12-02T17:00:00+00:00",
+    "endsAt": "2026-12-02T19:00:00+00:00",
+    "timezone": "UTC",
+    "location": {
+      "online": false,
+      "lat": 40.739271956343195,
+      "lng": -73.9914783106424
+    }
+  },
+  {
+    "source": "ical",
+    "sourceId": "evt-zAqj6otQBzV3xKI@events.lu.ma",
+    "title": "Can AI Learn Without Humans?",
+    "description": "Get up-to-date information at: https://luma.com/12xc9wku\n\nAddress:\nCheck event page for more details.\n\nHosted by OpenRouter",
+    "url": "https://luma.com/12xc9wku",
+    "startsAt": "2026-12-03T22:30:00+00:00",
+    "endsAt": "2026-12-04T01:30:00+00:00",
+    "timezone": "UTC",
+    "location": {
+      "online": false,
+      "lat": 40.74501947160206,
+      "lng": -73.99012607482224
+    }
+  }
+]

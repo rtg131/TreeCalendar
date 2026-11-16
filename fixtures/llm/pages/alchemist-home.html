@@ -1,0 +1,1045 @@
+<!doctype html><html lang="en"><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alchemist | Venture Firm for Deeply Technical Founders</title>
+  <meta name="description" content="Alchemist is an early-stage venture firm backing deeply technical teams and guiding them to enterprise traction, with a founder experience beyond the check">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&amp;display=swap" rel="stylesheet">
+  <style>
+:root{
+--deep-teal:#092835;--deep-teal-80:#3a535d;--deep-teal-60:#6b7e86;
+--graphite:#474747;--graphite-80:#6c6c6c;--graphite-60:#919191;
+--cyan:#5dc2d8;--cyan-80:#7dcee0;--cyan-60:#9edae8;--logo-cyan:#58c9e7;
+--yellow:#fde390;--yellow-80:#fde9a6;--yellow-60:#feeebc;
+--white:#ffffff;--mist:#f1f2f3;--black:#000000;--rule:#cac8c8;--rule-teal:#09283533;--rule-on-dark:#ffffff99;
+--space-10:10px;--space-20:20px;--space-40:40px;--space-100:100px;
+--radius-none:0px;
+--opacity-triangle-faint:0.12;--opacity-triangle-soft:0.15;--opacity-triangle-mid:0.4;--opacity-accent-soft:0.6;--opacity-accent:0.9;
+--font-sans:"Open Sans","Helvetica Neue",Arial,sans-serif;
+}
+
+/* Alchemist components. Square corners everywhere (radius-none). Open Sans throughout. */
+.al-btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;font-family:var(--font-sans);font-size:14px;font-weight:600;line-height:1.1;padding:var(--space-10) var(--space-20);border:1px solid transparent;border-radius:var(--radius-none);cursor:pointer;text-decoration:none;transition:background-color .15s,color .15s}
+.al-btn:focus-visible{outline:2px solid var(--cyan);outline-offset:2px}
+.al-btn--on-light:focus-visible{outline-color:var(--deep-teal)}
+.al-btn--primary.al-btn--on-light{background:var(--deep-teal);color:var(--white)}
+.al-btn--primary.al-btn--on-light:hover{background:var(--deep-teal-80)}
+.al-btn--secondary.al-btn--on-light{background:transparent;color:var(--deep-teal);border-color:var(--deep-teal)}
+.al-btn--secondary.al-btn--on-light:hover{background:var(--mist)}
+.al-btn--primary.al-btn--on-dark{background:var(--cyan);color:var(--deep-teal)}
+.al-btn--primary.al-btn--on-dark:hover{background:var(--cyan-80)}
+.al-btn--secondary.al-btn--on-dark{background:transparent;color:var(--white);border-color:var(--white)}
+.al-btn--secondary.al-btn--on-dark:hover{background:var(--deep-teal-80)}
+.al-btn:disabled{opacity:.6;cursor:not-allowed}
+
+.al-tag{display:inline-block;background:var(--yellow);color:var(--deep-teal);font-family:var(--font-sans);font-size:18px;font-weight:600;line-height:1.4;padding:var(--space-10);border-radius:var(--radius-none)}
+
+.al-logo{display:block}
+.al-triangles{display:block}
+
+.al-list{list-style:none;margin:0;padding:0;font-family:var(--font-sans)}
+.al-list__row{display:grid;grid-template-columns:var(--space-100) 1fr;align-items:baseline;padding:var(--space-40) 0;border-bottom:1px solid var(--rule-teal)}
+.al-list__row:first-child{padding-top:0}
+.al-list__num{font-size:28px;line-height:1.1;color:var(--logo-cyan)}
+.al-list__text{font-size:28px;line-height:1.1;color:var(--deep-teal)}
+.al-list--on-dark .al-list__row{border-bottom-color:var(--rule-on-dark)}
+.al-list--on-dark .al-list__num{color:var(--logo-cyan)}
+.al-list--on-dark .al-list__text{color:var(--white)}
+
+.al-stat{background:var(--yellow);color:var(--deep-teal);font-family:var(--font-sans);padding:var(--space-40);border-radius:var(--radius-none);max-width:318px;box-sizing:border-box}
+.al-stat__value{font-size:68px;line-height:1.1;font-weight:400}
+.al-stat__label{font-size:20px;line-height:1.1;margin-top:var(--space-20)}
+
+.al-quote{margin:0;font-family:var(--font-sans);padding:var(--space-40);border-radius:var(--radius-none)}
+.al-quote--on-dark{background:var(--deep-teal);color:var(--white)}
+.al-quote--on-light{background:var(--white);color:var(--deep-teal)}
+.al-quote__mark{display:block;margin-bottom:var(--space-20)}
+.al-quote__text{margin:0;font-size:40px;line-height:1.1;font-weight:400}
+.al-quote__by{margin-top:var(--space-20);font-size:20px;line-height:1.4}
+
+body{margin:0;background:#092835;font-family:var(--font-sans);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+a{color:#092835}
+a:hover{color:#3a535d}
+.wrap{max-width:1200px;margin:0 auto;padding-inline:40px;box-sizing:border-box}
+@media (max-width:640px){.wrap{padding-inline:20px}}
+@media (max-width:900px){.phase-line{display:none!important}}
+.stats-row{display:flex;flex-wrap:nowrap;gap:24px}
+.stats-row>*{flex:1 1 0;min-width:0}
+@media (max-width:960px){.stats-row{flex-wrap:wrap;gap:32px 24px}.stats-row>*{flex:1 1 140px}}
+
+.eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:12px;font-weight:600;letter-spacing:.16em;text-transform:uppercase}
+.eyebrow .num{color:var(--logo-cyan)}
+.on-light .eyebrow .num{color:var(--deep-teal-60)}
+.display{font-weight:300;letter-spacing:-.03em;line-height:1.04}
+p{font-weight:300}
+h3{font-weight:400}
+.grid-bg{background-image:linear-gradient(rgba(255,255,255,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.05) 1px,transparent 1px);background-size:80px 80px}
+.pill{display:inline-flex;align-items:center;gap:10px;padding:8px 14px;border:1px solid rgba(255,255,255,.22);font-size:13px;font-weight:600;letter-spacing:.02em}
+.dot{width:8px;height:8px;background:var(--logo-cyan);display:inline-block}
+@keyframes al-pulse{0%,100%{opacity:1}50%{opacity:.25}}
+@keyframes al-marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.marquee{display:flex;width:max-content;gap:56px}
+.lift{transition:transform .35s cubic-bezier(.2,.7,.2,1),box-shadow .35s,background-color .35s}
+.lift:hover{transform:translateY(-6px)}
+.edge{position:relative}
+.edge::before{content:"";position:absolute;left:0;top:0;height:3px;width:0;background:var(--logo-cyan);transition:width .45s cubic-bezier(.2,.7,.2,1)}
+.edge:hover::before{width:100%}
+.photo{overflow:hidden}
+.photo img{transition:transform .8s cubic-bezier(.2,.7,.2,1)}
+.photo:hover img{transform:scale(1.05)}
+.navlink{color:#fff;text-decoration:none;opacity:.8;transition:opacity .2s}
+.navlink:hover{opacity:1;color:#fff}
+.pfx{position:relative;overflow:hidden}
+.pfx>.wrap,.pfx>.statband{position:relative}
+.pfx-img{position:absolute;right:0;top:0;width:60%;height:100%;object-fit:cover;opacity:.75;-webkit-mask-image:linear-gradient(90deg,transparent 0%,#000 50%);mask-image:linear-gradient(90deg,transparent 0%,#000 50%);pointer-events:none}
+.flink{color:var(--white);text-decoration:none;opacity:.85}
+.flink:hover{opacity:1;color:var(--white)}
+.navdrop{position:relative;display:inline-flex;align-items:center}
+.navdrop>.navlink{display:inline-flex;align-items:center;gap:6px}
+.navdrop .caret{transition:transform .2s}
+.navdrop:hover .caret,.navdrop:focus-within .caret{transform:rotate(180deg)}
+.navmenu{position:absolute;top:100%;left:-20px;padding-top:16px;opacity:0;visibility:hidden;transform:translateY(-4px);transition:opacity .2s,transform .2s,visibility .2s;z-index:60}
+.navdrop:hover .navmenu,.navdrop:focus-within .navmenu{opacity:1;visibility:visible;transform:none}
+.navmenu-in{min-width:200px;background:#061f29;border:1px solid rgba(255,255,255,.14);border-top:2px solid var(--logo-cyan);box-shadow:0 18px 40px rgba(0,0,0,.35);padding:8px 0}
+.navmenu a{display:flex;align-items:center;min-height:44px;padding:0 20px;color:#fff;text-decoration:none;font-size:14px;font-weight:400;opacity:.85;transition:background-color .2s,opacity .2s}
+.navmenu a:hover{opacity:1;background:rgba(255,255,255,.06);color:#fff}
+
+.statband{display:grid;grid-template-columns:repeat(5,minmax(0,1fr))}
+@media (max-width:1100px){.statband{grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}}@media (max-width:640px){.statband{grid-template-columns:repeat(2,minmax(0,1fr))}.statband>div{padding:20px 16px!important;flex-direction:column;align-items:flex-start!important;justify-content:flex-start!important;gap:10px!important}.statband>div:last-child{grid-column:1/-1}.statband>div>div:first-child>div:first-child{font-size:34px!important}.statband>div>div:last-child{padding-top:0!important}}
+.bento{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:1px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.14)}
+.bento>*{background:var(--deep-teal)}
+@media (max-width:900px){.bento{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:760px){.hide-sm{display:none!important}}
+.pgrid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));grid-auto-rows:280px;gap:12px}
+.pgrid .pa{grid-column:span 2;grid-row:span 2}.pgrid .pd{grid-column:span 2}
+@media (max-width:760px){.pgrid{grid-template-columns:1fr 1fr}.pgrid .pa,.pgrid .pd{grid-column:span 2;grid-row:span 1}}
+@media (prefers-reduced-motion: no-preference){
+  .dot{animation:al-pulse 1.8s ease-in-out infinite}
+  .marquee{animation:al-marquee 80s linear infinite}
+}
+@keyframes al-rise{from{opacity:0;transform:translateY(32px)}to{opacity:1;transform:none}}
+@keyframes al-fade{from{opacity:0}to{opacity:1}}
+@media (prefers-reduced-motion: no-preference){
+  .intro{animation:al-rise .9s cubic-bezier(.2,.7,.2,1) both}
+  .intro-2{animation:al-rise .9s cubic-bezier(.2,.7,.2,1) .15s both}
+  .intro-3{animation:al-fade 1.2s ease-out .3s both}
+  @supports (animation-timeline: view()){
+    .reveal{animation:al-rise linear both;animation-timeline:view();animation-range:entry 0% cover 22%}
+  }
+}
+
+@keyframes pfx-drift{0%{transform:translate3d(-2%,0,0) scale(1.06)}50%{transform:translate3d(1.5%,-1.5%,0) scale(1.1)}100%{transform:translate3d(3%,1%,0) scale(1.05)}}
+@keyframes pfx-breathe{0%,100%{opacity:.6}50%{opacity:.9}}
+@media (prefers-reduced-motion: no-preference){.pfx-img{animation:pfx-drift 26s ease-in-out infinite alternate,pfx-breathe 7s ease-in-out infinite;will-change:transform,opacity}}
+
+.mol-bg{position:absolute;z-index:0;width:600px;height:600px;right:2%;top:-250px;opacity:.9;pointer-events:none;transform-origin:50% 0%}
+@keyframes mol-spin{0%{transform:rotate(0deg) translate3d(0,0,0)}50%{transform:rotate(8deg) translate3d(-14px,10px,0)}100%{transform:rotate(0deg) translate3d(0,0,0)}}
+@keyframes mol-glow{0%,100%{opacity:.7}50%{opacity:1}}
+@media (prefers-reduced-motion: no-preference){.mol-bg{animation:mol-spin 18s ease-in-out infinite,mol-glow 6s ease-in-out infinite}}
+
+.atom-bg{position:absolute;z-index:0;width:520px;height:520px;left:-170px;bottom:-200px;opacity:.6;pointer-events:none}
+@keyframes atom-spin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion: no-preference){.atom-bg{animation:atom-spin 90s linear infinite}}
+.hero-mosaic{display:grid;grid-template-columns:1.15fr 1fr 1fr;grid-template-rows:228px 224px;gap:8px}
+.hero-mosaic figure{margin:0;overflow:hidden;position:relative;border:1px solid rgba(255,255,255,.14)}
+.hero-mosaic img{width:100%;height:100%;object-fit:cover;display:block;transform:scale(1.02);transition:transform 1.2s ease}
+.hero-mosaic figure:hover img{transform:scale(1.07)}
+.hm-a{grid-row:1 / span 2}.hm-b{grid-column:2 / span 2}
+.hm-a img{object-position:45% 30%}.hm-b img{object-position:center 55%}.hm-d img{object-position:center 40%}
+@media (prefers-reduced-motion: no-preference){.hero-mosaic img{animation:hm-kb 18s ease-in-out infinite alternate}.hm-b img{animation-delay:-6s}.hm-c img{animation-delay:-11s}.hm-d img{animation-delay:-3s}}
+@keyframes hm-kb{from{transform:scale(1.02)}to{transform:scale(1.08)}}
+@media (max-width:640px){.hero-mosaic{grid-template-columns:1fr 1fr;grid-template-rows:200px 160px 160px}.hm-a{grid-row:auto;grid-column:1 / span 2}.hm-b{grid-column:auto}}
+
+/* Mobile + tablet */
+.navtog{position:absolute;opacity:0;width:1px;height:1px;pointer-events:none}
+.navburger{display:none;flex-direction:column;justify-content:center;gap:5px;width:44px;height:44px;margin-right:-10px;cursor:pointer}
+.navburger span{display:block;width:22px;height:2px;margin:0 auto;background:#fff;transition:transform .25s,opacity .25s}
+.navtog:checked + .navburger span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.navtog:checked + .navburger span:nth-child(2){opacity:0}
+.navtog:checked + .navburger span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+@media (max-width:900px){
+  .navburger{display:flex}
+  .navlinks{display:none!important;width:100%;flex-direction:column;align-items:stretch!important;gap:0!important;padding:4px 0 12px;max-height:calc(100vh - 80px);overflow-y:auto}
+  .navtog:checked ~ .navlinks{display:flex!important}
+  .navlinks>.navlink,.navlinks .navdrop>.navlink{min-height:52px;display:flex;align-items:center;border-top:1px solid rgba(255,255,255,.1);font-size:17px}
+  .navlinks .navdrop{display:block}
+  .navlinks .navdrop .caret{display:none}
+  .navlinks .navmenu{position:static;opacity:1;visibility:visible;transform:none;padding:0 0 10px 14px}
+  .navlinks .navmenu-in{background:none;border:0;box-shadow:none;padding:0;min-width:0}
+  .navlinks .navmenu a{min-height:40px;padding:0;font-size:15px}
+  .navlinks x-import{margin-top:16px;align-self:flex-start}
+  .wrap[style*="padding-top: 140px"],.wrap[style*="padding-top: 128px"]{padding-top:104px!important}
+  .wrap[style*="padding-bottom: 140px"],.wrap[style*="padding-bottom: 128px"]{padding-bottom:104px!important}
+}
+@media (max-width:640px){
+  .wrap[style*="padding-top: 140px"],.wrap[style*="padding-top: 128px"],.wrap[style*="padding-top: 120px"],.wrap[style*="padding-top: 112px"]{padding-top:72px!important}
+  .wrap[style*="padding-bottom: 140px"],.wrap[style*="padding-bottom: 128px"],.wrap[style*="padding-bottom: 120px"],.wrap[style*="padding-bottom: 112px"],.wrap[style*="padding-bottom: 104px"]{padding-bottom:72px!important}
+  [style*="grid-template-columns: minmax(120px, 220px)"]{grid-template-columns:1fr!important;gap:10px!important}
+  form[style*="grid-template-columns: repeat(2, minmax(0, 1fr))"]{grid-template-columns:1fr!important}
+  form[style*="grid-template-columns: repeat(2, minmax(0, 1fr))"]>*{grid-column:auto!important}
+  [style*="font-size: clamp(44px, 5vw, 72px)"]{font-size:38px!important}
+  [style*="margin: 0 0 72px"],[style*="margin: 0 0 64px"]{margin-bottom:40px!important}
+  [style*="margin-bottom: 64px"],[style*="margin-bottom: 72px"]{margin-bottom:40px!important}
+  [style*="gap: 32px 80px"],[style*="gap: 56px 72px"],[style*="gap: 56px 64px"]{gap:28px!important}
+}
+@media (max-width:900px){.logo-wall{grid-template-columns:repeat(3,minmax(0,1fr))!important}}
+@media (max-width:560px){.logo-wall{grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:8px!important}}
+@media (max-width:640px){
+  .m2{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:8px!important}
+  .m2 .dt-tile{padding:22px 16px 18px!important}
+  .m2 .dt-num{font-size:44px!important}
+  .f500 > div{padding:14px 8px!important;gap:8px!important}
+  .f500 span{font-size:13px!important}
+  .f500 svg{width:20px!important;height:20px!important}
+  .mentor-cards > div{padding:22px 16px!important}
+  .mentor-cards img{width:52px!important;height:52px!important}
+}
+@media (min-width:641px) and (max-width:1000px){.mentor-cards{grid-template-columns:repeat(5,minmax(0,1fr))!important;gap:8px!important}.mentor-cards > div{padding:20px 12px!important}.mentor-cards img{width:48px!important;height:48px!important}.mentor-cards h3{font-size:17px!important}.mentor-cards p{font-size:13px!important}}
+
+.rank-link:hover p{color:var(--deep-teal)!important;text-decoration:underline;text-underline-offset:3px}
+
+/* Testimonials slider */
+section[data-tq]{overflow:hidden}.tq-wrap{position:relative}.tq{display:flex;gap:20px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;scrollbar-width:none;padding:8px 2px 12px;cursor:grab}.tq::-webkit-scrollbar{display:none}.tq.drag{cursor:grabbing;scroll-snap-type:none;scroll-behavior:auto}.tq.drag *{pointer-events:none;user-select:none}.tq-card{position:relative;flex:none;width:calc((100% - 40px) / 3);min-width:340px;margin:0;background:var(--white);color:var(--deep-teal);padding:40px 36px 32px;display:flex;flex-direction:column;gap:20px;scroll-snap-align:start;border-top:4px solid var(--yellow);box-shadow:0 18px 40px rgba(0,30,40,.16);transition:transform .35s cubic-bezier(.2,.7,.2,1),box-shadow .35s}.tq-card:hover{transform:translateY(-6px);box-shadow:0 26px 54px rgba(0,30,40,.24)}.tq-mark{display:block;height:56px;margin:-6px 0 0 -4px;font-size:150px;line-height:1;font-weight:600;color:var(--logo-cyan);font-family:Georgia,"Times New Roman",serif}.tq-pull{margin:0;font-size:24px;line-height:1.2;font-weight:600;letter-spacing:-.015em}.tq-card blockquote{margin:0;font-size:17px;line-height:1.6;font-weight:300;color:rgba(9,40,53,.82)}.tq-card blockquote strong{font-weight:600;color:var(--deep-teal);box-shadow:inset 0 -6px 0 rgba(253,227,144,.85)}.tq-foot{margin-top:auto;padding-top:24px;border-top:1px solid rgba(9,40,53,.14);font-size:14px}.tq-logo{display:block;height:36px;width:auto;max-width:170px;object-fit:contain;object-position:left center;margin-bottom:16px}.tq-word{height:36px;display:flex;align-items:center;margin-bottom:16px;font-size:20px;font-weight:600}.tq-name{font-weight:600}.tq-role{opacity:.7;margin-top:4px}.tq-one .tq-card{width:auto;max-width:820px;min-width:0}.tq-one .tq-mark{font-size:200px;height:84px}.tq-one .tq-pull{font-size:clamp(28px,3vw,40px)}.tq-one blockquote{font-size:clamp(19px,1.8vw,23px);line-height:1.5}.tq-btn{position:absolute;top:50%;transform:translateY(-50%);z-index:2;width:60px;height:60px;border:0;border-radius:50%;background:var(--yellow);color:var(--deep-teal);display:inline-flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:0 8px 24px rgba(0,30,40,.25);transition:background .2s,transform .2s,opacity .2s}.tq-btn:hover{background:var(--logo-cyan);transform:translateY(-50%) scale(1.08)}.tq-prev{left:-30px}.tq-next{right:-30px}.tq-btn[disabled]{opacity:.35;pointer-events:none}@media (max-width:760px){.tq-card{width:84vw;min-width:0;padding:32px 24px 28px}.tq-mark{font-size:110px;height:48px}.tq-btn{width:44px;height:44px}.tq-prev{left:4px}.tq-next{right:4px}}
+
+/* Colorful social icons */
+a.flink[aria-label="Alchemist on LinkedIn"],a.flink[aria-label="Alchemist on X"],a.flink[aria-label="Alchemist on Instagram"]{color:#fff!important;border:0!important;border-radius:10px;transition:transform .2s,filter .2s}a.flink[aria-label="Alchemist on LinkedIn"]{background:#0A66C2}a.flink[aria-label="Alchemist on X"]{background:#000;box-shadow:inset 0 0 0 1px rgba(255,255,255,.25)}a.flink[aria-label="Alchemist on Instagram"]{background:radial-gradient(circle at 30% 107%,#fdf497 0%,#fdf497 5%,#fd5949 45%,#d6249f 60%,#285AEB 90%)}a.flink[aria-label^="Alchemist on"]:hover{transform:translateY(-2px);filter:brightness(1.1)}
+
+
+
+
+
+
+/* FAQ accordion */
+.faq-list{border-top:1px solid var(--rule-teal)}
+.faq-item{border-bottom:1px solid var(--rule-teal);scroll-margin-top:110px}
+.faq-item summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:flex-start;gap:24px;padding:22px 0;font-size:19px;line-height:1.4;font-weight:600;color:var(--deep-teal)}
+.faq-item summary::-webkit-details-marker{display:none}
+.faq-item summary:hover{color:var(--deep-teal-80)}
+.faq-ic{flex:none;margin-top:4px;transition:transform .25s;color:var(--deep-teal)}
+.faq-item[open] .faq-ic{transform:rotate(45deg)}
+.faq-a{padding:0 48px 24px 0;font-size:17px;line-height:1.65;font-weight:300;color:var(--deep-teal)}
+.faq-a p{margin:0 0 12px}.faq-a p:last-child{margin:0}
+.faq-a a{color:var(--deep-teal);text-decoration:underline;text-decoration-color:var(--logo-cyan);text-decoration-thickness:2px;text-underline-offset:3px}
+.faq-a strong{font-weight:600}
+.faq-a ul.faq-facts{border-top:1px solid var(--rule-teal);margin:0 0 20px}.faq-a .faq-facts li{display:grid;grid-template-columns:160px 1fr;gap:16px;padding:10px 0;margin:0;border-bottom:1px solid var(--rule-teal)}.faq-a .faq-facts li{padding-left:0}.faq-a .faq-facts li::before{display:none}@media (max-width:640px){.faq-a .faq-facts li{grid-template-columns:1fr;gap:2px}}
+.faq-a ul{margin:0 0 12px;padding:0;list-style:none}.faq-a li{position:relative;padding-left:24px;margin-bottom:8px}.faq-a li::before{content:"";position:absolute;left:2px;top:.65em;width:8px;height:8px;background:var(--logo-cyan)}
+
+/* Floating help buttons */
+.fab{position:fixed;right:24px;bottom:24px;z-index:70;display:flex;align-items:center;gap:10px}
+.fab-q{display:inline-flex;align-items:center;gap:8px;min-height:52px;padding:0 20px;border-radius:999px;background:var(--yellow);color:var(--deep-teal);font-size:15px;font-weight:600;text-decoration:none;box-shadow:0 10px 26px rgba(0,20,30,.28);transition:transform .2s,background .2s}
+.fab-q:hover{background:var(--logo-cyan);transform:translateY(-2px)}
+.fab-c{width:52px;height:52px;border:0;border-radius:50%;background:var(--deep-teal);color:var(--white);display:inline-flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:0 10px 26px rgba(0,20,30,.28);transition:transform .2s,background .2s;outline:2px solid rgba(255,255,255,.18)}
+.fab-c:hover{background:var(--logo-cyan);color:var(--deep-teal);transform:translateY(-2px)}
+.fsub{bottom:96px!important}.fsub-tab{bottom:96px!important}
+.cmodal{position:fixed;inset:0;z-index:90;display:none;align-items:flex-end;justify-content:flex-end;padding:24px}
+.cmodal.on{display:flex}
+.cm-back{position:absolute;inset:0;background:rgba(9,40,53,.45);border:0;padding:0;cursor:pointer}
+.cm-card{position:relative;width:420px;max-width:100%;max-height:calc(100vh - 48px);overflow:auto;background:var(--white);color:var(--deep-teal);padding:28px 28px 24px;border-top:4px solid var(--yellow);box-shadow:0 24px 60px rgba(0,20,30,.35);margin-bottom:76px}
+.cm-card h3{margin:0 36px 6px 0;font-size:24px;line-height:1.2;font-weight:600}
+.cm-card .cm-sub{margin:0 0 18px;font-size:14px;line-height:1.5;color:var(--deep-teal-80)}
+.cm-card label{display:flex;flex-direction:column;gap:6px;font-size:13px;font-weight:600;margin-bottom:12px}
+.cm-card input,.cm-card select,.cm-card textarea{font-family:inherit;font-size:15px;padding:10px 12px;border:1px solid var(--rule-teal);background:var(--white);color:var(--deep-teal);min-height:44px;box-sizing:border-box;width:100%}
+.cm-card textarea{min-height:96px;resize:vertical}
+.cm-row{display:flex;gap:10px}.cm-row label{flex:1}
+.cm-send{font-family:inherit;width:100%;min-height:48px;border:0;background:var(--deep-teal);color:var(--white);font-size:15px;font-weight:600;cursor:pointer;margin-top:4px}
+.cm-send:hover{background:var(--deep-teal-80)}
+.cm-links{display:flex;justify-content:space-between;gap:12px;margin-top:14px;font-size:13px;font-weight:600}
+.cm-links a{color:var(--deep-teal)}
+.cm-x{position:absolute;top:12px;right:12px;width:36px;height:36px;border:0;background:transparent;color:var(--deep-teal);font-size:24px;line-height:1;cursor:pointer}
+.cm-done{display:none;padding:24px 0 8px}.cmodal.sent .cm-form{display:none}.cmodal.sent .cm-done{display:block}
+@media (max-width:640px){.fab{right:12px;bottom:12px}.fab-q{min-height:46px;padding:0 16px}.fab-c{width:46px;height:46px}.cmodal{padding:12px}.cm-card{margin-bottom:64px}.fsub{bottom:72px!important}.fsub-tab{bottom:72px!important}}
+  .hh-stage{position:relative;overflow:hidden;min-height:clamp(560px,calc(100vh - 150px),820px);display:flex;align-items:center}.hh-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:var(--p);opacity:0;transform:scale(1);transition:opacity 1.2s ease,transform 7s ease-out}.hh-img.on{opacity:1;transform:scale(1.06)}.hh-shade{position:absolute;inset:0;background:rgba(9,40,53,.62)}.hh-copy{position:relative;width:100%;padding-top:96px;padding-bottom:96px}.hh-h1{margin:0 0 32px;font-size:clamp(38px,5.2vw,76px);line-height:1.08;font-weight:400;letter-spacing:-.02em}.hh-word-line{display:block;min-height:1.2em;margin-top:10px}.hh-word{display:inline-block;background:var(--yellow);color:var(--deep-teal);padding:0 .22em .08em;transition:opacity .35s ease,transform .35s ease}.hh-word.out{opacity:0;transform:translateY(10px)}@media (max-width:760px){.hh-img{object-position:var(--pm)}.hh-copy{padding-top:72px;padding-bottom:72px}.hh-word-line{min-height:2.4em}}@media (prefers-reduced-motion:reduce){.hh-img,.hh-word{transition:none}.hh-img.on{transform:none}}
+.hh-stats{display:grid;grid-template-columns:repeat(6,minmax(0,1fr))}.hh-stats>div{padding:32px 28px 30px;display:flex;flex-direction:column;gap:10px}.hh-stat-n{font-size:clamp(34px,3vw,46px);font-weight:400;line-height:1;letter-spacing:-.03em;font-variant-numeric:tabular-nums}.hh-stat-l{font-size:15px;font-weight:600;line-height:1.25}@media (max-width:1000px){.hh-stats{grid-template-columns:repeat(3,minmax(0,1fr))}}@media (max-width:560px){.hh-stats{grid-template-columns:repeat(2,minmax(0,1fr))}.hh-stats>div{padding:24px 20px}}
+.hp-strip{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:16px;margin-top:72px}.hp-strip img{width:100%;height:360px;object-fit:cover;display:block}.hp-tiles{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:80px}.hp-tile{position:relative;display:flex;align-items:center;justify-content:center;height:560px;overflow:hidden;text-decoration:none;text-align:center}.hp-tile img{transition:transform .6s ease}.hp-tile:hover img{transform:scale(1.04)}.hp-tile--photo>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}.hp-tile-shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(9,40,53,.15),rgba(9,40,53,.55))}.hp-tile-label{position:relative;display:flex;flex-direction:column;align-items:center;gap:20px;font-size:clamp(30px,3vw,44px);font-weight:400;line-height:1.1;letter-spacing:-.02em}.hp-tile--photo .hp-tile-label{color:#fff}.hp-tile--collage{background:linear-gradient(180deg,var(--yellow) 0%,#fff6d8 100%)}.hp-tile--collage .hp-tile-label{color:var(--deep-teal)}.hp-tile--collage img{position:absolute;object-fit:cover}.hp-tile--collage .c1{top:0;left:36%;width:24%;height:22%}.hp-tile--collage .c2{top:20%;left:0;width:34%;height:28%}.hp-tile--collage .c3{top:22%;right:0;width:22%;height:26%}.hp-tile--collage .c4{bottom:0;left:0;width:30%;height:22%}.hp-tile--collage .c5{bottom:6%;right:8%;width:28%;height:20%}.hp-arrow{display:inline-flex;align-items:center;justify-content:center;width:48px;height:48px;border:1px solid currentColor;border-radius:50%;transition:background .2s,color .2s}.hp-tile--photo:hover .hp-arrow{background:#fff;color:var(--deep-teal)}.hp-tile--collage:hover .hp-arrow{background:var(--deep-teal);color:var(--yellow)}.hp-tile:focus-visible{outline:3px solid var(--logo-cyan);outline-offset:4px}.hp-band{display:grid;grid-template-columns:1.25fr 1fr 1fr;grid-template-rows:320px 320px;gap:4px;background:var(--deep-teal)}.hp-band img{width:100%;height:100%;object-fit:cover;display:block}.hp-band .hp-band-lg{grid-row:1/3}@media (max-width:900px){.hp-strip{grid-template-columns:1fr 1fr}.hp-strip img:first-child{grid-column:1/-1}.hp-strip img{height:240px}.hp-tiles{grid-template-columns:1fr}.hp-tile{height:440px}.hp-band{grid-template-columns:1fr 1fr;grid-template-rows:none;grid-auto-rows:200px}.hp-band .hp-band-lg{grid-row:auto;grid-column:1/-1;height:280px}}@media (prefers-reduced-motion:reduce){.hp-tile img{transition:none}.hp-tile:hover img{transform:none}}
+.hp-cards{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:80px}.hp-card{display:flex;flex-direction:column;text-decoration:none;color:#fff;border:1px solid rgba(255,255,255,.16);background:rgba(255,255,255,.03);transition:border-color .2s}.hp-card:hover{border-color:var(--logo-cyan);color:#fff}.hp-card:focus-visible{outline:3px solid var(--logo-cyan);outline-offset:4px}.hp-card-media{height:380px;overflow:hidden}.hp-card-media img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .6s ease}.hp-card:hover .hp-card-media img{transform:scale(1.03)}.hp-mosaic{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;gap:4px}.hp-mosaic img{min-height:0}.hp-card-body{padding:32px;display:flex;flex-direction:column;gap:14px;flex:1}.hp-card-title{font-size:clamp(20px,1.8vw,26px);font-weight:300;line-height:1.3;letter-spacing:-.01em}.hp-card-link{margin-top:auto;padding-top:8px;display:inline-flex;align-items:center;gap:10px;font-size:15px;font-weight:600;color:var(--logo-cyan)}.hp-card:hover .hp-card-link svg{transform:translateX(4px)}.hp-card-link svg{transition:transform .2s}@media (max-width:900px){.hp-cards{grid-template-columns:1fr}.hp-card-media{height:280px}}@media (prefers-reduced-motion:reduce){.hp-card-media img,.hp-card-link svg{transition:none}}
+.hp-method-fig{position:relative;isolation:isolate;margin:56px 16px 16px 0;max-width:520px}.hp-method-fig::before{content:"";position:absolute;inset:16px -16px -16px 16px;background:var(--logo-cyan);z-index:-1}.hp-method-fig img{display:block;width:100%;height:400px;object-fit:cover;object-position:40% 45%}@media (max-width:900px){.hp-method-fig img{height:280px}}
+.hp-card-media img.hp-flip{transform:scaleX(-1)}.hp-card:hover .hp-card-media img.hp-flip{transform:scale(-1.03,1.03)}
+.hp-shadow{position:relative;isolation:isolate}.hp-shadow::before{content:"";position:absolute;inset:16px -16px -16px 16px;background:var(--logo-cyan);z-index:-1}.hp-shadow img{position:relative}
+</style>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <meta property="og:description" content="Alchemist is an early-stage venture firm backing deeply technical teams and guiding them to enterprise traction, with a founder experience beyond the check">
+    <meta property="og:title" content="Alchemist | Venture Firm for Deeply Technical Founders">
+    <meta name="twitter:description" content="Alchemist is an early-stage venture firm backing deeply technical teams and guiding them to enterprise traction, with a founder experience beyond the check">
+    <meta name="twitter:title" content="Alchemist | Venture Firm for Deeply Technical Founders">
+
+    
+
+    
+    <style>
+a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}
+</style>
+
+    
+
+    
+<!--  Added by GoogleAnalytics4 integration -->
+<script data-cookieconsent="ignore">
+var _hsp = window._hsp = window._hsp || [];
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+
+var useGoogleConsentModeV2 = true;
+var waitForUpdateMillis = 1000;
+
+
+if (!window._hsGoogleConsentRunOnce) {
+  window._hsGoogleConsentRunOnce = true;
+
+  gtag('consent', 'default', {
+    'ad_storage': 'denied',
+    'analytics_storage': 'denied',
+    'ad_user_data': 'denied',
+    'ad_personalization': 'denied',
+    'wait_for_update': waitForUpdateMillis
+  });
+
+  if (useGoogleConsentModeV2) {
+    _hsp.push(['useGoogleConsentModeV2'])
+  } else {
+    _hsp.push(['addPrivacyConsentListener', function(consent){
+      var hasAnalyticsConsent = consent && (consent.allowed || (consent.categories && consent.categories.analytics));
+      var hasAdsConsent = consent && (consent.allowed || (consent.categories && consent.categories.advertisement));
+
+      gtag('consent', 'update', {
+        'ad_storage': hasAdsConsent ? 'granted' : 'denied',
+        'analytics_storage': hasAnalyticsConsent ? 'granted' : 'denied',
+        'ad_user_data': hasAdsConsent ? 'granted' : 'denied',
+        'ad_personalization': hasAdsConsent ? 'granted' : 'denied'
+      });
+    }]);
+  }
+}
+
+gtag('js', new Date());
+gtag('set', 'developer_id.dZTQ1Zm', true);
+gtag('config', 'G-YY7SZ1BG2V');
+</script>
+<script data-cookieconsent="ignore" async src="https://www.googletagmanager.com/gtag/js?id=G-YY7SZ1BG2V"></script>
+
+<!-- /Added by GoogleAnalytics4 integration -->
+
+<!--  Added by GoogleTagManager integration -->
+<script data-cookieconsent="ignore">
+var _hsp = window._hsp = window._hsp || [];
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+
+var useGoogleConsentModeV2 = true;
+var waitForUpdateMillis = 1000;
+
+if (useGoogleConsentModeV2) {
+
+  gtag('set','developer_id.dZTQ1Zm',true);
+
+  gtag('consent', 'default', {
+  'ad_storage': 'denied',
+  'analytics_storage': 'denied',
+  'ad_user_data': 'denied',
+  'ad_personalization': 'denied',
+  'wait_for_update': waitForUpdateMillis
+  });
+}
+
+var hsLoadGtm = function loadGtm() {
+    if(window._hsGtmLoadOnce) {
+      return;
+    }
+
+    if (useGoogleConsentModeV2) {
+      _hsp.push(['useGoogleConsentModeV2'])
+    }
+
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-TW6CVHX');
+
+    window._hsGtmLoadOnce = true;
+};
+
+_hsp.push(['addPrivacyConsentListener', function(consent){
+  if(consent.allowed || (consent.categories && consent.categories.analytics)){
+    hsLoadGtm();
+  }
+}]);
+
+</script>
+
+<!-- /Added by GoogleTagManager integration -->
+
+    <link rel="canonical" href="https://www.alchemist.vc">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://www.alchemist.vc/#organization",
+  "name": "Alchemist",
+  "alternateName": ["Alchemist Accelerator"],
+  "url": "https://www.alchemist.vc",
+  "logo": "https://22145576.fs1.hubspotusercontent-na1.net/hubfs/22145576/Alchemist%20Logo.png",
+  "description": "Alchemist is an early-stage venture firm backing deeply technical teams and guiding them to enterprise traction, with a founder experience that goes well beyond a check.",
+  "foundingDate": "2012",
+  "founder": [
+    {
+      "@type": "Person",
+      "name": "Ravi Belani"
+    }
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "1000 Brickell Ave Ste 715 PMB 5087",
+    "addressLocality": "Miami",
+    "addressRegion": "FL",
+    "postalCode": "33131",
+    "addressCountry": "US"
+  },
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "contactType": "customer support",
+      "email": "support@alchemist.vc",
+      "areaServed": "Worldwide",
+      "availableLanguage": ["English"]
+    }
+  ],
+  "sameAs": [
+    "https://x.com/alchemistVC_",
+    "https://www.linkedin.com/company/alchemistvc/",
+    "https://www.facebook.com/AlchemistAccelerator",
+    "https://www.instagram.com/alchemist.vc/"
+  ],
+  "brand": {
+    "@type": "Brand",
+    "name": "Alchemist"
+  },
+  "department": [
+    {
+      "@type": "Organization",
+      "name": "Alchemist Admissions",
+      "url": "https://www.alchemist.vc/apply"
+    },
+    {
+      "@type": "Organization",
+      "name": "Alchemist Portfolio",
+      "url": "https://www.alchemist.vc/portfolio"
+    },
+    {
+      "@type": "Organization",
+      "name": "Alchemist Chicago",
+      "url": "https://www.alchemist.vc/chicago"
+    },
+    {
+      "@type": "Organization",
+      "name": "Alchemist Doha",
+      "url": "https://www.alchemist.vc/doha"
+    },
+    {
+      "@type": "Organization",
+      "name": "Alchemist Japan",
+      "url": "https://www.alchemist.vc/japan"
+    }
+  ],
+  "knowsAbout": [
+    "Enterprise startups",
+    "B2B technology",
+    "Deep tech",
+    "Fundraising",
+    "Seed investment"
+  ],
+  "makesOffer": [
+    {
+      "@type": "Offer",
+      "name": "Founder experience",
+      "description": "Investment plus a commercialization method: a matched top-tier Partner, tested playbooks and a community of founders.",
+      "url": "https://www.alchemist.vc/founders"
+    }
+  ],
+  "areaServed": ["North America", "Europe", "Asia", "Middle East"]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Alchemist",
+  "alternateName": [
+    "Alchemist VC",
+    "Alchemist Venture Capital",
+    "Alchemist Venture Firm",
+    "alchemist.vc"
+  ],
+  "url": "https://www.alchemist.vc/"
+}
+</script>
+<meta property="og:site_name" content="Alchemist">
+<meta property="og:image" content="https://www.alchemist.vc/hubfs/Alchemist%20Banner.png">
+<meta property="og:image:width" content="2000">
+<meta property="og:image:height" content="1000">
+<meta property="og:image:alt" content="Alchemist Banner">
+<meta name="twitter:image" content="https://www.alchemist.vc/hubfs/Alchemist%20Banner.png">
+<meta name="twitter:image:alt" content="Alchemist Banner">
+
+<meta property="og:url" content="https://www.alchemist.vc">
+<meta name="twitter:card" content="summary_large_image">
+
+
+
+
+
+
+<meta name="generator" content="HubSpot"></head>
+<body class="alchemist-2026">
+<!--  Added by GoogleTagManager integration -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TW6CVHX" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<!-- /Added by GoogleTagManager integration -->
+
+
+
+<div style="width: 100%; font-family: var(--font-sans); color: var(--deep-teal); background: var(--white);">
+
+<!-- ============ HEADER - shared file, see alchemist-2026-header.html ====== -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<header style="background: rgba(9, 40, 53, 0.82); backdrop-filter: blur(14px); color: var(--white); position: sticky; top: 0px; z-index: 50; border-bottom: 1px solid rgba(255, 255, 255, 0.1);">
+  <nav aria-label="Primary" class="wrap" style="display: flex; align-items: center; justify-content: space-between; gap: 24px; flex-wrap: wrap; padding-top: 18px; padding-bottom: 18px;">
+    <a href="/" aria-label="Alchemist home" style="display: flex;">
+      <svg class="navlogo" viewbox="0 0 372 96.8" height="34" width="131" role="img" aria-label="Alchemist" style="display: block;"><path d="M6.88 96.8L12.01 96.8C12.64 96.8 13.24 96.43 13.56 95.88L42.29 46.11L53.55 65.62L37.14 65.62L32.51 73.65L82.84 73.65C83.79 73.65 84.26 72.97 84.26 72.97C85.05 71.98 84.5 71.05 84.5 71.05L44.11 1.07C44.11 1.07 43.54 0 42.34 0.04C41.17 0.04 40.58 1.07 40.58 1.07L0.24 70.9C0.24 70.9 0 71.34 0 71.81C0.08 73.81 1.97 73.66 1.97 73.66L17.1 73.66L5.32 94.05C5.32 94.05 4.82 94.8 5.28 95.78C5.28 95.78 5.69 96.8 6.88 96.8L6.88 96.8ZM40.41 33.27L21.75 65.62L12.56 65.62L42.33 14.07L72.1 65.62L62.82 65.62L44.18 33.29C44.18 33.29 43.63 32.19 42.28 32.19C42.28 32.19 41.06 32.09 40.41 33.27Z" fill="var(--logo-cyan)"></path><path d="M77.65 96.8L72.57 96.8C71.95 96.8 71.35 96.44 71.03 95.91L61 78.53L70.28 78.53L79.22 94.02C79.22 94.02 79.88 95.05 79.13 96.05C79.13 96.05 78.63 96.8 77.65 96.8L77.65 96.8Z" fill="var(--logo-cyan)"></path><g fill="#ffffff" stroke="#ffffff" stroke-width="0.5" stroke-linejoin="round" transform="translate(106 48.5) scale(1.32) translate(-111 -48.5)"><path d="M116.93 54.46L113.77 60.62C113.07 62.06 110.5 61.05 111.2 59.49L122.97 36.3C123.2 35.8 123.75 35.56 124.25 35.56C124.76 35.56 125.23 35.8 125.5 36.3L137.23 59.37C138.24 61.05 135.36 62.02 134.62 60.5L131.58 54.46L116.93 54.46L116.93 54.46ZM124.25 39.73L118.1 52.01L130.37 52.01L124.25 39.73Z"></path><path d="M176.86 60.04C174.99 60.89 172.89 61.44 171.02 61.44C164.35 61.44 158.35 55.98 158.35 48.27C158.35 41.87 162.91 36.81 168.91 35.87C173.47 35.25 177.45 36.38 180.53 39.61C181.7 40.94 179.59 42.54 178.5 41.37C175.85 38.56 172.77 38.13 169.34 38.52C164.55 39.26 161.16 42.65 161.16 48.3C161.16 54.23 165.72 58.75 171.09 58.75C172.54 58.75 174.13 58.36 175.62 57.62C176.82 57 177.99 56.06 178.81 55.01C179.71 53.68 182.08 55.12 181.07 56.57C180.02 58.05 178.54 59.22 176.86 60.04Z"></path><path d="M187.77 47.8L202.11 47.8L202.11 37.16C202.11 35.29 204.96 35.29 204.96 37.16L204.96 59.88C204.96 61.79 202.11 61.87 202.11 59.88L202.11 50.25L187.77 50.25L187.77 59.88C187.77 61.91 184.97 61.67 184.97 59.88L184.97 37.16C184.97 35.25 187.77 35.37 187.77 37.16L187.77 47.8Z"></path><path d="M211.74 58.44L227.13 58.44C228.77 58.44 229 61.01 227.13 61.01L210.72 61.01C209.63 61.01 208.93 60.23 208.93 59.3L208.93 37.9C208.93 37 209.63 36.22 210.72 36.22L227.17 36.22C228.85 36.22 228.77 38.72 227.13 38.72L211.74 38.72L211.74 47.49L226.39 47.49C227.95 47.49 228.03 49.98 226.39 49.98L211.74 49.98L211.74 58.44Z"></path><path d="M253.55 36.81C254.45 35.41 256.24 35.87 256.24 37.51L256.24 59.96C256.24 61.83 253.4 61.83 253.4 59.96L253.4 42.23L245.45 54.66C244.82 55.79 243.34 55.79 242.76 54.66L234.81 42.27L234.81 59.96C234.81 61.83 231.96 61.83 231.96 59.96L231.96 37.51C231.96 35.83 233.83 35.41 234.61 36.81L244.12 51.62L253.55 36.81Z"></path><path d="M260.92 36.73C260.92 34.78 263.84 34.82 263.84 36.73L263.84 60.04C263.84 61.83 260.92 61.91 260.92 60.04L260.92 36.73Z"></path><path d="M268.59 54.85C269.61 58.09 273.93 58.79 277.05 58.79C280.36 58.79 285.51 57.77 285.51 53.84C285.51 50.45 281.41 50.17 277.13 49.82C271.75 49.4 265.98 48.89 265.98 43.08C265.98 37.94 271.9 35.64 276.66 35.64C280.75 35.64 285.86 36.61 287.49 41.05C288.08 42.61 285.43 43.32 284.84 41.99C283.67 39.03 279.5 38.52 276.7 38.52C274.09 38.52 269.02 39.57 269.02 43.12C269.02 46.51 272.92 46.86 277.44 47.21C282.78 47.68 288.51 47.95 288.51 53.8C288.51 59.76 281.84 61.59 277.05 61.59C273.07 61.59 266.99 60.23 265.71 55.55C265.24 53.84 268.28 53.25 268.59 54.85L268.59 54.85Z"></path><path d="M308.38 36.19C310.29 36.19 310.29 38.87 308.38 38.87L299.69 38.87C299.69 45.89 299.73 53.02 299.73 60.04C299.73 61.01 298.91 61.48 298.25 61.48C297.59 61.48 296.84 61.01 296.84 60.04L296.84 38.87L288.19 38.87C286.36 38.87 286.36 36.19 288.19 36.19L308.38 36.19Z"></path><path d="M140.78 61.01C139.72 61.01 139.3 60.5 139.3 59.57L139.3 37.2C139.3 35.37 142.18 35.37 142.18 37.2L142.18 58.44L156.75 58.44C158.74 58.44 158.74 61.01 156.75 61.01L140.78 61.01Z"></path></g></svg>
+    </a>
+    <input type="checkbox" id="navtog" class="navtog" aria-label="Open menu" style=""><label for="navtog" class="navburger" aria-hidden="true"><span></span><span></span><span></span></label>
+    <div class="navlinks" style="display: flex; align-items: center; gap: 36px; flex-wrap: wrap; font-size: 14px; font-weight: 600;">
+      <a class="navlink" href="/invest">How we invest</a>
+      <div class="navdrop"><a class="navlink" href="/founders" aria-haspopup="true">Founder experience<svg class="caret" aria-hidden="true" width="10" height="10" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"><path d="M5 9l7 7 7-7"></path></svg></a><div class="navmenu"><div class="navmenu-in"><a class="navov" href="/founders">Overview</a><a href="/founders#journey">How it works</a><a href="/founders#coaching">Partner bench</a><a href="/founders#methodology">The method</a><a href="/founders#resources">Resources</a><a href="/founders#perks">Perks</a><a href="/founders#vault">The Vault</a><a href="/founders#community">Community</a></div></div></div>
+      <a class="navlink" href="/portfolio">Portfolio</a>
+      <div class="navdrop"><a class="navlink" href="/about" aria-haspopup="true">About<svg class="caret" aria-hidden="true" width="10" height="10" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"><path d="M5 9l7 7 7-7"></path></svg></a><div class="navmenu"><div class="navmenu-in"><a class="navov" href="/about">Overview</a><a href="/about#our-story">Our story</a><a href="/about#leadership">Team</a><a href="/about#partners">Partners</a><a href="/press">Press</a><a href="/blog">Insights</a><a href="/careers">Careers</a><a href="/faq">FAQ</a></div></div></div>
+      <a class="al-btn al-btn--primary al-btn--on-dark" href="/pitch">Pitch us</a>
+    </div>
+  </nav></header>
+<style>
+/* ===== Phone & tablet menu (900px and narrower). Desktop is unchanged. ===== */
+header .navmenu a.navov{display:none}
+@media (max-width:900px){
+  header:has(.navtog:checked){background:#092835!important}
+  header .navlinks{flex-wrap:nowrap!important;padding:8px 0 20px!important;-webkit-tap-highlight-color:transparent}
+  header .navlinks>.navlink,header .navlinks .navdrop>.navlink{min-height:56px;display:flex;align-items:center;justify-content:space-between;padding:0 4px;font-size:17px;font-weight:600;opacity:1;border-top:1px solid rgba(255,255,255,.1);transition:background-color .15s,color .15s}
+  header .navlinks>.navlink:first-of-type{border-top:0}
+  header .navlinks>.navlink:active,header .navlinks .navdrop>.navlink:active{background:rgba(255,255,255,.08)}
+  header .navlinks .navlink.on{color:var(--logo-cyan)}
+  header .navlinks .navdrop>.navlink .caret{display:block!important;width:18px;height:18px;opacity:.85;transition:transform .25s}
+  header .navlinks .navdrop.open>.navlink{color:var(--logo-cyan)}
+  header .navlinks .navdrop.open>.navlink .caret{transform:rotate(180deg)}
+  header .navlinks .navmenu{display:none!important;padding:0 0 12px!important}
+  header .navlinks .navdrop.open .navmenu{display:block!important;animation:navin .2s ease-out}
+  header .navlinks .navmenu-in{border-left:2px solid var(--logo-cyan)!important;background:rgba(255,255,255,.04)!important;margin-left:4px}
+  header .navlinks .navmenu a{min-height:46px;padding:0 16px!important;font-size:15px;opacity:.9;transition:background-color .15s,color .15s}
+  header .navlinks .navmenu a:active{background:rgba(255,255,255,.1)}
+  header .navlinks .navmenu a.cur{color:var(--logo-cyan);opacity:1;font-weight:600}
+  header .navlinks .navmenu a.navov{display:flex!important;font-weight:600}
+  header .navlinks>.al-btn{margin-top:20px;width:100%;box-sizing:border-box;align-self:stretch;justify-content:center;min-height:52px;font-size:16px}
+  header .navlinks>.al-btn:active{filter:brightness(.92)}
+  body:has(.navtog:checked) .fab,body:has(.navtog:checked) .fsub,body:has(.navtog:checked) .fsub-tab{opacity:0!important;pointer-events:none!important}
+  @keyframes navin{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
+}
+</style>
+<script>
+/* Phone & tablet menu: founder experience and About open and close when tapped (one at a time).
+   Tapping any link closes the menu. Desktop hover menus are untouched. */
+(function () {
+  if (window.__a26nav) return; window.__a26nav = true;
+  var mq = window.matchMedia('(max-width: 900px)');
+  document.addEventListener('click', function (e) {
+    var el = e.target && e.target.closest ? e.target : null; if (!el) return;
+    var top = el.closest('header .navdrop > .navlink');
+    if (top && mq.matches) {
+      e.preventDefault();
+      var d = top.parentNode, open = !d.classList.contains('open');
+      document.querySelectorAll('header .navdrop.open').forEach(function (o) { o.classList.remove('open'); o.firstElementChild.setAttribute('aria-expanded', 'false'); });
+      if (open) { d.classList.add('open'); top.setAttribute('aria-expanded', 'true'); }
+      return;
+    }
+    var link = el.closest('header .navlinks a');
+    if (link && mq.matches) { var tog = document.getElementById('navtog'); if (tog) tog.checked = false; }
+  });
+  document.querySelectorAll('header .navdrop > .navlink').forEach(function (a) { a.setAttribute('aria-expanded', 'false'); });
+})();
+</script>
+
+<!-- ============ PAGE BODY ================================================= -->
+<section id="top" class="hh" style="background-color: var(--deep-teal); color: var(--white); position: relative; overflow: hidden;">
+<div class="hh-stage">
+  <img class="hh-img on" src="https://www.alchemist.vc/hubfs/Alchemist-2026/home-hero/hero-01.jpeg" alt="A founder laughing with a guest at the Alchemist Investor Showcase" fetchpriority="high" decoding="async" style="--p:50% 35%;--pm:62% 35%;">
+  <img class="hh-img" src="https://www.alchemist.vc/hubfs/Alchemist-2026/home-hero/hero-03.jpeg" alt="" aria-hidden="true" loading="lazy" decoding="async" style="--p:45% 30%;--pm:40% 30%;">
+  <img class="hh-img" src="https://www.alchemist.vc/hubfs/Alchemist-2026/home-hero/hero-04.jpeg" alt="" aria-hidden="true" loading="lazy" decoding="async" style="--p:50% 30%;--pm:50% 30%;">
+  <img class="hh-img" src="https://www.alchemist.vc/hubfs/Alchemist-2026/home-hero/hero-05.jpeg" alt="" aria-hidden="true" loading="lazy" decoding="async" style="--p:40% 40%;--pm:38% 40%;">
+  <img class="hh-img" src="https://www.alchemist.vc/hubfs/Alchemist-2026/home-hero/hero-06.jpeg" alt="" aria-hidden="true" loading="lazy" decoding="async" style="--p:30% 35%;--pm:25% 35%;">
+  <img class="hh-img" src="https://www.alchemist.vc/hubfs/Alchemist-2026/home-hero/hero-08.jpeg" alt="" aria-hidden="true" loading="lazy" decoding="async" style="--p:60% 35%;--pm:68% 35%;">
+  <img class="hh-img" src="https://www.alchemist.vc/hubfs/Alchemist-2026/home-hero/hero-10.jpeg" alt="" aria-hidden="true" loading="lazy" decoding="async" style="--p:55% 35%;--pm:52% 35%;">
+  <img class="hh-img" src="https://www.alchemist.vc/hubfs/Alchemist-2026/home-hero/hero-12.jpeg" alt="" aria-hidden="true" loading="lazy" decoding="async" style="--p:50% 40%;--pm:45% 40%;">
+  <div class="hh-shade" aria-hidden="true"></div>
+  <div class="wrap hh-copy">
+    <div class="intro" style="margin-bottom: 28px;"><span class="eyebrow" style="color: var(--logo-cyan);">Early-stage venture firm</span></div>
+    <h1 class="display intro hh-h1" aria-label="Backing deeply technical founders in AI, quantum computing, robotics, defense, energy and deep tech.">
+      <span aria-hidden="true">Backing deeply technical<br class="hide-sm"> founders in</span>
+      <span class="hh-word-line" aria-hidden="true"><span class="hh-word">AI.</span></span>
+    </h1>
+    <p class="intro-2" style="margin: 0px 0px 40px; font-size: 20px; line-height: 1.55; max-width: 600px;">Our founder experience goes well beyond a check: a proven commercialization method, a top-tier Partner matched to your business, tested playbooks and a community of founders building alongside you.</p>
+    <div class="intro-2" style="display: flex; gap: 16px; flex-wrap: wrap;">
+      <a class="al-btn al-btn--primary al-btn--on-dark" href="/pitch">Pitch us</a>
+      <a class="al-btn al-btn--secondary al-btn--on-dark" href="/portfolio#all-companies">See the portfolio</a>
+    </div>
+  </div>
+</div>
+<script>(function(){var s=document.querySelectorAll('.hh-img'),w=document.querySelector('.hh-word'),W=["AI.","quantum computing.","robotics.","semiconductors.","defense.","energy and climate.","security.","developer tools.","supply chain.","aerospace.","deep tech."],i=0,j=0;var rm=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;if(s.length>1&&!rm){setInterval(function(){s[i].classList.remove('on');i=(i+1)%s.length;s[i].classList.add('on');},6000);}if(w){setInterval(function(){w.classList.add('out');setTimeout(function(){j=(j+1)%W.length;w.textContent=W[j];w.classList.remove('out');},350);},2200);}})();</script>
+
+</section><section aria-label="Track record" style="background: var(--deep-teal); color: var(--white);">
+  <div class="hh-stats">
+    <div style="background: #3a535d; color: #ffffff;"><span class="hh-stat-n">750+</span><span class="hh-stat-l">Investments</span></div>
+    <div style="background: #5dc2d8; color: #092835;"><span class="hh-stat-n">5</span><span class="hh-stat-l">Unicorns</span></div>
+    <div style="background: #04161e; color: #ffffff;"><span class="hh-stat-n">3</span><span class="hh-stat-l">Public listings</span></div>
+    <div style="background: #cdd4d7; color: #092835;"><span class="hh-stat-n">80+</span><span class="hh-stat-l">Acquisitions</span></div>
+    <div style="background: #fde390; color: #092835;"><span class="hh-stat-n">$5B+</span><span class="hh-stat-l">Raised downstream</span></div>
+    <div style="background: #ffffff; color: #092835;"><span class="hh-stat-n">60+</span><span class="hh-stat-l">Countries represented</span></div>
+  </div>
+</section><section class="on-light" style="background: var(--mist); color: var(--deep-teal);">
+  <div class="wrap" style="padding-top: 140px; padding-bottom: 140px;">
+    <div class="reveal" style="margin-bottom: 40px;"><span class="eyebrow">Your path to traction</span></div>
+    <div class="reveal" style="display: flex; flex-wrap: wrap; gap: 40px 80px;">
+      <div style="flex: 1 1 420px; min-width: 0px;"><h2 class="display" style="margin: 0px; font-size: clamp(32px, 3.7vw, 54px);">Enterprise traction has a <span style="font-weight: 600;">method.</span></h2><figure class="hp-method-fig"><img src="https://www.alchemist.vc/hubfs/Alchemist-2026/home-sections/method-a.jpeg" alt="A founder working through deal strategy one on one with an Alchemist Partner" loading="lazy"></figure></div>
+      <div style="flex: 1 1 440px; font-size: 18px; line-height: 1.6;">
+        <p style="margin: 0px 0px 24px;">Enterprise deals are won by building relationships across the buyer's team and learning from every conversation.</p>
+        <p style="margin: 0px 0px 24px;">Our method, refined across more than 750 companies since 2012, turns those lessons into pipeline: you find champions inside the account, then turn them into buyers.</p>
+        <p style="margin: 0px;">It's a skill your technical team can learn, practice and use to close seven-figure contracts.</p>
+        <p style="margin: 32px 0px 0px; padding-top: 24px; border-top: 1px solid var(--rule-teal); font-size: 18px; line-height: 1.5;"><span style="font-weight: 600;">Meaningful enterprise deals take time.</span> Alchemist is with you for the long haul.</p>
+      </div>
+    </div>
+  
+    
+</div></section><section id="investing" style="background: var(--deep-teal); color: var(--white);">
+  <div class="wrap" style="padding-top: 140px; padding-bottom: 140px;">
+    <div class="reveal" style="margin-bottom: 40px;"><span class="eyebrow">How we invest</span></div>
+    <div class="reveal" style="display: flex; flex-wrap: wrap; gap: 32px 80px; margin-bottom: 64px; align-items: flex-end;">
+      <h2 class="display" style="flex: 1 1 420px; margin: 0px; font-size: clamp(32px, 3.7vw, 54px);">Is Alchemist <span style="color: var(--logo-cyan); font-weight: 600;">right for you?</span></h2>
+      
+    </div>
+    <div style="border-bottom: 1px solid rgba(255, 255, 255, 0.16);">
+      <div class="reveal" style="display: grid; grid-template-columns: minmax(120px, 220px) minmax(0px, 1fr); gap: 12px 40px; padding: 32px 0px; border-top: 1px solid rgba(255, 255, 255, 0.16); align-items: baseline;"><div class="eyebrow" style="color: var(--logo-cyan);">Who you are</div><div style="font-size: clamp(22px, 2.6vw, 36px); line-height: 1.2; font-weight: 300; letter-spacing: -0.02em;">Deeply technical researchers, engineers and domain experts building the next generation of enterprise infrastructure and technology.</div></div>
+      <div class="reveal" style="display: grid; grid-template-columns: minmax(120px, 220px) minmax(0px, 1fr); gap: 12px 40px; padding: 32px 0px; border-top: 1px solid rgba(255, 255, 255, 0.16); align-items: baseline;"><div class="eyebrow" style="color: var(--logo-cyan);">Stage</div><div style="font-size: clamp(22px, 2.6vw, 36px); line-height: 1.2; font-weight: 300; letter-spacing: -0.02em;">Pre-seed and seed.</div></div>
+      <div class="reveal" style="display: grid; grid-template-columns: minmax(120px, 220px) minmax(0px, 1fr); gap: 12px 40px; padding: 32px 0px; border-top: 1px solid rgba(255, 255, 255, 0.16); align-items: baseline;"><div class="eyebrow" style="color: var(--logo-cyan);">Sector</div><div style="font-size: clamp(22px, 2.6vw, 36px); line-height: 1.2; font-weight: 300; letter-spacing: -0.02em;">Sector agnostic.</div></div>
+      <div class="reveal" style="display: grid; grid-template-columns: minmax(120px, 220px) minmax(0px, 1fr); gap: 12px 40px; padding: 32px 0px; border-top: 1px solid rgba(255, 255, 255, 0.16); align-items: baseline;"><div class="eyebrow" style="color: var(--logo-cyan);">Check size</div><div style="font-size: clamp(22px, 2.6vw, 36px); line-height: 1.2; font-weight: 300; letter-spacing: -0.02em;">$60,000 to $1 million.</div></div>
+      <div class="reveal" style="display: grid; grid-template-columns: minmax(120px, 220px) minmax(0px, 1fr); gap: 12px 40px; padding: 32px 0px; border-top: 1px solid rgba(255, 255, 255, 0.16); align-items: baseline;"><div class="eyebrow" style="color: var(--logo-cyan);">Geography</div><div style="font-size: clamp(22px, 2.6vw, 36px); line-height: 1.2; font-weight: 300; letter-spacing: -0.02em;">Founders from 60+ countries in the portfolio.</div></div>
+    </div>
+  
+    
+</div></section><section id="founders" class="on-light" style="background: var(--white);">
+  <div style="color: var(--deep-teal);">
+    <div class="wrap reveal" style="padding-top: 140px; padding-bottom: 0px;">
+      <div style="margin-bottom: 40px;"><span class="eyebrow">The founder experience</span></div>
+      <div style="display: flex; flex-wrap: wrap; gap: 32px 72px; align-items: flex-end;">
+      <h2 class="display" style="flex: 0 1 auto; margin: 0px; font-size: clamp(32px, 3.7vw, 54px);">What you get as an <span style="font-weight: 600;">Alchemist founder</span></h2>
+      <p style="flex: 1 1 380px; max-width: 520px; margin: 0px; font-size: 18px; line-height: 1.55;">The day you join, you get a community of top-tier operators, fellow founders and the Alchemist team. Every playbook, the full network and fourteen years of know-how are open to you, with a plan built around your company. Meaningful enterprise deals take time, so your support lasts for the long haul.</p>
+      </div>
+    </div>
+  </div>
+  <div class="wrap" style="padding-top: 72px; padding-bottom: 140px;">
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px;">
+      <a href="/founders#coaching" class="reveal lift edge fcard" style="background: var(--yellow); color: var(--deep-teal); text-decoration: none; display: flex; flex-direction: column; min-height: 560px;">
+        <div style="padding: 32px 32px 0px; display: flex; justify-content: space-between; align-items: baseline; font-size: 12px; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase;"><span>Partners</span><span style="opacity: 0.6;">01</span></div>
+        <h3 style="margin: 0px; padding: 20px 32px 0px; font-size: clamp(28px, 2.4vw, 34px); line-height: 1.15; font-weight: 300; letter-spacing: -0.02em; min-height: 4.6em;">Operators who have built billion-dollar companies, on your team</h3>
+        <div class="photo" style="flex: 0 0 300px; height: 300px; margin: 28px 0px;"><img src="https://www.alchemist.vc/hubfs/Alchemist-2026/fe-onboarding-visit.jpeg" alt="Alchemist Partners visiting a portfolio company at their lab" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; object-position: 50% 35%; display: block;"></div>
+        <div style="padding: 0px 32px 32px;">
+          <p style="margin: 0px 0px 20px; font-size: 16px; line-height: 1.5;">An equity-aligned Alchemist Partner, matched to your business and the goals you set together.</p>
+          <span style="display: inline-flex; align-items: center; gap: 10px; font-size: 14px; font-weight: 600;">Explore Partners<svg aria-hidden="true" width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square"><path d="M4 12h15"></path><path d="M13 6l6 6-6 6"></path></svg></span>
+        </div>
+      </a>
+      <a href="/founders#resources" class="reveal lift edge fcard" style="background: var(--cyan); color: var(--deep-teal); text-decoration: none; display: flex; flex-direction: column; min-height: 560px;">
+        <div style="padding: 32px 32px 0px; display: flex; justify-content: space-between; align-items: baseline; font-size: 12px; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase;"><span>Resources</span><span style="opacity: 0.6;">02</span></div>
+        <h3 style="margin: 0px; padding: 20px 32px 0px; font-size: clamp(28px, 2.4vw, 34px); line-height: 1.15; font-weight: 300; letter-spacing: -0.02em; min-height: 4.6em;">Fourteen years of playbooks and network, open to you</h3>
+        <div class="photo" style="flex: 0 0 300px; height: 300px; margin: 28px 0px;"><img src="https://www.alchemist.vc/hubfs/Alchemist-2026/home-sections/method-b.jpeg" alt="Founders and Partners working through playbooks around a table" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; object-position: 50% 45%; display: block;"></div>
+        <div style="padding: 0px 32px 32px;">
+          <p style="margin: 0px 0px 20px; font-size: 16px; line-height: 1.5;">A Success Manager from day one, 40,000 experts in the Vault spanning most of the Fortune 500, over $500K in perks and a desk in San Francisco.</p>
+          <span style="display: inline-flex; align-items: center; gap: 10px; font-size: 14px; font-weight: 600;">Explore resources<svg aria-hidden="true" width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square"><path d="M4 12h15"></path><path d="M13 6l6 6-6 6"></path></svg></span>
+        </div>
+      </a>
+      <a href="/founders#community" class="reveal lift edge fcard" style="background: var(--deep-teal); color: var(--white); text-decoration: none; display: flex; flex-direction: column; min-height: 560px;">
+        <div style="padding: 32px 32px 0px; display: flex; justify-content: space-between; align-items: baseline; font-size: 12px; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase;"><span>Community</span><span style="opacity: 0.6;">03</span></div>
+        <h3 style="margin: 0px; padding: 20px 32px 0px; font-size: clamp(28px, 2.4vw, 34px); line-height: 1.15; font-weight: 300; letter-spacing: -0.02em; min-height: 4.6em;">A community of founders building alongside you</h3>
+        <div class="photo" style="flex: 0 0 300px; height: 300px; margin: 28px 0px;"><img src="https://www.alchemist.vc/hubfs/Alchemist-2026/home-sections/band-a.jpeg" alt="Founders and the Alchemist team together at the Investor Showcase" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; object-position: 50% 35%; display: block;"></div>
+        <div style="padding: 0px 32px 32px;">
+          <p style="margin: 0px 0px 20px; font-size: 16px; line-height: 1.5;">Weekly lunches, Partner-led dinners, the Founder Series, Investor Showcases and the Founder Retreat every January.</p>
+          <span style="display: inline-flex; align-items: center; gap: 10px; font-size: 14px; font-weight: 600;">Explore community<svg aria-hidden="true" width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square"><path d="M4 12h15"></path><path d="M13 6l6 6-6 6"></path></svg></span>
+        </div>
+      </a>
+    </div>
+  </div></section><section id="coaches" class="grid-bg" style="background-color: var(--deep-teal); color: var(--white); position: relative; overflow: hidden;">
+  <div class="wrap" style="padding-top: 140px; padding-bottom: 140px; position: relative;">
+    <div class="reveal" style="margin-bottom: 40px;"><span class="eyebrow">Your Partner bench</span></div>
+    <h2 class="reveal display" style="margin: 0px 0px 36px; font-size: clamp(32px, 3.7vw, 54px); max-width: 1000px;">Operators who have built <span style="color: var(--logo-cyan); font-weight: 600;">billion-dollar companies,</span> on your extended team.</h2>
+    <p class="reveal" style="margin: 0px 0px 72px; font-size: 20px; line-height: 1.5; max-width: 720px;">Alchemist's Partners have taken companies all the way to real enterprise revenue, and many built unicorns. Each founder is matched with the Partner who can best support their business.</p>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 16px; margin-bottom: 40px;">
+      <div class="reveal lift edge" style="background: rgba(255, 255, 255, 0.06); border: 1px solid rgba(255, 255, 255, 0.14); padding: 48px 40px;">
+        <div style="font-size: 36px; line-height: 1.1; font-weight: 300; letter-spacing: -0.02em; color: var(--logo-cyan); margin-bottom: 18px;">Matched to you.</div>
+        <p style="margin: 0px; font-size: 17px; line-height: 1.6;">You are matched with the Partner who knows your kind of business best, and you set prioritized goals together.</p>
+      </div>
+      <div class="reveal lift edge" style="background: rgba(255, 255, 255, 0.06); border: 1px solid rgba(255, 255, 255, 0.14); padding: 48px 40px;">
+        <div style="font-size: 36px; line-height: 1.1; font-weight: 300; letter-spacing: -0.02em; color: var(--logo-cyan); margin-bottom: 18px;">Equity-aligned.</div>
+        <p style="margin: 0px; font-size: 17px; line-height: 1.6;">Alchemist handles the alignment from its own equity, so there are no advisor shares to negotiate and no extra line on your cap table. They are building this with you.</p>
+      </div>
+    </div>
+
+    <div class="reveal"><span style="display: inline-block;"><a class="al-btn al-btn--primary al-btn--on-dark" href="/about#partners">Meet the Partners</a></span></div>
+
+    <div style="margin-top: 120px; padding-top: 96px; border-top: 1px solid rgba(255, 255, 255, 0.16);">
+      <div class="reveal" style="margin-bottom: 32px;"><span class="eyebrow" style="color: var(--logo-cyan);">The mentor network</span></div>
+      <div class="reveal" style="display: flex; flex-wrap: wrap; gap: 24px 80px; align-items: flex-end; justify-content: space-between; margin-bottom: 56px;">
+        <h3 style="flex: 1 1 480px; margin: 0px; font-size: clamp(36px, 4vw, 56px); line-height: 1.08; font-weight: 300; letter-spacing: -0.03em;"><span style="color: var(--logo-cyan); font-weight: 600;">40,000 mentors,</span> reaching most of the Fortune 500.</h3>
+        <p style="flex: 1 1 380px; margin: 0px; font-size: 18px; line-height: 1.6; opacity: 0.86;">Through the Vault, reach mentors and industry professionals around the world whenever you need them, with most of the Fortune 500 represented.</p>
+      </div>
+    <div class="mentor-cards m2" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 16px; margin-bottom: 48px;">
+      <div class="reveal lift edge" style="border: 1px solid rgba(255, 255, 255, 0.14); padding: 32px 28px;"><img src="https://www.alchemist.vc/hubfs/Alchemist-2026/icon-sales.png" alt="" aria-hidden="true" style="width: 72px; height: 72px; display: block; margin: -6px 0px 18px -6px;"><h3 style="margin: 0px 0px 8px; font-size: 22px; font-weight: 400;">Sales</h3><p style="margin: 0px; font-size: 16px; line-height: 1.5;">Go-to-market and enterprise sales.</p></div>
+      <div class="reveal lift edge" style="border: 1px solid rgba(255, 255, 255, 0.14); padding: 32px 28px;"><img src="https://www.alchemist.vc/hubfs/Alchemist-2026/icon-technical.png" alt="" aria-hidden="true" style="width: 72px; height: 72px; display: block; margin: -6px 0px 18px -6px;"><h3 style="margin: 0px 0px 8px; font-size: 22px; font-weight: 400;">Technical</h3><p style="margin: 0px; font-size: 16px; line-height: 1.5;">The build and engineering decisions.</p></div>
+      <div class="reveal lift edge" style="border: 1px solid rgba(255, 255, 255, 0.14); padding: 32px 28px;"><img src="https://www.alchemist.vc/hubfs/Alchemist-2026/icon-vc.png" alt="" aria-hidden="true" style="width: 72px; height: 72px; display: block; margin: -6px 0px 18px -6px;"><h3 style="margin: 0px 0px 8px; font-size: 22px; font-weight: 400;">VC</h3><p style="margin: 0px; font-size: 16px; line-height: 1.5;">Fundraising from the other side of the table.</p></div>
+      <div class="reveal lift edge" style="border: 1px solid rgba(255, 255, 255, 0.14); padding: 32px 28px;"><img src="https://www.alchemist.vc/hubfs/Alchemist-2026/icon-marketing.png" alt="" aria-hidden="true" style="width: 72px; height: 72px; display: block; margin: -6px 0px 18px -6px;"><h3 style="margin: 0px 0px 8px; font-size: 22px; font-weight: 400;">Marketing</h3><p style="margin: 0px; font-size: 16px; line-height: 1.5;">Positioning, messaging, and demand generation.</p></div>
+      <div class="reveal lift edge" style="border: 1px solid rgba(255, 255, 255, 0.14); padding: 32px 28px;"><img src="https://www.alchemist.vc/hubfs/Alchemist-2026/icon-industry.png" alt="" aria-hidden="true" style="width: 72px; height: 72px; display: block; margin: -6px 0px 18px -6px;"><h3 style="margin: 0px 0px 8px; font-size: 22px; font-weight: 400;">Industry</h3><p style="margin: 0px; font-size: 16px; line-height: 1.5;">Experts from across the Fortune 500.</p></div>
+    </div>
+      <div class="reveal" style="margin: 8px 0px 40px;"><div style="font-size: 12px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--logo-cyan); margin-bottom: 16px;">Mentors in the Vault include leaders from</div><div class="f500 m2" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: 8px;"><div title="Google" style="display: flex; align-items: center; justify-content: center; gap: 10px; padding: 18px 12px; border: 1px solid rgba(255, 255, 255, 0.12);"><svg role="img" aria-label="Google" viewbox="0 0 24 24" width="26" height="26" style="flex: 0 0 auto;"><path fill="rgba(255,255,255,0.88)" d="M12.48 10.92v3.28h7.84c-.24 1.84-.853 3.187-1.787 4.133-1.147 1.147-2.933 2.4-6.053 2.4-4.827 0-8.6-3.893-8.6-8.72s3.773-8.72 8.6-8.72c2.6 0 4.507 1.027 5.907 2.347l2.307-2.307C18.747 1.44 16.133 0 12.48 0 5.867 0 .307 5.387.307 12s5.56 12 12.173 12c3.573 0 6.267-1.173 8.373-3.36 2.16-2.16 2.84-5.213 2.84-7.667 0-.76-.053-1.467-.173-2.053H12.48z"></path></svg><span style="font-size: 15px; font-weight: 600; color: rgba(255, 255, 255, 0.82);">Google</span></div><div title="Amazon" style="display: flex; align-items: center; justify-content: center; gap: 10px; padding: 18px 12px; border: 1px solid rgba(255, 255, 255, 0.12);"><svg role="img" aria-label="Amazon" viewbox="0 0 24 24" width="26" height="26" style="flex: 0 0 auto;"><path fill="rgba(255,255,255,0.88)" d="M.045 18.02c.072-.116.187-.124.348-.022 3.636 2.11 7.594 3.166 11.87 3.166 2.852 0 5.668-.533 8.447-1.595l.315-.14c.138-.06.234-.1.293-.13.226-.088.39-.046.525.13.12.174.09.336-.12.48-.256.19-.6.41-1.006.654-1.244.743-2.64 1.316-4.185 1.726a17.617 17.617 0 01-10.951-.577 17.88 17.88 0 01-5.43-3.35c-.1-.074-.151-.15-.151-.22 0-.047.021-.09.051-.13zm6.565-6.218c0-1.005.247-1.863.743-2.577.495-.71 1.17-1.25 2.04-1.615.796-.335 1.756-.575 2.912-.72.39-.046 1.033-.103 1.92-.174v-.37c0-.93-.105-1.558-.3-1.875-.302-.43-.78-.65-1.44-.65h-.182c-.48.046-.896.196-1.246.46-.35.27-.575.63-.675 1.096-.06.3-.206.465-.435.51l-2.52-.315c-.248-.06-.372-.18-.372-.39 0-.046.007-.09.022-.15.247-1.29.855-2.25 1.82-2.88.976-.616 2.1-.975 3.39-1.05h.54c1.65 0 2.957.434 3.888 1.29.135.15.27.3.405.48.12.165.224.314.283.45.075.134.15.33.195.57.06.254.105.42.135.51.03.104.062.3.076.615.01.313.02.493.02.553v5.28c0 .376.06.72.165 1.036.105.313.21.54.315.674l.51.674c.09.136.136.256.136.36 0 .12-.06.226-.18.314-1.2 1.05-1.86 1.62-1.963 1.71-.165.135-.375.15-.63.045a6.062 6.062 0 01-.526-.496l-.31-.347a9.391 9.391 0 01-.317-.42l-.3-.435c-.81.886-1.603 1.44-2.4 1.665-.494.15-1.093.227-1.83.227-1.11 0-2.04-.343-2.76-1.034-.72-.69-1.08-1.665-1.08-2.94l-.05-.076zm3.753-.438c0 .566.14 1.02.425 1.364.285.34.675.512 1.155.512.045 0 .106-.007.195-.02.09-.016.134-.023.166-.023.614-.16 1.08-.553 1.424-1.178.165-.28.285-.58.36-.91.09-.32.12-.59.135-.8.015-.195.015-.54.015-1.005v-.54c-.84 0-1.484.06-1.92.18-1.275.36-1.92 1.17-1.92 2.43l-.035-.02zm9.162 7.027c.03-.06.075-.11.132-.17.362-.243.714-.41 1.05-.5a8.094 8.094 0 011.612-.24c.14-.012.28 0 .41.03.65.06 1.05.168 1.172.33.063.09.099.228.099.39v.15c0 .51-.149 1.11-.424 1.8-.278.69-.664 1.248-1.156 1.68-.073.06-.14.09-.197.09-.03 0-.06 0-.09-.012-.09-.044-.107-.12-.064-.24.54-1.26.806-2.143.806-2.64 0-.15-.03-.27-.087-.344-.145-.166-.55-.257-1.224-.257-.243 0-.533.016-.87.046-.363.045-.7.09-1 .135-.09 0-.148-.014-.18-.044-.03-.03-.036-.047-.02-.077 0-.017.006-.03.02-.063v-.06z"></path></svg><span style="font-size: 15px; font-weight: 600; color: rgba(255, 255, 255, 0.82);">Amazon</span></div><div title="Apple" style="display: flex; align-items: center; justify-content: center; gap: 10px; padding: 18px 12px; border: 1px solid rgba(255, 255, 255, 0.12);"><svg role="img" aria-label="Apple" viewbox="0 0 24 24" width="26" height="26" style="flex: 0 0 auto;"><path fill="rgba(255,255,255,0.88)" d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701"></path></svg><span style="font-size: 15px; font-weight: 600; color: rgba(255, 255, 255, 0.82);">Apple</span></div><div title="Cisco" style="display: flex; align-items: center; justify-content: center; gap: 10px; padding: 18px 12px; border: 1px solid rgba(255, 255, 255, 0.12);"><svg role="img" aria-label="Cisco" viewbox="0 0 24 24" width="26" height="26" style="flex: 0 0 auto;"><path fill="rgba(255,255,255,0.88)" d="M16.331 18.171V17.06l-.022.01c-.25.121-.522.19-.801.203a1.186 1.186 0 01-.806-.237 1.038 1.038 0 01-.352-.498 1.21 1.21 0 01-.023-.667c.052-.225.178-.426.357-.569.16-.134.355-.218.562-.242a1.85 1.85 0 011.061.198l.024.013v-1.117l-.051-.014a2.862 2.862 0 00-1.011-.132 2.34 2.34 0 00-.903.206c-.287.132-.54.327-.739.571a2.221 2.221 0 00-.04 2.705c.295.378.709.645 1.175.756.491.12 1.006.102 1.487-.052l.082-.023M5.336 18.171V17.06l-.022.01c-.25.121-.522.19-.801.203a1.183 1.183 0 01-.806-.237 1.03 1.03 0 01-.351-.498 1.202 1.202 0 01-.024-.667c.052-.225.177-.426.357-.569.16-.134.355-.218.562-.242a1.85 1.85 0 011.061.198l.024.013v-1.117l-.051-.014a2.862 2.862 0 00-1.011-.132 2.344 2.344 0 00-.903.206 2.08 2.08 0 00-.74.571 2.224 2.224 0 00-.041 2.705 2.11 2.11 0 001.176.756c.491.12 1.005.102 1.487-.052l.083-.023M9.26 17.249l-.004.957.07.012c.22.041.441.069.664.085.195.019.391.022.587.012.187-.014.372-.049.551-.104.21-.06.405-.163.571-.305a1.16 1.16 0 00.333-.478 1.31 1.31 0 00-.007-.96 1.068 1.068 0 00-.298-.414 1.261 1.261 0 00-.438-.255l-.722-.268a.388.388 0 01-.197-.188.245.245 0 01.008-.219.382.382 0 01.154-.142.798.798 0 01.257-.074c.153-.022.308-.021.46.005.18.02.358.051.533.096l.038.008v-.883l-.069-.015a4.749 4.749 0 00-.543-.097 2.844 2.844 0 00-.714-.003c-.3.027-.585.143-.821.33-.16.126-.281.293-.351.484-.104.29-.105.608 0 .899.054.145.14.274.252.381.097.093.207.173.327.236.157.084.324.149.497.195.057.017.114.035.17.054l.085.031.024.01c.084.03.162.078.226.14.045.042.08.094.101.151a.325.325 0 01.001.161.339.339 0 01-.166.198.856.856 0 01-.275.086 2.032 2.032 0 01-.427.021 5.208 5.208 0 01-.557-.074 9.195 9.195 0 01-.287-.067l-.033-.006zm-2.475.995h1.05v-4.167h-1.05v4.167zm12.162-2.936a1.095 1.095 0 011.541.158 1.094 1.094 0 01-.157 1.541l-.017.014a1.096 1.096 0 01-1.367-1.713m-1.525.854a2.193 2.193 0 002.666 2.107 2.139 2.139 0 00.701-3.937 2.207 2.207 0 00-3.367 1.83M22.961 10.728a.52.52 0 001.039 0V9.573a.52.52 0 00-1.039 0v1.155M20.117 10.728a.522.522 0 001.041 0V8.139a.521.521 0 00-1.04 0v2.589M17.231 11.771a.521.521 0 001.039 0V6.17a.52.52 0 00-1.039 0v5.601M14.393 10.728a.521.521 0 001.04 0V8.139a.52.52 0 00-1.039 0v2.589M11.494 10.728a.522.522 0 001.039 0V9.573a.52.52 0 00-1.039 0v1.155M8.624 10.728a.52.52 0 001.039 0V8.139a.52.52 0 00-1.039 0v2.589M5.737 11.771a.52.52 0 001.039 0V6.17a.52.52 0 00-1.039 0v5.601M2.876 10.728a.522.522 0 001.04 0V8.139a.52.52 0 00-1.039 0v2.589M0 10.728a.521.521 0 001.039 0V9.573a.52.52 0 00-1.039 0v1.155"></path></svg><span style="font-size: 15px; font-weight: 600; color: rgba(255, 255, 255, 0.82);">Cisco</span></div><div title="Oracle" style="display: flex; align-items: center; justify-content: center; gap: 10px; padding: 18px 12px; border: 1px solid rgba(255, 255, 255, 0.12);"><svg role="img" aria-label="Oracle" viewbox="0 0 24 24" width="26" height="26" style="flex: 0 0 auto;"><path fill="rgba(255,255,255,0.88)" d="M16.412 4.412h-8.82a7.588 7.588 0 0 0-.008 15.176h8.828a7.588 7.588 0 0 0 0-15.176zm-.193 12.502H7.786a4.915 4.915 0 0 1 0-9.828h8.433a4.914 4.914 0 1 1 0 9.828z"></path></svg><span style="font-size: 15px; font-weight: 600; color: rgba(255, 255, 255, 0.82);">Oracle</span></div><div title="Salesforce" style="display: flex; align-items: center; justify-content: center; gap: 10px; padding: 18px 12px; border: 1px solid rgba(255, 255, 255, 0.12);"><svg role="img" aria-label="Salesforce" viewbox="0 0 24 24" width="26" height="26" style="flex: 0 0 auto;"><path fill="rgba(255,255,255,0.88)" d="M10.006 5.415a4.195 4.195 0 013.045-1.306c1.56 0 2.954.9 3.69 2.205.63-.3 1.35-.45 2.1-.45 2.85 0 5.159 2.34 5.159 5.22s-2.31 5.22-5.176 5.22c-.345 0-.69-.044-1.02-.104a3.75 3.75 0 01-3.3 1.95c-.6 0-1.155-.15-1.65-.375A4.314 4.314 0 018.88 20.4a4.302 4.302 0 01-4.05-2.82c-.27.062-.54.076-.825.076-2.204 0-4.005-1.8-4.005-4.05 0-1.5.811-2.805 2.01-3.51-.255-.57-.39-1.2-.39-1.846 0-2.58 2.1-4.65 4.65-4.65 1.53 0 2.85.705 3.72 1.8"></path></svg><span style="font-size: 15px; font-weight: 600; color: rgba(255, 255, 255, 0.82);">Salesforce</span></div><div title="Intel" style="display: flex; align-items: center; justify-content: center; gap: 10px; padding: 18px 12px; border: 1px solid rgba(255, 255, 255, 0.12);"><svg role="img" aria-label="Intel" viewbox="0 0 24 24" width="26" height="26" style="flex: 0 0 auto;"><path fill="rgba(255,255,255,0.88)" d="M20.42 7.345v9.18h1.651v-9.18zM0 7.475v1.737h1.737V7.474zm9.78.352v6.053c0 .513.044.945.13 1.292.087.34.235.618.44.828.203.21.475.359.803.451.334.093.754.136 1.255.136h.216v-1.533c-.24 0-.445-.012-.593-.037a.672.672 0 0 1-.39-.173.693.693 0 0 1-.173-.377 4.002 4.002 0 0 1-.037-.606v-2.182h1.193v-1.416h-1.193V7.827zm-3.505 2.312c-.396 0-.76.08-1.082.241-.327.161-.6.384-.822.668l-.087.117v-.902H2.658v6.256h1.639v-3.214c.018-.588.16-1.02.433-1.299.29-.297.642-.445 1.044-.445.476 0 .841.149 1.082.433.235.284.359.686.359 1.2v3.324h1.663V12.97c.006-.89-.229-1.595-.686-2.09-.458-.495-1.1-.742-1.917-.742zm10.065.006a3.252 3.252 0 0 0-2.306.946c-.29.29-.525.637-.692 1.033a3.145 3.145 0 0 0-.254 1.273c0 .452.08.878.241 1.274.161.395.39.742.674 1.032.284.29.637.526 1.045.693.408.173.86.26 1.342.26 1.397 0 2.262-.637 2.782-1.23l-1.187-.904c-.248.297-.841.699-1.583.699-.464 0-.847-.105-1.138-.321a1.588 1.588 0 0 1-.593-.872l-.019-.056h4.915v-.587c0-.451-.08-.872-.235-1.267a3.393 3.393 0 0 0-.661-1.033 3.013 3.013 0 0 0-1.02-.692 3.345 3.345 0 0 0-1.311-.248zm-16.297.118v6.256h1.651v-6.256zm16.278 1.286c1.132 0 1.664.797 1.664 1.255l-3.32.006c0-.458.525-1.255 1.656-1.261zm7.073 3.814a.606.606 0 0 0-.606.606.606.606 0 0 0 .606.606.606.606 0 0 0 .606-.606.606.606 0 0 0-.606-.606zm-.008.105a.5.5 0 0 1 .002 0 .5.5 0 0 1 .5.501.5.5 0 0 1-.5.5.5.5 0 0 1-.5-.5.5.5 0 0 1 .498-.5zm-.233.155v.699h.13v-.285h.093l.173.285h.136l-.18-.297a.191.191 0 0 0 .118-.056c.03-.03.05-.074.05-.136 0-.068-.02-.117-.063-.154-.037-.038-.105-.056-.185-.056zm.13.099h.154c.019 0 .037.006.056.012a.064.064 0 0 1 .037.031c.013.013.012.031.012.056a.124.124 0 0 1-.012.055.164.164 0 0 1-.037.031c-.019.006-.037.013-.056.013h-.154Z"></path></svg><span style="font-size: 15px; font-weight: 600; color: rgba(255, 255, 255, 0.82);">Intel</span></div><div title="Goldman Sachs" style="display: flex; align-items: center; justify-content: center; gap: 10px; padding: 18px 12px; border: 1px solid rgba(255, 255, 255, 0.12);"><svg role="img" aria-label="Goldman Sachs" viewbox="0 0 24 24" width="26" height="26" style="flex: 0 0 auto;"><path fill="rgba(255,255,255,0.88)" d="M1.963 9.264h1.452v2.378c-.484.098-.855.148-1.262.148C.561 11.79 0 10.878 0 9.377c0-1.614.778-2.526 2.329-2.526.196 0 .567.014 1.03.084v1.522h-.336l-.19-.582c-.183-.553-.4-.827-.744-.827-.596 0-.912.806-.912 2.315 0 1.515.126 2.23.904 2.23.106 0 .231-.014.351-.048V9.776l-.469-.323v-.189Zm1.424 6.382c0 .954-.651 1.501-1.802 1.501-.315 0-.778-.048-1.213-.119v-1.865h.337l.14.441c.315 1.017.54 1.353.94 1.353.421 0 .722-.371.722-.862 0-.399-.189-.68-.595-.898l-.702-.378c-.541-.287-.835-.736-.835-1.283 0-.828.68-1.326 1.796-1.326.252 0 .547.022 1.016.085v1.521h-.337l-.188-.581c-.19-.618-.393-.842-.764-.842-.415 0-.66.266-.66.652 0 .343.19.589.561.799l.708.399c.596.337.876.786.876 1.403Zm3.101 1.102.14.211v.106H5.556l-.05-.407c-.112.308-.407.491-.786.491-.561 0-.912-.351-.912-.926 0-.561.315-.933 1.283-1.311l.414-.161v-.525c0-.463-.085-.652-.344-.652-.21 0-.329.112-.533.623l-.231.573h-.315v-1.144c.414-.126.828-.21 1.185-.21.792 0 1.221.378 1.221 1.066v2.266Zm.405-6.824c0 1.192-.637 1.866-1.459 1.866-.82 0-1.457-.674-1.457-1.866 0-1.193.637-1.866 1.459-1.866.82 0 1.457.673 1.457 1.866Zm-1.387 6.235v-1.213l-.133.056c-.414.169-.569.547-.569 1.101 0 .414.099.652.329.652.231 0 .373-.225.373-.596Zm.357-6.235c0-1.347-.112-1.704-.427-1.704s-.428.357-.428 1.704c0 1.346.113 1.704.428 1.704s.427-.358.427-1.704Zm3.521 6.269.126.064c-.224.646-.511.89-1.066.89-.904 0-1.409-.679-1.409-1.865 0-1.185.589-1.866 1.55-1.866.258 0 .603.042.897.16v1.193h-.329l-.132-.449c-.176-.596-.273-.75-.449-.75-.281 0-.505.365-.505 1.754 0 1.114.168 1.521.595 1.521.287.001.532-.181.722-.652Zm-.779-4.488H7.342v-.104l.141-.211V7.476l-.141-.21V7.16l1.123-.084v4.313l.14.211v.105Zm1.726.085c-.772 0-1.235-.702-1.235-1.901 0-1.192.483-1.83 1.227-1.83.379 0 .589.147.68.441V7.476l-.141-.21V7.16l1.123-.084v4.313l.14.211v.104h-.996l-.077-.533c-.111.457-.321.619-.721.619Zm2.461 4.958.14.211v.106H11.67v-.106l.14-.211v-2.525c0-.301-.091-.483-.309-.483-.26 0-.449.218-.449.645v2.363l.141.211v.106H9.93v-.106l.14-.211v-3.914l-.14-.21v-.105l1.122-.084v1.451c.127-.301.414-.469.82-.469.576 0 .919.365.919 1.073v2.258h.001Zm-2.664-6.846c0 1.263.112 1.648.421 1.648.385 0 .455-.554.455-1.662 0-1.073-.077-1.606-.449-1.606-.315 0-.427.379-.427 1.62Zm7.041 1.487.14.211v.104h-1.262V11.6l.14-.211V8.787c0-.252-.084-.407-.281-.407-.244 0-.441.219-.441.638v2.371l.14.211v.104h-1.262V11.6l.14-.211V8.787c0-.252-.084-.407-.28-.407-.245 0-.442.219-.442.638v2.371l.141.211v.104h-1.263V11.6l.14-.211V8.535l-.14-.169v-.104l1.01-.12h.084l.028.393c.119-.309.414-.477.814-.477.427 0 .708.21.834.589.105-.365.435-.589.856-.589.553 0 .904.365.904 1.072v2.259Zm-1.311 4.644c0 .609-.393 1.114-1.339 1.114-.245 0-.575-.028-1.087-.119v-1.304h.287l.091.281c.224.715.441.982.785.982.323 0 .533-.232.533-.59 0-.294-.147-.497-.497-.687l-.603-.323c-.385-.21-.596-.539-.596-.946 0-.638.499-1.024 1.325-1.024.239 0 .547.034.884.105v1.024h-.287l-.148-.373c-.168-.449-.329-.595-.595-.595-.287 0-.456.168-.456.449 0 .238.141.399.484.595l.595.337c.406.232.624.561.624 1.074Zm4.538-4.644.14.211v.104h-1.073l-.048-.407c-.112.309-.407.491-.786.491-.561 0-.911-.35-.911-.926 0-.561.315-.932 1.283-1.311l.413-.16v-.526c0-.463-.084-.652-.343-.652-.211 0-.329.113-.533.624l-.231.575h-.317V8.27c.415-.127.828-.211 1.185-.211.792 0 1.221.379 1.221 1.066v2.264Zm-.982-.589V9.587l-.133.056c-.413.168-.567.547-.567 1.101 0 .414.098.653.329.653.23 0 .371-.225.371-.597Zm4.586.8v.104h-1.263V11.6l.141-.211V8.864c0-.302-.091-.484-.309-.484-.26 0-.449.219-.449.646v2.363l.14.211v.104h-1.262V11.6l.14-.211V8.535l-.14-.169v-.104l1.01-.12h.084l.028.393c.119-.309.407-.477.82-.477.575 0 .918.365.918 1.072v2.259L24 11.6Z"></path></svg><span style="font-size: 15px; font-weight: 600; color: rgba(255, 255, 255, 0.82);">Goldman Sachs</span></div><div title="Adobe" style="display: flex; align-items: center; justify-content: center; gap: 10px; padding: 18px 12px; border: 1px solid rgba(255, 255, 255, 0.12);"><svg role="img" aria-label="Adobe" viewbox="0 0 24 24" width="26" height="26" style="flex: 0 0 auto;"><path fill="rgba(255,255,255,0.88)" d="M13.966 22.624l-1.69-4.281H8.122l3.892-9.144 5.662 13.425zM8.884 1.376H0v21.248zm15.116 0h-8.884L24 22.624Z"></path></svg><span style="font-size: 15px; font-weight: 600; color: rgba(255, 255, 255, 0.82);">Adobe</span></div><div title="PayPal" style="display: flex; align-items: center; justify-content: center; gap: 10px; padding: 18px 12px; border: 1px solid rgba(255, 255, 255, 0.12);"><svg role="img" aria-label="PayPal" viewbox="0 0 24 24" width="26" height="26" style="flex: 0 0 auto;"><path fill="rgba(255,255,255,0.88)" d="M7.016 19.198h-4.2a.562.562 0 0 1-.555-.65L5.093.584A.692.692 0 0 1 5.776 0h7.222c3.417 0 5.904 2.488 5.846 5.5-.006.25-.027.5-.066.747A6.794 6.794 0 0 1 12.071 12H8.743a.69.69 0 0 0-.682.583l-.325 2.056-.013.083-.692 4.39-.015.087zM19.79 6.142c-.01.087-.01.175-.023.261a7.76 7.76 0 0 1-7.695 6.598H9.007l-.283 1.795-.013.083-.692 4.39-.134.843-.014.088H6.86l-.497 3.15a.562.562 0 0 0 .555.65h3.612c.34 0 .63-.249.683-.585l.952-6.031a.692.692 0 0 1 .683-.584h2.126a6.793 6.793 0 0 0 6.707-5.752c.306-1.95-.466-3.744-1.89-4.906z"></path></svg><span style="font-size: 15px; font-weight: 600; color: rgba(255, 255, 255, 0.82);">PayPal</span></div><div title="Walmart" style="display: flex; align-items: center; justify-content: center; gap: 10px; padding: 18px 12px; border: 1px solid rgba(255, 255, 255, 0.12);"><svg role="img" aria-label="Walmart" viewbox="0 0 24 24" width="26" height="26" style="flex: 0 0 auto;"><path fill="rgba(255,255,255,0.88)" d="M21.41818 9.10219c-.22048 0-.39583.12308-.39583.27297l.13393 1.51627c.01478.09132.12669.16185.26197.16185.13555-.00017.24705-.07065.26214-.16185l.13424-1.51627c0-.1499-.17555-.27297-.39645-.27297zM-.00002 10.3184s.59713 2.44699.69242 2.84417c.11123.46362.3117.63419.88954.51913l.37291-1.51718c.0945-.37683.1579-.64553.21866-1.02883h.01065c.04269.3871.10354.65314.18131 1.03017 0 0 .15176.68869.22949 1.05042.07795.36163.29482.5895.86083.46542l.88851-3.3633h-.71735l-.30339 1.45411c-.08155.42325-.15544.75396-.21251 1.14117h-.01022c-.05189-.38347-.11777-.70096-.20072-1.11331l-.31586-1.48197h-.7474l-.3378 1.44462c-.09569.43899-.18528.79337-.2422 1.16745h-.01023c-.05832-.35224-.13599-.7977-.22006-1.22261 0 0-.20074-1.03328-.27115-1.38946zm6.83845 0v3.3633h.68299v-3.3633zm9.6188 0v2.48118c0 .34202.0644.5817.20213.72811.12033.12806.31854.21094.55604.21094.20193 0 .40062-.0383.49426-.07317l-.0088-.53367c-.06968.01711-.1498.03078-.25942.03078-.23265 0-.31068-.149-.31068-.45611v-.94921h.59479v-.64351h-.59481v-.79533zm2.77885 0c-.11446.0027-.24452.08936-.32723.23277-.11062.19096-.09105.40434.03838.47923l1.3799.64254c.0862.03205.20323-.02912.27103-.14597.06814-.11745.0629-.2496-.0088-.3082l-1.24635-.8741c-.03237-.01874-.06877-.02717-.10693-.02627zm4.36427 0c-.03815-.0009-.0745.0075-.1068.02628l-1.2464.8741c-.07112.05846-.07653.1901-.0092.30734.00006.00013.00015.00023.00025.00036.00009.00016.00015.00033.00024.00049.06804.11686.18472.17803.27091.14598l1.38004-.64254c.12997-.0749.14861-.28827.03874-.47923-.08309-.1434-.21333-.23006-.32777-.23277zM5.312 11.0981c-.42444 0-.76136.11916-.94501.22529l.13442.46019c.16808-.10595.43566-.19366.68907-.19366.41954-.0011.48817.23728.48817.39012v.03613c-.9142-.0014-1.49164.31493-1.49164.9598 0 .3937.29399.76266.80512.76266.31466 0 .57778-.12554.73548-.32662h.01545s.10445.4367.67982.26969c-.03022-.18174-.04002-.37546-.04002-.60884v-.89849c0-.57263-.24452-1.07627-1.07086-1.07627zm4.08552 0c-.42739 0-.61944.2166-.7359.40034h-.01016v-.34335h-.65173v2.5266h.68658V12.2c0-.06945.00799-.1429.03223-.2068.05689-.1492.19565-.3237.41725-.3237.27704 0 .40667.2342.40667.57222v1.44h.68585v-1.4996c0-.06636.0091-.14622.02859-.20486.05639-.16969.20602-.30776.41201-.30776.28086 0 .41567.23012.41567.62788v1.38434h.68633v-1.48805c0-.78478-.39845-1.09555-.8483-1.09555-.19922 0-.35646.04996-.49863.13722-.1195.07334-.22655.17753-.32006.3147h-.0101c-.10853-.27228-.36375-.45192-.6963-.45192zm3.7702 0c-.42435 0-.76113.11916-.94495.22529l.13454.46019c.16792-.10595.43572-.19366.689-.19366.41926-.0011.48806.23728.48806.39012v.03613c-.91407-.0014-1.49164.31494-1.49164.9598 0 .3937.29418.76266.8056.76266.31441 0 .57759-.12554.735-.32662h.01557s.10437.4367.67982.26969c-.03027-.18174-.03996-.37546-.03996-.60884v-.89849c0-.57263-.24458-1.07627-1.07104-1.07627zm2.85129 0c-.26292 0-.56205.1697-.68761.53354h-.0191v-.47655h-.6181v2.5266h.70453V12.388c0-.06985.0042-.1307.01527-.1865.0521-.27102.25945-.44425.55696-.44425.08167 0 .1401.0088.20333.018v-.66151c-.05302-.0107-.0893-.01563-.15528-.01563zm4.35946 1.22067c-.01785-.00025-.03513.0026-.05134.0087l-1.3799.6418c-.12943.07519-.149.28868-.03838.47984.11028.1906.30469.28118.43415.20644l1.24634-.87349c.0717-.05929.07696-.19127.0088-.30862l.0006.00025c-.05507-.09558-.14292-.15388-.22027-.15492zm2.07955 0c-.07727.001-.1649.05934-.22012.15491l.00049-.00025c-.06781.11735-.06254.24934.0088.30862l1.2464.87349c.12921.07474.3238-.01584.43458-.20644.10986-.19116.09122-.40466-.03875-.47983l-1.38012-.64181c-.0162-.0061-.03344-.0089-.05128-.0087zm-16.75741.14518v.31519c0 .0466-.00406.09467-.01697.13673-.05286.17506-.23415.32303-.46086.32303-.18901 0-.33916-.1073-.33916-.33422 0-.34707.38204-.443.81699-.44073zm7.85577 0v.31519c0 .0466-.0041.09467-.0169.13673-.05287.17506-.23421.32303-.46093.32303-.18905 0-.3392-.1073-.3392-.33422 0-.34707.38209-.443.81703-.44073zm7.86138.48324c-.13506.00016-.24672.07024-.26148.16137l-.13393 1.5162c0 .15015.17535.27304.39583.27304.2209 0 .39645-.12289.39645-.27303l-.13424-1.51621c-.01509-.09113-.12659-.1612-.26214-.16137z"></path></svg><span style="font-size: 15px; font-weight: 600; color: rgba(255, 255, 255, 0.82);">Walmart</span></div><div title="Dell" style="display: flex; align-items: center; justify-content: center; gap: 10px; padding: 18px 12px; border: 1px solid rgba(255, 255, 255, 0.12);"><svg role="img" aria-label="Dell" viewbox="0 0 24 24" width="26" height="26" style="flex: 0 0 auto;"><path fill="rgba(255,255,255,0.88)" d="M17.963 14.6V9.324h1.222v4.204h2.14v1.07h-3.362zm-9.784-3.288l2.98-2.292c.281.228.56.458.841.687l-2.827 2.14.611.535 2.827-2.216c.281.228.56.458.841.688a295.83 295.83 0 0 1-2.827 2.216l.61.536 2.83-2.295-.001-1.986h1.223v4.204h2.216v1.07h-3.362v-1.987c-.995.763-1.987 1.529-2.981 2.292l-2.981-2.292c-.144.729-.653 1.36-1.312 1.694-.285.147-.597.24-.915.276-.183.022-.367.017-.551.017H3.516V9.325H5.69a2.544 2.544 0 0 1 1.563.557c.454.36.778.872.927 1.43m-3.516-.917v3.21l.953-.001a1.377 1.377 0 0 0 1.036-.523 1.74 1.74 0 0 0 .182-1.889 1.494 1.494 0 0 0-.976-.766c-.166-.04-.338-.03-.507-.032h-.688zM11.82 0h.337a11.94 11.94 0 0 1 5.405 1.373 12.101 12.101 0 0 1 4.126 3.557A11.93 11.93 0 0 1 24 11.82v.36a11.963 11.963 0 0 1-3.236 8.033A11.967 11.967 0 0 1 12.182 24h-.361a11.993 11.993 0 0 1-4.145-.806 12.04 12.04 0 0 1-4.274-2.836A12.057 12.057 0 0 1 .576 15.67 12.006 12.006 0 0 1 0 12.181v-.361a11.924 11.924 0 0 1 1.992-6.396 12.211 12.211 0 0 1 4.71-4.172A11.875 11.875 0 0 1 11.82 0m-.153 1.23a10.724 10.724 0 0 0-6.43 2.375 10.78 10.78 0 0 0-3.319 4.573 10.858 10.858 0 0 0 .193 8.12 10.788 10.788 0 0 0 3.546 4.421 10.698 10.698 0 0 0 4.786 1.946c1.456.209 2.955.124 4.376-.26a10.756 10.756 0 0 0 5.075-3.062 10.742 10.742 0 0 0 2.686-5.28 10.915 10.915 0 0 0-.122-4.682 10.77 10.77 0 0 0-7.098-7.626 10.78 10.78 0 0 0-3.693-.525z"></path></svg><span style="font-size: 15px; font-weight: 600; color: rgba(255, 255, 255, 0.82);">Dell</span></div><div title="Nvidia" style="display: flex; align-items: center; justify-content: center; gap: 10px; padding: 18px 12px; border: 1px solid rgba(255, 255, 255, 0.12);"><svg role="img" aria-label="Nvidia" viewbox="0 0 24 24" width="26" height="26" style="flex: 0 0 auto;"><path fill="rgba(255,255,255,0.88)" d="M8.948 8.798v-1.43a6.7 6.7 0 0 1 .424-.018c3.922-.124 6.493 3.374 6.493 3.374s-2.774 3.851-5.75 3.851c-.398 0-.787-.062-1.158-.185v-4.346c1.528.185 1.837.857 2.747 2.385l2.04-1.714s-1.492-1.952-4-1.952a6.016 6.016 0 0 0-.796.035m0-4.735v2.138l.424-.027c5.45-.185 9.01 4.47 9.01 4.47s-4.08 4.964-8.33 4.964c-.37 0-.733-.035-1.095-.097v1.325c.3.035.61.062.91.062 3.957 0 6.82-2.023 9.593-4.408.459.371 2.34 1.263 2.73 1.652-2.633 2.208-8.772 3.984-12.253 3.984-.335 0-.653-.018-.971-.053v1.864H24V4.063zm0 10.326v1.131c-3.657-.654-4.673-4.46-4.673-4.46s1.758-1.944 4.673-2.262v1.237H8.94c-1.528-.186-2.73 1.245-2.73 1.245s.68 2.412 2.739 3.11M2.456 10.9s2.164-3.197 6.5-3.533V6.201C4.153 6.59 0 10.653 0 10.653s2.35 6.802 8.948 7.42v-1.237c-4.84-.6-6.492-5.936-6.492-5.936z"></path></svg><span style="font-size: 15px; font-weight: 600; color: rgba(255, 255, 255, 0.82);">Nvidia</span></div><div title="Qualcomm" style="display: flex; align-items: center; justify-content: center; gap: 10px; padding: 18px 12px; border: 1px solid rgba(255, 255, 255, 0.12);"><svg role="img" aria-label="Qualcomm" viewbox="0 0 24 24" width="26" height="26" style="flex: 0 0 auto;"><path fill="rgba(255,255,255,0.88)" d="M12 0C6.22933 0 1.5761 4.48645 1.5761 10.47394c0 6.00417 4.65323 10.47394 10.4239 10.47394.98402 0 1.93468-.13343 2.8353-.3836l1.13412 2.9187c.11675.31688.35025.51702.7672.51702h1.80125c.43364 0 .75052-.28353.55038-.83391l-1.46768-3.81932c2.88534-1.81793 4.80333-5.03683 4.80333-8.8895C22.4239 4.48644 17.77067 0 12 0m4.53648 16.5615l-1.31758-3.41904c-.11675-.28353-.35024-.55038-.85059-.55038h-1.71786c-.43363 0-.7672.28353-.56706.83391l1.73454 4.48645c-.56706.1501-1.18416.21682-1.81793.21682-4.2196 0-7.22168-3.31897-7.22168-7.65532C4.77832 6.1376 7.7804 2.81862 12 2.81862s7.22168 3.31898 7.22168 7.65532c0 2.5351-1.01737 4.70327-2.6852 6.08756"></path></svg><span style="font-size: 15px; font-weight: 600; color: rgba(255, 255, 255, 0.82);">Qualcomm</span></div><div title="Boeing" style="display: flex; align-items: center; justify-content: center; gap: 10px; padding: 18px 12px; border: 1px solid rgba(255, 255, 255, 0.12);"><svg role="img" aria-label="Boeing" viewbox="0 0 24 24" width="26" height="26" style="flex: 0 0 auto;"><path fill="rgba(255,255,255,0.88)" d="M6.9044 17.2866a6.0512 6.0512 0 01-3.7595-1.3008c1.2048-2.7146 3.6545-6.3581 6.998-9.9166a6.0702 6.0702 0 012.2617 7.729c-1.0599-.49-2.0497-1.106-2.8876-1.8798l1.8307 3.4375a6.0582 6.0582 0 01-4.4433 1.9307M.8292 11.2115a6.0752 6.0752 0 016.0762-6.0772c.8998 0 1.7527.196 2.5226.546-3.2935 2.9095-5.8432 6.293-7.353 9.2177a6.0512 6.0512 0 01-1.2458-3.6875m12.3403 2.9126a6.862 6.862 0 00.6419-2.9126c0-2.3997-1.2248-4.5144-3.0846-5.7532a49.6072 49.6072 0 013.5825-3.3416A31.1727 31.1727 0 0010.11 5.0903a6.907 6.907 0 00-8.4368 10.6265C.3493 18.5795.1193 20.8781 1.285 21.654c1.2489.832 3.9625-.6769 5.5903-3.1345 0 0-2.5177 2.2736-3.9015 1.7517-.8519-.322-.8549-1.6248-.152-3.4925a6.871 6.871 0 004.0835 1.3378c1.8937 0 3.6065-.7599 4.8533-1.9917l.245.462c3.0095-.245 11.9963-.483 11.9963-.483 0-.431-5.9502-.04-10.8325-1.9797"></path></svg><span style="font-size: 15px; font-weight: 600; color: rgba(255, 255, 255, 0.82);">Boeing</span></div><div title="Tesla" style="display: flex; align-items: center; justify-content: center; gap: 10px; padding: 18px 12px; border: 1px solid rgba(255, 255, 255, 0.12);"><svg role="img" aria-label="Tesla" viewbox="0 0 24 24" width="26" height="26" style="flex: 0 0 auto;"><path fill="rgba(255,255,255,0.88)" d="M12 5.362l2.475-3.026s4.245.09 8.471 2.054c-1.082 1.636-3.231 2.438-3.231 2.438-.146-1.439-1.154-1.79-4.354-1.79L12 24 8.619 5.034c-3.18 0-4.188.354-4.335 1.792 0 0-2.146-.795-3.229-2.43C5.28 2.431 9.525 2.34 9.525 2.34L12 5.362l-.004.002H12v-.002zm0-3.899c3.415-.03 7.326.528 11.328 2.28.535-.968.672-1.395.672-1.395C19.625.612 15.528.015 12 0 8.472.015 4.375.61 0 2.349c0 0 .195.525.672 1.396C4.674 1.989 8.585 1.435 12 1.46v.003z"></path></svg><span style="font-size: 15px; font-weight: 600; color: rgba(255, 255, 255, 0.82);">Tesla</span></div><div title="HP" style="display: flex; align-items: center; justify-content: center; gap: 10px; padding: 18px 12px; border: 1px solid rgba(255, 255, 255, 0.12);"><svg role="img" aria-label="HP" viewbox="0 0 24 24" width="26" height="26" style="flex: 0 0 auto;"><path fill="rgba(255,255,255,0.88)" d="M12.0069 24h-.3572l2.459-6.7453h3.3796c.5907 0 1.2364-.4533 1.4424-1.0166l2.6652-7.3085c.4396-1.1952-.2473-2.1706-1.525-2.1706h-4.6983l-3.929 10.798-2.2255 6.127C3.929 22.434 0 17.6806 0 12.007 0 6.498 3.7092 1.8546 8.7647.4396L6.4705 6.759 2.6514 17.2547h2.5415L8.4488 8.339h1.9095l-3.2558 8.9158H9.644l3.0223-8.3251c.4396-1.1952-.2473-2.1706-1.525-2.1706h-2.143l2.459-6.7453C11.636 0 11.8145 0 11.9931 0 18.6285 0 24 5.3715 24 12.007c.0137 6.6216-5.3578 11.993-11.9931 11.993zM19.2742 8.325h-1.9096l-2.6789 7.336h1.9096l2.6789-7.336z"></path></svg><span style="font-size: 15px; font-weight: 600; color: rgba(255, 255, 255, 0.82);">HP</span></div><div title="Verizon" style="display: flex; align-items: center; justify-content: center; gap: 10px; padding: 18px 12px; border: 1px solid rgba(255, 255, 255, 0.12);"><svg role="img" aria-label="Verizon" viewbox="0 0 24 24" width="26" height="26" style="flex: 0 0 auto;"><path fill="rgba(255,255,255,0.88)" d="M18.302 0H22v.003L10.674 24H7.662L2 12h3.727l3.449 7.337z"></path></svg><span style="font-size: 15px; font-weight: 600; color: rgba(255, 255, 255, 0.82);">Verizon</span></div></div></div>
+      <a href="/founders#vault" class="reveal" style="display: inline-flex; align-items: center; gap: 10px; font-size: 15px; font-weight: 600; color: var(--white); text-decoration: none; border-bottom: 1px solid var(--logo-cyan); padding-bottom: 4px;">Explore the Vault<svg aria-hidden="true" width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square"><path d="M4 12h15"></path><path d="M13 6l6 6-6 6"></path></svg></a>
+    </div>
+
+
+  </div></section><section id="portfolio" class="on-light" style="background: var(--white); color: var(--deep-teal);">
+  <div class="wrap" style="padding-top: 140px; padding-bottom: 140px;">
+    <div class="reveal" style="margin-bottom: 40px;"><span class="eyebrow">Portfolio</span></div>
+    <div class="reveal" style="display: flex; flex-wrap: wrap; gap: 32px 80px; margin-bottom: 64px; align-items: flex-end;">
+      <h2 class="display" style="flex: 1 1 520px; margin: 0px; font-size: clamp(32px, 3.7vw, 54px);">750 investments. 5 unicorns. <span style="font-weight: 600;">3 public listings.</span></h2>
+      <p style="flex: 1 1 380px; margin: 0px; font-size: 18px; line-height: 1.6; color: var(--deep-teal-80);">You will be in good company: deeply technical researchers, engineers and domain experts with real differentiation in what they build. Sector agnostic, always building for the enterprise, with <strong style="font-weight: 600;">AI</strong> and <strong style="font-weight: 600;">deep tech</strong> leading the way, alongside health, data, security, financial services and more.</p>
+    </div>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; margin-bottom: 64px;">
+      <a href="https://www.rigetti.com" target="_blank" rel="noopener" class="reveal lift edge" style="background: var(--mist); display: flex; flex-direction: column; color: var(--deep-teal); text-decoration: none;">
+        <div class="photo" style="position: relative; background: var(--deep-teal);"><img src="https://www.alchemist.vc/hubfs/Alchemist-2026/portfolio-rigetti.jpg" alt="A Rigetti quantum computer" style="width: 100%; height: 220px; object-fit: cover; object-position: center 20%; display: block;">
+          <div aria-hidden="true" style="position: absolute; inset: 0px; background: linear-gradient(rgba(4, 22, 30, 0) 35%, rgba(4, 22, 30, 0.85) 100%);"></div>
+          <div style="position: absolute; left: 20px; right: 20px; bottom: 18px; display: flex; justify-content: space-between; align-items: flex-end; gap: 10px;"><span style="font-size: 24px; font-weight: 600; letter-spacing: -0.02em; color: var(--white); line-height: 1.1;">Rigetti Computing</span></div>
+        </div>
+        <div style="padding: 24px 22px 28px; display: flex; flex-direction: column; gap: 14px; flex: 1 1 0%;">
+          <div class="eyebrow" style="color: var(--deep-teal-80);">Quantum computing</div>
+          <p style="margin: 0px; font-size: 17px; line-height: 1.45; flex: 1 1 0%;">Quantum computers and superconducting quantum processors, delivered through the cloud.</p><div><span style="display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; padding: 6px 10px; background: var(--yellow); color: var(--deep-teal);">Public listing</span></div>
+        </div>
+      </a>
+      <a href="https://launchdarkly.com" target="_blank" rel="noopener" class="reveal lift edge" style="background: var(--mist); display: flex; flex-direction: column; color: var(--deep-teal); text-decoration: none;">
+        <div class="photo" style="position: relative; background: var(--deep-teal);"><img src="https://www.alchemist.vc/hubfs/Alchemist-2026/portfolio-launchdarkly.jpg" alt="LaunchDarkly product dashboard" style="width: 100%; height: 220px; object-fit: cover; object-position: 40% center; display: block;">
+          <div aria-hidden="true" style="position: absolute; inset: 0px; background: linear-gradient(rgba(4, 22, 30, 0) 35%, rgba(4, 22, 30, 0.85) 100%);"></div>
+          <div style="position: absolute; left: 20px; right: 20px; bottom: 18px; display: flex; justify-content: space-between; align-items: flex-end; gap: 10px;"><span style="font-size: 24px; font-weight: 600; letter-spacing: -0.02em; color: var(--white); line-height: 1.1;">LaunchDarkly</span></div>
+        </div>
+        <div style="padding: 24px 22px 28px; display: flex; flex-direction: column; gap: 14px; flex: 1 1 0%;">
+          <div class="eyebrow" style="color: var(--deep-teal-80);">Developer infrastructure</div>
+          <p style="margin: 0px; font-size: 17px; line-height: 1.45; flex: 1 1 0%;">The feature management platform that helps engineering teams ship software faster and safer.</p><div><span style="display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; padding: 6px 10px; background: var(--logo-cyan); color: var(--deep-teal);">Unicorn</span></div>
+        </div>
+      </a>
+      <a href="https://www.moengage.com" target="_blank" rel="noopener" class="reveal lift edge" style="background: var(--mist); display: flex; flex-direction: column; color: var(--deep-teal); text-decoration: none;">
+        <div class="photo" style="position: relative; background: var(--deep-teal);"><img src="https://www.alchemist.vc/hubfs/Alchemist-2026/portfolio-moengage.jpg" alt="MoEngage product interface" style="width: 100%; height: 220px; object-fit: cover; object-position: center 30%; display: block;">
+          <div aria-hidden="true" style="position: absolute; inset: 0px; background: linear-gradient(rgba(4, 22, 30, 0) 35%, rgba(4, 22, 30, 0.85) 100%);"></div>
+          <div style="position: absolute; left: 20px; right: 20px; bottom: 18px; display: flex; justify-content: space-between; align-items: flex-end; gap: 10px;"><span style="font-size: 24px; font-weight: 600; letter-spacing: -0.02em; color: var(--white); line-height: 1.1;">MoEngage</span></div>
+        </div>
+        <div style="padding: 24px 22px 28px; display: flex; flex-direction: column; gap: 14px; flex: 1 1 0%;">
+          <div class="eyebrow" style="color: var(--deep-teal-80);">Customer engagement platform</div>
+          <p style="margin: 0px; font-size: 17px; line-height: 1.45; flex: 1 1 0%;">A cross-channel engagement platform for marketers and product teams, now backed by a $280M Series F.</p><div><span style="display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; padding: 6px 10px; background: var(--logo-cyan); color: var(--deep-teal);">Series F</span></div>
+        </div>
+      </a>
+      <div class="reveal edge" style="background: var(--mist); display: flex; flex-direction: column; color: var(--deep-teal); text-decoration: none;">
+        <div class="photo" style="position: relative; background: var(--deep-teal);"><img src="https://www.alchemist.vc/hubfs/Alchemist-2026/portfolio-mightyhive.jpg" alt="MightyHive honeycomb graphic" style="width: 100%; height: 220px; object-fit: cover; object-position: center 40%; display: block;">
+          <div aria-hidden="true" style="position: absolute; inset: 0px; background: linear-gradient(rgba(4, 22, 30, 0) 35%, rgba(4, 22, 30, 0.85) 100%);"></div>
+          <div style="position: absolute; left: 20px; right: 20px; bottom: 18px; display: flex; justify-content: space-between; align-items: flex-end; gap: 10px;"><span style="font-size: 24px; font-weight: 600; letter-spacing: -0.02em; color: var(--white); line-height: 1.1;">MightyHive</span></div>
+        </div>
+        <div style="padding: 24px 22px 28px; display: flex; flex-direction: column; gap: 14px; flex: 1 1 0%;">
+          <div class="eyebrow" style="color: var(--deep-teal-80);">Marketing technology</div>
+          <p style="margin: 0px; font-size: 17px; line-height: 1.45; flex: 1 1 0%;">Data and programmatic media consultancy, acquired by S4 Capital.</p><div><span style="display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; padding: 6px 10px; background: var(--deep-teal); color: var(--white);">Acquired</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="reveal" style="font-size: 12px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--deep-teal-80); margin-bottom: 16px;">A few highlights from the portfolio</div>
+    <div class="logo-wall" style="display: grid; grid-template-columns: repeat(9, minmax(0px, 1fr)); gap: 24px 16px; margin-bottom: 48px;">
+      
+        <a href="https://pluvo.io/" target="_blank" rel="noopener" class="lift pf-ico" title="Pluvo" style="display: flex; flex-direction: column; align-items: center; gap: 12px; color: var(--deep-teal); text-decoration: none;"><span aria-hidden="true" style="display: block; width: 100%; max-width: 120px; aspect-ratio: 1 / 1; border-radius: 22%; overflow: hidden; border: 1px solid var(--rule-teal); background-color: rgb(255, 255, 255); background-image: url(&quot;https://www.alchemist.vc/hubfs/Alchemist-2026/homepage-highlight-pluvo.png&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat;"></span><span style="font-size: 14px; font-weight: 600; line-height: 1.3; text-align: center;">Pluvo</span></a>
+      
+        <a href="https://halluminate.ai/" target="_blank" rel="noopener" class="lift pf-ico" title="Halluminate" style="display: flex; flex-direction: column; align-items: center; gap: 12px; color: var(--deep-teal); text-decoration: none;"><span aria-hidden="true" style="display: block; width: 100%; max-width: 120px; aspect-ratio: 1 / 1; border-radius: 22%; overflow: hidden; border: 1px solid var(--rule-teal); background-color: rgb(255, 255, 255); background-image: url(&quot;https://www.alchemist.vc/hubfs/Alchemist-2026/homepage-highlight-halluminate.png&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat;"></span><span style="font-size: 14px; font-weight: 600; line-height: 1.3; text-align: center;">Halluminate</span></a>
+      
+        <a href="https://www.nomadicdrone.com/" target="_blank" rel="noopener" class="lift pf-ico" title="Nomadic Drones" style="display: flex; flex-direction: column; align-items: center; gap: 12px; color: var(--deep-teal); text-decoration: none;"><span aria-hidden="true" style="display: block; width: 100%; max-width: 120px; aspect-ratio: 1 / 1; border-radius: 22%; overflow: hidden; border: 1px solid var(--rule-teal); background-color: rgb(255, 255, 255); background-image: url(&quot;https://www.alchemist.vc/hubfs/Alchemist-2026/homepage-highlight-nomadic-drones.png&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat;"></span><span style="font-size: 14px; font-weight: 600; line-height: 1.3; text-align: center;">Nomadic Drones</span></a>
+      
+        <a href="https://verbaflo.ai/" target="_blank" rel="noopener" class="lift pf-ico" title="VerbaFlo" style="display: flex; flex-direction: column; align-items: center; gap: 12px; color: var(--deep-teal); text-decoration: none;"><span aria-hidden="true" style="display: block; width: 100%; max-width: 120px; aspect-ratio: 1 / 1; border-radius: 22%; overflow: hidden; border: 1px solid var(--rule-teal); background-color: rgb(255, 255, 255); background-image: url(&quot;https://www.alchemist.vc/hubfs/Alchemist-2026/homepage-highlight-verbaflo.png&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat;"></span><span style="font-size: 14px; font-weight: 600; line-height: 1.3; text-align: center;">VerbaFlo</span></a>
+      
+        <a href="https://actual.ai/" target="_blank" rel="noopener" class="lift pf-ico" title="Actual AI" style="display: flex; flex-direction: column; align-items: center; gap: 12px; color: var(--deep-teal); text-decoration: none;"><span aria-hidden="true" style="display: block; width: 100%; max-width: 120px; aspect-ratio: 1 / 1; border-radius: 22%; overflow: hidden; border: 1px solid var(--rule-teal); background-color: rgb(255, 255, 255); background-image: url(&quot;https://www.alchemist.vc/hubfs/Alchemist-2026/homepage-highlight-actual-ai.png&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat;"></span><span style="font-size: 14px; font-weight: 600; line-height: 1.3; text-align: center;">Actual AI</span></a>
+      
+        <a href="https://www.theorema.ai/" target="_blank" rel="noopener" class="lift pf-ico" title="Theorema" style="display: flex; flex-direction: column; align-items: center; gap: 12px; color: var(--deep-teal); text-decoration: none;"><span aria-hidden="true" style="display: block; width: 100%; max-width: 120px; aspect-ratio: 1 / 1; border-radius: 22%; overflow: hidden; border: 1px solid var(--rule-teal); background-color: rgb(255, 255, 255); background-image: url(&quot;https://www.alchemist.vc/hubfs/Alchemist-2026/homepage-highlight-theorema.jpg&quot;); background-size: 78% auto; background-position: center center; background-repeat: no-repeat;"></span><span style="font-size: 14px; font-weight: 600; line-height: 1.3; text-align: center;">Theorema</span></a>
+      
+        <a href="https://turbolaw.ai/" target="_blank" rel="noopener" class="lift pf-ico" title="Turbo Law" style="display: flex; flex-direction: column; align-items: center; gap: 12px; color: var(--deep-teal); text-decoration: none;"><span aria-hidden="true" style="display: block; width: 100%; max-width: 120px; aspect-ratio: 1 / 1; border-radius: 22%; overflow: hidden; border: 1px solid var(--rule-teal); background-color: rgb(255, 255, 255); background-image: url(&quot;https://www.alchemist.vc/hubfs/Alchemist-2026/homepage-highlight-turbo-law.png&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat;"></span><span style="font-size: 14px; font-weight: 600; line-height: 1.3; text-align: center;">Turbo Law</span></a>
+      
+        <a href="https://www.bqpsim.com/" target="_blank" rel="noopener" class="lift pf-ico" title="BQP" style="display: flex; flex-direction: column; align-items: center; gap: 12px; color: var(--deep-teal); text-decoration: none;"><span aria-hidden="true" style="display: block; width: 100%; max-width: 120px; aspect-ratio: 1 / 1; border-radius: 22%; overflow: hidden; border: 1px solid var(--rule-teal); background-color: rgb(255, 255, 255); background-image: url(&quot;https://www.alchemist.vc/hubfs/Alchemist-2026/homepage-highlight-bqp.png&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat;"></span><span style="font-size: 14px; font-weight: 600; line-height: 1.3; text-align: center;">BQP</span></a>
+      
+        <a href="https://www.bluequbit.io/" target="_blank" rel="noopener" class="lift pf-ico" title="BlueQubit" style="display: flex; flex-direction: column; align-items: center; gap: 12px; color: var(--deep-teal); text-decoration: none;"><span aria-hidden="true" style="display: block; width: 100%; max-width: 120px; aspect-ratio: 1 / 1; border-radius: 22%; overflow: hidden; border: 1px solid var(--rule-teal); background-color: rgb(255, 255, 255); background-image: url(&quot;https://www.alchemist.vc/hubfs/Alchemist-2026/homepage-highlight-bluequbit.png&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat;"></span><span style="font-size: 14px; font-weight: 600; line-height: 1.3; text-align: center;">BlueQubit</span></a>
+      
+    </div>
+    <span style="display: inline-block;"><a class="al-btn al-btn--primary al-btn--on-light" href="/portfolio#all-companies">See the portfolio</a></span>
+  </div></section><section class="grid-bg" data-tq="" style="background-color: var(--deep-teal); color: var(--white);">
+  <div class="wrap" style="padding-top: 120px; padding-bottom: 120px;">
+    <div class="reveal" style="margin-bottom: 40px;"><span class="eyebrow" style="color: var(--logo-cyan);">Testimonials</span></div>
+    <h2 class="display reveal" style="margin: 0px 0px 56px; font-size: clamp(32px, 3.7vw, 54px);">What Our <span style="font-weight: 600;">Founders Say</span></h2>
+    <div class="tq-wrap"><button type="button" class="tq-btn tq-prev" aria-label="Previous testimonials" disabled><svg width="20" height="20" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="15 18 9 12 15 6"></polyline></svg></button><div class="tq"><figure class="tq-card"><span class="tq-mark" aria-hidden="true">“</span><p class="tq-pull">Our earliest supporter.</p><blockquote>Alchemist was our earliest supporter, and has been with us every step of the way. Their team was extremely helpful in teaching us how to <strong>build a sales engine</strong>, as well as <strong>run a great fundraising process</strong>.</blockquote><div class="tq-foot"><img src="https://www.alchemist.vc/hubfs/Alchemist-2026/homepage-halluminate-logo.webp" alt="Halluminate logo" class="tq-logo" loading="lazy"><div class="tq-name">Jerry Wu</div><div class="tq-role">CEO, Halluminate</div></div></figure><figure class="tq-card"><span class="tq-mark" aria-hidden="true">“</span><p class="tq-pull">It will challenge you, grow you.</p><blockquote>Alchemist will <strong>surprise you in the best possible ways</strong>. It will challenge you, grow you, and ultimately make you and your company <strong>stronger in ways that matter most</strong>.</blockquote><div class="tq-foot"><img src="https://www.alchemist.vc/hubfs/Alchemist-2026/homepage-kaspix-logo.webp" alt="Kaspix logo" class="tq-logo" loading="lazy"><div class="tq-name">Pablo Zegers</div><div class="tq-role">Partner and CEO, Kaspix</div></div></figure><figure class="tq-card"><span class="tq-mark" aria-hidden="true">“</span><p class="tq-pull">Alchemist does a phenomenal job.</p><blockquote>Alchemist does a phenomenal job showing deeptech STEM founders <strong>what they need to do to build a business</strong> that <strong>solves real needs for customers</strong>.</blockquote><div class="tq-foot"><img src="https://www.alchemist.vc/hubfs/Alchemist-2026/homepage-qdir-logo.webp" alt="QDIR logo" class="tq-logo" loading="lazy"><div class="tq-name">Edward Malachosky</div><div class="tq-role">Co-Founder and CRO, QDIR</div></div></figure><figure class="tq-card"><span class="tq-mark" aria-hidden="true">“</span><p class="tq-pull">Over 8 PoCs.</p><blockquote>We secured <strong>over 8 PoCs</strong> with the help of the Alchemist program.</blockquote><div class="tq-foot"><img src="https://www.alchemist.vc/hubfs/Alchemist-2026/homepage-adansons-logo.webp" alt="Adansons logo" class="tq-logo" loading="lazy"><div class="tq-name">Haruki Ishii</div><div class="tq-role">CEO, Adansons</div></div></figure><figure class="tq-card"><span class="tq-mark" aria-hidden="true">“</span><p class="tq-pull">The experience has been exceptional.</p><blockquote>We recently <strong>raised $1M from Alchemist Doha</strong>, and the experience has been exceptional. Their professionalism, empathy and expertise in advanced technologies, combined with a strong understanding of both the MENA and North American markets, <strong>clearly set them apart</strong>.</blockquote><div class="tq-foot"><img src="https://www.alchemist.vc/hubfs/Alchemist-2026/homepage-armeta-ai-logo.webp" alt="Armeta AI logo" class="tq-logo" loading="lazy"><div class="tq-name">Sanzhar Rakhmetzhanov</div><div class="tq-role">Co-Founder, Armeta AI</div></div></figure><figure class="tq-card"><span class="tq-mark" aria-hidden="true">“</span><p class="tq-pull">It sped us up about ten times.</p><blockquote>Three months went by really quickly. It <strong>sped us up about ten times</strong>. <strong>The coaching was excellent</strong>, and having such a structured program that we could build towards Demo Day really helped us.</blockquote><div class="tq-foot"><img src="https://www.alchemist.vc/hubfs/Alchemist-2026/homepage-kimaru-ai-logo.webp" alt="Kimaru AI logo" class="tq-logo" loading="lazy"><div class="tq-name">Evan Burkosky</div><div class="tq-role">Co-Founder and CEO, Kimaru AI</div></div></figure><figure class="tq-card"><span class="tq-mark" aria-hidden="true">“</span><p class="tq-pull">Investors and partners we would not have otherwise connected with.</p><blockquote>We met several potential <strong>key investors, partners, SMEs, and founders</strong>, who we <strong>would not have otherwise connected with</strong>.</blockquote><div class="tq-foot"><img src="https://www.alchemist.vc/hubfs/Alchemist-2026/homepage-healthkind-logo.webp" alt="Healthkind logo" class="tq-logo" loading="lazy"><div class="tq-name">Katie Herbert</div><div class="tq-role">CEO and Co-Founder, Healthkind</div></div></figure><figure class="tq-card"><span class="tq-mark" aria-hidden="true">“</span><p class="tq-pull">A turning point for us.</p><blockquote>Alchemist was <strong>a turning point</strong> for us as founders and as a company. … <strong>I wouldn’t hesitate to do it again</strong>.</blockquote><div class="tq-foot"><img src="https://www.alchemist.vc/hubfs/Alchemist-2026/homepage-kaspix-logo.webp" alt="Kaspix logo" class="tq-logo" loading="lazy"><div class="tq-name">Andres Valdivieso</div><div class="tq-role">Co-Founder, Kaspix</div></div></figure><figure class="tq-card"><span class="tq-mark" aria-hidden="true">“</span><p class="tq-pull">The beauty is the people.</p><blockquote>The beauty of the Alchemist program is <strong>the people</strong>. Everyone has been so nice and helpful.</blockquote><div class="tq-foot"><img src="https://www.alchemist.vc/hubfs/Alchemist-2026/homepage-ubie-logo.webp" alt="Ubie logo" class="tq-logo" loading="lazy"><div class="tq-name">Kota Kubo</div><div class="tq-role">CEO, Ubie</div></div></figure><figure class="tq-card"><span class="tq-mark" aria-hidden="true">“</span><p class="tq-pull">Accountability was key.</p><blockquote>The regular check-ins provided a <strong>necessary structure</strong>… and this accountability was key to establishing <strong>a clear direction</strong>.</blockquote><div class="tq-foot"><img src="https://www.alchemist.vc/hubfs/Alchemist-2026/homepage-supercoder-logo.webp" alt="Supercoder logo" class="tq-logo" loading="lazy"><div class="tq-name">Jay Choi</div><div class="tq-role">Founder and CEO, Supercoder</div></div></figure><figure class="tq-card"><span class="tq-mark" aria-hidden="true">“</span><p class="tq-pull">Hands-on strategic support.</p><blockquote>Alchemist Doha has been a highly impactful partner in WeRover’s regional expansion. Beyond investment, their team provided <strong>hands-on strategic support, meaningful introductions and continuous guidance</strong> that helped us scale with clarity and confidence.</blockquote><div class="tq-foot"><img src="https://www.alchemist.vc/hubfs/Alchemist-2026/homepage-werover-logo.webp" alt="WeRover logo" class="tq-logo" loading="lazy"><div class="tq-name">Balca Yılmaz</div><div class="tq-role">CEO and Co-Founder, WeRover</div></div></figure><figure class="tq-card"><span class="tq-mark" aria-hidden="true">“</span><p class="tq-pull">Highly bespoke to us.</p><blockquote>With such a small, curated group, it has been <strong>highly bespoke</strong> to us, which is invaluable. The mentors have been <strong>really supportive</strong>.</blockquote><div class="tq-foot"><img src="https://www.alchemist.vc/hubfs/Alchemist-2026/homepage-cyanotype-bio-logo.webp" alt="Cyanotype Bio logo" class="tq-logo" loading="lazy"><div class="tq-name">Lis Evans</div><div class="tq-role">Co-Founder and CEO, Cyanotype Bio</div></div></figure><figure class="tq-card"><span class="tq-mark" aria-hidden="true">“</span><p class="tq-pull">Customer development support was outstanding.</p><blockquote>The customer development support was <strong>outstanding</strong> and we obtained a number of excellent interviewees.</blockquote><div class="tq-foot"><img src="https://www.alchemist.vc/hubfs/Alchemist-2026/homepage-tradom-logo.webp" alt="TRADOM logo" class="tq-logo" loading="lazy"><div class="tq-name">Shin Sakane</div><div class="tq-role">Co-CEO, TRADOM</div></div></figure><figure class="tq-card"><span class="tq-mark" aria-hidden="true">“</span><p class="tq-pull">Exceptional support.</p><blockquote>The Alchemist team and mentors offer <strong>exceptional support</strong> and a friendly environment, facilitating valuable networking opportunities and <strong>meaningful connections</strong>.</blockquote><div class="tq-foot"><img src="https://www.alchemist.vc/hubfs/Alchemist-2026/homepage-aironworks-logo.webp" alt="Aironworks logo" class="tq-logo" loading="lazy"><div class="tq-name">Ani Terada</div><div class="tq-role">CEO, Aironworks</div></div></figure><figure class="tq-card"><span class="tq-mark" aria-hidden="true">“</span><p class="tq-pull">A partner for breakthrough platforms.</p><blockquote>Alchemist Doha supports <strong>first-principles thinking</strong>, long-term vision and rigorous scientific execution. We consider them a partner who helps us build <strong>breakthrough platforms with global impact</strong>.</blockquote><div class="tq-foot"><img src="https://www.alchemist.vc/hubfs/Alchemist-2026/homepage-denovo-sciences-logo.webp" alt="Denovo Sciences logo" class="tq-logo" loading="lazy"><div class="tq-name">Hovakim Zakaryan</div><div class="tq-role">CEO and Co-Founder, Denovo Sciences</div></div></figure><figure class="tq-card"><span class="tq-mark" aria-hidden="true">“</span><p class="tq-pull">Engaging discussions with global mentors.</p><blockquote>We had <strong>engaging discussions with global mentors</strong> visiting Japan, and exchanged ideas for future business opportunities.</blockquote><div class="tq-foot"><img src="https://www.alchemist.vc/hubfs/Alchemist-2026/homepage-shosabi-logo.webp" alt="SHOSABI logo" class="tq-logo" loading="lazy"><div class="tq-name">Sachiko Kamiyama</div><div class="tq-role">Co-Founder and CEO, SHOSABI</div></div></figure><figure class="tq-card"><span class="tq-mark" aria-hidden="true">“</span><p class="tq-pull">More than just lectures.</p><blockquote>People who are involved in the Market Discovery course are all great, and it was <strong>more than just lectures</strong> and creation of business opportunities.</blockquote><div class="tq-foot"><img src="https://www.alchemist.vc/hubfs/Alchemist-2026/homepage-memory-lab-logo.webp" alt="Memory Lab logo" class="tq-logo" loading="lazy"><div class="tq-name">Shusuke Takashima</div><div class="tq-role">Product and HR Manager, Memory Lab</div></div></figure></div><button type="button" class="tq-btn tq-next" aria-label="Next testimonials"><svg width="20" height="20" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="9 18 15 12 9 6"></polyline></svg></button></div>
+  </div></section><section id="news" class="on-light" style="background: var(--mist); color: var(--deep-teal);">
+  <div class="wrap" style="padding-top: 120px; padding-bottom: 120px;">
+    <div class="reveal" style="margin-bottom: 40px;"><span class="eyebrow">In the news</span></div>
+    <div class="reveal" style="display: flex; flex-wrap: wrap; gap: 24px 80px; justify-content: space-between; align-items: flex-end; margin-bottom: 48px;">
+      <h2 class="display" style="margin: 0; font-size: clamp(32px, 3.7vw, 54px);">Alchemist <span style="font-weight: 600;">in the news.</span></h2>
+      <x-import component-from-global-scope="AlchemistDS.Button" variant="secondary" href="/press">See all press</x-import>
+    </div>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 28px 40px; padding: 32px 0; margin-bottom: 48px; border-top: 1px solid var(--rule-teal); border-bottom: 1px solid var(--rule-teal);">
+      <a href="https://technologymagazine.com/top10/top-10-tech-incubators" target="_blank" rel="noopener" class="reveal rank-link" style="display: flex; gap: 18px; align-items: baseline; color: inherit; text-decoration: none;"><div style="font-size: 32px; font-weight: 300; letter-spacing: -0.03em; color: var(--deep-teal); box-shadow: inset 0 -4px 0 var(--yellow); flex: none;">#2</div><p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--deep-teal-80);">Top 10 Tech Incubators worldwide. Technology Magazine, 2026. <span aria-hidden="true">↗</span></p></a>
+      <a href="https://time.com/article/2026/08/18/americas-best-incubators-accelerators-2026/" target="_blank" rel="noopener" class="reveal rank-link" style="display: flex; gap: 18px; align-items: baseline; color: inherit; text-decoration: none;"><div style="font-size: 32px; font-weight: 300; letter-spacing: -0.03em; color: var(--deep-teal); box-shadow: inset 0 -4px 0 var(--yellow); flex: none;">Top 20</div><p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--deep-teal-80);">America's Best Incubators and Accelerators. TIME and Statista, 2026. <span aria-hidden="true">↗</span></p></a>
+      <a href="https://www.affinity.co/blog/top-accelerators" target="_blank" rel="noopener" class="reveal rank-link" style="display: flex; gap: 18px; align-items: baseline; color: inherit; text-decoration: none;"><div style="font-size: 32px; font-weight: 300; letter-spacing: -0.03em; color: var(--deep-teal); box-shadow: inset 0 -4px 0 var(--yellow); flex: none;">#5</div><p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--deep-teal-80);">Best startup accelerators in the world. Affinity, 2026. <span aria-hidden="true">↗</span></p></a>
+      <a href="https://www.cbinsights.com/research/top-accelerators-follow-on-funding-rates/" target="_blank" rel="noopener" class="reveal rank-link" style="display: flex; gap: 18px; align-items: baseline; color: inherit; text-decoration: none;"><div style="font-size: 32px; font-weight: 300; letter-spacing: -0.03em; color: var(--deep-teal); box-shadow: inset 0 -4px 0 var(--yellow); flex: none;">1st</div><p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--deep-teal-80);">In median total funding raised. CB Insights, 2016. <span aria-hidden="true">↗</span></p></a>
+      <a href="https://www.forbes.com/sites/alexkonrad/2017/06/07/best-accelerators-of-2017/" target="_blank" rel="noopener" class="reveal rank-link" style="display: flex; gap: 18px; align-items: baseline; color: inherit; text-decoration: none;"><div style="font-size: 32px; font-weight: 300; letter-spacing: -0.03em; color: var(--deep-teal); box-shadow: inset 0 -4px 0 var(--yellow); flex: none;">Best</div><p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--deep-teal-80);">The Best Startup Accelerators of 2017. Forbes. <span aria-hidden="true">↗</span></p></a>
+    </div>
+    <div class="reveal"><div style="margin-bottom: 20px;"><span style="display: inline-flex; align-items: center; gap: 8px; font-size: 13px; color: var(--deep-teal-80);"><span style="width: 8px; height: 8px; background: var(--logo-cyan); display: inline-block;"></span>Updated automatically from Alchemist news alerts</span></div>
+          <!-- Live feed: the 4 newest approved Firm items from the news feed (same source as the Press page "The firm" list) -->
+          <ul data-feed="firm-news" data-limit="4" style="list-style: none; margin: 0; padding: 0; border-bottom: 1px solid var(--rule-teal);">
+            <li><a href="https://technologymagazine.com/top10/top-10-tech-incubators" target="_blank" rel="noopener" class="presslink" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 8px 32px; padding: 24px 0; border-top: 1px solid var(--rule-teal); color: var(--deep-teal); text-decoration: none;"><div style="flex: 1 1 520px;"><div class="eyebrow" style="margin-bottom: 8px; color: var(--deep-teal-80);">Technology Magazine</div><div style="font-size: 20px; line-height: 1.35;">Top 10: Tech Incubators</div></div><span style="display: inline-flex; align-items: center; gap: 8px; font-size: 14px; font-weight: 600;">Read<svg aria-hidden="true" width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square"><path d="M4 12h15"></path><path d="M13 6l6 6-6 6"></path></svg></span></a></li>
+            <li><a href="https://polsky.uchicago.edu/2026/01/21/next-wave-of-deep-tech-innovators-selected-for-phase-2-of-alchemist-chicago/" target="_blank" rel="noopener" class="presslink" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 8px 32px; padding: 24px 0; border-top: 1px solid var(--rule-teal); color: var(--deep-teal); text-decoration: none;"><div style="flex: 1 1 520px;"><div class="eyebrow" style="margin-bottom: 8px; color: var(--deep-teal-80);">Polsky Center, University of Chicago · Jan 2026</div><div style="font-size: 20px; line-height: 1.35;">Next Wave of Deep Tech Innovators Selected for Phase 2 of Alchemist Chicago</div></div><span style="display: inline-flex; align-items: center; gap: 8px; font-size: 14px; font-weight: 600;">Read<svg aria-hidden="true" width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square"><path d="M4 12h15"></path><path d="M13 6l6 6-6 6"></path></svg></span></a></li>
+            <li><a href="https://www.qatar-tribune.com/article/207253/latest-news/mcit-signs-mou-with-alchemist-to-enhance-innovation-and-entrepreneurship-ecosystem" target="_blank" rel="noopener" class="presslink" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 8px 32px; padding: 24px 0; border-top: 1px solid var(--rule-teal); color: var(--deep-teal); text-decoration: none;"><div style="flex: 1 1 520px;"><div class="eyebrow" style="margin-bottom: 8px; color: var(--deep-teal-80);">Qatar Tribune · Dec 2025</div><div style="font-size: 20px; line-height: 1.35;">MCIT Signs MoU with Alchemist to Enhance Innovation and Entrepreneurship Ecosystem</div></div><span style="display: inline-flex; align-items: center; gap: 8px; font-size: 14px; font-weight: 600;">Read<svg aria-hidden="true" width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square"><path d="M4 12h15"></path><path d="M13 6l6 6-6 6"></path></svg></span></a></li>
+            <li><a href="https://quantumcomputingreport.com/alchemist-accelerator-and-university-of-chicago-launch-deep-tech-cohort-with-strong-quantum-focus/" target="_blank" rel="noopener" class="presslink" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 8px 32px; padding: 24px 0; border-top: 1px solid var(--rule-teal); color: var(--deep-teal); text-decoration: none;"><div style="flex: 1 1 520px;"><div class="eyebrow" style="margin-bottom: 8px; color: var(--deep-teal-80);">Quantum Computing Report · Oct 2025</div><div style="font-size: 20px; line-height: 1.35;">Alchemist Accelerator and University of Chicago Launch Deep-Tech Cohort with Strong Quantum Focus</div></div><span style="display: inline-flex; align-items: center; gap: 8px; font-size: 14px; font-weight: 600;">Read<svg aria-hidden="true" width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square"><path d="M4 12h15"></path><path d="M13 6l6 6-6 6"></path></svg></span></a></li>
+          </ul></div>
+  </div>
+</section><section class="grid-bg" style="background-color: var(--deep-teal); color: var(--white); position: relative; overflow: hidden;">
+  <div class="wrap reveal" style="display: flex; flex-wrap: wrap; align-items: center; gap: 56px 64px; padding-top: 140px; padding-bottom: 140px;">
+    <div style="flex: 1 1 520px; min-width: 0px;">
+      <h2 class="display" style="margin: 0px 0px 36px; font-size: clamp(32px, 3.7vw, 54px);">Building something <span style="color: var(--logo-cyan); font-weight: 600;">for the enterprise?</span></h2>
+      <p style="margin: 0px 0px 44px; font-size: 19px; line-height: 1.6; max-width: 560px; opacity: 0.86;">A select group of founders joins Alchemist each year. Tell us what you are building.</p>
+      <a class="al-btn al-btn--primary al-btn--on-dark" href="/founders">See opportunities for founders</a>
+    </div>
+    <div class="hp-shadow" style="flex: 1 1 360px; min-width: 0px; max-width: 460px; margin: 0px 16px 16px 0px;">
+      <img src="https://www.alchemist.vc/hubfs/Alchemist-2026/founder-pitching.jpg" alt="A portfolio founder pitching on stage" style="width: 100%; height: 560px; object-fit: cover; object-position: 66% center; display: block; filter: none;">
+    </div>
+  </div></section>
+
+
+<!-- ============ END PAGE BODY ============================================= -->
+
+<!-- ============ FOOTER - shared file, see alchemist-2026-footer.html ====== -->
+
+
+
+
+
+
+
+
+
+
+<footer style="background: var(--deep-teal); color: var(--white); border-top: 1px solid rgba(255, 255, 255, 0.12);">
+  <div class="wrap" style="display: flex; flex-wrap: wrap; gap: 40px 64px; padding-top: 64px; padding-bottom: 48px;">
+    <div style="flex: 1 1 280px;">
+      <svg class="al-logo" viewbox="0 0 94.86 134.43" width="62.09685338094175" height="88" role="img" aria-label="Alchemist"><path d="M11.56 97.9L16.75 97.9C17.38 97.9 17.99 97.53 18.31 96.97L47.37 46.64L58.76 66.37L42.17 66.37L37.49 74.49L88.38 74.49C89.35 74.49 89.82 73.8 89.82 73.8C90.62 72.8 90.06 71.85 90.06 71.85L49.21 1.09C49.21 1.09 48.64 0 47.43 0.04C46.24 0.04 45.65 1.08 45.65 1.08L4.85 71.71C4.85 71.71 4.61 72.15 4.61 72.63C4.69 74.64 6.6 74.5 6.6 74.5L21.9 74.5L9.99 95.11C9.99 95.11 9.49 95.88 9.94 96.86C9.94 96.86 10.36 97.9 11.56 97.9L11.56 97.9ZM45.47 33.65L26.6 66.37L17.31 66.37L47.41 14.24L77.52 66.37L68.14 66.37L49.29 33.67C49.29 33.67 48.73 32.56 47.37 32.56C47.37 32.56 46.13 32.46 45.47 33.65Z" fill="var(--logo-cyan)"></path><path d="M83.13 97.9L77.99 97.9C77.37 97.9 76.76 97.54 76.44 97L66.29 79.42L75.68 79.42L84.72 95.09C84.72 95.09 85.38 96.13 84.62 97.14C84.62 97.14 84.13 97.9 83.13 97.9L83.13 97.9Z" fill="var(--logo-cyan)"></path><path d="M3.05 130.82L1.56 133.74C1.22 134.43 0 133.94 0.33 133.2L5.92 122.19C6.03 121.95 6.29 121.84 6.53 121.84C6.77 121.84 7 121.95 7.12 122.19L12.69 133.15C13.18 133.94 11.81 134.41 11.45 133.68L10.01 130.82L3.05 130.82L3.05 130.82ZM6.53 123.82L3.61 129.65L9.44 129.65L6.53 123.82Z" fill="var(--white)"></path><path d="M14.38 133.93C13.88 133.93 13.67 133.68 13.67 133.24L13.67 122.62C13.67 121.75 15.04 121.75 15.04 122.62L15.04 132.7L21.96 132.7C22.91 132.7 22.91 133.93 21.96 133.93L14.38 133.93Z" fill="var(--white)"></path><path d="M31.51 133.46C30.62 133.87 29.62 134.13 28.73 134.13C25.57 134.13 22.72 131.54 22.72 127.87C22.72 124.84 24.89 122.43 27.74 121.99C29.9 121.69 31.79 122.23 33.25 123.77C33.8 124.4 32.81 125.15 32.29 124.6C31.03 123.27 29.57 123.06 27.94 123.25C25.66 123.6 24.05 125.21 24.05 127.89C24.05 130.7 26.22 132.85 28.77 132.85C29.46 132.85 30.21 132.67 30.92 132.31C31.49 132.02 32.05 131.57 32.43 131.07C32.86 130.45 33.99 131.13 33.51 131.81C33.01 132.52 32.31 133.07 31.51 133.46L31.51 133.46Z" fill="var(--white)"></path><path d="M36.69 127.65L43.5 127.65L43.5 122.6C43.5 121.71 44.85 121.71 44.85 122.6L44.85 133.39C44.85 134.3 43.5 134.33 43.5 133.39L43.5 128.82L36.69 128.82L36.69 133.39C36.69 134.35 35.36 134.24 35.36 133.39L35.36 122.6C35.36 121.7 36.69 121.75 36.69 122.6L36.69 127.65Z" fill="var(--white)"></path><path d="M48.07 132.7L55.38 132.7C56.16 132.7 56.27 133.93 55.38 133.93L47.59 133.93C47.07 133.93 46.74 133.56 46.74 133.11L46.74 122.95C46.74 122.53 47.07 122.16 47.59 122.16L55.4 122.16C56.19 122.16 56.16 123.34 55.38 123.34L48.07 123.34L48.07 127.5L55.03 127.5C55.77 127.5 55.8 128.69 55.03 128.69L48.07 128.69L48.07 132.7L48.07 132.7Z" fill="var(--white)"></path><path d="M67.92 122.43C68.35 121.77 69.2 121.99 69.2 122.77L69.2 133.42C69.2 134.31 67.85 134.31 67.85 133.42L67.85 125.01L64.07 130.91C63.78 131.45 63.07 131.45 62.8 130.91L59.02 125.03L59.02 133.42C59.02 134.31 57.67 134.31 57.67 133.42L57.67 122.77C57.67 121.97 58.56 121.77 58.93 122.43L63.44 129.47L67.92 122.43L67.92 122.43Z" fill="var(--white)"></path><path d="M71.42 122.4C71.42 121.47 72.8 121.49 72.8 122.4L72.8 133.46C72.8 134.31 71.42 134.35 71.42 133.46L71.42 122.4Z" fill="var(--white)"></path><path d="M75.06 131C75.54 132.54 77.6 132.87 79.08 132.87C80.65 132.87 83.09 132.39 83.09 130.52C83.09 128.91 81.15 128.78 79.11 128.61C76.56 128.41 73.82 128.17 73.82 125.41C73.82 122.97 76.63 121.88 78.89 121.88C80.83 121.88 83.26 122.34 84.04 124.45C84.31 125.19 83.06 125.52 82.78 124.9C82.22 123.49 80.24 123.25 78.91 123.25C77.67 123.25 75.27 123.75 75.27 125.43C75.27 127.04 77.12 127.21 79.26 127.37C81.8 127.6 84.52 127.73 84.52 130.5C84.52 133.33 81.35 134.2 79.08 134.2C77.19 134.2 74.3 133.55 73.69 131.33C73.47 130.52 74.91 130.24 75.06 131L75.06 131Z" fill="var(--white)"></path><path d="M93.95 122.14C94.86 122.14 94.86 123.42 93.95 123.42L89.83 123.42C89.83 126.75 89.85 130.13 89.85 133.46C89.85 133.93 89.46 134.15 89.14 134.15C88.83 134.15 88.48 133.93 88.48 133.46L88.48 123.42L84.37 123.42C83.5 123.42 83.5 122.14 84.37 122.14L93.95 122.14Z" fill="var(--white)"></path></svg>
+      <p style="margin: 24px 0px 0px; font-size: 14px; line-height: 1.5; max-width: 260px;">Expertise into enterprise traction.</p>
+      <nav aria-label="Social" style="display: flex; gap: 10px; margin-top: 28px;"><a href="https://www.linkedin.com/company/alchemistvc" target="_blank" rel="noopener" class="flink" aria-label="Alchemist on LinkedIn" style="display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; border: 1px solid rgba(255, 255, 255, 0.22);"><svg aria-hidden="true" width="20" height="20" viewbox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.5h4V21H3zM9.5 9.5h3.8v1.6h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V21h-4v-5.2c0-1.24-.02-2.84-1.73-2.84-1.73 0-2 1.35-2 2.75V21h-4z"></path></svg></a><a href="https://x.com/alchemistVC_" target="_blank" rel="noopener" class="flink" aria-label="Alchemist on X" style="display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; border: 1px solid rgba(255, 255, 255, 0.22);"><svg aria-hidden="true" width="18" height="18" viewbox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg></a><a href="https://www.instagram.com/alchemist.vc/" target="_blank" rel="noopener" class="flink" aria-label="Alchemist on Instagram" style="display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; border: 1px solid rgba(255, 255, 255, 0.22);"><svg aria-hidden="true" width="20" height="20" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4.2"></circle><circle cx="17.4" cy="6.6" r="1.1" fill="currentColor" stroke="none"></circle></svg></a></nav>
+    </div>
+    <div style="flex: 1 1 160px; display: flex; flex-direction: column; gap: 12px; font-size: 14px;">
+      <div style="font-weight: 600; color: var(--logo-cyan);">Firm</div>
+      <a href="/about" class="flink">About</a>
+      <a href="/faq" class="flink">FAQ</a>
+      <a href="/founders" class="flink">Founder experience</a>
+      <a href="/invest" class="flink">How we invest</a>
+      <a href="/investors" class="flink">Investors</a>
+      <a href="/portfolio" class="flink">Portfolio</a>
+      <a href="/press" class="flink">Press</a>
+      <a href="/sponsors" class="flink">Sponsors</a>
+      <a href="/about#leadership" class="flink">Team</a>
+    </div>
+    <div style="flex: 1 1 160px; display: flex; flex-direction: column; gap: 12px; font-size: 14px;">
+      <div style="font-weight: 600; color: var(--logo-cyan);">Global Partners</div>
+      <a href="/chicago" class="flink">Alchemist Chicago</a>
+      <a href="/doha" class="flink">Alchemist Doha</a>
+      <a href="/japan" class="flink">Alchemist Japan</a>
+    </div>
+    <div style="flex: 1 1 160px; display: flex; flex-direction: column; gap: 12px; font-size: 14px;">
+      <div style="font-weight: 600; color: var(--logo-cyan);">Connect</div>
+      <a href="/careers" class="flink">Careers</a>
+      <a href="/contact" class="flink">Contact</a>
+      <a href="/blog" class="flink">Insights</a>
+      <a href="/podcasts-archive" class="flink">Podcast</a>
+      
+      <a href="https://vault.alchemistaccelerator.com" class="flink">Vault login</a>
+    </div>
+  </div>
+  <div class="wrap" style="display: flex; flex-wrap: wrap; gap: 12px 32px; justify-content: space-between; align-items: center; padding-top: 16px; padding-bottom: 20px; border-top: 1px solid var(--rule-on-dark); font-size: 13px;">
+    <span>© Copyright 2026, Alchemist Accelerator, LLC. DBA Alchemist. All rights reserved.</span>
+    <nav aria-label="Legal" style="display: flex; flex-wrap: wrap; gap: 0px 32px;"><a href="/privacy" class="flink" style="display: inline-flex; align-items: center; min-height: 44px;">Privacy Policy</a><a href="/terms" class="flink" style="display: inline-flex; align-items: center; min-height: 44px;">Legal</a><a href="/imprint" class="flink" style="display: inline-flex; align-items: center; min-height: 44px;">Imprint</a><a href="#cookie-preferences" class="flink" style="display: inline-flex; align-items: center; min-height: 44px;">Cookie Preferences</a><a href="/privacy-choices" class="flink" style="display: inline-flex; align-items: center; min-height: 44px;">Your Privacy Choices<svg class="optout" width="30" height="14" viewbox="0 0 30 14" aria-hidden="true"><rect x="0.5" y="0.5" width="29" height="13" rx="6.5" fill="#fff" stroke="#0066ff"></rect><path d="M15 0.5h8a6.5 6.5 0 0 1 0 13h-12z" fill="#0066ff"></path><path d="M5.2 7.2l2 2 3.6-4.2" fill="none" stroke="#0066ff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path><path d="M18.6 4.6l4.8 4.8M23.4 4.6l-4.8 4.8" stroke="#fff" stroke-width="1.6" stroke-linecap="round"></path></svg></a></nav></div></footer>
+
+<script>
+/* Footer: "Cookie Preferences" (and any link set to #cookie-preferences) reopens the HubSpot cookie banner. */
+(function () {
+  document.addEventListener('click', function (e) {
+    var a = e.target && e.target.closest ? e.target.closest('a[href="#cookie-preferences"]') : null;
+    if (!a) return;
+    e.preventDefault();
+    var _hsp = window._hsp = window._hsp || [];
+    _hsp.push(['showBanner']);
+  });
+})();
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+.fab{position:fixed;right:24px;bottom:24px;z-index:70;display:flex;align-items:center;gap:10px}
+.fab-q{display:inline-flex;align-items:center;gap:8px;min-height:52px;padding:0 20px;border-radius:999px;background:var(--yellow);color:var(--deep-teal);font-size:15px;font-weight:600;text-decoration:none;box-shadow:0 10px 26px rgba(0,20,30,.28);transition:transform .2s,background .2s}
+.fab-q:hover{background:var(--logo-cyan);transform:translateY(-2px)}
+@media (max-width:640px){.fab{right:12px;bottom:12px}.fab-q{min-height:46px;padding:0 16px}}
+.fab-qw{position:relative;display:inline-flex}
+.fab-q-x{position:absolute;top:-8px;left:-8px;width:24px;height:24px;border-radius:50%;border:2px solid var(--yellow);background:var(--deep-teal);color:var(--white);font-size:15px;line-height:1;display:inline-flex;align-items:center;justify-content:center;cursor:pointer;padding:0;opacity:0;transition:opacity .2s;box-shadow:0 4px 10px rgba(0,20,30,.25)}
+.fab-qw:hover .fab-q-x,.fab-q-x:focus-visible{opacity:1}
+@media (hover:none){.fab-q-x{opacity:1}}
+.fab-qw.gone{display:none}
+.fab{transition:opacity .25s,transform .25s}
+.fab.away{opacity:0;transform:translateY(16px);pointer-events:none}
+</style>
+<div class="fab"><span class="fab-qw"><a href="/faq" class="fab-q">Questions?</a><button type="button" class="fab-q-x" aria-label="Hide the Questions button">×</button></span></div>
+<script>
+/* Questions button: the x hides it on this page only (it is back on the next page). Both floating buttons
+   fade out while the footer is on screen, so they never cover footer links or the social icons. */
+(function () {
+  if (window.__fabExtra) return; window.__fabExtra = true;
+  var wrap = document.querySelector('.fab-qw');
+  document.addEventListener('click', function (e) {
+    var x = e.target && e.target.closest ? e.target.closest('.fab-q-x') : null; if (!x) return;
+    e.preventDefault(); if (wrap) wrap.classList.add('gone');
+  });
+  var fab = document.querySelector('.fab'), foot = document.querySelector('footer');
+  if (fab && foot && 'IntersectionObserver' in window) {
+    new IntersectionObserver(function (es) { fab.classList.toggle('away', es[0].isIntersecting); }, { rootMargin: '0px 0px -40px 0px' }).observe(foot);
+  }
+})();
+</script>
+
+
+</div>
+
+<script>
+/* "What Our Founders Say" slider (ported from Lara's artifact): arrow buttons scroll one card at a time,
+   arrows grey out at either end, and on desktop the row can be dragged with the mouse. */
+(function () {
+  if (window.__tqBound) return; window.__tqBound = true;
+  var upd = function () {
+    document.querySelectorAll('.tq').forEach(function (g) {
+      var w = g.parentNode, p = w.querySelector('.tq-prev'), n = w.querySelector('.tq-next');
+      if (p) p.disabled = g.scrollLeft < 8;
+      if (n) n.disabled = g.scrollLeft + g.clientWidth >= g.scrollWidth - 8;
+    });
+  };
+  document.addEventListener('click', function (e) {
+    var b = e.target && e.target.closest ? e.target.closest('.tq-btn') : null; if (!b) return;
+    var g = b.parentNode.querySelector('.tq'); if (!g) return;
+    e.preventDefault();
+    var c = g.querySelector('.tq-card'), step = c ? c.getBoundingClientRect().width + 16 : g.clientWidth * 0.8;
+    g.scrollBy({ left: (b.classList.contains('tq-prev') ? -1 : 1) * step, behavior: 'smooth' });
+  }, true);
+  document.addEventListener('scroll', function (e) { if (e.target && e.target.classList && e.target.classList.contains('tq')) upd(); }, true);
+  window.addEventListener('resize', upd);
+  var down = null, sx = 0, sl = 0;
+  document.addEventListener('mousedown', function (e) {
+    var g = e.target && e.target.closest ? e.target.closest('.tq') : null;
+    if (!g || e.button !== 0) return;
+    down = g; sx = e.pageX; sl = g.scrollLeft; g.classList.add('drag'); e.preventDefault();
+  }, true);
+  window.addEventListener('mousemove', function (e) { if (down) down.scrollLeft = sl - (e.pageX - sx); });
+  window.addEventListener('mouseup', function () { if (down) { down.classList.remove('drag'); down = null; } });
+  var tries = 0, poll = setInterval(function () { upd(); if (++tries > 20) clearInterval(poll); }, 250);
+})();
+</script>
+<script src="/hs/hsstatic/jquery-libs/static-1.4/jquery/jquery-1.11.2.js"></script>
+<script src="/hs/hsstatic/jquery-libs/static-1.4/jquery-migrate/jquery-migrate-1.2.1.js"></script>
+<script>hsjQuery = window['jQuery'];</script>
+<!-- HubSpot performance collection script -->
+<script defer src="/hs/hsstatic/content-cwv-embed/static-1.1293/embed.js"></script>
+
+<!-- Start of HubSpot Analytics Code -->
+<script type="text/javascript">
+var _hsq = _hsq || [];
+_hsq.push(["setContentType", "standard-page"]);
+_hsq.push(["setCanonicalUrl", "https:\/\/www.alchemist.vc"]);
+_hsq.push(["setPageId", "224566506320"]);
+_hsq.push(["setContentMetadata", {
+    "contentPageId": 224566506320,
+    "legacyPageId": "224566506320",
+    "contentFolderId": null,
+    "contentGroupId": null,
+    "abTestId": null,
+    "languageVariantId": 224566506320,
+    "languageCode": null,
+    
+    
+}]);
+</script>
+
+<script type="text/javascript" id="hs-script-loader" async defer src="/hs/scriptloader/22145576.js"></script>
+<!-- End of HubSpot Analytics Code -->
+
+
+<script type="text/javascript">
+var hsVars = {
+    render_id: "ce09ecc5-e370-434d-bfbc-656e5c2db56e",
+    ticks: 1794621086773,
+    page_id: 224566506320,
+    
+    content_group_id: 0,
+    portal_id: 22145576,
+    app_hs_base_url: "https://app.hubspot.com",
+    cp_hs_base_url: "https://cp.hubspot.com",
+    language: "en",
+    analytics_page_type: "standard-page",
+    scp_content_type: "",
+    
+    analytics_page_id: "224566506320",
+    category_id: 1,
+    folder_id: 0,
+    is_hubspot_user: false
+}
+</script>
+
+
+<script defer src="/hs/hsstatic/HubspotToolsMenu/static-1.640/js/index.js"></script>
+
+<link rel="stylesheet" href="https://kenwheeler.github.io/slick/slick/slick-theme.css">
+<link rel="stylesheet" href="https://kenwheeler.github.io/slick/slick/slick.css">
+<script type="text/javascript" src="https://kenwheeler.github.io/slick/slick/slick.js"></script>
+
+
+
+
+</body></html>

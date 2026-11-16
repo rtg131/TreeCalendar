@@ -1,0 +1,25 @@
+[
+  {
+    "source": "jsonld",
+    "sourceId": "https://www.meetup.com/noisebridge/events/317172032/",
+    "title": "Circuit Hacking Monday – Open Electronics Workshop",
+    "description": "Need some motivation to finish that electronics project? Join us for an open workshop where everyone brings something they're working on.\n\nWe'll have solde",
+    "url": "https://www.meetup.com/noisebridge/events/317172032/",
+    "startsAt": "2026-12-14T19:00:00-08:00",
+    "endsAt": "2026-12-14T21:00:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "location": {
+      "online": false,
+      "name": "Noisebridge",
+      "address": "272 Capp St, Noisebridge, San Francisco, CA, US",
+      "city": "San Francisco",
+      "region": "CA",
+      "country": "US"
+    },
+    "organizer": "Noisebridge Hackerspace",
+    "hosts": [
+      "Noisebridge Hackerspace"
+    ],
+    "imageUrl": "https://secure-content.meetupstatic.com/images/classic-events/535313989/676x676.jpg"
+  }
+]

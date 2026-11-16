@@ -1,0 +1,130 @@
+{
+  "events": [
+    {
+      "name": {
+        "text": "SF Startup & Tech Mixer 2027"
+      },
+      "description": {
+        "text": "THE BEST NETWORKING IN SF!!!"
+      },
+      "url": "https://www.eventbrite.com/e/sf-startup-tech-mixer-2027-tickets-2003680088081",
+      "vanity_url": "https://sftechmixer-oct2026.eventbrite.com",
+      "start": {
+        "timezone": "America/Los_Angeles",
+        "utc": "2027-01-29T02:00:00Z",
+        "local": "2027-01-28T18:00:00"
+      },
+      "end": {
+        "timezone": "America/Los_Angeles",
+        "utc": "2027-01-29T05:00:00Z",
+        "local": "2027-01-28T21:00:00"
+      },
+      "organization_id": "1317100765043",
+      "created": "2026-10-20T19:16:18Z",
+      "changed": "2026-10-29T23:03:07Z",
+      "published": "2026-10-20T19:17:58Z",
+      "capacity": null,
+      "capacity_is_custom": null,
+      "status": "live",
+      "currency": "USD",
+      "listed": true,
+      "shareable": true,
+      "online_event": false,
+      "tx_time_limit": 420,
+      "hide_start_date": false,
+      "hide_end_date": false,
+      "locale": "en_US",
+      "is_locked": false,
+      "privacy_setting": "unlocked",
+      "is_series": false,
+      "is_series_parent": false,
+      "inventory_type": "limited",
+      "is_reserved_seating": false,
+      "show_pick_a_seat": false,
+      "show_seatmap_thumbnail": false,
+      "show_colors_in_seatmap_thumbnail": false,
+      "source": "coyote",
+      "is_free": false,
+      "version": null,
+      "summary": "THE BEST NETWORKING IN SF!!!",
+      "facebook_event_id": null,
+      "logo_id": "505042989",
+      "organizer_id": "65252219403",
+      "venue_id": "299927342",
+      "category_id": "101",
+      "subcategory_id": "1001",
+      "format_id": "10",
+      "id": "2003680088081",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/2003680088081/",
+      "is_externally_ticketed": false,
+      "organizer": {
+        "description": {
+          "text": null
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/organizers/65252219403/",
+        "_type": "organizer",
+        "id": "65252219403",
+        "name": "Tech SF",
+        "url": "https://www.eventbrite.com/o/tech-sf-65252219403",
+        "vanity_url": "https://socialproofSF.eventbrite.com",
+        "num_past_events": 0,
+        "num_future_events": 0,
+        "organization_id": "1317100765043",
+        "disable_marketing_opt_in": false,
+        "logo_id": null
+      },
+      "logo": {
+        "crop_mask": {
+          "top_left": {
+            "x": 0,
+            "y": 130
+          },
+          "width": 1200,
+          "height": 600
+        },
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F505042989%2F1317099778183%2F1%2Foriginal.20230501-214220?auto=format%2Ccompress&q=75&sharp=10&s=05038303d092b58e9cd723e6bca8473c",
+          "width": 1200,
+          "height": 992
+        },
+        "id": "505042989",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F505042989%2F1317099778183%2F1%2Foriginal.20230501-214220?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C130%2C1200%2C600&s=6ac3c52f6046dbd7bf29df6d5a244fde",
+        "aspect_ratio": "2",
+        "edge_color": "#7b93ca",
+        "edge_color_set": true
+      },
+      "venue": {
+        "address": {
+          "address_1": "52 Belden Place",
+          "address_2": "",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94104",
+          "country": "US",
+          "latitude": "37.7914322",
+          "longitude": "-122.4036982",
+          "localized_address_display": "52 Belden Place, San Francisco, CA 94104",
+          "localized_area_display": "San Francisco, CA",
+          "localized_multi_line_address_display": [
+            "52 Belden Place",
+            "San Francisco, CA 94104"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/299927342/",
+        "id": "299927342",
+        "age_restriction": null,
+        "capacity": null,
+        "name": "Toy Soldier",
+        "latitude": "37.7914322",
+        "longitude": "-122.4036982"
+      }
+    }
+  ],
+  "pagination": {
+    "object_count": 1,
+    "page_number": 1,
+    "page_size": 50,
+    "page_count": 1,
+    "has_more_items": false
+  }
+}

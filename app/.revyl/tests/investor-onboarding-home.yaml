@@ -1,0 +1,53 @@
+# Revyl Test Definition
+
+_meta:
+    remote_id: 8e09284e-99b2-44ae-99e5-65b872e0f5c8
+    remote_version: 5
+    local_version: 5
+    last_synced_at: "2026-11-15T21:55:36Z"
+    checksum: 7e906f97f2f87ea5403ed765f8dbffff748847b298ae02922db7659fabb2250d
+test:
+    metadata:
+        name: investor-onboarding-home
+        platform: ios
+        tags:
+            - e2e
+            - investor
+    build:
+        name: Scout iOS
+    blocks:
+        - type: validation
+          step_description: A welcome screen says "Be in the room when it happens" and shows a "Get started" button.
+        - type: instructions
+          step_description: Tap the "Get started" button.
+        - type: code_execution
+          variable_name: email
+          script: e2e-email
+        - type: instructions
+          step_description: Tap "Looking for Talent", then tap Continue.
+        - type: validation
+          step_description: A screen titled "About you" says "Tell us who's scouting" and shows Name, Email, Phone, Affiliation, LinkedIn, Password and Confirm password fields.
+        - type: instructions
+          step_description: Type "Scout E2E" in the Name field and "{{email}}" in the Email field.
+        - type: instructions
+          step_description: Type "ScoutE2E-pass-2026" in the Password field and "ScoutE2E-pass-2026" in the Confirm password field, then dismiss the keyboard.
+        - type: validation
+          step_description: Below the fields, a "What are you into" section shows Pitch competitions, VC & fundraising and AI & ML already selected.
+        - type: instructions
+          step_description: Tap Continue.
+        - type: instructions
+          step_description: Tap the "San Francisco" area chip, then tap the "Show my events" button.
+        - type: validation
+          step_description: The app shows a home screen, and the bottom tab bar includes an Investor tab beside Feed, Map, Saved and Profile.
+        - type: instructions
+          step_description: Tap the Investor tab in the bottom tab bar.
+        - type: validation
+          step_description: 'A screen titled "Scouting" reads "Investor mode: student events by investor score", shows School, Type and Date filter rows, and lists at least one student event.'
+        - type: instructions
+          step_description: Tap the first student event in the list below the filters.
+        - type: validation
+          step_description: An investor event detail screen shows the event title, an investor signal score, and a student turnout section.
+        - type: instructions
+          step_description: Tap the back button at the top left.
+        - type: validation
+          step_description: The "Scouting" screen is visible again.

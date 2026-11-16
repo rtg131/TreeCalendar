@@ -1,0 +1,316 @@
+[
+  {
+    "source": "luma",
+    "sourceId": "evt-HFAnmgcKipHipsK",
+    "title": "AI build & distribution workshop @ SLUSH",
+    "description": "Hosted by The AI Collective, Bambi Dang, Fatimah Hussain, Hive Helsinki, Salla / Hive Helsinki. Part of the The AI Collective calendar on Luma.",
+    "url": "https://luma.com/aic-fi-11-16",
+    "startsAt": "2026-11-16T17:30:00+02:00",
+    "endsAt": "2026-11-16T20:30:00+02:00",
+    "timezone": "Europe/Helsinki",
+    "location": {
+      "online": false,
+      "name": "Hive Helsinki",
+      "address": "Hive Helsinki, Haapaniemenkatu 5, 00530 Helsinki, Finland",
+      "city": "Helsinki",
+      "region": "Uusimaa",
+      "country": "Finland",
+      "lat": 60.18068449999999,
+      "lng": 24.9584314
+    },
+    "organizer": "The AI Collective",
+    "hosts": [
+      "The AI Collective",
+      "Bambi Dang",
+      "Fatimah Hussain",
+      "Hive Helsinki",
+      "Salla / Hive Helsinki"
+    ],
+    "imageUrl": "https://images.lumacdn.com/uploads/tt/15f31664-00b5-478b-9656-988f6836e6ae.png"
+  },
+  {
+    "source": "luma",
+    "sourceId": "evt-AObtrZzp5pBxvqV",
+    "title": "AI & Beyond - Navigating Opportunities in an AI-Driven World (w/ The AI Collective)",
+    "description": "Hosted by The AI Collective, Neelima Misra, Nithya Narayanan. Part of the The AI Collective calendar on Luma.",
+    "url": "https://luma.com/aic-sw-ws-series-2",
+    "startsAt": "2026-11-16T17:00:00+01:00",
+    "endsAt": "2026-11-16T18:00:00+01:00",
+    "timezone": "Europe/Berlin",
+    "location": {
+      "online": false
+    },
+    "organizer": "The AI Collective",
+    "hosts": [
+      "The AI Collective",
+      "Neelima Misra",
+      "Nithya Narayanan"
+    ],
+    "imageUrl": "https://images.lumacdn.com/uploads/jh/4355d7e2-1662-4686-b1e0-08627581ad81.png"
+  },
+  {
+    "source": "luma",
+    "sourceId": "evt-OMGXQbOez1tiVeB",
+    "title": "The AI Collective Podcast with AJ & Catherine: Monday, Nov 16",
+    "description": "Hosted by The AI Collective, AJ Green, Catherine McMillan. Part of the The AI Collective calendar on Luma.",
+    "url": "https://luma.com/genai-gt6z",
+    "startsAt": "2026-11-16T09:00:00-08:00",
+    "endsAt": "2026-11-16T10:30:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "location": {
+      "online": false
+    },
+    "organizer": "The AI Collective",
+    "hosts": [
+      "The AI Collective",
+      "AJ Green",
+      "Catherine McMillan"
+    ],
+    "imageUrl": "https://images.lumacdn.com/api-uploads/r8/5e560747-f3eb-4156-8483-aafc5aaff65a.png"
+  },
+  {
+    "source": "luma",
+    "sourceId": "evt-SPw2EENLbIPAMB1",
+    "title": "PROMPT: New York",
+    "description": "Hosted by Emrah Kurtulmus, CT Turanli, The AI Collective, AJ Green. Part of the PROMPT calendar on Luma.",
+    "url": "https://luma.com/d49b833j",
+    "startsAt": "2026-11-16T14:00:00-05:00",
+    "endsAt": "2026-11-17T18:00:00-05:00",
+    "timezone": "America/New_York",
+    "location": {
+      "online": false
+    },
+    "organizer": "PROMPT",
+    "hosts": [
+      "Emrah Kurtulmus",
+      "CT Turanli",
+      "The AI Collective",
+      "AJ Green"
+    ],
+    "imageUrl": "https://images.lumacdn.com/uploads/4d/e4abd96b-1977-436e-8baa-8862945716ac.png"
+  },
+  {
+    "source": "luma",
+    "sourceId": "evt-VIgm8X0OcIL2wa7",
+    "title": "AI and the Future of Work (w/ The AI Collective)",
+    "description": "Hosted by The AI Collective, Luiz Real, Edd Martins. Part of the The AI Collective calendar on Luma.",
+    "url": "https://luma.com/aic-sa-11-16",
+    "startsAt": "2026-11-16T18:30:00-03:00",
+    "endsAt": "2026-11-16T21:00:00-03:00",
+    "timezone": "America/Sao_Paulo",
+    "location": {
+      "online": false,
+      "name": "Oracle do Brasil Sistemas",
+      "address": "Oracle do Brasil Sistemas, R. Dr. José Aureo Bustamante, 455 - Chácara Santo Antônio (Zona Sul), São Paulo - SP, 04710-090, Brazil",
+      "city": "São Paulo",
+      "region": "São Paulo",
+      "country": "Brazil",
+      "lat": -23.623945199999998,
+      "lng": -46.6972474
+    },
+    "organizer": "The AI Collective",
+    "hosts": [
+      "The AI Collective",
+      "Luiz Real",
+      "Edd Martins"
+    ],
+    "imageUrl": "https://images.lumacdn.com/api-uploads/01/1e753a53-3b0b-40c2-8806-42817c172b13.png"
+  },
+  {
+    "source": "luma",
+    "sourceId": "evt-2qHFv5XIrPkPqqy",
+    "title": "Smart Nation Expo 2026",
+    "description": "Hosted by The AI Collective, Jean Ng, FIRUZ ALIMOV, Adele Lim. Part of the The AI Collective calendar on Luma.",
+    "url": "https://luma.com/aic-kul-sne2026",
+    "startsAt": "2026-11-17T09:00:00+08:00",
+    "endsAt": "2026-11-19T17:30:00+08:00",
+    "timezone": "Asia/Kuala_Lumpur",
+    "location": {
+      "online": false,
+      "city": "Kuala Lumpur",
+      "region": "Wilayah Persekutuan Kuala Lumpur",
+      "country": "Malaysia",
+      "lat": 3.180422702011424,
+      "lng": 101.66941221884878
+    },
+    "organizer": "The AI Collective",
+    "hosts": [
+      "The AI Collective",
+      "Jean Ng",
+      "FIRUZ ALIMOV",
+      "Adele Lim"
+    ],
+    "imageUrl": "https://images.lumacdn.com/uploads/pv/36bdbbb4-8a21-47db-9616-985925242df0.jpg"
+  },
+  {
+    "source": "luma",
+    "sourceId": "evt-RAp0BO7hQilm0J6",
+    "title": "Code Meets Animation: LottieFiles x The AI Collective",
+    "description": "Hosted by The AI Collective, Alix, Madeline Chen. Part of the The AI Collective calendar on Luma.",
+    "url": "https://luma.com/aic-ta-11-17",
+    "startsAt": "2026-11-17T18:00:00+08:00",
+    "endsAt": "2026-11-17T21:00:00+08:00",
+    "timezone": "Asia/Taipei",
+    "location": {
+      "online": false,
+      "city": "Da’an District",
+      "region": "Taipei City",
+      "country": "Taiwan",
+      "lat": 25.04208525908292,
+      "lng": 121.55825166342827
+    },
+    "organizer": "The AI Collective",
+    "hosts": [
+      "The AI Collective",
+      "Alix",
+      "Madeline Chen"
+    ],
+    "imageUrl": "https://images.lumacdn.com/uploads/mh/cf482404-e8f2-468d-8e01-29727d0a92bb.png"
+  },
+  {
+    "source": "luma",
+    "sourceId": "evt-cFkB2NkRcS2w5xU",
+    "title": "The AI Collective Podcast with AJ & Catherine: Tuesday, Nov 17",
+    "description": "Hosted by The AI Collective, AJ Green, Catherine McMillan. Part of the The AI Collective calendar on Luma.",
+    "url": "https://luma.com/genai-nr5q",
+    "startsAt": "2026-11-17T09:00:00-08:00",
+    "endsAt": "2026-11-17T10:30:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "location": {
+      "online": false
+    },
+    "organizer": "The AI Collective",
+    "hosts": [
+      "The AI Collective",
+      "AJ Green",
+      "Catherine McMillan"
+    ],
+    "imageUrl": "https://images.lumacdn.com/api-uploads/rq/e9bbfbbd-64ed-453e-a4e8-db47b0aa6ffe.png"
+  },
+  {
+    "source": "luma",
+    "sourceId": "evt-PiBjiykQ8dchfYA",
+    "title": "GBS Global Summit 2026",
+    "description": "Hosted by The AI Collective, Jean Ng, FIRUZ ALIMOV, Adele Lim. Part of the The AI Collective calendar on Luma.",
+    "url": "https://luma.com/aic-kul-ggs2026",
+    "startsAt": "2026-11-18T08:00:00+08:00",
+    "endsAt": "2026-11-18T17:00:00+08:00",
+    "timezone": "Asia/Kuala_Lumpur",
+    "location": {
+      "online": false,
+      "city": "Kuala Lumpur",
+      "region": "Wilayah Persekutuan Kuala Lumpur",
+      "country": "Malaysia",
+      "lat": 3.1399360609837803,
+      "lng": 101.64614579369041
+    },
+    "organizer": "The AI Collective",
+    "hosts": [
+      "The AI Collective",
+      "Jean Ng",
+      "FIRUZ ALIMOV",
+      "Adele Lim"
+    ],
+    "imageUrl": "https://images.lumacdn.com/uploads/nm/5e707e1a-9d10-4eb2-be4d-aa8fda470d18.jpg"
+  },
+  {
+    "source": "luma",
+    "sourceId": "evt-saszhj6lQHIVkaa",
+    "title": "Solo Travellers' Tea Break",
+    "description": "Hosted by The AI Collective, Jean Ng, FIRUZ ALIMOV, Adele Lim. Part of the The AI Collective calendar on Luma.",
+    "url": "https://luma.com/aic-kul-20261118",
+    "startsAt": "2026-11-18T16:30:00+08:00",
+    "endsAt": "2026-11-18T19:00:00+08:00",
+    "timezone": "Asia/Kuala_Lumpur",
+    "location": {
+      "online": false,
+      "city": "Kuala Lumpur",
+      "region": "Federal Territory of Kuala Lumpur",
+      "country": "Malaysia",
+      "lat": 3.1358422023568093,
+      "lng": 101.64944877543236
+    },
+    "organizer": "The AI Collective",
+    "hosts": [
+      "The AI Collective",
+      "Jean Ng",
+      "FIRUZ ALIMOV",
+      "Adele Lim"
+    ],
+    "imageUrl": "https://images.lumacdn.com/uploads/ux/beb46cbc-57ce-4a2c-bb3c-7a4cbbde62ce.png"
+  },
+  {
+    "source": "luma",
+    "sourceId": "evt-3CtqKWoMhwqp50o",
+    "title": "The AI Collective Podcast with AJ & Catherine: Wednesday, Nov 18",
+    "description": "Hosted by The AI Collective, AJ Green, Catherine McMillan. Part of the The AI Collective calendar on Luma.",
+    "url": "https://luma.com/genai-ey6f",
+    "startsAt": "2026-11-18T09:00:00-08:00",
+    "endsAt": "2026-11-18T10:30:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "location": {
+      "online": false
+    },
+    "organizer": "The AI Collective",
+    "hosts": [
+      "The AI Collective",
+      "AJ Green",
+      "Catherine McMillan"
+    ],
+    "imageUrl": "https://images.lumacdn.com/api-uploads/ky/3add2d7c-4d6c-4e86-b1a7-fd5532c400fe.png"
+  },
+  {
+    "source": "luma",
+    "sourceId": "evt-6YqNoKFO4uJK5W0",
+    "title": "AI Collective Connect: Madrid × Barcelona (w/ The AI Collective)",
+    "description": "Hosted by The AI Collective, ULISES SALVADOR AGUILA LEDEZMA, Luis Poveda, Javier, Maria Patricia Gonzalez Puente, Bartosz, Albert Valiente, Marie Girschewski. Part of the The AI Collective calendar on Luma.",
+    "url": "https://luma.com/AICollective_Madrid_Barcelona",
+    "startsAt": "2026-11-18T19:00:00+01:00",
+    "endsAt": "2026-11-18T20:30:00+01:00",
+    "timezone": "Europe/Madrid",
+    "location": {
+      "online": false
+    },
+    "organizer": "The AI Collective",
+    "hosts": [
+      "The AI Collective",
+      "ULISES SALVADOR AGUILA LEDEZMA",
+      "Luis Poveda",
+      "Javier",
+      "Maria Patricia Gonzalez Puente",
+      "Bartosz",
+      "Albert Valiente",
+      "Marie Girschewski"
+    ],
+    "imageUrl": "https://images.lumacdn.com/api-uploads/y8/55fa66fb-b854-4d6c-b3eb-83d0fccc10b4.png"
+  },
+  {
+    "source": "luma",
+    "sourceId": "evt-GQFLY0j6fGr4CIo",
+    "title": "Building With AI | ART-ificial Intelligence | w/The AI Collective",
+    "description": "Hosted by Isadore Johnson, Avant Mehta, The AI Collective, Connecticut AI Collective, Darrell DeMakes. Part of the The AI Collective calendar on Luma.",
+    "url": "https://luma.com/aic-st-11-18",
+    "startsAt": "2026-11-18T17:30:00-05:00",
+    "endsAt": "2026-11-18T20:00:00-05:00",
+    "timezone": "America/New_York",
+    "location": {
+      "online": false,
+      "name": "Serendipity Labs - Stamford",
+      "address": "Serendipity Labs - Stamford, 700 Canal St First Floor, Stamford, CT 06902, USA",
+      "city": "Stamford",
+      "region": "Connecticut",
+      "country": "United States",
+      "lat": 41.0446451,
+      "lng": -73.53203479999999
+    },
+    "organizer": "The AI Collective",
+    "hosts": [
+      "Isadore Johnson",
+      "Avant Mehta",
+      "The AI Collective",
+      "Connecticut AI Collective",
+      "Darrell DeMakes"
+    ],
+    "imageUrl": "https://images.lumacdn.com/uploads/dx/d18489b5-f724-41fa-b321-25b27fda365e.png"
+  }
+]

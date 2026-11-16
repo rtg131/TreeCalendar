@@ -1,0 +1,12 @@
+{
+  "slug": "luma-startx-pitch-mixer",
+  "model": "openai/gpt-oss-20b",
+  "recordedAt": "2026-11-15T19:30:43.316Z",
+  "now": "2026-11-15T20:00:00.000Z",
+  "status": "ok",
+  "attempts": [
+    {
+      "content": "{\"events\":[{\"title\":\"Pitch + Mixer\",\"startsAt\":\"2026-11-18T17:00\",\"endsAt\":\"2026-11-18T19:00\",\"timezone\":\"America/Los_Angeles\",\"venue\":null,\"address\":\"Menlo Park, CA\",\"online\":false,\"url\":\"https://luma.com/wt2t02x4\",\"description\":\"As we wrap up an incredible 2026, KSC Silicon Valley and StartX invite you to a special evening of pitching, connecting, and celebrating together.\\nSince our partnership began right after KSC’s grand opening, we’ve hosted some amazing programs alongside StartX.\"}]}"
+    }
+  ]
+}
